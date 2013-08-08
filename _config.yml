@@ -15,7 +15,7 @@ prose:
           label: "Layout"
           value: "post"
           placeholder: "Enter a layout"
-      - name: "external_url"
+      - name: "external-url"
         field:
           element: "text"
           label: "URL Reference"
