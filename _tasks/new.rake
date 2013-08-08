@@ -20,4 +20,5 @@ task :new, :title do |t, args|
     post.puts "---"
   end
   puts filename
+  sh "vim #{filename}"
 end

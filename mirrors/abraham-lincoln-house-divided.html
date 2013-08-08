@@ -1,0 +1,1001 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="robots" content="noindex"/>
+<link rel="icon" href="/static/img/favicon.png?v=bd8d1b8ff5777550a2db161d435f2ec4"/>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<style type="text/css">
+body {
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 15px;
+word-wrap: break-word;
+margin: 90px auto 0px auto;
+padding-bottom: 100px; /* pagination buffer */
+position: relative;
+}
+h1 { font-size: 1.2em; font-weight: normal; }
+h2 { font-size: 1.15em; }
+#titlebar {
+direction: ltr
+}
+#titlebar h1 {
+color: #000;
+font-size: 24px;
+font-weight: normal;
+font-family: Georgia, serif;
+padding-bottom: 0;
+margin-bottom: 0;
+text-rendering: optimizeLegibility;
+}
+body.ipad #titlebar h1 {
+font-size: 26px;
+}
+#footer {
+direction: ltr
+border-top: 1px solid #aaa;
+margin-bottom: 20px;
+}
+#fin {
+text-align: center;
+color: #888;
+font-size: 14px;
+margin-top: 48px;
+}
+body.ipad #fin {
+font-size: 18px;
+margin-top: 96px;
+}
+img { border: 0; }
+#story img { display: block; margin: 0.5em auto; max-width: 100%; }
+#ipfootnotes { display: none; }
+.ipfootnote_ref {
+display: inline-block;
+background-image: url('/static/img/footnote-ref.png?v=9a4de82eb59d9cc707d356b61d8fc3f3');
+background-size: 1.8em 1.0em;
+width: 1.8em;
+height: 1em;
+margin: 0 0.2em;
+vertical-align: -0.1em;
+background-repeat: no-repeat;
+}
+.ipfootnote_ref:after {
+content: counter;
+}
+a.original, a.original:visited, a.original:active {
+text-decoration: none;
+color: #555;
+}
+.orig_line {
+font-family: Helvetica, sans-serif;
+color: #888;
+font-size: 14px;
+}
+.orig_line img {
+vertical-align: -2px;
+}
+.orig_line .author {
+font-weight: bold;
+}
+.orig_line .byline_divider {
+padding: 0 0.25em;
+}
+pre, code { overflow: scroll; }
+#story {
+clear: both;
+overflow: hidden;
+margin-bottom: 40px;
+direction: ltr
+}
+#story div {
+margin: 1em 0;
+}
+blockquote {
+border-top: 1px solid #bbb;
+border-bottom: 1px solid #bbb;
+margin: 1.5em 0;
+padding: 0.5em 0;
+}
+blockquote.short { font-style: italic; padding: 0 1em; border-top: 0; border-bottom: 0; }
+body.ipad blockquote.short { padding: 0 2em; }
+pre { white-space: pre-wrap; }
+sup, sub {
+height: 0;
+line-height: 1;
+vertical-align: baseline;
+}
+ul.bodytext, ol.bodytext {
+list-style: none;
+margin-left: 0;
+padding-left: 0em;
+}
+.popover {
+position: absolute;
+top: 0;
+left: 0;
+width: 200px;
+max-height: 280px;
+overflow: scroll;
+border-radius: 12px;
+background-color: #fafafa;
+color: #3F3F3F;
+padding: 18px;
+border: 3px solid #606060;
+box-shadow: 0 5px 20px 7px rgba(0, 0, 0, 0.3);
+z-index: 1300;
+}
+.popover > :first-child { margin-top: 0; padding-top: 0; }
+.popover > :last-child { margin-bottom: 0; padding-bottom: 0; }
+#controlbar_container {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1337;
+background-color: #f8f8f8;
+background-image: -webkit-linear-gradient(#f8f8f8, #eaeaea);
+border-bottom: 1px solid #aaa;
+box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+height: 40px;
+}
+#controlbar {
+margin: 0 auto;
+font-family: Helvetica, Arial, sans-serif;
+-webkit-text-size-adjust: none;
+}
+#controlbar #left_buttons, #controlbar #right_buttons { width: 210px; }
+#controlbar #left_buttons {
+float: left;
+}
+#controlbar #right_buttons {
+float: right;
+text-align: right;
+}
+.logged_out #controlbar #left_buttons, .logged_out #controlbar #right_buttons { width: 150px; }
+#controlbar a,
+#controlbar a:visited,
+#controlbar a:active {
+display: inline-block;
+position: relative;
+color: #555;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+text-decoration: none;
+height: 29px;
+text-align: center;
+margin: 0;
+min-width: 35px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 11px;
+}
+#controlbar #title_label {
+text-align: center;
+font-size: 12px;
+padding-top: 13px;
+color: #555;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+#controlbar #title_label a,
+#controlbar #title_label a:visited,
+#controlbar #title_label a:active {
+display: inline;
+position: static;
+height: auto;
+padding: 0;
+border: 0;
+margin: 0;
+}
+#controlbar.hover_capable a.textbutton:hover {
+background-color: #e0e0e0;
+background-image: -webkit-linear-gradient(#e8e8e8, #d8d8d8);
+}
+#controlbar a.promobutton,
+#controlbar a.promobutton:visited,
+#controlbar a.promobutton:active {
+background-image: url(/static/img/icon4-58-stroked.png?v=e91ef99d654b5ecd2154cacd7dae8225);
+background-size: 31px 31px;
+background-repeat: no-repeat;
+background-position: 5px 50%;
+}
+#controlbar.hover_capable a.promobutton:hover {
+background-color: #e0e0e0;
+background-image: url('/static/img/icon4-58-stroked.png?v=e91ef99d654b5ecd2154cacd7dae8225'), -webkit-linear-gradient(#e8e8e8, #d8d8d8);
+background-size: 31px 31px, cover;
+}
+#controlbar .promotext { padding-left: 28px; }
+#controlbar a.archivebutton,
+#controlbar a.archivebutton:visited,
+#controlbar a.archivebutton:active {
+background-image: url('/static/img/icon_archive.png?v=df9751811d04738118cd3e7c0c8a6b67');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 21px 24px;
+}
+#controlbar.hover_capable a.archivebutton:hover {
+background-color: #e0e0e0;
+background-image: url('/static/img/icon_archive.png?v=df9751811d04738118cd3e7c0c8a6b67'), -webkit-linear-gradient(#e8e8e8, #d8d8d8);
+background-size: 21px 24px, cover;
+}
+#controlbar a.likebutton,
+#controlbar a.likebutton:visited,
+#controlbar a.likebutton:active {
+background-image: url('/static/img/icon_like_off.png?v=59c1d7824cd35633a9888b7c8fe0375f');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 22px 19px;
+}
+#controlbar.hover_capable a.likebutton:hover {
+background-color: #e0e0e0;
+background-image: url('/static/img/icon_like_off.png?v=59c1d7824cd35633a9888b7c8fe0375f'), -webkit-linear-gradient(#e8e8e8, #d8d8d8);
+background-size: 22px 19px, cover;
+}
+#controlbar a.unlikebutton,
+#controlbar a.unlikebutton:visited,
+#controlbar a.unlikebutton:active {
+background-image: url('/static/img/icon_like_on.png?v=3e92697df43ad0feddfccf52cc0b1456');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 22px 19px;
+}
+#controlbar.hover_capable a.unlikebutton:hover {
+background-color: #e0e0e0;
+background-image: url('/static/img/icon_like_on.png?v=3e92697df43ad0feddfccf52cc0b1456'), -webkit-linear-gradient(#e8e8e8, #d8d8d8);
+background-size: 22px 19px, cover;
+}
+#controlbar a.textcontrolsbutton,
+#controlbar a.textcontrolsbutton:visited,
+#controlbar a.textcontrolsbutton:active {
+background-image: url('/static/img/icon_textcontrols.png?v=06ea517d0a2b6d98c14b679faabda723');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 28px 26px;
+}
+#controlbar.hover_capable a.textcontrolsbutton:hover {
+background-color: #e0e0e0;
+background-image: url('/static/img/icon_textcontrols.png?v=06ea517d0a2b6d98c14b679faabda723'), -webkit-linear-gradient(#e8e8e8, #d8d8d8);
+background-size: 28px 26px, cover;
+}
+#controlbar a.actionsbutton,
+#controlbar a.actionsbutton:visited,
+#controlbar a.actionsbutton:active {
+background-image: url('/static/img/icon_actions.png?v=717885fcbcd91bd47b21a6705809beb0');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 23px 18px;
+}
+#controlbar.hover_capable a.actionsbutton:hover {
+background-color: #e0e0e0;
+background-image: url('/static/img/icon_actions.png?v=717885fcbcd91bd47b21a6705809beb0'), -webkit-linear-gradient(#e8e8e8, #d8d8d8);
+background-size: 23px 18px, cover;
+}
+#controlbar #left_buttons a,
+#controlbar #left_buttons a:visited,
+#controlbar #left_buttons a:active {
+border-left: 0;
+}
+#controlbar #right_buttons a,
+#controlbar #right_buttons a:visited,
+#controlbar #right_buttons a:active {
+border-right: 0;
+}
+#controlbar #origbutton {
+font-size: 20px;
+padding-top: 6px;
+}
+.dropmenu {
+display: none;
+position: absolute;
+top: 100%;
+width: 200px;
+z-index: 1336;
+background-color: #fafafa;
+color: #3F3F3F;
+padding: 10px;
+border: 1px solid #888;
+box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+font-size: 18px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+#controlbar #left_buttons .dropmenu { left: -1px; }
+#controlbar #right_buttons .dropmenu { right: -1px; }
+.dropmenu .menugroup, .dropmenu .buttongrid {
+margin: 10px 0;
+}
+.dropmenu .menugroup {
+border: 2px solid #ccc;
+border-radius: 8px;
+}
+.dropmenu .menugroup:first-child, .dropmenu .buttongrid:first-child { margin-top: 0; }
+.dropmenu .menugroup:last-child, .dropmenu .buttongrid:last-child { margin-bottom: 0; }
+.dropmenu .buttongrid .button {
+display: inline-block;
+text-align: center;
+padding: 5px 0;
+border: 5px solid #eee;
+margin: 0 2%;
+}
+.dropmenu .buttongrid .button:first-child { margin-left: 0; }
+.dropmenu .buttongrid .button:last-child { margin-right: 0; }
+.dropmenu .buttongrid3 .button { width: 26%; }
+.dropmenu .buttongrid2 .button { width: 43%; }
+/* selected buttons */
+body.darkmode .dropmenu .buttongrid .darkmodebutton,
+body.lightmode .dropmenu .buttongrid .lightmodebutton,
+body.sepiamode .dropmenu .buttongrid .sepiamodebutton,
+body.georgiamode .dropmenu .buttongrid .georgiamodebutton,
+body.verdanamode .dropmenu .buttongrid .verdanamodebutton,
+body.helveticamode .dropmenu .buttongrid .helveticamodebutton,
+body.narrowmode .dropmenu .buttongrid .narrowmodebutton,
+body.medwidthmode .dropmenu .buttongrid .medwidthmodebutton,
+body.widemode .dropmenu .buttongrid .widemodebutton
+{ border: 5px solid #555; }
+.dropmenu .menugroup .button:first-child {
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.dropmenu .menugroup .button:last-child {
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.hover_capable .dropmenu .buttongroup .button:hover,
+.hover_capable .dropmenu .menugroup .button:hover {
+background-color: #ccc;
+}
+.dropmenu .menugroup .button {
+padding: 10px;
+background-color: #f8f8f8;
+}
+.textcontrolsmenu { width: 248px; }
+.dropmenu .columnwidthbuttons .button { line-height: 6px; padding-top: 0; padding-bottom: 11px; }
+/* user style */
+body { max-width: 625px; }
+#story, #titlebar h1, .popover { font-family: Georgia, serif; }
+#story, .popover {
+font-size: 16px;
+line-height: 1.5;
+}
+#story, #titlebar, #footer { margin-left: 10px; margin-right: 10px; }
+body { color: #222; background-color: #f4f4f4; }
+a, a:visited, a:active { color: #5454AA; }
+/* 320-pixel layout for iPhone-sized screens */
+@media (max-width: 580px) {
+body {
+margin-top: 60px;
+}
+#titlebar h1 {
+font-size: 20px;
+}
+#controlbar_container {
+height: 34px;
+position: absolute;
+top: -60px;
+}
+#controlbar a.promobutton {
+padding-right: 7px;
+}
+#controlbar #backbutton, #controlbar .promotext
+{ display: none; }
+#controlbar #left_buttons { width: 55px; }
+#controlbar #right_buttons { width: 155px; }
+.logged_out #controlbar #left_buttons { width: 50px; }
+.logged_out #controlbar #right_buttons { width: 57px; }
+#controlbar a,
+#controlbar a:visited,
+#controlbar a:active {
+min-width: 20px;
+padding-top: 4px;
+height: 30px;
+}
+#controlbar #title_label {
+padding-top: 10px;
+}
+.dropmenu .columnwidthbuttons { display: none; }
+.dropmenu .colormodebuttons { margin-bottom: 0; }
+}
+/* printer-friendly */
+@media print {
+#controlbar_container, #fin { display: none; }
+body { margin-top: 0; }
+#ipfootnotes {
+display: block;
+border-top: 1pt solid #000;
+margin-top: 3em;
+padding-top: 1em;
+}
+#ipfootnotes:before { content: "Footnotes:"; }
+.ipfootnote_ref {
+display: inline;
+width: auto;
+height: auto;
+background: none;
+}
+}
+/* size modes */
+body.size1mode #story, body.size1mode .popover { font-size: 11px; }
+body.size2mode #story, body.size2mode .popover { font-size: 14px; }
+body.size3mode #story, body.size3mode .popover { font-size: 16px; }
+body.size4mode #story, body.size4mode .popover { font-size: 18px; }
+body.size5mode #story, body.size5mode .popover { font-size: 22px; }
+body.size6mode #story, body.size6mode .popover { font-size: 28px; }
+body.size7mode #story, body.size7mode .popover { font-size: 36px; }
+/* font modes */
+body.georgiamode #titlebar h1, body.georgiamode #story, body.georgiamode .popover { font-family: Georgia, Times, serif; }
+body.georgiamode #story { line-height: 1.5; }
+body.verdanamode #titlebar h1, body.verdanamode #story, body.verdanamode .popover { font-family: Verdana, sans-serif; }
+body.verdanamode #story { line-height: 1.64; }
+body.helveticamode #titlebar h1, body.helveticamode #story, body.helveticamode .popover { font-family: Helvetica, Arial, sans-serif; }
+body.helveticamode #story { line-height: 1.5; }
+/* width modes */
+body.narrowmode { max-width: 480px; }
+body.medwidthmode { max-width: 625px; }
+body.widemode { max-width: 900px; }
+/* sepia mode */
+body.sepiamode, body.sepiamode #titlebar h1 {
+background-color: #f7f2e6; color: #403929;
+}
+body.sepiamode a, body.sepiamode a:visited, body.sepiamode a:active { color: #665733; }
+body.sepiamode .popover {
+background-color: #faf7f0;
+color: #403929;
+}
+body.sepiamode #controlbar_container {
+background-color: #f7f2e6;
+background-image: -webkit-linear-gradient(#f7f2e6, #ebe6da);
+border-bottom: 1px solid #aba79f;
+}
+body.sepiamode #controlbar.hover_capable a.promobutton { opacity: 0.75; }
+body.sepiamode #controlbar.hover_capable a.promobutton:hover {
+background-color: #e8e3d8;
+background-image: url('/static/img/icon4-58-stroked.png?v=e91ef99d654b5ecd2154cacd7dae8225'), -webkit-linear-gradient(#e8e3d8, #d9d4ca);
+}
+body.sepiamode #controlbar.hover_capable a.textbutton:hover {
+background-color: #e8e3d8;
+background-image: -webkit-linear-gradient(#e8e3d8, #d9d4ca);
+}
+body.sepiamode #controlbar.hover_capable a.archivebutton:hover {
+background-color: #e8e3d8;
+background-image: url('/static/img/icon_archive.png?v=df9751811d04738118cd3e7c0c8a6b67'), -webkit-linear-gradient(#e8e3d8, #d9d4ca);
+}
+body.sepiamode #controlbar.hover_capable a.likebutton:hover {
+background-color: #e8e3d8;
+background-image: url('/static/img/icon_like_off.png?v=59c1d7824cd35633a9888b7c8fe0375f'), -webkit-linear-gradient(#e8e3d8, #d9d4ca);
+}
+body.sepiamode #controlbar.hover_capable a.unlikebutton:hover {
+background-color: #e8e3d8;
+background-image: url('/static/img/icon_like_on.png?v=3e92697df43ad0feddfccf52cc0b1456'), -webkit-linear-gradient(#e8e3d8, #d9d4ca);
+}
+body.sepiamode #controlbar.hover_capable a.textcontrolsbutton:hover {
+background-color: #e8e3d8;
+background-image: url('/static/img/icon_textcontrols.png?v=06ea517d0a2b6d98c14b679faabda723'), -webkit-linear-gradient(#e8e3d8, #d9d4ca);
+}
+body.sepiamode #controlbar.hover_capable a.actionsbutton:hover {
+background-color: #e8e3d8;
+background-image: url('/static/img/icon_actions.png?v=717885fcbcd91bd47b21a6705809beb0'), -webkit-linear-gradient(#e8e3d8, #d9d4ca);
+}
+/* dark mode */
+body.darkmode, body.darkmode #titlebar h1 {
+background-color: #131313;
+color: #878787;
+}
+body.darkmode .popover {
+background-color: #333;
+color: #E5E5E5;
+}
+body.darkmode a, body.darkmode a:visited, body.darkmode a:active { color: #BABACC; }
+body.darkmode #story img { opacity: 0.2; -webkit-transition: opacity 0.25s linear; }
+body.darkmode #story img:hover { opacity: 1.0; }
+body.darkmode #controlbar_container {
+background-color: #333;
+background-image: -webkit-linear-gradient(#222, #131313);
+border-bottom: 1px solid #555;
+}
+body.darkmode #controlbar #title_label { color: #777; }
+body.darkmode #controlbar a,
+body.darkmode #controlbar a:visited,
+body.darkmode #controlbar a:active {
+color: #777;
+border-left: 1px solid #555;
+border-right: 1px solid #555;
+}
+body.darkmode #controlbar.hover_capable a.promobutton { opacity: 0.75; }
+body.darkmode #controlbar.hover_capable a.promobutton:hover {
+background-image: url('/static/img/icon4-58-stroked.png?v=e91ef99d654b5ecd2154cacd7dae8225'), -webkit-linear-gradient(#888, #777);
+}
+body.darkmode #controlbar.hover_capable a:hover {
+background-color: #888;
+color: #ccc;
+background-image: -webkit-linear-gradient(#888, #777);
+}
+body.darkmode #controlbar.hover_capable a.archivebutton:hover {
+background-image: url('/static/img/icon_archive.png?v=df9751811d04738118cd3e7c0c8a6b67'), -webkit-linear-gradient(#888, #777);
+}
+body.darkmode #controlbar.hover_capable a.likebutton:hover {
+background-image: url('/static/img/icon_like_off.png?v=59c1d7824cd35633a9888b7c8fe0375f'), -webkit-linear-gradient(#888, #777);
+}
+body.darkmode #controlbar.hover_capable a.unlikebutton:hover {
+background-image: url('/static/img/icon_like_on.png?v=3e92697df43ad0feddfccf52cc0b1456'), -webkit-linear-gradient(#888, #777);
+}
+body.darkmode #controlbar.hover_capable a.textcontrolsbutton:hover {
+background-image: url('/static/img/icon_textcontrols.png?v=06ea517d0a2b6d98c14b679faabda723'), -webkit-linear-gradient(#888, #777);
+}
+body.darkmode #controlbar.hover_capable a.actionsbutton:hover {
+background-image: url('/static/img/icon_actions.png?v=717885fcbcd91bd47b21a6705809beb0'), -webkit-linear-gradient(#888, #777);
+}
+</style>
+<!--[if lt IE 9]>
+<style type="text/css">
+/* this is how I solve old-IE problems and nobody seems to mind */
+#controlbar_container { display: none; }
+</style>
+<![endif]-->
+<script type="text/javascript">
+function createCookie(name,value,days) {
+if (days) {
+var date = new Date();
+date.setTime(date.getTime()+(days*24*60*60*1000));
+var expires = "; expires="+date.toGMTString();
+}
+else var expires = "";
+document.cookie = name+"="+value+expires+"; path=/";
+}
+function readCookie(name) {
+var nameEQ = name + "=";
+var ca = document.cookie.split(';');
+for(var i=0;i < ca.length;i++) {
+var c = ca[i];
+while (c.charAt(0)==' ') c = c.substring(1,c.length);
+if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+}
+return null;
+}
+function ancestorOrSelfHasClass(node, className)
+{
+var parent = node;
+while (parent && parent != document.body && parent.nodeType != 9) {
+if ($(parent).hasClass(className)) return true;
+parent = parent.parentNode;
+}
+return false;
+}
+function clearPopovers(event)
+{
+if (ancestorOrSelfHasClass(event.target, 'popover')) return;
+var popovers = document.getElementsByClassName('popover');
+for (var i = 0; i < popovers.length; i++) {
+popovers[i].parentNode.removeChild(popovers[i]);
+}
+}
+function footnoteLinkTapped(event)
+{
+var link = event.target;
+var fnid = link.href.substring(link.href.indexOf('#') + 1);
+var target_fn = document.getElementById(fnid);
+if (! target_fn) return true;
+event.preventDefault();
+event.stopPropagation();
+clearPopovers(event);
+var popoverWidth = Math.max(240, Math.floor(document.body.offsetWidth / 1.5));
+var popoverX = link.offsetLeft;
+var overflowRight = (popoverX + popoverWidth + 48 /* popover padding */) - document.body.offsetWidth;
+if (overflowRight > 0) popoverX -= overflowRight;
+var popover = document.createElement('div');
+popover.setAttribute('class', 'popover');
+popover.innerHTML = target_fn.innerHTML;
+popover.style.top = (link.offsetTop + 20 /* popover top margin */) + 'px';
+popover.style.left = popoverX + 'px';
+popover.style.width = popoverWidth + 'px';
+document.body.appendChild(popover);
+}
+function attachLinkListeners()
+{
+// Pull footnotes out of <sup> elements and remove any numbers or text in their ref links
+var fnrefs = document.getElementsByClassName('ipfootnote_ref');
+for (var i = 0; i < fnrefs.length; i++) {
+fnrefs[i].innerHTML = '';
+fnrefs[i].addEventListener('click', footnoteLinkTapped, false);
+}
+document.body.addEventListener('click', clearPopovers, false);
+document.body.addEventListener('touchstart', clearPopovers, false);
+// Cancel-click handlers
+$('html').click(function() { $('.dropmenu').hide(); clearPopovers(event); event.stopPropagation(); });
+// Remove hover-simulation and move onclick to ontouchstart for faster iOS responsiveness
+if ('ontouchstart' in document) {
+$('.hover_capable').removeClass('hover_capable');
+$('html').each(function() {
+this.ontouchstart = function(event){
+if (ancestorOrSelfHasClass(event.target, 'popover')) return;
+if (ancestorOrSelfHasClass(event.target, 'touchignore')) return;
+$('.dropmenu').hide();
+clearPopovers(event);
+event.stopPropagation();
+};
+});
+$('.dropmenu .button, .textcontrolsbutton, .archivebutton, .actionsbutton, .likebutton, .unlikebutton').each(function() {
+this.ontouchstart = this.onclick;
+this.onclick = null;
+});
+}
+}
+function changeTextSize(direction)
+{
+var currentSize = readCookie('iptsize');
+if (! currentSize || ! (currentSize = parseInt(currentSize)) ) currentSize = 3;
+currentSize += parseInt(direction);
+if (currentSize < 1) currentSize = 1;
+else if (currentSize > 7) currentSize = 7;
+$('body').removeClass('size1mode size2mode size3mode size4mode size5mode size6mode size7mode').addClass('size' + currentSize + 'mode');
+createCookie('iptsize', currentSize, 3650);
+}
+function selectFont(name)
+{
+$('body').removeClass('georgiamode verdanamode helveticamode').addClass(name + 'mode');
+createCookie('iptfont', name + 'mode', 3650);
+}
+function selectColor(name)
+{
+$('body').removeClass('lightmode darkmode sepiamode').addClass(name + 'mode');
+createCookie('iptcolor', name + 'mode', 3650);
+}
+function selectWidth(name)
+{
+$('body').removeClass('narrowmode medwidthmode widemode').addClass(name + 'mode');
+createCookie('iptwidth', name + 'mode', 3650);
+}
+function dropMenu(cls)
+{
+var wasVisible = $('.' + cls).css('display') != 'none';
+$('.dropmenu').hide();
+if (! wasVisible) $('.' + cls).toggle();
+}
+
+</script>
+<title>Abraham Lincoln: House Divided Speech</title>
+</head>
+<body onload="attachLinkListeners();" onclick="$('.dropmenu').hide(); event.stopPropagation();" class="size5mode lightmode widemode georgiamode">
+<div id="controlbar_container" class="touchignore">
+<div id="controlbar" class="hover_capable">
+<div id="left_buttons">
+<a href="/u" class="textbutton" id="backbutton">Back to Articles</a>
+</div>
+<div id="right_buttons">
+<a href="javascript:void(0)"
+class="textcontrolsbutton"
+onclick="event.preventDefault(); event.stopPropagation(); dropMenu('textcontrolsmenu');">&nbsp;<div class="dropmenu textcontrolsmenu"><div class="buttongrid buttongrid2"><div class="button" style="font-variant: small-caps;" onclick="changeTextSize(-1); event.stopPropagation(); event.preventDefault();">a</div><div class="button" onclick="changeTextSize(1); event.stopPropagation(); event.preventDefault();">A</div></div><div class="buttongrid buttongrid3"><div class="button georgiamodebutton" onclick="selectFont('georgia'); event.stopPropagation(); event.preventDefault();"><span style="font-family: Georgia; font-size: 14px; vertical-align: 2px;">Georgia</span></div><div class="button verdanamodebutton" onclick="selectFont('verdana'); event.stopPropagation(); event.preventDefault();"><span style="font-family: Verdana, sans-serif; font-size: 13px; vertical-align: 2px;">Verdana</span></div><div class="button helveticamodebutton" onclick="selectFont('helvetica'); event.stopPropagation(); event.preventDefault();"><span style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; vertical-align: 2px;">Helvetica</span></div></div><div class="buttongrid buttongrid3 colormodebuttons"><div class="button lightmodebutton" style="background-color: #f4f4f4; color: #444;" onclick="selectColor('light'); event.stopPropagation(); event.preventDefault();">&nbsp;</div><div class="button darkmodebutton" style="background-color: #131313; color: #878787;" onclick="selectColor('dark'); event.stopPropagation(); event.preventDefault();">&nbsp;</div><div class="button sepiamodebutton" style="background-color: #f4efd4; color: #454128;" onclick="selectColor('sepia'); event.stopPropagation(); event.preventDefault();">&nbsp;</div></div><div class="buttongrid buttongrid3 columnwidthbuttons"><div class="button narrowmodebutton" onclick="selectWidth('narrow'); event.stopPropagation(); event.preventDefault();">...<br/>...<br/>...</div><div class="button medwidthmodebutton" onclick="selectWidth('medwidth'); event.stopPropagation(); event.preventDefault();">.....<br/>.....<br/>.....</div><div class="button widemodebutton" onclick="selectWidth('wide'); event.stopPropagation(); event.preventDefault();">........<br/>........<br/>........</div></div></div></a>
+</div>
+<div id="title_label"><a href="http://www.historyplace.com/lincoln/divided.htm">Abraham Lincoln: House Divided Speech</a></div>
+</div>
+</div>
+<div id="titlebar">
+<h1>Abraham Lincoln: House Divided Speech</h1>
+<span class="orig_line">
+
+<a class="original" href="http://www.historyplace.com/lincoln/divided.htm">historyplace.com
+<img style="width: 13px; height: 13px;" src="/static/img/orig-link.png?v=27672a86db199b6a5fa5cb901b670ad1"/></a>
+
+
+</span>
+</div>
+<div id="story">
+<html><body><td valign="top">
+<center><img src="http://www.historyplace.com/lincoln/thplinc.gif" alt="The History Place - Abraham Lincoln"/></center>
+
+<center><p><img src="http://www.historyplace.com/lincoln/thin-blue-365.jpg" alt="image"/></p>
+</center>
+
+<center><p><i>&#8220;House Divided&#8221;
+Speech</i></p>
+</center>
+<blockquote>
+  <blockquote> <strong>Springfield, Illinois, June 16, 1858&#160;<br/><br/>
+    MR. PRESIDENT AND GENTLEMEN OF THE CONVENTION: </strong>
+    <p>If we could first know where we are, and whither we are tending, we
+could better judge what to do, and how to do it. We are now far into the
+fifth year since a policy was initiated with the avowed object, and confident
+promise, of putting an end to slavery agitation. Under the operation of
+that policy, that agitation has not only not ceased, but has constantly
+augmented. In my opinion, it will not cease, until a crisis shall have
+been reached and passed. &#8220;A house divided against itself cannot stand.&#8221;
+I believe this government cannot endure permanently half slave and half
+free. I do not expect the Union to be dissolved &#8212; I do not expect the
+house to fall &#8212; but I do expect it will cease to be divided. It will become
+all one thing, or all the other. Either the opponents of slavery will arrest
+the further spread of it, and place it where the public mind shall rest
+in the belief that it is in the course of ultimate extinction; or its advocates
+will push it forward, till it shall become alike lawful in all the States,
+old as well as new &#8212; North as well as South. </p>
+
+<p>Have we no tendency to the latter condition? </p>
+
+<p>Let any one who doubts, carefully contemplate that now almost complete
+legal combination &#8212; piece of machinery, so to speak &#8212; compounded of the
+Nebraska doctrine, and the Dred Scott decision. Let him consider not only
+what work the machinery is adapted to do, and how well adapted; but also,
+let him study the history of its construction, and trace, if he can, or
+rather fail, if he can, to trace the evidences of design, and concert of
+action, among its chief architects, from the beginning. </p>
+
+<p>The new year of 1854 found slavery excluded from more than half the
+States by State Constitutions, and from most of the national territory
+by Congressional prohibition. Four days later, commenced the struggle which
+ended in repealing that Congressional prohibition. This opened all the
+national territory to slavery, and was the first point gained. </p>
+
+<p>But, so far, Congress only had acted; and an indorsement by the people,
+real or apparent, was indispensable, to save the point already gained,
+and give chance for more. </p>
+
+<p>This necessity had not been overlooked; but had been provided for, as
+well as might be, in the notable argument of &#8220;squatter sovereignty,&#8221;
+otherwise called &#8220;sacred right of self-government,&#8221; which latter
+phrase, though expressive of the only rightful basis of any government,
+was so perverted in this attempted use of it as to amount to just this:
+That if any one man choose to enslave another, no third man shall be allowed
+to object. That argument was incorporated into the Nebraska bill itself,
+in the language which follows: &#8220;It being the true intent and meaning
+of this act not to legislate slavery into any Territory or State, nor to
+exclude it therefrom; but to leave the people thereof perfectly free to
+form and regulate their domestic institutions in their own way, subject
+only to the Constitution of the United States.&#8221; Then opened the roar
+of loose declamation in favor of &#8220;Squatter Sovereignty,&#8221; and
+&#8220;sacred right of self-government.&#8221; &#8220;But,&#8221; said opposition
+members, &#8220;let us amend the bill so as to expressly declare that the
+people of the Territory may exclude slavery.&#8221; &#8220;Not we,&#8221;
+said the friends of the measure; and down they voted the amendment. </p>
+
+<p>While the Nebraska bill was passing through Congress, a law case involving
+the question of a negro&#8217;s freedom, by reason of his owner having voluntarily
+taken him first into a free State and then into a Territory covered by
+the Congressional prohibition, and held him as a slave for a long time
+in each, was passing through the U. S. Circuit Court for the District of
+Missouri; and both Nebraska bill and law suit were brought to a decision
+in the same month of May, 1854. The negro&#8217;s name was &#8220;Dred Scott,&#8221;
+which name now designates the decision finally made in the case. Before
+the then next Presidential election, the law case came to, and was argued
+in, the Supreme Court of the United States; but the decision of it was
+deferred until after the election. Still, before the election, Senator
+Trumbull, on the floor of the Senate, requested the leading advocate of
+the Nebraska bill to state his opinion whether the people of a Territory
+can constitutionally exclude slavery from their limits; and the latter
+answers: &#8220;That is a question for the Supreme Court.&#8221; </p>
+
+<p>The election came. Mr. Buchanan was elected, and the indorsement, such
+as it was, secured. That was the second point gained. The indorsement,
+however, fell short of a clear popular majority by nearly four hundred
+thousand votes, and so, perhaps, was not overwhelmingly reliable and satisfactory.
+The outgoing President, in his last annual message, as impressively as
+possible echoed back upon the people the weight and authority of the endorsement.
+The Supreme Court met again; did not announce their decision, but ordered
+a re-argument. The Presidential inauguration came, and still no decision
+of the court; but the incoming President in his inaugural address, fervently
+exhorted the people to abide by the forthcoming decision, whatever it might
+be. Then, in a few days, came the decision. </p>
+
+<p>The reputed author of the Nebraska bill finds an early occasion to make
+a speech at this capital indorsing the Dred Scott decision, and vehemently
+denouncing all opposition to it. The new President, too, seizes the early
+occasion of the Silliman letter to indorse and strongly construe that decision,
+and to express his astonishment that any different view had ever been entertained!
+</p>
+
+<p>At length a squabble springs up between the President and the author
+of the Nebraska bill, on the mere question of fact, whether the Lecompton
+Constitution was or was not, in any just sense, made by the people of Kansas;
+and in that quarrel the latter declares that all he wants is a fair vote
+for the people, and that he cares not whether slavery be voted down or
+voted up. I do not understand his declaration that he cares not whether
+slavery be voted down or voted up, to be intended by him other than as
+an apt definition of the policy he would impress upon the public mind &#8212;
+the principle for which he declares he has suffered so much, and is ready
+to suffer to the end. And well may he cling to that principle. If he has
+any parental feeling, well may he cling to it. That principle is the only
+shred left of his original Nebraska doctrine. Under the Dred Scott decision
+&#8220;squatter sovereignty&#8221; squatted out of existence, tumbled down
+like temporary scaffolding &#8212; like the mould at the foundry served through
+one blast and fell back into loose sand &#8212; helped to carry an election,
+and then was kicked to the winds. His late joint struggle with the Republicans,
+against the Lecompton Constitution, involves nothing of the original Nebraska
+doctrine. That struggle was made on a point &#8212; the right of a people to
+make their own constitution &#8212; upon which he and the Republicans have never
+differed. </p>
+
+<p>The several points of the Dred Scott decision, in connection, with Senator
+Douglas&#8217;s &#8220;care not&#8221; policy, constitute the piece of machinery,
+in its present state of advancement. This was the third point gained. The
+working points of that machinery are: </p>
+
+<p>First, That no negro slave, imported as such from Africa, and no descendant
+of such slave, can ever be a citizen of any State, in the sense of that
+term as used in the Constitution of the United States. This point is made
+in order to deprive the negro, in every possible event, of the benefit
+of that provision of the United States Constitution, which declares that
+&#8220;The citizens of each State, shall be entitled to all privileges and
+immunities of citizens in the several States.&#8221; </p>
+
+<p>Secondly, That &#8220;subject to the Constitution of the United States,&#8221;
+neither Congress nor a Territorial Legislature can exclude slavery from
+any United States territory. This point is made in order that individual
+men may fill up the Territories with slaves, without danger of losing them
+as property, and thus to enhance the chances of permanency to the institution
+through all the future. </p>
+
+<p>Thirdly, That whether the holding a negro in actual slavery in a free
+State, makes him free, as against the holder, the United States courts
+will not decide, but will leave to be decided by the courts of any slave
+State the negro may be forced into by the master. This point is made, not
+to be pressed immediately; but, if acquiesced in for awhile, and apparently
+indorsed by the people at an election, then to sustain the logical conclusion
+that what Dred Scott&#8217;s master might lawfully do with Dred Scott, in the
+free State of Illinois, every other master may lawfully do with any other
+one, or one thousand slaves, in Illinois, or in any other free State. </p>
+
+<p>Auxiliary to all this, and working hand in hand with it, the Nebraska
+doctrine, or what is left of it, is to educate and mould public opinion,
+at least Northern public opinion, not to care whether slavery is voted
+down or voted up. This shows exactly where we now are; and partially, also,
+whither we are tending. </p>
+
+<p>It will throw additional light on the latter, to go back, and run the
+mind over the string of historical facts already stated. Several things
+will now appear less dark and mysterious than they did when they were transpiring.
+The people were to be left &#8220;perfectly free,&#8221; &#8220;subject only
+to the Constitution.&#8221; What the Constitution had to do with it, outsiders
+could not then see. Plainly enough now, it was an exactly fitted niche,
+for the Dred Scott decision to afterward come in, and declare the perfect
+freedom of the people to be just no freedom at all. Why was the amendment,
+expressly declaring the right of the people, voted down? Plainly enough
+now: the adoption of it would have spoiled the niche for the Dred Scott
+decision. Why was the court decision held up? Why even a Senator&#8217;s individual
+opinion withheld, till after the Presidential election? Plainly enough
+now: the speaking out then would have damaged the perfectly free argument
+upon which the election was to be carried. Why the outgoing President&#8217;s
+felicitation on the indorsement? Why the delay of a reargument? Why the
+incoming President&#8217;s advance exhortation in favor of the decision? These
+things look like the cautious patting and petting of a spirited horse preparatory
+to mounting him, when it is dreaded that he may give the rider a fall.
+And why the hasty after-indorsement of the decision by the President and
+others? </p>
+
+<p>We cannot absolutely know that all these exact adaptations are the result
+of preconcert. But when we see a lot of framed timbers, different portions
+of which we know have been gotten out at different times and places and
+by different workmen &#8212; Stephen, Franklin, Roger and James, for instance
+&#8212; and when we see these timbers joined together, and see they exactly
+make the frame of a house or a mill, all the tenons and mortices exactly
+fitting, and all the lengths and proportions of the different pieces exactly
+adapted to their respective places, and not a piece too many or too few
+&#8212; not omitting even scaffolding &#8212; or, if a single piece be lacking, we
+see the place in the frame exactly fitted and prepared yet to bring such
+a piece in &#8212; in such a case, we find it impossible not to believe that
+Stephen and Franklin and Roger and James all understood one another from
+the beginning, and all worked upon a common plan or draft drawn up before
+the first blow was struck. </p>
+
+<p>It should not be overlooked that, by the Nebraska bill, the people of
+a State as well as Territory, were to be left &#8220;perfectly free,&#8221;
+&#8220;subject only to the Constitution.&#8221; Why mention a State? They
+were legislating for Territories, and not for or about States. Certainly
+the people of a State are and ought to be subject to the Constitution of
+the United States; but why is mention of this lugged into this merely Territorial
+law? Why are the people of a Territory and the people of a State therein
+lumped together, and their relation to the Constitution therein treated
+as being precisely the same? While the opinion of the court, by Chief Justice
+Taney, in the Dred Scott case, and the separate opinions of all the concurring
+Judges, expressly declare that the Constitution of the United States neither
+permits Congress nor a Territorial Legislature to exclude slavery from
+any United States Territory, they all omit to declare whether or not the
+same Constitution permits a State, or the people of a State, to exclude
+it. Possibly, this is a mere omission; but who can be quite sure, if McLean
+or Curtis had sought to get into the opinion a declaration of unlimited
+power in the people of a State to exclude slavery from their limits, just
+as Chase and Mace sought to get such declaration, in behalf of the people
+of a Territory, into the Nebraska bill; &#8212; I ask, who can be quite sure
+that it would not have been voted down in the one case as it had been in
+the other? The nearest approach to the point of declaring the power of
+a State over slavery, is made by Judge Nelson. He approaches it more than
+once, using the precise idea, and almost the language, too, of the Nebraska
+act. On one occasion, his exact language is, &#8220;except in cases where
+the power is restrained by the Constitution of the United States, the law
+of the State is supreme over the subject of slavery within its jurisdiction.&#8221;
+In what cases the power of the States is so restrained by the United States
+Constitution, is left an open question, precisely as the same question,
+as to the restraint on the power of the Territories, was left open in the
+Nebraska act. Put this and that together, and we have another nice little
+niche, which we may, ere long, see filled with another Supreme Court decision,
+declaring that the Constitution of the United States does not permit a
+State to exclude slavery from its limits. And this may especially be expected
+if the doctrine of &#8220;care not whether slavery be voted down or voted
+up,&#8221; shall gain upon the public mind sufficiently to give promise
+that such a decision can be maintained when made. </p>
+
+<p>Such a decision is all that slavery now lacks of being alike lawful
+in all the States. Welcome, or unwelcome, such decision is probably coming,
+and will soon be upon us, unless the power of the present political dynasty
+shall be met and overthrown. We shall lie down pleasantly dreaming that
+the people of Missouri are on the verge of making their State free, and
+we shall awake to the reality instead, that the Supreme Court has made
+Illinois a slave State. To meet and overthrow the power of that dynasty,
+is the work now before all those who would prevent that consummation. That
+is what we have to do. How can we best do it? </p>
+
+<p>There are those who denounce us openly to their own friends, and yet
+whisper us softly, that Senator Douglas is the aptest instrument there
+is with which to effect that object. They wish us to infer all, from the
+fact that he now has a little quarrel with the present head of the dynasty;
+and that he has regularly voted with us on a single point, upon which he
+and we have never differed. They remind us that he is a great man, and
+that the largest of us are very small ones. Let this be granted. But &#8220;a
+living dog is better than a dead lion.&#8221; Judge Douglas, if not a dead
+lion, for this work, is at least a caged and toothless one. How can he
+oppose the advances of slavery? He don&#8217;t care anything about it. His avowed
+mission is impressing the &#8220;public heart&#8221; to care nothing about
+it. A leading Douglas democratic newspaper thinks Douglas&#8217;s superior talent
+will be needed to resist the revival of the African slave trade. Does Douglas
+believe an effort to revive that trade is approaching? He has not said
+so. Does he really think so? But if it is, how can he resist it? For years
+he has labored to prove it a sacred right of white men to take negro slaves
+into the new Territories. Can he possibly show that it is less a sacred
+right to buy them where they can be bought cheapest? And unquestionably
+they can be bought cheaper in Africa than in Virginia. He has done all
+in his power to reduce the whole question of slavery to one of a mere right
+of property; and as such, how can he oppose the foreign slave trade &#8212;
+how can he refuse that trade in that &#8220;property&#8221; shall be &#8220;perfectly
+free&#8221; &#8212; unless he does it as a protection to the home production?
+And as the home producers will probably not ask the protection, he will
+be wholly without a ground of opposition. </p>
+
+<p>Senator Douglas holds, we know, that a man may rightfully be wiser to-day
+than he was yesterday &#8212; that he may rightfully change when he finds himself
+wrong. But can we, for that reason, run ahead, and infer that he will make
+any particular change, of which he, himself, has given no intimation? Can
+we safely base our action upon any such vague inference? Now, as ever,
+I wish not to misrepresent Judge Douglas&#8217;s position, question his motives,
+or do aught that can be personally offensive to him. Whenever, if ever,
+he and we can come together on principle so that our cause may have assistance
+from his great ability, I hope to have interposed no adventitious obstacle.
+But clearly, he is not now with us &#8212; he does not pretend to be &#8212; he does
+not promise ever to be. </p>
+
+<p>Our cause, then, must be intrusted to, and conducted by, its own undoubted
+friends &#8212; those whose hands are free, whose hearts are in the work &#8212;
+who do care for the result. Two years ago the Republicans of the nation
+mustered over thirteen hundred thousand strong. We did this under the single
+impulse of resistance to a common danger, with every external circumstance
+against us. Of strange, discordant, and even hostile elements, we gathered
+from the four winds, and formed and fought the battle through, under the
+constant hot fire of a disciplined, proud and pampered enemy. Did we brave
+all then, to falter now? &#8212;now, when that same enemy is wavering, dissevered
+and belligerent? The result is not doubtful. We shall not fail &#8212; if we
+stand firm, we shall not fail. Wise counsels may accelerate, or mistakes
+delay it, but, sooner or later, the victory is sure to come. </p>
+
+</blockquote></blockquote>
+<center><p><img src="http://www.historyplace.com/lincoln/thin-blue-785.jpg" alt="image"/></p>
+</center>
+
+<p><a href="http://www.historyplace.com/lincoln/index.html#divided">Return to The History Place - Lincoln Timeline<br/></a><a href="http://www.historyplace.com/lincoln/../index.html">The
+History Place Main Page</a></p></td></body></html>
+</div>
+<div id="footer">
+<span class="orig_line">
+
+<a class="original" href="http://www.historyplace.com/lincoln/divided.htm">historyplace.com
+<img style="width: 13px; height: 13px;" src="/static/img/orig-link.png?v=27672a86db199b6a5fa5cb901b670ad1"/></a>
+
+
+</span>
+<div id="fin">
+&#9670;
+</div>
+</div>
+</body>
+</html>
+
