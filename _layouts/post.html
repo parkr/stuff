@@ -4,4 +4,8 @@ layout: default
 
 {{ content }}
 
+{% if page.mirror %}
+<p><a href="/mirrors/{{ page.mirror }}">Mirror</a></p>
+{% endif %}
+
 <p><a href="/">Go back to list</a></p>
