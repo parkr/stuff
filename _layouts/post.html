@@ -4,8 +4,14 @@ layout: default
 
 {{ content }}
 
-{% if page.mirror %}
-<p><a href="/mirrors/{{ page.mirror }}">Mirror</a></p>
-{% endif %}
+<p>
+  {% if page.external-url %}
+  <a href="{{ page.external-url }}" target="_blank">Source</a>
+  {% endif %}
+
+  {% if page.mirror %}
+  <a href="/mirrors/{{ page.mirror }}">Mirror</a>
+  {% endif %}
+</p>
 
 <p><a href="/">Go back to list</a></p>
