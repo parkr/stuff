@@ -1,1 +1,23 @@
 markdown: redcarpet
+
+prose:
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          placeholder: "Title Goes Here"
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "post"
+          placeholder: "Enter a layout"
+      - name: "external_url"
+        field:
+          element: "text"
+          label: "URL Reference"
+          value: ""
+          placeholder: "http://"
