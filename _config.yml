@@ -21,3 +21,9 @@ prose:
           label: "URL Reference"
           value: ""
           placeholder: "http://"
+      - name: "mirror"
+        field:
+          element: "text"
+          label: "Link to the file mirror"
+          value: ""
+          placeholder: "some-file.txt"
