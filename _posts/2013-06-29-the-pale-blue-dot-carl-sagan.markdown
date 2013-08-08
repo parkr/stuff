@@ -37,3 +37,5 @@ A beautiful piece and some incredibly profound words.
 > kindly with one another and to preserve and cherish the pale blue dot.
 >
 > The only home we've ever known.
+> 
+> &mdash; Carl Sagan
