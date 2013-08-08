@@ -1,5 +1,7 @@
 markdown: redcarpet
 
+dotfiles: https://github.com/parkr/dotfiles
+
 prose:
   metadata:
     _posts:
