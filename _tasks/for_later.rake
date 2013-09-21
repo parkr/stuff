@@ -8,7 +8,8 @@ task :for_later, :title do |t, args|
 
   filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
   if File.exist?(filename)
-    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+    puts filename
+    abort
   end
   open(filename, 'w') do |post|
     post.puts "---"
