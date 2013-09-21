@@ -1,6 +1,7 @@
 markdown: redcarpet
 
 dotfiles: https://github.com/parkr/dotfiles
+mind_blown: "![mind-blowing](/images/mind_blown.gif)"
 
 prose:
   metadata:
