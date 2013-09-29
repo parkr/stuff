@@ -34,3 +34,8 @@ prose:
           label: "Link to the file mirror"
           value: ""
           placeholder: "some-file.txt"
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- Rakefile
