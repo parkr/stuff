@@ -1,5 +1,8 @@
 markdown: redcarpet
 
+name: parker's stuff
+author: Parker Moore
+email: parkrmoore@gmail.com
 dotfiles: https://github.com/parkr/dotfiles
 mind_blown: "![mind-blowing](/images/mind_blown.gif)"
 
