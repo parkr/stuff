@@ -11,5 +11,5 @@ discusses some advice Jeff left them:
 
 > He said people who were right a lot of the time were people who often changed
 > their minds.
->
-> - Jason Fried
+
+&#8212; Jason Fried

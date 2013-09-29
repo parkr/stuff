@@ -3,11 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>{{ page.title }} / Parker's Stuff</title>
+  <title>{% if page.title %}{{ page.title }} / {% endif %}Parker's Stuff</title>
+  <link rel="stylesheet" href="/css/gridism.css">
   <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
-  {{ content }}
+<body class="grid">
+  <div class="unit whole">
+    <a href="/">parker's stuff</a>
+  </div>
+  <div class="unit whole">
+    {{ content }}
+  </div>
 </body>
 </html>
 

@@ -2,16 +2,36 @@
 layout: default
 ---
 
-{{ content }}
+<div class="unit one-fifth">&nbsp;</div>
 
-<p>
-  {% if page.external-url %}
-  <a href="{{ page.external-url }}" target="_blank">Link</a>
-  {% endif %}
+<div class="unit three-fifths">
+  <!-- begin content -->
+  <div class="unit two-thirds">
+    <p>
+      {% if page.external-url %}
+      <a href="{{ page.external-url }}" target="_blank">{{ page.title }} &rarr;</a>
+      {% endif %}
+    </p>
+    {{ content }}
+  </div>
+  <!-- end content -->
 
-  {% if page.mirror %}
-  <a href="/mirrors/{{ page.mirror }}">Mirror</a>
-  {% endif %}
-</p>
+  <!-- begin sidebar -->
+  <div class="unit one-third">
+    <p>
+      {% if page.external-url %}
+      <a href="{{ page.external-url }}" target="_blank">Link</a>
+      {% endif %}
 
-<p><a href="/">Go back to list</a></p>
+      {% if page.mirror %}
+      <a href="/mirrors/{{ page.mirror }}">Mirror</a>
+      {% endif %}
+    </p>
+
+    <p><a href="/">Go back to list</a></p>
+  </div>
+  <!-- end sidebar -->
+
+</div>
+
+<div class="unit one-fifth">&nbsp;</div>
