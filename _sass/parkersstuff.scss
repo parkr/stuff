@@ -1,0 +1,44 @@
+@import "_syntax";
+@import "_gridism";
+
+/* Variables */
+$background-colour: #F5F9F2;
+$header-colour: #7AA66F;
+$font-colour: #333333;
+
+$link-colour: #539623;
+$link-colour-dark: $link-colour; // $link-colour - #111111;
+
+$selection_color: #f5f5f5;
+$selection_bg_color: #6fae79;
+
+body {
+  font-family: Consolas, "Liberation Mono", Monaco, Courier, monospace;
+  background-color: $background-colour;
+  color: $font-colour;
+  font-size: 0.8em;
+  color: #222;
+}
+
+a {
+  color: $link-colour;
+  &:hover { text-decoration: underline; }
+  &:visited { color: $link-colour-dark; }
+}
+
+.site-title {
+  color: $header-colour;
+}
+
+pre {
+  padding: 1em;
+  font-family: Consolas, "Liberation Mono", Monaco, Courier, monospace;
+  font-size: 1.25em;
+}
+
+blockquote {
+  margin: 0.5em;
+  padding: 5px 0 5px 3%;
+  color: #444;
+  border-left: 3px #ccc solid;
+}
