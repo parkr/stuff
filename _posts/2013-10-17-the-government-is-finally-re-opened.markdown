@@ -5,7 +5,7 @@ date: 2013-10-17 22:31:08 -0400
 external-url: https://github.com/project-open-data/project-open-data.github.io/issues/160#issuecomment-26539632
 ---
 
-[Haley Vandyck][] helps maintain [Project Open Data][] on GitHub. She wins
+[Haley Van Dyck][] helps maintain [Project Open Data][] on GitHub. She wins
 Comment of the Day today for her note regarding the re-opening of the U.S.
 Federal Government last night. Here are the highlights:
 
