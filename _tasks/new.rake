@@ -22,5 +22,5 @@ task :new, :title do |t, args|
   puts filename
   sh "vim", filename
   sh "git", "add", filename
-  sh "git", "commit", "-m \"Add #{title.gsub(/"/, '\"')}\""
+  sh "git", "commit", "-m \"Add '#{title.gsub(/"/, '\"')}'\""
 end
