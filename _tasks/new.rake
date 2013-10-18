@@ -20,5 +20,7 @@ task :new, :title do |t, args|
     post.puts "---"
   end
   puts filename
-  sh "vim #{filename}"
+  sh "vim", filename
+  sh "git", "add", filename
+  sh "git", "commit", "-m 'Add #{title.gsub(/'/, "\'")}'"
 end
