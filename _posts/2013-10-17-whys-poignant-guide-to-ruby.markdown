@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Why's (poignant) guide to Ruby"
-date: 2013-10-17 23:28:04 -0400
-external-url: http://mislav.uniqpath.com/poignant-guide/
+title: "_why's (poignant) guide to Ruby"
+date: "2013-10-17 23:28:04 -0400"
+"external-url": "http://mislav.uniqpath.com/poignant-guide/"
+published: true
 ---
 
 \_why is a pretty cool guy. He's not really around much but he left behind this
