@@ -6,6 +6,7 @@ email: "parkrmoore@gmail.com"
 url: "http://stuff.parkermoore.de"
 dotfiles: "https://github.com/parkr/dotfiles"
 mind_blown: "![mind-blowing](/images/mind_blown.gif)"
+excerpt_separator: ""
 
 prose:
   metadata:
