@@ -5,7 +5,7 @@ date: 2013-11-26 00:15:21 -0500
 mirror: why.png
 ---
 
-![WHY DO I CAN'T](/mirrors/why.png)
+[![WHY DO I CAN'T](/mirrors/why.png)](/mirrors/why.png)
 
 I had a great coworker back in Germany who had the most glorious English. He
 spoke well but was unmistakably German. One of my favourite sayings of his is
