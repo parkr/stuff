@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Omakase Charity: A Start-up by Theresa Preston-Werner focused on driving charitable giving"
+title: "Omakase Charity, the best new start-up in Silicon Valley"
 date: 2013-11-27 22:43:25 -0500
 external-url: http://techcrunch.com/2013/11/27/omakase-charity-tech-industry/
 ---
