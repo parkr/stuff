@@ -41,3 +41,4 @@ exclude:
 - Gemfile.lock
 - Rakefile
 - vendor
+- script
