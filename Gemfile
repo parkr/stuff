@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem "rake"
+gem 'rake'
+gem 'stringex'
 
 group :development do
-  gem 'stringex'
   gem 'github-pages', '~> 10.0'
   gem 'guard', '~> 1.8'
   gem 'guard-jekyll-plus'
