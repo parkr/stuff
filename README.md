@@ -3,6 +3,12 @@ stuff
 
 A collection of cool stuff accumulated over the years
 
+## Testing
+
+This is tested with @gjtorikian's `html-proofer` on TravisCI.
+
+[![Build Status](https://travis-ci.org/parkr/stuff.png?branch=gh-pages)](https://travis-ci.org/parkr/stuff)
+
 ## Credit
 
 I mean it's just a collection of stuff [Parker Moore](http://parkermoore.de)
