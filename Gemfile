@@ -9,7 +9,3 @@ group :development do
   gem 'guard-jekyll-plus'
   gem 'guard-sass'
 end
-
-group :test do
-  gem 'html-proofer', '~> 0.3.0'
-end
