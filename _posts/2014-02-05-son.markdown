@@ -1,7 +1,0 @@
----
-layout: post
-title: "Son"
-date: 2014-02-05 00:33:03 -0500
-external-url: 
-mirror: 
----
