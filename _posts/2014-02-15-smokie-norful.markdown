@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Smoky Norful"
-date: 2014-02-15 17:12:24 -0500
+title: "Smokie Norful"
+date: 2014-02-15 19:13:41 -0500
 external-url: "http://en.wikipedia.org/wiki/Smokie_Norful"
 ---
 
