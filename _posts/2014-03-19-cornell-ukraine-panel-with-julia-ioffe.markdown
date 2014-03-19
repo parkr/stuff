@@ -24,8 +24,8 @@ panelists:
 
 The panel is about 2 hours long and in 2 parts on YouTube:
 
-* [Part 1][]
-* [Part 2][]
+* [Part 1](https://www.youtube.com/watch?v=I2tELLSUZyc)
+* [Part 2](https://www.youtube.com/watch?v=vE5H7jtmp-c)
 
 Definitely worth a watch -- very informative and the least biased
 representation and discussion of the conflict I have yet encountered.
