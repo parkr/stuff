@@ -1,3 +1,8 @@
 #! /bin/bash
 
-bundle exec jekyll build
+set -ex
+
+test -z "$(which jekyll)" && script/bootstrap
+
+jekyll --version
+jekyll build
