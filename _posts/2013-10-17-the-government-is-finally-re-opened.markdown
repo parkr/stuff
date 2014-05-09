@@ -31,5 +31,5 @@ are [so crazy!][]
 
 [so crazy!]: http://mummify.it/p9q4FmWg
 
-[Haley Vandyck]: https://github.com/haleyvandyck
+[Haley Van Dyck]: https://github.com/haleyvandyck
 [Project Open Data]: https://github.com/project-open-data/project-open-data.github.io
