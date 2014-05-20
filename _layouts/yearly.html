@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h2>{{ page.year }}</h2>
+
+{% assign yearString = page.year | append: "-" %}
+
+<ul>
+{% for post in site.posts %}
+  {% assign xmldate = post.date | date_to_xmlschema %}
+  {% if xmldate contains yearString %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
