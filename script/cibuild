@@ -6,3 +6,5 @@ test -z "$(which jekyll)" && script/bootstrap
 
 jekyll --version
 jekyll build
+
+htmlproof _site/
