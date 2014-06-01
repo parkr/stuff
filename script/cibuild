@@ -2,9 +2,7 @@
 
 set -ex
 
-test -z "$(which jekyll)" && script/bootstrap
+./script/build
 
-jekyll --version
-jekyll build
-
-htmlproof _site/ --ignore faz.net
+(gem list | grep nokogiri) || gem install nokogiri
+./script/scan

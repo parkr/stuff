@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+trap("SIGINT") { exit! }
+
+require 'rubygems'
+require 'yaml'
+require 'net/http'
+require 'openssl'
+require 'html/proofer'
+
+class HTML::Proofer
+  def get_checks
+    [Images, Links]
+  end
+
+  def files
+    Dir.glob("#{@srcDir}/**/*#{@options[:ext]}").reject { |f| f.start_with?(File.join(@srcDir, "mirrors")) }
+  end
+end
+
+proofer = HTML::Proofer.new("./_site", {
+  href_ignore: %w[faz.net github.com]
+}).run
