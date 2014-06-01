@@ -4,5 +4,5 @@ set -ex
 
 ./script/build
 
-(gem list | grep nokogiri) || gem install nokogiri
+test -z "$(which htmlproof)" || gem install html-proofer
 ./script/scan
