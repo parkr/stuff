@@ -2,7 +2,7 @@
 layout: post
 title: "Dan Eden: \"Everything is Terrible\""
 date: 2014-01-26 22:56:52 -0500
-external-url: "https://daneden.me/2014/01/24/everything-is-terrible/"
+external-url: "http://daneden.me/2014/01/24/everything-is-terrible/"
 ---
 
 Dan Eden wrote a great piece on remembering the average user as we design and

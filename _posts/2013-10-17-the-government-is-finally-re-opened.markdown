@@ -27,9 +27,7 @@ Federal Government last night. Here are the highlights:
 The rest of the thread is pretty terrible in some respects, but this comment
 restored a lot of my faith that the people behind what the government actually
 does are pretty cool and very rational people. It's those darned lawmakers that
-are [so crazy!][]
-
-[so crazy!]: http://mummify.it/p9q4FmWg
+are so crazy!
 
 [Haley Van Dyck]: https://github.com/haleyvandyck
 [Project Open Data]: https://github.com/project-open-data/project-open-data.github.io

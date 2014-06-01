@@ -11,7 +11,7 @@ means of telling a story with photos in a beautiful, unique way. I'm impressed
 so far and hope I'm let into the beta soon. Sign up for the waiting list and be
 wow'd yourself by this amazing new service.
 
-[Kyle Bragger]: http://kyle.io/
+[Kyle Bragger]: https://twitter.com/kylebragger
 [Luke Beard]: http://lukesbeard.com/
 [Elepath]: http://www.elepath.com/
 [Exposure]: http://exposure.so/

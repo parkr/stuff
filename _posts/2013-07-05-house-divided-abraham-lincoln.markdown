@@ -2,7 +2,7 @@
 layout: post
 title: "House Divided - Abraham Lincoln"
 date: 2013-07-05 01:13:52 +0200
-external-url: http://www.instapaper.com/text?u=http%3A%2F%2Fwww.historyplace.com%2Flincoln%2Fdivided.htm
+external-url: "https://www.instapaper.com/read/485310891"
 mirror: abraham-lincoln-house-divided.html
 ---
 

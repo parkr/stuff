@@ -2,7 +2,7 @@
 layout: post
 title: "Pirahã - Gespräch mit Daniel Everett"
 date: 2013-08-09 01:31:08 +0200
-external-url: "http://youtu.be/CjSG_PfmuK8"
+external-url: "https://www.youtube.com/watch?v=CjSG_PfmuK8"
 ---
 
 This is a fantastic interview with Daniel Everett about the Pirahã, an Amazonian

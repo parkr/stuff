@@ -17,5 +17,5 @@ possibility for motivation from within, the company gets the absolute best work
 from its employees and the team is able to grow organically.
 
 [GitHub]: https://github.com
-[see this post on adopting open-source project process constraints]: /2013/10/24/adopt-open-source-process-constraints.html
+[see this post on adopting open-source project process constraints]: /2013/10/23/adopt-open-source-process-constraints.html
 [Medium]: http://medium.com

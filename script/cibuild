@@ -2,7 +2,7 @@
 
 set -ex
 
-test -z "$(which jekyll)" && script/bootstrap
+./script/build
 
-jekyll --version
-jekyll build
+test -z "$(which htmlproof)" && gem install html-proofer
+./script/scan
