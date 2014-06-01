@@ -4,5 +4,5 @@ set -ex
 
 ./script/build
 
-test -z "$(which htmlproof)" || gem install html-proofer
+test -z "$(which htmlproof)" && gem install html-proofer
 ./script/scan
