@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Unix Tricks
-external-url: http://mmb.pcb.ub.es/~carlesfe/unix/tricks.txt
+external-url: http://cfenollosa.com/misc/tricks.txt
 mirror: unix-tricks.txt
+redirect_from: "/2014/07/09/unix-tricks-by-carlos-fenollosa.html"
 ---
 
 Found this really cool [list of unix tips and tricks]({{ page.external-url }})
@@ -13,3 +14,5 @@ Found this really cool [list of unix tips and tricks]({{ page.external-url }})
 - [mcd](https://github.com/parkr/dotfiles/blob/master/bin/mcd)
 - [psgrep](https://github.com/parkr/dotfiles/blob/master/bin/psgrep)
 - [sum](https://github.com/parkr/dotfiles/blob/master/bin/sum)
+
+The version I have mirrored here is from July 9, 2014.
