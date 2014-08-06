@@ -10,6 +10,7 @@ excerpt_separator: ""
 
 gems:
 - jekyll-sitemap
+- jemoji
 
 prose:
   metadata:
