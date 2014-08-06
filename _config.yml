@@ -1,5 +1,5 @@
 markdown:  redcarpet
-permalink: "/:year/:month/:day/:title/"
+permalink: "/:year/:month/:day/:title:output_ext"
 
 name:       "parker's stuff"
 author:     "Parker Moore"
