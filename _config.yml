@@ -1,10 +1,13 @@
-markdown: redcarpet
+markdown:  redcarpet
+#permalink: "/:year/:month/:day/:title/"
 
-name: "parker's stuff"
-author: "Parker Moore"
-email: "parkrmoore@gmail.com"
-url: "http://stuff.parkermoore.de"
-dotfiles: "https://github.com/parkr/dotfiles"
+name:       "parker's stuff"
+author:     "Parker Moore"
+email:      "parkrmoore@gmail.com"
+
+url:        "http://stuff.parkermoore.de"
+dotfiles:   "https://github.com/parkr/dotfiles"
+
 mind_blown: "![mind-blowing](/images/mind_blown.gif)"
 excerpt_separator: ""
 
@@ -41,8 +44,6 @@ prose:
           placeholder: "some-file.txt"
 
 exclude:
-- Gemfile
-- Gemfile.lock
 - Rakefile
 - vendor
 - script
