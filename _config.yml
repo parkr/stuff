@@ -1,5 +1,5 @@
 markdown:  redcarpet
-#permalink: "/:year/:month/:day/:title/"
+permalink: "/:year/:month/:day/:title/"
 
 name:       "parker's stuff"
 author:     "Parker Moore"
@@ -12,8 +12,9 @@ mind_blown: "![mind-blowing](/images/mind_blown.gif)"
 excerpt_separator: ""
 
 gems:
-- jekyll-sitemap
 - jemoji
+- jekyll-sitemap
+- jekyll-redirect-from
 
 prose:
   metadata:
