@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Your team should work like an open source project"
-date: 2013-10-23 23:16:16 -0400
+date: 2013-10-23
+time: 23:16:16 -0400
 external-url: http://tomayko.com/writings/adopt-an-open-source-process-constraints
 ---
 
