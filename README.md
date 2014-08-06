@@ -5,7 +5,7 @@ A collection of cool stuff accumulated over the years
 
 ## Testing
 
-[![Build Status](https://travis-ci.org/parkr/stuff.png?branch=gh-pages)](https://travis-ci.org/parkr/stuff)
+[![Build Status](https://travis-ci.org/parkr/stuff.svg?branch=gh-pages)](https://travis-ci.org/parkr/stuff)
 
 ## Credit
 
