@@ -10,11 +10,11 @@ require 'html/proofer'
 
 class HTML::Proofer
   def get_checks
-    [Images, Links]
+    %w{Images Links}
   end
 
   def files
-    Dir.glob("#{@srcDir}/**/*#{@options[:ext]}").reject { |f| f.start_with?(File.join(@srcDir, "mirrors")) }
+    Dir.glob("#{@src}/**/*#{@options[:ext]}").reject { |f| f.start_with?(File.join(@src, "mirrors")) }
   end
 end
 
