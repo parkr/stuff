@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dylan Ratigan of MSNBC Explains Our Debt"
+title: "Dylan Ratigan of MSNBC Explains Our Debt Crisis"
 date: 2014-08-27 21:53:15 -0700
 external-url: "https://www.facebook.com/video.php?v=10152904350873868&set=vb.45413563867&type=2"
 ---
