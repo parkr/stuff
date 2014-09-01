@@ -19,7 +19,7 @@ panelists:
 
 [Julia Ioffe of The New Republic]: http://www.newrepublic.com/authors/julia-ioffe
 [Fredrik Logevall]: http://en.wikipedia.org/wiki/Fredrik_Logevall
-[Len Surzhko-Harned]: http://www.mercyhurst.edu/about-mu/faculty-and-staff/Lena/Surzhko-Harned/%7bE6721C2A-755B-4654-A31C-AEC49AC1A67F%7d
+[Len Surzhko-Harned]: http://www.mercyhurst.edu/faculty/lena-surzhko-harned
 [Kateryna Pishchikova]: http://cies.einaudi.cornell.edu/CIES_Visiting_Scholars_2013/14
 
 The panel is about 2 hours long and in 2 parts on YouTube:
