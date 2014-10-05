@@ -1,11 +1,4 @@
-desc "Add a stuff"
-task :new, :title do |t, args|
-  if args.title
-    title = args.title
-  else
-    title = get_stdin("Enter a title for your post: ")
-  end
-
+def create(title)
   filename = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
@@ -19,6 +12,28 @@ task :new, :title do |t, args|
     post.puts "mirror: "
     post.puts "---"
   end
+  filename
+end
+
+task :create, :title do |t, args|
+  if args.title
+    title = args.title
+  else
+    title = get_stdin("Enter a title for your post: ")
+  end
+
+  create(title)
+end
+
+desc "Add a stuff"
+task :new, :title do |t, args|
+  if args.title
+    title = args.title
+  else
+    title = get_stdin("Enter a title for your post: ")
+  end
+
+  create(title)
   puts filename
   sh "vim", filename
   sh "git", "add", filename
