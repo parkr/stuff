@@ -33,7 +33,7 @@ task :new, :title do |t, args|
     title = get_stdin("Enter a title for your post: ")
   end
 
-  create(title)
+  filename = create(title)
   puts filename
   sh "vim", filename
   sh "git", "add", filename
