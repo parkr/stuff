@@ -2,5 +2,5 @@
 
 set -ex
 
-jekyll --version
-jekyll build
+bundle exec jekyll --version
+bundle exec jekyll build

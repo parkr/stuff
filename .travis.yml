@@ -1,8 +1,7 @@
 language: ruby
-install: travis_retry ./script/bootstrap
 script: ./script/cibuild
 rvm:
-  - 2.0.0
+  - 2.1.1
 # whitelist
 branches:
   only:
@@ -11,3 +10,5 @@ branches:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
+cache: bundler
