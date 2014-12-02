@@ -19,5 +19,5 @@ class HTML::Proofer
 end
 
 proofer = HTML::Proofer.new("./_site", {
-  href_ignore: %w[faz.net github.com]
+  href_ignore: [/faz\.net/, /github\.com/]
 }).run
