@@ -33,10 +33,21 @@ a {
   color: $header-colour;
 }
 
+code, pre {
+  font-family: Consolas, "Liberation Mono", Monaco, Courier, monospace;
+  font-size: 1.25;
+}
+
+code {
+  background-color: #fafcf9;
+  padding: 0.5em;
+  pre > & {
+    padding: 0;
+  }
+}
+
 pre {
   padding: 1em;
-  font-family: Consolas, "Liberation Mono", Monaco, Courier, monospace;
-  font-size: 1.25em;
 }
 
 blockquote {
