@@ -9,5 +9,5 @@ gem 'rake'
 gem 'stringex'
 
 group :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '~> 1.0'
 end
