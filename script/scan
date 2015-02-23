@@ -20,5 +20,6 @@ end
 
 proofer = HTML::Proofer.new("./_site", {
   href_ignore: [/faz\.net/, /github\.com/, /staff.washington.edu/],
+  typhoeus: { timeout: 5, connecttimeout: 5 },
   verbose: !!ENV['VERBOSE']
 }).run
