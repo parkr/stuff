@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Clay Shirky on Love"
+title: "Clay Shirky on Love, Internet Style"
 date: 2015-02-23 00:05:00 -0800
 external-url: https://www.youtube.com/watch?v=Xe1TZaElTAs
 ---
