@@ -9,4 +9,4 @@ test -z "$(bundle show | grep html-proofer)" && {
   bundle install --jobs=4 --retry=3 --path=${BUNDLE_PATH:-vendor/bundle}
 }
 
-./script/scan
+bundle exec ./script/scan
