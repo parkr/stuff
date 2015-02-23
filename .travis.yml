@@ -7,5 +7,6 @@ branches:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - VERBOSE=true
 sudo: false
 cache: bundler
