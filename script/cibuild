@@ -2,7 +2,10 @@
 
 set -ex
 
-./script/build
+test -z "$(bundle show | grep html-proofer)" && {
+  rm -rf .bundle
+  bundle install --jobs=4 --retry=3 --path=${BUNDLE_PATH:-vendor/bundle}
+}
 
-test -z "$(which htmlproof)" && gem install html-proofer
-./script/scan
+./script/build
+bundle exec ./script/scan
