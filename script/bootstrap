@@ -1,2 +1,5 @@
 #! /bin/bash
-bundle install -j4 $@
+bundle install -j4 $@ || {
+  rm Gemfile.lock
+  bundle install -j4 $@
+}
