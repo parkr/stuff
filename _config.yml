@@ -1,4 +1,4 @@
-markdown:  redcarpet
+markdown:  kramdown
 permalink: "/:year/:month/:day/:title:output_ext"
 
 name:       "parker's stuff"
@@ -45,6 +45,7 @@ prose:
           placeholder: "some-file.txt"
 
 exclude:
+- Gemfile*
 - Rakefile
 - vendor
 - script

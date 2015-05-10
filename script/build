@@ -1,6 +1,4 @@
 #! /bin/bash
-
 set -ex
-
 bundle exec jekyll --version
-bundle exec jekyll build
+bundle exec jekyll build $@

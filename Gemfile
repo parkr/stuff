@@ -1,12 +1,14 @@
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+gem 'jekyll', '3.0.0.pre.beta3'
+gem 'jemoji', '~> 0.5'
+gem 'jekyll-sitemap'
+gem 'jekyll-redirect-from'
 
-gem 'github-pages', versions['github-pages']
-gem 'rake'
-gem 'stringex'
+group :development do
+  gem 'rake'
+  gem 'stringex'
+end
 
 group :test do
   gem 'html-proofer', '~> 2.0'
