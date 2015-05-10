@@ -24,11 +24,11 @@ layout: default
       {% endif %}
 
       {% if page.mirror %}
-      <a href="/mirrors/{{ page.mirror }}">Mirror</a>
+      <a href="{{ site.baseurl }}/mirrors/{{ page.mirror }}">Mirror</a>
       {% endif %}
     </p>
 
-    <p><a href="/">Go back to list</a></p>
+    <p><a href="{{ site.baseurl }}/">Go back to list</a></p>
 
     <p>Found a problem?
        <a href="https://github.com/parkr/stuff/edit/gh-pages/{{ page.path }}">
