@@ -19,7 +19,7 @@ class HTML::Proofer
 end
 
 proofer = HTML::Proofer.new("./_site", {
-  href_ignore: [/faz\.net/, /github\.com/, /staff.washington.edu/],
+  url_ignore: [/faz\.net/, /github\.com/, /staff.washington.edu/],
   only_4xx: true,
   typhoeus: { timeout: 5, connecttimeout: 5 },
   verbose: !!ENV['VERBOSE']

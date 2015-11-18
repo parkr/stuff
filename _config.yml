@@ -1,6 +1,6 @@
 markdown:  kramdown
 permalink: "/:year/:month/:day/:title:output_ext"
-baseurl: "/stuff"
+#baseurl: "/stuff"
 
 name:       "parker's stuff"
 author:     "Parker Moore"
