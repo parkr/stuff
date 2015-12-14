@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Time</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<style type="text/css">
+html { background:white; color:#222; padding:0; margin:0; }
+body { font-family:sans-serif; font-size:16px; line-height:1.5; padding:0; margin:0; }
+div#header { width:800px; margin-right:auto; margin-top:20px; padding-left:20px; }
+div#header-left { float:left; }
+div#header-right { float:right; }
+div#article { width:800px; margin-top:10px; margin-bottom:10px; border-right:1px solid #ddd; padding-left:20px; padding-right:20px; }
+div#footer { width:800px; color:#888; margin-top:0; margin-bottom:20px; margin-left:20px; padding-top:10px; border-top:1px solid #888; font-size:75%; line-height:1.25; }
+@media only screen and (max-device-width: 800px) {
+ body { font-size:100%; }
+ div#header { width:auto; }
+ div#header-left { float:none; }
+ div#header-right { float:none; }
+ div#article { width:auto; border-right:0; }
+ div#footer { width:auto; }
+ pre::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); border-radius: 10px; background-color: #F5F5F5; }
+ pre::-webkit-scrollbar { width: 12px; background-color: #F5F5F5; }
+ pre::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); background-color: #555; }
+ img { max-width: 100% }
+}
+a { color:#00c; }
+h2 { font-weight:bold; margin-top:10px; }
+li { margin-top:10px; }
+hr { border:0; border-top:1px solid #888; }
+pre { background:#eee; font-family:monospace; border:1px solid #ddd; margin-left:10px; padding:10px; text-shadow:0 1px white; overflow-x:auto; }
+code { font-family:monospace; background:#eee; text-shadow:0 1px white; }
+</style>
+<meta itemref="article_title author date_published article" itemscope="" itemtype="http://schema.org/Article"/>
+<meta content="2006" id="date_published" itemprop="datePublished"/>
+</head>
+<body>
+<div id="header">
+<div id="header-left"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../" itemprop="url" rel="start"><span itemprop="title">unix4lyfe.org</span></a></span> &#187; <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title"><b id="article_title" itemprop="name">Time</b></span></span></div><div id="header-right"><div class="g-plusone" data-annotation="inline" data-size="medium" data-width="300"></div></div><div style="clear:both"></div></div><div id="article" itemprop="articleBody">
+<p>
+First written in 2006 or before.<br/> Last modified 3 Mar 2015.
+</p>
+<p>
+<!-- someone posted a link to this page with a bogus ?v=1 query param -->
+</p>
+<p>
+Some notes about time:
+</p>
+<ul><li><b>UTC:</b> The time at zero degrees longitude (the Prime Meridian) is called Coordinated Universal Time (UTC is <a href="http://www.nist.gov/pml/div688/utcnist.cfm#cut">a compromise</a> between the French and English initialisms)</li>
+</ul>
+<ul><li><b>GMT:</b> UTC used to be called Greenwich Mean Time (GMT) because the Prime Meridian was (arbitrarily) chosen to pass through the Royal Observatory in Greenwich.</li>
+</ul>
+<ul><li>Other timezones can be written as an offset from UTC. Australian Eastern Standard Time is UTC+1000. e.g. 10:00 UTC is 20:00 EST on the same day.</li>
+</ul>
+<ul><li><b>Daylight saving</b> does not affect UTC.  It's just a polity deciding to change its timezone (offset from UTC). For example, GMT is still used: it's the British national timezone in winter.  In summer it becomes BST.</li>
+</ul>
+<ul><li><b>Leap seconds:</b> By international convention, UTC (which is an arbitrary human invention) is kept within 0.9 seconds of physical reality (UT1, which is a measure of solar time) by introducing a "leap second" in the last minute of the UTC year, or in the last minute of June.</li>
+</ul>
+<ul><li>Leap seconds don't have to be announced much more than six months before they happen.  This is a problem if you need second-accurate planning beyond six months.</li>
+</ul>
+<ul><li><b>Unix time:</b> Measured as the number of seconds since epoch (the beginning of 1970 in UTC). Unix time is not affected by time zones or daylight saving.</li>
+</ul>
+<p>
+</p><ul><li> According to POSIX.1, Unix time is supposed to handle a leap second by replaying the previous second. e.g.:
+
+
+<pre>59.00
+59.25
+59.50
+59.75
+59.00 &#8592; replay
+59.25
+59.50
+59.75
+00.00 &#8592; increment
+00.25</pre>
+<p>
+This is a trade-off: you can't represent a leap second, and your time is guaranteed to go backwards.  On the other hand, every day has exactly 86,400 seconds, and you don't need a table of all previous and future leap seconds in order to format Unix time as human-preferred hours-minutes-seconds. </p></li></ul>
+<ul><li>See also: my write-up on the <a href="/leap-second/"> </a><a href="/leap-second/">2012 leap second</a>, along with logs from several systems showing the replay behavior as well as Google's "<a href="http://googleblog.blogspot.com/2011/09/time-technology-and-leaping-seconds.html">leap smear</a>."</li>
+</ul>
+<ul><li><code>ntpd</code> can be configured with the <code><a href="http://support.ntp.org/bin/view/Support/ConfiguringNTP#Section_6.14.">leapfile</a></code> directive to announce an upcoming leap second.  Most leaf installations don't bother with this, and rely on enough of their upstreams getting it right.</li>
+</ul>
+<p>
+Some time-related considerations when programming:
+</p>
+<p>
+<!-- what every programmer should learn about time, the hard way, motherfucker --> <!-- ^ that's me winning hacker news bingo forever -->
+</p>
+<ul><li><b>Timezones are a presentation-layer problem!</b><br/> Most of your code shouldn't be dealing with timezones or local time, it should be passing Unix time around.</li>
+</ul>
+<ul><li><code>libc</code> and/or your language's runtime has code to do timezone conversions and formatting.  This stuff is tricky, avoid re-implementing it yourself.</li>
+</ul>
+<ul><li>When measuring an interval of time, use a monotonic (always increasing) clock. Read the <code>clock_gettime()</code> manpage.</li>
+</ul>
+<ul><li>When recording a point in time, measure Unix time. It's UTC. It's easy to obtain. It doesn't have timezone offsets or daylight saving (or leap seconds).</li>
+</ul>
+<ul><li>When storing a timestamp, store Unix time. It's a single number.</li>
+</ul>
+<ul><li>If you want to store a humanly-readable time (e.g. logs), consider storing it <i>along with</i> Unix time, not <i>instead of</i> Unix time.</li>
+</ul>
+<ul><li>When displaying time, always include the timezone offset.  A time format without an offset is useless.</li>
+</ul>
+<ul><li>The system clock is inaccurate.</li>
+</ul>
+<ul><li>You're on a network? Every other system's clock is differently inaccurate.</li>
+</ul>
+<ul><li>The system clock can, and will, jump backwards and forwards in time due to things outside of your control.  Your program should be designed to survive this.</li>
+</ul>
+<ul><li>The number of [clock] seconds per [real] second is both inaccurate and variable.  It mostly varies with temperature.</li>
+</ul>
+<ul><li><code>ntpd</code> can change the system time in two ways: <ul> <li>Step: making the clock jump backwards or forwards to the correct time instantaneously.</li> <li>Slew: changing the frequency of the clock so that it slowly drifts toward the correct time.</li> </ul> <br/> Slew is preferred because it's less disruptive, but it's only useful for correcting small offsets.</li>
+</ul>
+<p>
+Special mentions:
+</p>
+<ul><li>Leap seconds happen more often than leap years.</li>
+</ul>
+<ul><li>Time passes at a rate of one second per second for every observer. The frequency of a remote clock relative to an observer is affected by velocity and gravity. The clocks inside GPS satellites are adjusted for relativistic effects. (A clock moving faster than you appears to tick more slowly.)</li>
+</ul>
+<p>
+</p><ul> <li>MySQL (at least 4.x and 5.x) stores the <code>DATETIME</code> type as a binary encoding of its <code>"YYYY-MM-DD HH:MM:SS"</code> string.  It does not store an offset, and interprets times according to <code>@@session.time_zone</code>:
+
+
+<pre>mysql&gt; insert into times values(now());
+mysql&gt; select unix_timestamp(t) from times;
+1310128044
+mysql&gt; SET SESSION time_zone='+0:00';
+mysql&gt; select unix_timestamp(t) from times;
+1310164044</pre>
+<p>
+There's also a <code>TIMESTAMP</code> type, which <i>is</i> stored as UNIX time, but has other magic.
+</p>
+<p>
+In conclusion, if you care at all about storing timestamps in MySQL, store them <i>as integers</i> and use the <code>UNIX_TIMESTAMP()</code> and <code>FROM_UNIXTIME()</code> functions. </p></li> </ul>
+<p>
+Thanks to <a href="http://derekarnold.net/">Derek Arnold</a> and <a href="https://luke.wf/">Luke Faraone</a> for corrections.
+</p>
+<p>
+This page has been <a href="hn.html"> </a><a href="hn.html">featured on Hacker News</a>, twice.
+</p>
+</div>
+<div id="footer">
+Copyright &#169; 2006, 2010, 2011, 2013, 2015 <a href="https://plus.google.com/104708749502806774663" rel="author"><span id="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Emil Mikulic</span></span></a> &lt;<a href="mailto:emikulic@gmail.com">emikulic@gmail.com</a>&gt;.<br/>
+</div>
+<script src="https://apis.google.com/js/platform.js" type="text/javascript"></script>
+</body>
+</html>
