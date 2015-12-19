@@ -4,7 +4,7 @@ rvm:
   2.1
 branches:
   only:
-    - gh-pages
+    - master
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
