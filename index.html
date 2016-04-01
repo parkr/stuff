@@ -2,9 +2,20 @@
 layout: default
 ---
 
+{% capture _LINE_FEED %}
+
+{% endcapture %}
+{% capture compilations %}{% for compilation in site.compilations %}
+<a href="{{ compilation.url | prepend: site.baseurl }}">{{ compilation.title }}</a>{% endfor %}{% endcapture %}
+
 <div class="unit whole">
   I like to collect stuff that I want to remember. This site is a portable way of
   doing that so here it is.
+
+  <p>
+    Compilations:
+    {{ compilations | split: _LINE_FEED | array_to_sentence_string }}.
+  </p>
 
   <ul>
   {% for post in site.posts %}

@@ -12,6 +12,10 @@ dotfiles:   "https://github.com/parkr/dotfiles"
 mind_blown: "![mind-blowing](/images/mind_blown.gif)"
 excerpt_separator: ""
 
+collections:
+  compilations:
+    output: true
+
 gems:
 - jemoji
 - jekyll-sitemap

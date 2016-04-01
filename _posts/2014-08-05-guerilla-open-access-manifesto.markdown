@@ -4,6 +4,7 @@ title: "Guerilla Open Access Manifesto"
 date: 2014-08-05 22:28:27 -0400
 external-url: "https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt"
 mirror: guerilla_open_access_manifesto.txt
+tags: [Aaron_Swartz]
 ---
 
 I am admittedly not quite sure how I feel about open access to all human
