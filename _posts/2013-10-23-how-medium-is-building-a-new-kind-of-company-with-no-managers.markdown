@@ -2,7 +2,8 @@
 layout: post
 title: "How Medium is building a new kind of company with no managers"
 date: 2013-10-23 23:02:41 -0400
-external-url: http://firstround.com/article/How-Medium-is-building-a-new-kind-of-company-with-no-managers
+external-url: http://firstround.com/review/How-Medium-is-building-a-new-kind-of-company-with-no-managers/
+mirror: firstround-com-how-medium-is-building-a-new-kind-of-company-with-no-managers.txt
 ---
 
 The idea of manager-free companies is enthralling. I've heard mostly about the

@@ -1,0 +1,437 @@
+   [1]First Round Review
+   How Medium Is Building a New Kind of Company with No Managers
+   Get The Review delivered (BUTTON) Get The Review delivered
+   ____________________ (BUTTON) Join
+   There was a problem. Please try again.
+   Thank you!
+
+How Medium Is Building a New Kind of Company with No Managers
+
+   [2]Tweet[3]Share[4]Post[5]Save
+
+   Editor's Note: Medium has since changed the way it runs the
+   organization as it's scaled. You can read about how they're approaching
+   management now [6]here.
+
+   After [7]Ev Williams first started working on Twitter, he reached out
+   to [8]Jason Stirman in Texas. "You have to come out here," Williams
+   said. "Twitter is happening and we want you to join us." But Stirman
+   wasn't easily convinced. "I told him, `You want me to move for 140
+   characters and a button? I don't think so,'" Stirman says. "And I'll
+   never forget this. Ev looked me right in the eye and said, `If we do
+   this right, it'll totally change the way the world communicates.' I
+   thought to myself, `I like you, but you're crazy.'" He regretted his
+   decision almost immediately, and 18 months later, when Twitter hit 50
+   or so employees, he made the jump.
+
+   The next time Stirman had the chance to follow Williams, he didn't
+   hesitate. After working at Twitter for several years, he realized the
+   founding team was gone, retreating to their lair at [9]Obvious
+   Corporation to plot their next big breakthrough. He wanted in. "I quit
+   my job, went to them and said, `Ok guys, what are we doing?' Ev looked
+   at me and said, `I don't know. Want to rebuild the Internet?'" Stirman
+   didn't know what he meant at the time, but it sounded big. It sounded
+   right. The result was [10]Medium, a content platform promising to
+   change the way people communicate -- again.
+
+   But Medium isn't just taking a revolutionary approach to digital
+   publishing -- it's changing the way companies operate too. As one of
+   the fiercest and most faithful adopters of[11] Holacracy - a radical
+   new theory of corporate structure -- Medium is experimenting with a
+   completely management-free environment that's laser focused on getting
+   things done. Stirman couldn't be more thrilled with the results: the
+   freedom, the momentum, the productivity are all unparalleled, he says.
+   But companies don't have to go all-in on Holacracy to reap the
+   benefits. If his transition from Twitter to Medium taught him anything,
+   there are always more tactics to try to make things work better. Below,
+   he shares his lessons from taking the leap.
+
+     Traditional management just didn't agree with me.
+
+   For two years, Stirman managed a team at Twitter and never felt quite
+   right about it. There was always the tension between being their boss
+   and being their peer. He read all the `right' books on management and
+   took the advice to heart: don't get too chummy, shield your team from
+   anything they don'tneed to know, ask them to identify roadblocks to
+   progress, reward them all equally. He hated it.
+
+   "Management perspective looks at reports as resources -- like how can
+   you get the maximum value out of this person," Stirman says. "But when
+   I think resources, I think like natural gas or coal mines. Thinking
+   about a person's life that way just seemed really dehumanizing."
+
+   Frustrated with poor results, he decided to go off script. He started
+   spending one-on-one meetings talking to his reports about their lives,
+   instead of their tasks, and productivity shot through the roof. "When
+   you sit across a table from someone, ask them `What's going on in your
+   life?' That will always remove more hurdles than asking them `What's
+   blocking you at work?'" he said.
+
+     Whenever problems popped up, I'd totally ignore them and pay
+     attention to the people who had them. Suddenly all these issues were
+     just dissolving. I swear it was like a Jedi mind trick.
+
+   He started taking his reports out to lunch, to drinks, to coffee to see
+   what was up. How was their wife settling into her new job? Did escrow
+   close on their new house? This is the stuff that people bring into work
+   with them but never talk about, Stirman says. As soon as you ask, the
+   pressure starts to dissipate.
+
+   This more human approach starting paying off in other, less expected
+   ways too. "I'd hear that someone on my team had a problem with someone
+   on another team that brought everything to a standstill - just because
+   they didn't like each other. I thought, what if I just got them in a
+   room together and we all talked about everything except the problem at
+   hand? When we did, we got some casual conversation going, they
+   discovered some similarities, and by the end of the hour they were
+   talking about how to solve their issues. This was a conflict that
+   literally kept me up at night, and as soon as there was space for them
+   to connect as people, it was fixed. I thought, holy crap, this is a
+   super power."
+
+   Stirman hit another wall trying to shield his team from external drama
+   and politics. "Classic management advice, and all my mentors told me
+   that insulating your team from things so they won't worry will make
+   them more productive and happier," he says. "But they just got angry,
+   and confused, and disconnected. I was constantly censoring all this
+   information and they were way happier when they knew everything."
+
+   With these discoveries under his belt, Stirman wanted to test other
+   theories of management. "No one ever challenged that there was a better
+   way to do things, everything is so tied to who reports to whom," he
+   says. "But I'm too much of an engineer at heart. I started looking at
+   management like a big A/B test, with a goal of making more data and
+   results-driven decisions." In his pursuit of new experiments to run, he
+   stumbled on the book "[12]Your Brain at Work," which espouses what's
+   come to be known as the SCARF approach.
+
+   SCARF stands for status, certainty, autonomy, relatedness, and
+   fairness. "Basically, when a person is honest with themselves, they're
+   most motivated by one of those qualities," Stirman explains. "As a
+   manager, you can figure out which one motivates which employee, and
+   reward them accordingly. A lot of managers will look at their team and
+   think, `We should do a round of compensation increases because
+   everyone's been working so hard,' but this isn't the best incentive for
+   everyone." Here's how it looks:
+     * Status-oriented employees can be motivated by a possible title
+       change, or having their name attached to more important projects.
+     * Certainty-oriented employees are motivated simply by the
+       reassurance that their job is important and they are excelling.
+     * Autonomy-oriented employees may need the ability to work from home,
+       or simply slip on their head phones to tune everyone else out.
+     * Relatedness-oriented employees are energized by opportunities to
+       socialize with their coworkers -- happy hours, softball games, etc.
+     * Fairness-oriented employees want to know the playing field is even,
+       and they aren't being exploited or cheated. They need to hear it
+       consistently.
+
+   "It turns out that some people really care about one and don't really
+   care about the others," says Stirman. "Once I had my team stack rank
+   their priorities, I knew exactly how to reach them. All the little
+   problems and personality clashes started to fade."
+   [javascript] [Vd3O31qzTFyV34D60QlI_Stirman-2.jpg]
+
+   This willingness to break ranks with corporate wisdom set the stage for
+   Stirman's arrival at Medium, where clear communication, incentives, and
+   accountability are the invisible wires keeping the organization sailing
+   along.
+
+Holacracy from Scratch
+
+   Medium adopted the Holacracy model about a year ago. Calling it "hands
+   down, by far the best way I know or have ever seen to structure and run
+   a company," Stirman says. He's especially drawn to the strategy's
+   crystal clear minimalism and logic. "It's basically an operating system
+   for your organization, so the engineer in me loves it. In fact the
+   Holacracy organization just [13]released 4.0 of its constitution, so
+   our company is upgrading -- just like you would update to a new iOS."
+
+Here are some of the key tenets that Medium embraces:
+
+     * No people managers. Maximum autonomy.
+     * Organic expansion. When a job gets too big, hire another person.
+     * Tension resolution. Identify issues people are facing, write them
+       down, and resolve them systematically.
+     * Make everything explicit -- from vacation policies to decision
+       makers in each area.
+     * Distribute decision-making power and discourage consensus seeking.
+     * Eliminate all the extraneous factors that worry people so they can
+       focus on work.
+
+   "The structure is totally built around the work the company needs to
+   achieve its purpose," Stirman explains. "We don't have a hierarchy of
+   people, we have a hierarchy of circles." For examples, the Reading and
+   Discovery (or RAD) circle, containing roles dedicated to the site's
+   reading experience, is nested inside the Product Development circle, as
+   is the Creation and Feedback circle, which is all about the content
+   creation process. In this instance, the Product Development circle can
+   review the results coming out of the nested circles to steer the
+   product in a particular direction. Every member of a circle has a
+   purpose that connects to the broader circle's purpose, which connects
+   to the company's purpose, so everyone is always pulling toward the same
+   promised land.
+
+   "At Twitter, the purpose changed a few times, from building a cool
+   product to making it popular to making it a sustainable business, and
+   changing the world somewhere in there too," Stirman says. "I ended up
+   feeling like my job was very disconnected from the higher-level
+   purpose, and I know others on my team felt the same way -- it was hard
+   to connect the dots."
+
+   To help with this, instead of a focus on employees, there's a focus on
+   roles. Each circle has a `Lead Link' who determines what roles the
+   circle needs and how they get assigned. In fact, one person can hold
+   multiple roles if their bandwidth and expertise allows. Stirman is both
+   the People Operations lead and Word Master (which comes with final say
+   on punctuation and capitalization, among other word-based dilemmas).
+   This way, people can build versatile roles for themselves that speak to
+   their whole skill sets -- not just a single ability.
+
+   This role-centric organization also optimizes for number of ideas and
+   strategies tried, while also keeping a tight grip on what gets shipped
+   live. For example, there's a single role titled 'Product Strategy',
+   currently filled by Ev Williams himself, which decides which features
+   go public. But, teams like RAD get to decide which ideas actually get
+   prototyped and built.
+
+   Once there's too much work for a particular role, it can evolve into a
+   circle with multiple members to shoulder the load. "In a traditional
+   company, the structure doesn't change based on the work," Stirman says.
+   "You see a lot of companies trying to force the work they have into
+   their existing structure, and that can get messy."
+
+   This emphasis on organic growth has a side benefit of distributing
+   authority. In Holacratic systems, individuals operate without managers
+   because many of them have decision-making power in a particular area.
+   And since everything is made as explicitly as possible, everyone in the
+   organization knows who has authority over what. "It's much better to
+   have power distributed as widely as possible so more people can make
+   more decisions to move forward," Stirman explains. "This structure
+   leads more toward moving fast, trying new things, and adjusting as
+   needed. You don't have to wait for everyone up a ladder to sign off.
+   This can take weeks or months, when Holacracy says, `You know what,
+   we're going to hire the best people we know and trust them to make
+   decisions for us.' All day people make decisions, own parts of the
+   company, and act on them. The momentum this creates far outweighs
+   someone making a bad decision. You also have the momentum to change
+   course quickly."
+
+   Decision-making is further aided and hastened by airing `tensions' in
+   meetings. Stirman defines this use of tension broadly, calling it "any
+   difference between what is and what could be." In this sense, tensions
+   can be negative (e.g. I don't have time for that project, my chair
+   isn't ergonomic, etc.) or positive (e.g. I have a vision for a feature
+   we should create). Tensions are resolved in tactical meetings where
+   every attendee either shares a tension or passes. This way, everyone is
+   encouraged to speak up if they have a problem or see an opportunity.
+
+   "The difference between Holacracy and traditional management is that
+   when you have people at the bottom and people at the top, it's always
+   the people at the top trying to figure out their tensions, then they
+   have the people at the bottom resolve them," Stirman says. "No one
+   takes into account the tensions, ideas, issues felt by the people at
+   the bottom. They spend their days resolving tensions they don't have
+   and may not even understand."
+
+   In tactical meetings, a trained facilitator builds a list of tensions
+   that people throw out to the group, and the remaining time is used to
+   resolve them as much as possible. This doesn't mean solving major
+   problems. It's about identifying the next right step to a solution. "If
+   I'm a guy who says a button should be green instead of red, in a
+   typical meeting, that conversation could go on for hours, days, weeks
+   without clear action," Stirman says. "A small workable solution would
+   be for me to schedule a meeting with our visual designer."
+
+   For Stirman, even before he heard of Holacracy, tensions were always
+   easy to identify, but not easy to solve. "Once you identify what a
+   tension is, you can feel it in your shoulders, in your ears. You know
+   you're worried about something. Now, when I identify a tension, I jot
+   it down. If I can't resolve it by myself, I bring it to my circle's
+   next tactical meeting. With these meetings, you're always making things
+   a little bit better."
+
+How to Think Holacratic
+
+   There's a lot to like about Holacracy when you compare it to classic
+   management frameworks, Stirman argues. He has firsthand experience.
+   "When I think about my role at Twitter as a manager, I had tensions all
+   the time. And my team didn't even have that many problems," he says.
+   "Still, between all the teams he oversaw, my manager was constantly
+   putting out fires. No one had the time or interest to resolve my
+   tensions. Now, the way we use Holacracy, people are genuinely happier,
+   they feel listened to, and connected with the organization."
+
+   For companies looking to reap these benefits by injecting the spirit of
+   Holacracy into their existing format, Stirman has a few key
+   suggestions:
+
+   His focus on hearing people out about their personal lives and problems
+   at Twitter is a prime example. It closely resembles a safe space to air
+   tensions. In fact, he wishes he would have formalized his more
+   personal, human approach so that people would have known they could
+   share freely instead of carrying their issues around.
+
+   Holacracy encourages people to work out their tensions and issues
+   one-on-one or outside of meetings if possible. Given the rampant
+   explosion of meetings in corporate environments (so much so that there
+   are meetings about having too many meetings), this is an increasingly
+   important tip. Tension meetings are defined as opportunities to air
+   issues that couldn't be resolved elsewhere. People should only address
+   the group with topics that actually need others to weigh in or help
+   find a path forward.
+
+   Establishing mutual accountability can make a highly tiered workplace
+   feel flatter, and more engaging. In addition to informing his reports
+   about what was going on throughout the company, Stirman wishes he would
+   have shared his own list of tasks and concerns with the people on his
+   team. That way he would have been accountable to them too and made them
+   feel less managed. "At Twitter, there was this common power dynamic
+   where my reports felt accountable to me to get their work done and I
+   felt accountable to the guy above me. It would have been good to be
+   more forthcoming."
+
+   Most of the time, you know your manager's responsible for firing you
+   and how much you get paid. I wish I would have sat down with my reports
+   and said, "You know what, here's what being a manager at Twitter
+   actually means, and here's a list of the decisions I have the authority
+   to make. I wish I would have broken that power dynamic, and been a
+   better leader as a result."
+
+   Hand in hand with this, it's a great idea to run some of your own
+   problems by your reports to see if they can weigh in. "At Twitter, I
+   was constantly burdened by my team's problems, and I think most
+   managers are," Stirman says. "I wish I had empowered my team to solve
+   their own problems, and mine. I wish I would've asked them more
+   questions, been more creative about surfacing problems for them to
+   solve to make our work better. I found myself scared to tell my reports
+   `I don't know' whenever they asked me something, and in hindsight, I
+   had this awesome team of smart, capable people who were energized by
+   solving problems. Turns out individual contributors love to be asked
+   for help. A lot of them want to take that buzzer beating shot. They
+   want to be the last guy up at the plate. It gives them a chance to be a
+   hero and to flex their muscles. And in the end, it builds more trust in
+   me as a leader because I'm not filtering out questions I can't answer."
+
+Hiring in Holacracy
+
+   Given the decision-making power of the average employee in Holacracy,
+   you'd think the interview process would be fairly unique, or at least
+   intense. But Stirman says it doesn't have to be that much different
+   than average -- making it possible for more typical companies to hire
+   in Holacratic fashion.
+
+   "When you interview someone, it's pretty easy to tease out if they take
+   the initiative to solve problems or take on projects -- or if they're
+   simply better at being told what to do. Both are great kinds of people,
+   but I've found most fall into one category or the other," says Stirman.
+   "I generally ask, `Tell me about a project you're really excited
+   about.' The self-starters will talk about a problem they found and how
+   they solved it. The people who aren't will say, `My manager came to me
+   and said can you build...?' Right away you can tell. And for our kind
+   of organization, having to be told what to do just isn't a great fit."
+
+   Don't underestimate culture fit in hiring. This is something Stirman
+   can't emphasize enough, especially if you're looking to adopt a more
+   Holacratic mindset. "You want to make sure you hire only people you
+   wouldn't mind getting stuck in an airport with," he says. "So many
+   people fall into this trap of hiring highly skilled people who are bad
+   culture fits. And I'd argue that's the worst kind of hire -- even worse
+   than a poorly skilled person. If they're as skilled as you think they
+   are, they'll gain power, influence and get more deeply enrooted in your
+   technology, process and product. Then, when the honeymoon of your
+   justifications is over and reality sets in, you're seriously stuck with
+   this person."
+
+The Missing Piece?
+
+   "In theory, Holacratic systems should scale much better than
+   traditional organizations because circles can expand and divide
+   infinitely based solely on the work that needs to get done," Stirman
+   says, acknowledging that this is indeed, just a theory, as Medium is
+   only at 40 people right now.
+
+   In fact, the Medium team has already discovered something missing from
+   the system: praise and feedback. "Managers are usually responsible for
+   giving people feedback, directing them, telling them good jobs, and all
+   of these things are super important to a healthy environment. You need
+   someone to call you out or validate you when you've worked hard,"
+   Stirman says.
+
+   Even so, the founding team at Medium decided to take a Holacratic
+   approach to the problem. "We created a few roles responsible for giving
+   people regular feedback," he explained. "This is where we're starting
+   to skirt the lines of having people managers, because it certainly
+   sounds managerial, but these roles aren't responsible for people's
+   work. It's more of a mentor relationship than a managerial
+   relationship."
+
+   These roles are called `Domain Leads' and are filled by experienced
+   members of various circles like design and engineering. In addition to
+   mentoring, they're also largely responsible for hiring and firing. They
+   work closely with the `Lead Links' who define and fill roles in their
+   circles to assess performance. "Domain leads are responsible for the
+   people, not the work," Stirman says. "It's something we're trying out."
+
+   To supplement this tactic on the positive end, the company also
+   introduced a `High Five Machine' -- a dashboard where anyone can write
+   in and praise a co-worker, streaming throughout the office. It's an
+   invention borne out of Holacracy, spun out of the unique needs this
+   kind of system creates.
+
+   "We've already learned a lot, and I'm so glad we're experimenting,"
+   Stirman says. "No one knows the future, but now when I hear about the
+   way things should be done, or someone saying `here's how it's always
+   been done,' or any Management 101, I'm like `screw that.' We may be
+   doing things differently just to be different sometimes, but it's also
+   allowed us to embrace so many new things."
+
+   (Photography by [14]Helena Price)
+
+Recommended Articles
+
+   [15]First Round Review
+   [16]Magazines[17]Manifesto[18]First Round
+   Get The Review delivered (BUTTON) Get The Review delivered
+   ____________________ (BUTTON) Join
+   There was a problem. Please try again.
+   Thank you!
+   [19]Twitter[20]Facebook[21]Google+[22]LinkedIn
+
+References
+
+   Visible links
+   1. http://firstround.com/review/#rt_e=eyJjYW1wYWlnbiI6IkhlYWRlciJ9
+   2. https://twitter.com/intent/tweet?text=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers%20%E2%80%93%20http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-bottom%26utm_source%3Dtwitter%26utm_medium%3Dsocial
+   3. https://www.facebook.com/sharer.php?u=http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-bottom%26utm_source%3Dfacebook%26utm_medium%3Dsocial
+   4. https://www.linkedin.com/shareArticle?mini=true&title=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers&summary=Jason%20Stirman%2C%20one%20of%20the%20top%20minds%20behind%20Medium%2C%20explains%20how%20the%20company%20is%20using%20holacracy%20to%20do%20more%20faster%20and%20better.&url=http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-bottom%26utm_source%3Dlinkedin%26utm_medium%3Dsocial
+   5. https://getpocket.com/edit.php?url=http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-bottom%26utm_source%3Dpocket%26utm_medium%3Dsocial
+   6. https://medium.com/the-story/management-and-organization-at-medium-2228cc9d93e9#.dbliza3ee
+   7. https://medium.com/@ev
+   8. https://medium.com/@stirman
+   9. https://medium.com/obvious
+  10. https://medium.com/
+  11. http://holacracy.org/
+  12. http://www.amazon.com/Your-Brain-Work-Strategies-Distraction/dp/0061771295
+  13. http://holacracy.org/blog/holacracy-constitution-40-released
+  14. http://blog.helenaprice.com/
+  15. http://firstround.com/review/#rt_e=eyJjYW1wYWlnbiI6IkZvb3RlciJ9
+  16. http://firstround.com/review/magazines/#rt_e=eyJjYW1wYWlnbiI6IkZvb3RlciJ9
+  17. http://firstround.com/review/manifesto/#rt_e=eyJjYW1wYWlnbiI6IkZvb3RlciJ9
+  18. http://firstround.com/
+  19. https://twitter.com/firstround
+  20. https://www.facebook.com/firstroundcapital
+  21. https://plus.google.com/108190759001001797821/
+  22. https://us.linkedin.com/company/first-round-capital
+
+   Hidden links:
+  24. https://twitter.com/firstround
+  25. https://twitter.com/intent/tweet?text=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers%20%E2%80%93%20http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-top%26utm_source%3Dtwitter%26utm_medium%3Dsocial
+  26. https://www.facebook.com/sharer.php?u=http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-top%26utm_source%3Dfacebook%26utm_medium%3Dsocial
+  27. https://www.linkedin.com/shareArticle?mini=true&title=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers&summary=Jason%20Stirman%2C%20one%20of%20the%20top%20minds%20behind%20Medium%2C%20explains%20how%20the%20company%20is%20using%20holacracy%20to%20do%20more%20faster%20and%20better.&url=http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-top%26utm_source%3Dlinkedin%26utm_medium%3Dsocial
+  28. https://getpocket.com/edit.php?url=http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-top%26utm_source%3Dpocket%26utm_medium%3Dsocial
+  29. mailto:?subject=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers&body=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers%0AJason%20Stirman%2C%20one%20of%20the%20top%20minds%20behind%20Medium%2C%20explains%20how%20the%20company%20is%20using%20holacracy%20to%20do%20more%20faster%20and%20better.%0A%0Ahttp%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F
+  30. https://twitter.com/intent/tweet?text=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers%20%E2%80%93%20http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-side%26utm_source%3Dtwitter%26utm_medium%3Dsocial
+  31. https://www.facebook.com/sharer.php?u=http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-side%26utm_source%3Dfacebook%26utm_medium%3Dsocial
+  32. https://www.linkedin.com/shareArticle?mini=true&title=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers&summary=Jason%20Stirman%2C%20one%20of%20the%20top%20minds%20behind%20Medium%2C%20explains%20how%20the%20company%20is%20using%20holacracy%20to%20do%20more%20faster%20and%20better.&url=http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-side%26utm_source%3Dlinkedin%26utm_medium%3Dsocial
+  33. https://getpocket.com/edit.php?url=http%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F%3Futm_content%3DShareEntry-side%26utm_source%3Dpocket%26utm_medium%3Dsocial
+  34. mailto:?subject=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers&body=How%20Medium%20Is%20Building%20a%20New%20Kind%20of%20Company%20with%20No%20Managers%0AJason%20Stirman%2C%20one%20of%20the%20top%20minds%20behind%20Medium%2C%20explains%20how%20the%20company%20is%20using%20holacracy%20to%20do%20more%20faster%20and%20better.%0A%0Ahttp%3A%2F%2Ffirstround.com%2Freview%2FHow-Medium-is-building-a-new-kind-of-company-with-no-managers%2F
