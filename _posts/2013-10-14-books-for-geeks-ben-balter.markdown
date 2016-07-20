@@ -2,7 +2,7 @@
 layout: post
 title: "Ben Balter's Books for Geeks"
 date: 2013-10-14 18:07:11 -0400
-external-url: http://www.pinterest.com/benbalter/books-for-geeks/
+external-url: http://ben.balter.com/books-for-geeks/
 ---
 
 [@benbalter][] has collected a great list of books about open source and general
@@ -12,5 +12,5 @@ Tom DeMarco and Timothy Lister. Check out Ben's list and give a few of them a
 read.
 
 [@benbalter]: http://twitter.com/benbalter
-[The Wealth of Networks]: http://www.pinterest.com/pin/225320787576869170/
-[Peopleware: Productive Projects & Teams]: http://www.pinterest.com/pin/225320787577121031/
+[The Wealth of Networks]: https://www.amazon.com/gp/product/B0015GWX0S/?tag=benbalter07-20
+[Peopleware: Productive Projects & Teams]: https://www.amazon.com/gp/product/B00DY5A8X2/?tag=benbalter07-20
