@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Hopelessness and Confidence in Distributed Systems Design" by Camille Fournier"
+title: "\"Hopelessness and Confidence in Distributed Systems Design\" by Camille Fournier"
 date: 2016-10-07 17:48:48 -0700
 external-url: https://www.youtube.com/watch?v=TlU1opuCXB0
 ---
