@@ -3,6 +3,7 @@ layout: post
 title: "Exposure by Elepath"
 date: 2013-10-20 01:24:13 -0400
 external-url: http://blog.lukesbeard.com/post/64531641891/kyles-thoughts-on-the-beta-for-my-first-elepath
+defunct: true
 ---
 
 I am crazy-impressed by the amazing product [Kyle Bragger][] and [Luke Beard][]

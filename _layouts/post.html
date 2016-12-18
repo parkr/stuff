@@ -9,7 +9,7 @@ layout: default
   <div class="unit two-thirds">
     <p>
       {% if page.external-url %}
-      <a href="{{ page.external-url }}" target="_blank">{{ page.title }} &rarr;</a>
+        <a href="{{ page.external-url }}" target="_blank" {% if page.defunct %}data-proofer-ignore="true"{% endif %}>{{ page.title }} &rarr;</a>
       {% endif %}
     </p>
     {{ content }}
