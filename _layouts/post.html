@@ -20,7 +20,7 @@ layout: default
   <div class="unit one-third">
     <p>
       {% if page.external-url %}
-      <a href="{{ page.external-url }}" target="_blank">Link</a>
+      <a href="{{ page.external-url }}" target="_blank" {% if page.defunct %}data-proofer-ignore="true"{% endif %}>Link</a>
       {% endif %}
 
       {% if page.mirror %}
