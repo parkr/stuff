@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Building Jarvis" – A very lofty but nevertheless interesting project in home automation"
+title: "\"Building Jarvis\" – A very lofty but nevertheless interesting project in home automation"
 date: 2017-01-23 23:55:25 -0500
 external-url: https://www.facebook.com/notes/mark-zuckerberg/building-jarvis/10154361492931634
 mirror: mark-zuckerberg-building-jarvis.html
