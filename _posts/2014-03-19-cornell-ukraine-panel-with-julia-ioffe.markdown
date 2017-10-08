@@ -12,7 +12,7 @@ panelists:
 1. [Julia Ioffe of The New Republic][]
 2. [Fredrik Logevall][], Director of the Cornell University Enaudi Center
    of International Affairs
-3. [Len Surzhko-Harned][], an Assistant Professor of political science at
+3. [Len Surzhko-Harned][]{:data-proofer-ignore="true"}, an Assistant Professor of political science at
    Mercyhurst University
 4. [Kateryna Pishchikova][], a visiting scholar at the Cornell Institute
    for European Studies and associate fellow at FRIDE
