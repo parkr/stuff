@@ -4,6 +4,7 @@ title: "Distributed Filesystems"
 date: 2016-10-05 22:40:59 -0700
 external-url: http://www.wilkie.io/posts/filesystems-what-we-know-what-we-can-learn
 mirror: wilkie-filesystems-what-we-know-what-we-can-learn.txt
+defunct: true # page now 404's
 ---
 
 Distributed filesystems have always interested me, and wilkie writes a

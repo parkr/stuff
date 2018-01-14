@@ -8,6 +8,7 @@ categories:
 - web
 - sinatra
 redirect_from: "/ruby/web/sinatra/2013/08/08/sample-sinatra-app.html"
+defunct: true # page now 404's
 ---
 
 This great post by Matt Weppler went out last week in Ruby Weekly and walks one
