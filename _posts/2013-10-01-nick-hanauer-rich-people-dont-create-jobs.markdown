@@ -2,7 +2,7 @@
 layout: post
 title: "Nick Hanauer: Rich People Don't Create Jobs"
 date: 2013-10-01 04:24:41 +0000
-external-url: http://addictinginfo.org/2013/05/11/banned-ted-talk-job-creator-myth/
+external-url: http://addictinginfo.com/2013/05/11/banned-ted-talk-job-creator-myth/
 ---
 
 Nick Hanauer suggests an incredibly intriguing (albeit controversial)
