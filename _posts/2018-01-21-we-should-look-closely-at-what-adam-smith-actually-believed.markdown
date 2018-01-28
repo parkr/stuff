@@ -7,7 +7,7 @@ mirror:
 ---
 
 What we all assume about Adam Smith's seminal contributions to economics
-is wrong. _The Weath of Nations_ was a "very violent attack ... upon the
+is wrong. _The Wealth of Nations_ was a "very violent attack ... upon the
 whole commercial system of Great Britain." That system was the mercantile
 system. A handful of merchants controlled all business endeavors in Great
 Britain in the late 18th century when Smith was writing. There was great
