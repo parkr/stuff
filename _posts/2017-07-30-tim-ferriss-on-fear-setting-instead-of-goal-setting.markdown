@@ -13,7 +13,7 @@ on to describe his discovery of [Stoicism](https://en.wikipedia.org/wiki/Stoicis
 This is part of his recipe for "avoiding self-destruction." He describes
 stoicism as "an operating system for thriving in high-stress environments."
 While Stoicism encompasses a far-ranging philosophy for living one's life,
-Tim hones in one just one tenent: training yourself to separate what you
+Tim hones in one just one tenet: training yourself to separate what you
 can control from what you cannot control. Through exercises, one can use
 this to decrease "emotional reactivity."
 
