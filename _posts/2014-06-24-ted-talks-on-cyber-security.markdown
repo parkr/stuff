@@ -2,6 +2,8 @@
 layout: post
 title: "TED Talks on Cyber Security"
 date: 2014-06-24 19:25:21 -0400
+tags:
+- TED_Talks
 ---
 
 This is more of a collection on my favourite TED talks on Cyber Security.

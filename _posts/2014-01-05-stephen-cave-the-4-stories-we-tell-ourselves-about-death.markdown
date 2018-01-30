@@ -3,6 +3,8 @@ layout: post
 title: "Stephen Cave: The 4 stories we tell ourselves about death"
 date: 2014-01-05 00:23:19 -0800
 external-url: http://www.ted.com/talks/stephen_cave_the_4_stories_we_tell_ourselves_about_death.html
+tags:
+- TED_Talks
 ---
 
 An incredibly intriguing meditation on death and what we convince ourselves

@@ -3,6 +3,8 @@ layout: post
 title: "Clay Shirky: How the internet will (one day) transform government"
 date: 2013-12-14 00:05:36 -0500
 external-url: http://www.ted.com/talks/clay_shirky_how_the_internet_will_one_day_transform_government.html
+tags:
+- TED_Talks
 ---
 
 New notions of authority, greater access to information, and greater efficiency

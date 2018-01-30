@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "The moral roots of liberals and conservatives -- Jonathan Haidt"
+title: "Jonathan Haidt: The moral roots of liberals and conservatives"
 date: 2018-01-29 20:40:02 -0500
 external-url: https://www.ted.com/talks/jonathan_haidt_on_the_moral_mind
+tags:
+- TED_Talks
 ---
 
 This guy is a winner. [Haidt](https://www.ted.com/speakers/jonathan_haidt) is a psychologist. In this talk, he highlights the differing moral foundations of progressivism and conservatism. Curious why these two sides can never resolve differences? It's the different moral framing each side uses to argue with. If you argue with someone and state your argument in _your_ moral terms (i.e. in terms which emphasize the importance of certain moral qualities you admire), then they may completely dismiss your argument because their moral framing is completely different. Anyway, check out this talk.
