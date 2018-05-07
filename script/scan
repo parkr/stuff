@@ -6,21 +6,16 @@ require 'rubygems'
 require 'yaml'
 require 'net/http'
 require 'openssl'
-require 'html/proofer'
+require 'html-proofer'
 
-class HTML::Proofer
-  def get_checks
-    %w{Images Links}
-  end
+verbose = !!ENV["VERBOSE"]
 
-  def files
-    Dir.glob("#{@src}/**/*#{@options[:ext]}").reject { |f| f.start_with?(File.join(@src, "mirrors")) }
-  end
-end
-
-proofer = HTML::Proofer.new("./_site", {
+HTMLProofer.check_directory("./_site", {
+  checks_to_ignore: ["ScriptCheck"],
   url_ignore: [/faz\.net/, /github\.com/, /staff.washington.edu/, /ping.parkermoo.re/],
+  file_ignore: [%r{\./_site/mirrors/}],
   only_4xx: true,
-  typhoeus: { timeout: 5, connecttimeout: 5 },
-  verbose: !!ENV['VERBOSE']
+  verbose: verbose,
+  typhoeus: { timeout: 5, connecttimeout: 5, verbose: verbose },
+  parallel: { in_processes: 10 }
 }).run

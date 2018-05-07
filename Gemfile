@@ -1,9 +1,10 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll', '~> 3.5'
-gem 'jemoji', '~> 0.5'
-gem 'jekyll-sitemap'
-gem 'jekyll-redirect-from'
+require "json"
+require "open-uri"
+versions = JSON.parse(open("https://pages.github.com/versions.json").read)
+
+gem "github-pages", versions["github-pages"]
 
 group :development do
   gem 'rake'
@@ -11,5 +12,5 @@ group :development do
 end
 
 group :test do
-  gem 'html-proofer', '~> 2.0'
+  gem 'html-proofer', '~> 3.0'
 end
