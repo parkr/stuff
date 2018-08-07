@@ -12,4 +12,4 @@ according to this spec:
 > (that's width divided by height) and we want them to be equally distributed
 > over the rows, taking up all the space available.
 
-[Chromatic]: http://www.chromatic.io/
+[Chromatic]: https://web.archive.org/web/20131209030527/http://www.chromatic.io/

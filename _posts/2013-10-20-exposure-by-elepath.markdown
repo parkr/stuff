@@ -15,4 +15,4 @@ wow'd yourself by this amazing new service.
 [Kyle Bragger]: https://twitter.com/kylebragger
 [Luke Beard]: http://lukesbeard.com/
 [Elepath]: http://www.elepath.com/
-[Exposure]: http://exposure.so/
+[Exposure]: http://exposure.co/
