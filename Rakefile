@@ -33,7 +33,7 @@ end
 
 desc "Add a stuff"
 task :new, :title do |t, args|
-  if args.title
+  if args.title && !args.title.empty?
     title = args.title
   else
     title = get_stdin("Enter a title for your post: ")
