@@ -10,9 +10,17 @@ require 'html-proofer'
 
 verbose = !!ENV["VERBOSE"]
 
+URL_IGNORE = [
+  /faz\.net/,
+  /github\.com/,
+  /staff\.washington\.edu/,
+  /ping\.parkermoo\.re/,
+  /vimeo\.com/,
+]
+
 HTMLProofer.check_directory("./_site", {
   checks_to_ignore: ["ScriptCheck"],
-  url_ignore: [/faz\.net/, /github\.com/, /staff.washington.edu/, /ping.parkermoo.re/],
+  url_ignore: URL_IGNORE,
   file_ignore: [%r{\./_site/mirrors/}],
   only_4xx: true,
   verbose: verbose,
