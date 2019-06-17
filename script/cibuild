@@ -2,6 +2,8 @@
 
 set -ex
 
+command -v bundler || gem install bundler -v 1.17.3
+
 test -z "$(bundle show | grep html-proofer)" && {
   rm -rf .bundle
   bundle install --jobs=4 --retry=3 --path=${BUNDLE_PATH:-vendor/bundle}
