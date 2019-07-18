@@ -2,7 +2,7 @@
 layout: post
 title: "jrnl: Journaling with Python"
 date: 2013-08-08 19:19:35 +0200
-external-url: http://maebert.github.io/jrnl/
+external-url: https://jrnl.sh
 ---
 
 I've been looking for a nice way to journal (I'm not writing often, but I like
