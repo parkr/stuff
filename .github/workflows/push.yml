@@ -1,0 +1,13 @@
+on: push
+name: cibuild on push
+jobs:
+  build:
+    name: script/cibuild-stuff-docker
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: script/cibuild-stuff-docker
+      uses: actions/docker/cli@8cdf801b322af5f369e00d85e9cf3a7122f49108
+      with:
+        entrypoint: /bin/sh
+        args: script/cibuild-stuff-docker
