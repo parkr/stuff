@@ -3,6 +3,8 @@ layout: post
 title: "\"The Report\" by Lawfare: A Podcast about the Mueller Report"
 date: 2019-07-26 18:15:50 -0400
 external-url: https://overcast.fm/itunes1472798169/the-report
+tags:
+- podcast
 ---
 
 [Lawfare](https://www.lawfareblog.com), a publication primarily focused on

@@ -3,7 +3,8 @@ layout: post
 title: "Rev. William Barber on why you shouldn't give up the fight"
 date: 2018-06-11 20:37:06 -0400
 external-url: https://overcast.fm/+Don0R48OI/57:57
-mirror: null
+tags:
+- podcast
 ---
 
 An episode of Slate's _Amicus_ podcast in which Dahlia Lithwick interviews

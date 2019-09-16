@@ -3,6 +3,8 @@ layout: post
 title: "Blockchain vs/and Bitcoin: a16z podcast"
 date: 2015-11-18 22:32:49 -0800
 external-url: https://overcast.fm/+BlzHxlBRY
+tags:
+- podcast
 ---
 
 Some folks from Andreessen Horowitz talk about what makes Bitcoin

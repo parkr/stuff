@@ -3,6 +3,8 @@ layout: post
 title: "Masters in Business: Kara Swisher Discusses the Tech Industry"
 date: 2019-09-16 12:22:33 -0400
 external-url: https://overcast.fm/+JVs76ttWE
+tags:
+- podcast
 ---
 
 Kara Swisher has been a fixture of the technology world for as long as

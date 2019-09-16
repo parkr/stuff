@@ -3,6 +3,8 @@ layout: post
 title: "Freakonomics: Everything You Always Wanted to Know About Money (But Were Afraid to Ask)"
 date: 2017-08-09 22:04:17 -0400
 external-url: https://overcast.fm/+grpUsI
+tags:
+- podcast
 ---
 
 > "Americans are not financially literate."

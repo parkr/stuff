@@ -3,6 +3,8 @@ layout: post
 title: "Cal Newport has an answer for digital burnout - The Ezra Klein Show"
 date: 2019-01-14 15:39:11 -0500
 external-url: https://overcast.fm/+QLhXRL3WU
+tags:
+- podcast
 ---
 
 I'm a big fan of Ezra Klein. His slow, measured approach to viewing the
