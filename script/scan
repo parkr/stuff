@@ -13,6 +13,7 @@ verbose = !!ENV["VERBOSE"]
 URL_IGNORE = [
   /faz\.net/,
   /github\.com/,
+  /www\.shirky\.com/, # :(
   /staff\.washington\.edu/,
   /ping\.parkermoo\.re/,
   /vimeo\.com/,
