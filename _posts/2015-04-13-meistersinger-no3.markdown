@@ -2,7 +2,7 @@
 layout: post
 title: "MeisterSinger Nº3"
 date: 2015-04-13 00:09:08 -0400
-external-url: http://www.meistersinger.net/collection/single-hand-watches/n-03/infos/Clocks.html
+external-url: https://www.meistersinger.com/int/product/n03-ivory/
 ---
 
 MeisterSinger is a watch brand that stands distinguished to me. A German
