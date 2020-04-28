@@ -3,6 +3,8 @@ layout: post
 title: "Sean McElwee on Why Bernie Sanders lost and how progressives can still win"
 date: 2020-04-28 10:07:37 -0400
 external-url: https://overcast.fm/+QLhVk4woU
+tags:
+- podcast
 ---
 
 Sean McElwee runs an organization called [Data for
@@ -18,30 +20,30 @@ I have often wondered about the nature of progressive politics. McElwee and
 Klein provide much-needed clarity. On the one hand, you have this
 wonderfully alluring ideologically pure conception of how the world works.
 On the other hand, you have this very inflexible view that most of the
-world silently agrees and simply needs to be activated by learning about
-uncompromising leaders. In the way that much political philosophy is
-alluring because of its imagined idealism, progressive thinking has also
-had trouble finding broad appeal due to the perception of its unrealistic
-aspirations and theory of change. The theory of the Sanders campaign was
-that this latent, silent economic populist message was so broadly appealing
-to working class Americans, that they would all join in the fight to
-redistribute power in this country. This class-based strategy left behind
-the massive electorate of suburban and urban voters who, while being
-sympathetic to many of the progressive causes, are also more interested in
-incremental change. In 2018, the progressive movement spent much of its
-effort trying to win rural districts with an economic populist message,
-which was not very effective at electing partners for the progressive
-cause. In contrast, candidates running with a more work-within-the-system
-approach to progressive politics fared much better. The true partner to the
-Left is the suburban electorate, not the rural voter.
+world silently agrees and simply needs to be activated by uncompromising
+leaders. In the way that much political philosophy is alluring because of
+its imagined idealism, progressive thinking has also had trouble finding
+broad appeal due to the perception of its unrealistic aspirations and
+theory of change. The theory of the Sanders campaign was that this economic
+populist message was so broadly appealing to working class Americans, that
+they would all join in the fight to redistribute power in this country.
+This class-based strategy left behind the massive electorate of suburban
+and urban voters who, while being sympathetic to many of the progressive
+causes, are also more interested in incremental change. In 2018, the
+progressive movement spent much of its effort trying to win rural districts
+with an economic populist message, which was not very effective at electing
+partners for the progressive cause. In contrast, candidates running with a
+more work-within-the-system approach to progressive politics fared much
+better. The true partner to the Left is the suburban electorate, not the
+rural voter.
 
 Another aspect of the "silent majority" argument is that if you campaign on
 a maximalist, no-compromise platform, then you introduce a big achievement
-gap between what is being promised to voters, and what can actually be
+gap between what is being promised to voters and what can actually be
 accomplished. McElwee recommends implementing progressive policies in an
 immediately-achievable, incrementalist fashion:
 
-> What I think that the ideal is is that you pick very ambitions
+> What I think that the ideal is is that you pick very ambitious
 > progressive policies that can deliver immediate gains for people that
 > they can see in their lives. You run on those, then you deliver those
 > gains. ... If you keep saying you're going to deliver on something and
