@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-
 <div class="unit one-fifth hide-on-mobiles">&nbsp;</div>
-
 <div class="unit three-fifths">
   <!-- begin content -->
   <div class="unit two-thirds">
@@ -29,6 +27,11 @@ layout: default
     </p>
 
     <p><a href="{{ site.baseurl }}/">Go back to list</a></p>
+
+    {% assign num_tags = page.tags | size %}
+    {% if page.tags and num_tags > 0 %}
+    <p>Filed under: {{ page.tags | join: ", " }}</p>
+    {% endif %}
 
     <p>Found a problem?
        <a href="https://github.com/parkr/stuff/edit/master/{{ page.path }}">

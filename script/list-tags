@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+require "jekyll"
+
+site = Jekyll::Site.new(Jekyll.configuration("source" => File.expand_path("../", __dir__)))
+site.read
+
+tags = site.posts.docs.each_with_object({}) do |post, memo|
+  tags = post.data["tags"]
+  next unless tags
+  next if tags.empty?
+  tags.each do |tag|
+    memo[tag] ||= 0
+    memo[tag] += 1
+  end
+end
+
+puts "Tags:"
+tags.keys.sort.each do |tag|
+  puts "\t- #{tag} (#{tags[tag]})"
+end

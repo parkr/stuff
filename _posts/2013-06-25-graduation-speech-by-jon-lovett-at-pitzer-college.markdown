@@ -2,7 +2,10 @@
 layout: post
 title: "Graduation Speech by Jon Lovett at Pitzer College"
 date: 2013-06-25 00:38:28 +0200
-external-url: http://www.upworthy.com/obamas-speechwriterstand-up-comedian-gives-a-graduation-speech-not-surprisingly-its-badass
+external-url: https://www.upworthy.com/obamas-speechwriterstand-up-comedian-gives-a-graduation-speech-not-surprisingly-its-badass
+tags:
+- video
+- politics
 ---
 
 Jon Lovett is a pretty monumental political writer. Having first worked on

@@ -3,6 +3,10 @@ layout: post
 title: "'The Pale Blue Dot' - Carl Sagan"
 date: 2013-06-29 00:52:49 +0200
 external-url: http://www.youtube.com/watch?v=Pxb5onamIuo
+mirror:
+tags:
+- video
+- philosophy
 ---
 
 Carl Sagan is one of the most prolific astronomers and astrophysicists of our
@@ -37,5 +41,5 @@ A beautiful piece and some incredibly profound words.
 > kindly with one another and to preserve and cherish the pale blue dot.
 >
 > The only home we've ever known.
-> 
+>
 > &mdash; Carl Sagan

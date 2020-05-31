@@ -3,6 +3,8 @@ layout: post
 title: "Bring Back Blogs"
 date: 2020-04-28 10:29:12 -0400
 external-url: https://www.calnewport.com/blog/2020/04/25/bring-back-blogs/
+tags:
+- open-web
 ---
 
 In an [accompanying article for

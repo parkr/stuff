@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require "jekyll"
+
+site = Jekyll::Site.new(Jekyll.configuration("source" => File.expand_path("../", __dir__)))
+site.read
+
+posts_without_tags = site.posts.docs.each_with_object(Set.new) do |post, memo|
+  tags = post.data["tags"]
+  next if tags && !tags.empty?
+
+  memo << post.relative_path
+end
+
+puts posts_without_tags.to_a

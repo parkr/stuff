@@ -4,6 +4,8 @@ title: "The Archive of Interesting Code"
 date: 2013-07-04 23:11:42 +0200
 external-url: http://www.keithschwarz.com/interesting/
 mirror: archive-of-interesting-code.html
+tags:
+- programming
 ---
 
 This is a super cool collection of really intereting code in a series of
@@ -12,8 +14,7 @@ algorithms. My favourites:
 
 - [Heapsort][]
 - [Rabin-Karp Algorithm][]
-- [Find Duplicate][] (An algorithm to find a repeated element in an array using
-  [Floyd's cycle-finding algorithm].)
+- [Find Duplicate][] (An algorithm to find a repeated element in an array using [Floyd's cycle-finding algorithm][].)
 - [Single Sell Profit][]
 
 [Heapsort]: /mirrors/archive-of-interesting-code/heapsort.hh

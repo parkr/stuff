@@ -3,6 +3,10 @@ layout: post
 title: "All-American Boy - Steve Grand"
 date: 2013-07-02 01:26:32 +0200
 external-url: https://www.youtube.com/watch?v=pjiyjYCwNyY
+tags:
+- music
+- video
+- country
 ---
 
 Steve Grand released on July 2, 2013 a song about desire for a same-sex partner.
