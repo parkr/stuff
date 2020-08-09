@@ -2,7 +2,7 @@
 layout: post
 title: "Lex Fridman Podcast"
 date: 2020-07-20 16:22:16 -0400
-external-url: https://overcast.fm/+OcVd9U9
+external-url: https://overcast.fm/itunes690305972/lex-fridman-podcast-artificial-intelligence-ai
 tags:
 - podcast
 - tech
