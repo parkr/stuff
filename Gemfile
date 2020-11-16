@@ -12,5 +12,5 @@ group :development do
 end
 
 group :test do
-  gem 'html-proofer', '~> 3.16'
+  gem 'html-proofer', '~> 3.17'
 end
