@@ -2,7 +2,7 @@
 layout: post
 title: "The algorithm for a perfectly balanced photo gallery"
 date: 2013-09-28 13:44:51 -0400
-external-url: http://www.crispymtn.com/stories/the-algorithm-for-a-perfectly-balanced-photo-gallery
+external-url: https://web.archive.org/web/20131113185038/http://www.crispymtn.com/stories/the-algorithm-for-a-perfectly-balanced-photo-gallery
 ---
 
 Really cool look at how [Chromatic][] handles building their photo galleries
