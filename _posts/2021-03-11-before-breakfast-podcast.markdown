@@ -15,4 +15,4 @@ to improve our days. Here are some of my favorite episodes:
 - [Don't be a human reminder](https://overcast.fm/+Q-kDxCEHw)
 - [Thinking of you](https://overcast.fm/+Q-kCOXGRk)
 - [A crisis can be a turning point](https://overcast.fm/+Q-kCtb-ak)
-- [What else could that buy?](https://overcast.fm/+Q-kD0SLRQ
+- [What else could that buy?](https://overcast.fm/+Q-kD0SLRQ)
