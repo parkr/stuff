@@ -5,7 +5,7 @@ date: 2014-08-13 18:02:38 -0400
 external-url: "http://blog.cryptographyengineering.com/2014/08/whats-matter-with-pgp.html"
 ---
 
-Wherein [Matthew Green](http://www.blogger.com/profile/05041984203678598124)
+Wherein [Matthew Green](https://www.blogger.com/profile/05041984203678598124)
 discusses the state of PGP in light of Gmail's and Yahoo!'s "native"
 support of it in their respective email services.
 
