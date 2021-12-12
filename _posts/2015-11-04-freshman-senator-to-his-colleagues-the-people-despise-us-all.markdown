@@ -40,6 +40,6 @@ A bit later...
 > we have a representative, rather than direct, democracy. ...
 
 Full remarks are available [on Senator Sasse's official
-website](http://www.sasse.senate.gov/public/index.cfm/press-releases?ID=3DFDEA50-BA5A-48CB-B5DD-67C5C4C33834).
+website](https://www.sasse.senate.gov/public/index.cfm/press-releases?ID=3DFDEA50-BA5A-48CB-B5DD-67C5C4C33834).
 
 Great stuff! Listen to the whole speech to get the whole picture.
