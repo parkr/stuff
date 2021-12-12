@@ -36,4 +36,4 @@ As he discusses in this talk, he got word that his father was sick and flew
 back to Sudan. His father, sick with a waterborne illness, needed fresh
 drinking water if he was going to live a long, healthy life. Upon coming
 back to the U.S., Salva got together with other members of the church and
-founded Water for Sudan, now [Water for South Sudan, Inc.](http://www.waterforsouthsudan.org/)
+founded Water for Sudan, now [Water for South Sudan, Inc.](https://www.waterforsouthsudan.org/)
