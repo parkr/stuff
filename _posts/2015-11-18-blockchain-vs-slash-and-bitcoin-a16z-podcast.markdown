@@ -13,5 +13,5 @@ institutions can and will buy into the technology over time. Some fun
 predictions in there.
 
 You can see [their blog post with a SoundCloud
-embed](http://a16z.com/2015/11/11/blockchain-bitcoin-fintech/) for the show
+embed](https://a16z.com/2015/11/11/blockchain-bitcoin-fintech/) for the show
 notes.
