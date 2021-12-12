@@ -5,7 +5,7 @@ date: 2014-02-05 00:33:43 -0500
 external-url: "http://www.mcsweeneys.net/articles/son-its-time-we-talk-about-where-start-ups-come-from"
 ---
 
-[Marco Kaye](http://www.mcsweeneys.net/authors/marco-kaye) writes what is on all
+[Marco Kaye](https://www.mcsweeneys.net/authors/marco-kaye) writes what is on all
 our minds, namely that our start-up culture has become so bloated that it's time
 to consider *not* starting up the next tech company. Make sure it's a really,
 really good idea before executing, or you'll fail and generally pretty fast.

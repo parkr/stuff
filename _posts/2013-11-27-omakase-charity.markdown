@@ -5,7 +5,7 @@ date: 2013-11-27 22:43:25 -0500
 external-url: http://techcrunch.com/2013/11/27/omakase-charity-tech-industry/
 ---
 
-**UPDATE: Omakase Charity is now [Codestarter](https://codestarter.org/)**
+**UPDATE: Omakase Charity is now [Codestarter](https://web.archive.org/web/20140607020654/https://codestarter.org/)**
 
 [Theresa Preston-Werner](https://twitter.com/tpdubs2) and her team have
 launched a brand new start-up in San Francisco focused on driving charitable

@@ -13,5 +13,5 @@ the Boston area after he graduated from Cornell University Medical School.
 This video is a glimpse into his humour, his charm, and his keen
 intelligence: a tiny snapshot of the terrific man he was.
 
-There's a [splendid obituary by *The Boston Globe*](http://www.bostonglobe.com/metro/2013/04/02/nicholas-tilney-surgeon-scientist-and-writer-directed-brigham-and-women-transplant-service/6H3ecaKLdLFUHhmhAp4qzH/story.html)
+There's a [splendid obituary by *The Boston Globe*](https://www.bostonglobe.com/metro/2013/04/02/nicholas-tilney-surgeon-scientist-and-writer-directed-brigham-and-women-transplant-service/6H3ecaKLdLFUHhmhAp4qzH/story.html)
 if you're interested in reading more.
