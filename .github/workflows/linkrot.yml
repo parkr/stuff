@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Fix links
-        uses: parkr/notfoundbot@a8716030b02b9110e73b5a3a939a110ce726546b
+        uses: parkr/notfoundbot@2aa183ab653118a1610c6ff2095375c785bae100
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
