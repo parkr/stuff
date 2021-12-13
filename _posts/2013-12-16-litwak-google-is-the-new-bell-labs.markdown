@@ -2,7 +2,7 @@
 layout: post
 title: "Litwak: Google is the new Bell Labs"
 date: 2013-12-16 23:08:19 -0500
-external-url: http://davidlitwak.com/google-acts-how-a-tech-behemoth-should
+external-url: https://web.archive.org/web/20171121065427/https://davidlitwak.com/2013/12/13/google-acts-how-a-tech-behemoth-should/
 ---
 
 I love this post by David Litwak, highlighting the forward-thinking nature of
