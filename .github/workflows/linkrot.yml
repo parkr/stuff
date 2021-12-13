@@ -12,7 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Fix links
-        # TODO(parkr): update once https://github.com/tmcw/notfoundbot/pull/65 is merged
-        uses: parkr/notfoundbot@patch-1
+        uses: tmcw/notfoundbot@4e949b57be585dcd81a39c23c6f6eacb51f1df69
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
