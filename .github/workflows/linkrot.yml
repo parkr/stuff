@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Fix links
-        uses: tmcw/notfoundbot@4e949b57be585dcd81a39c23c6f6eacb51f1df69
+        uses: tmcw/notfoundbot@v2.3.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
