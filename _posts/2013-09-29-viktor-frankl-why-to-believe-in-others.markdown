@@ -2,7 +2,7 @@
 layout: post
 title: "Viktor Frankl: Why to believe in others"
 date: 2013-09-29 12:34:07 -0400
-external-url: http://www.ted.com/talks/viktor_frankl_youth_in_search_of_meaning.html
+external-url: https://www.ted.com/talks/viktor_frankl_why_believe_in_others
 tags:
 - TED_Talks
 ---

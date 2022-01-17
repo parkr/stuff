@@ -2,7 +2,7 @@
 layout: post
 title: "Jonathan Haidt: The moral roots of liberals and conservatives"
 date: 2018-01-29 20:40:02 -0500
-external-url: https://www.ted.com/talks/jonathan_haidt_on_the_moral_mind
+external-url: https://www.ted.com/talks/jonathan_haidt_the_moral_roots_of_liberals_and_conservatives
 tags:
 - TED_Talks
 ---
