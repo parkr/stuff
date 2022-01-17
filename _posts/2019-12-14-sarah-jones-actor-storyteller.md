@@ -10,4 +10,4 @@ Sarah Jones is an actress & storyteller. Her TED biography describes her as a "p
 
 In [an earlier talk from TED 2009](https://www.ted.com/talks/sarah_jones_a_one_woman_global_village), Jones shared her brilliance again, this time creating characters who each would give their own TED talks. They are imaginative stories told by complex characters – well worth a watch here as well.
 
-Jones's performance style, using acting to bring a new character to life to tell a story, reminds me of [Anna Deavere Smith's TED 2005 talk "Four American Characters"](https://www.ted.com/talks/anna_deavere_smith_four_american_characters). I love this method of sharing perspectives and telling stories and hope to continue to see it on the TED stage.
+Jones's performance style, using acting to bring a new character to life to tell a story, reminds me of [Anna Deavere Smith's TED 2005 talk "Four American Characters"](https://web.archive.org/web/20200603045849/https://www.ted.com/talks/anna_deavere_smith_four_american_characters). I love this method of sharing perspectives and telling stories and hope to continue to see it on the TED stage.
