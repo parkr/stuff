@@ -2,7 +2,7 @@
 layout: post
 title: "Margaret Heffernan: The dangers of \"willful blindness\""
 date: 2013-08-14 03:06:15 +0200
-external-url: http://www.ted.com/talks/margaret_heffernan_the_dangers_of_willful_blindness.html
+external-url: https://www.ted.com/talks/margaret_heffernan_the_dangers_of_willful_blindness
 tags:
 - TED_Talks
 ---
