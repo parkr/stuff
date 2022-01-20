@@ -52,7 +52,7 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
-    github-pages (221)
+    github-pages (223)
       github-pages-health-check (= 1.17.9)
       jekyll (= 3.9.0)
       jekyll-avatar (= 0.7.0)
@@ -62,6 +62,7 @@ GEM
       jekyll-feed (= 0.15.1)
       jekyll-gist (= 1.5.0)
       jekyll-github-metadata (= 2.13.0)
+      jekyll-include-cache (= 0.2.1)
       jekyll-mentions (= 1.6.0)
       jekyll-optional-front-matter (= 0.3.2)
       jekyll-paginate (= 1.1.0)
@@ -150,6 +151,8 @@ GEM
     jekyll-github-metadata (2.13.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
+    jekyll-include-cache (0.2.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -291,7 +294,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  github-pages (= 221)
+  github-pages (= 223)
   html-proofer (~> 3.19)
   rake
   stringex
