@@ -16,4 +16,4 @@ in life:
 5. "What truly matters?" / "What truly matters to me?"
 6. And a bonus question: "Did you get what you wanted out of life even so?"
 
-Dean Ryan has [written a book on this subject called "Wait, what?"](https://web.archive.org/web/20170710055733/https://www.harpercollins.com/9780062664570/wait-what)
+Dean Ryan has [written a book on this subject called "Wait, what?"](https://www.harpercollins.com/products/wait-what-james-e-ryan?variant=32122227687458)
