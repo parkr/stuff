@@ -3,6 +3,8 @@ layout: post
 title: "Frances Frei’s three pillars of leadership - The TED Interview"
 date: 2020-02-26 22:00:48 -0500
 external-url: https://overcast.fm/+OySc7k0bg
+tags:
+- podcast
 ---
 
 > "If someone else can do it, I will leave immediately."

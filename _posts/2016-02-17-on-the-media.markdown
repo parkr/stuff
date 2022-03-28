@@ -3,6 +3,8 @@ layout: post
 title: "On the Media"
 date: 2016-02-17 20:51:59 -0800
 external-url: http://www.onthemedia.org/
+tags:
+- podcast
 ---
 
 *On the Media* is a podcast produced by Brooke Gladstone and Bob Garfield

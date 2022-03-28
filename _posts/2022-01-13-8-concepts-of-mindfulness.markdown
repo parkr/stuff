@@ -3,6 +3,8 @@ layout: post
 title: "8 Concepts of Mindfulness"
 date: 2022-01-13 18:33:11 -0800
 external-url: https://overcast.fm/+aeiTSbGbA
+tags:
+- podcast
 ---
 
 [Radio Headspace](https://overcast.fm/itunes1510981488/radio-headspace) is
