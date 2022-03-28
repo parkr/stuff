@@ -14,3 +14,5 @@ end
 group :test do
   gem 'html-proofer', '~> 3.19'
 end
+
+gem "webrick", "~> 1.7"
