@@ -4,6 +4,8 @@ title: "Best Of: Lex Fridman Podcast"
 date: 2022-03-27 14:42:03 -0700
 external-url: https://lexfridman.com/podcast/
 category: best-of
+tags:
+- podcast
 ---
 
 I [first encountered Lex Fridman's podcast in July 2020 when it was still

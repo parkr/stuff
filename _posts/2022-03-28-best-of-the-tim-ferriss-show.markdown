@@ -3,6 +3,9 @@ layout: post
 title: "Best Of: The Tim Ferriss Show"
 date: 2022-03-28 12:14:48 -0700
 external-url: https://tim.blog/podcast/
+category: best-of
+tags:
+- podcast
 ---
 
 I can't quite remember the first time I listened to The Tim Ferriss Show or
