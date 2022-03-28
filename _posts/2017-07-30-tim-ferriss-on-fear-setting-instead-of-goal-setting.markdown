@@ -3,6 +3,8 @@ layout: post
 title: "Tim Ferriss on Fear-setting instead of Goal-setting"
 date: 2017-07-30 17:12:28 -0400
 external-url: https://www.youtube.com/watch?v=5J6jAC6XxAI
+tags:
+- TED_Talks
 ---
 
 Tim opens his TED Talk with a personal story that helps frame his context:
