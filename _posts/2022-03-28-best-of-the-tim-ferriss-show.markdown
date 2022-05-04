@@ -23,10 +23,10 @@ listen to.
 
 Other favorite episodes include:
 
-- [Boyd Varty: The Lion Tracker's Guide to Life](https://tim.blog/2022/02/15/boyd-varty/) ([transcript](https://tim.blog/2022/02/18/boyd-varty-transcript/))
-- [Tim Ferriss and Matt Mullenweg in Antarctica: Exploring Personal Fears, Bucket Lists, Facing Grief, Crafting Life Missions, and Tim's Best Penguin Impressions](https://tim.blog/2022/03/09/matt-mullenweg-antarctica/) ([transcript](https://tim.blog/2022/03/12/matt-mullenweg-antarctica-transcript/))
-- [Derek Sivers on Developing Confidence, Finding Happiness, and Saying "No" to Millions](https://tim.blog/2015/12/14/derek-sivers-on-developing-confidence-finding-happiness-and-saying-no-to-millions/)
-- [Michael Gervais - Performance Psychology](https://tim.blog/2022/01/14/michael-gervais-2/) ([transcript](https://tim.blog/2022/01/17/michael-gervais-2-transcript/))
+- [Boyd Varty: The Lion Tracker's Guide to Life](https://tim.blog/2022/02/15/boyd-varty/) ([transcript](https://web.archive.org/web/20220228235133/https://tim.blog/2022/02/18/boyd-varty-transcript/))
+- [Tim Ferriss and Matt Mullenweg in Antarctica: Exploring Personal Fears, Bucket Lists, Facing Grief, Crafting Life Missions, and Tim's Best Penguin Impressions](https://web.archive.org/web/20220314150623/https://tim.blog/2022/03/09/matt-mullenweg-antarctica/) ([transcript](https://web.archive.org/web/20220415151332/https://tim.blog/2022/03/12/matt-mullenweg-antarctica-transcript/))
+- [Derek Sivers on Developing Confidence, Finding Happiness, and Saying "No" to Millions](https://web.archive.org/web/20220409221918/https://tim.blog/2015/12/14/derek-sivers-on-developing-confidence-finding-happiness-and-saying-no-to-millions/)
+- [Michael Gervais - Performance Psychology](https://web.archive.org/web/20220228234910/https://tim.blog/2022/01/14/michael-gervais-2/) ([transcript](https://tim.blog/2022/01/17/michael-gervais-2-transcript/))
 - [Jessica Lahey on Parenting, Desirable Difficulties, The Gift of Failure, Self-Efficacy, and The Addiction Inoculation](https://tim.blog/2021/12/08/jessica-lahey/) ([transcript](https://tim.blog/2021/12/11/jessica-lahey-transcript/))
 - [How I Built The Tim Ferriss Show to 700+ Million Downloads](https://tim.blog/2021/10/14/how-i-built-the-tim-ferriss-show-podcast/) ([transcript](https://tim.blog/2021/10/18/how-i-built-the-tim-ferriss-show-podcast-transcript/))
 - [Jim Collins on The Value of Small Gestures, Unseen Sources of Power, and More](https://tim.blog/2020/11/30/jim-collins-returns/) ([transcripts](https://tim.blog/2020/12/04/jim-collins-returns-transcript/))
