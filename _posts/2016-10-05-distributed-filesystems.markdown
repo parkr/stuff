@@ -16,7 +16,7 @@ duplication.
 
 Content-addressable storage (as wilkie details) is a fairly well-known
 concept. I played around with it a bit with
-[camlistore](http://camlistore.org) (["content-addressable multi-layer
+[camlistore](https://web.archive.org/web/20161031043138/https://camlistore.org/) (["content-addressable multi-layer
 indexed storage"](https://youtu.be/8Dk2iVlc67M?t=147)), a project bradfitz
 put together some time ago to aid with data loss over time. It replicates
 data from your home machine to S3, or any other storage backend. Camlistore
