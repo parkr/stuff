@@ -12,4 +12,4 @@ It's a playful round sans serif typeface offered in 4 weights.
 The website they built for it includes sample shots from national parks
 signs and a great story about how they got to working on it.
 
-Licensed under the [SIL Open Font License](https://nationalparktypeface.com/License).
+Licensed under the SIL Open Font License at the time of this post.
