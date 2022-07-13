@@ -2,7 +2,7 @@
 layout: post
 title: '"Niggerization of America" - Cornel West'
 date: 2014-01-21 17:13:34 -0500
-external-url: "http://www.youtube.com/watch?v=bEScONfKqFk"
+external-url: "https://www.youtube.com/watch?v=bEScONfKqFk"
 ---
 
 Talking about the Attica Rebellion, Cornel West, a Princeton Professor,

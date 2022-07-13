@@ -15,8 +15,8 @@ tell you, this Gospel singer is world class. Check it out:
 - ["I Understand"][]
 - ["Um Good"][]
 
-[dear god]: http://www.youtube.com/watch?v=uNOnyIXy8Mg
-["I Need You Now" Live]: http://www.youtube.com/watch?v=BxxKFECN7EU
-["Amazing Grace" Live]: http://www.youtube.com/watch?v=jVnzPeclilk
-["I Understand"]: http://www.youtube.com/watch?v=l0skD7d3usw
+[dear god]: https://www.youtube.com/watch?v=uNOnyIXy8Mg
+["I Need You Now" Live]: https://www.youtube.com/watch?v=BxxKFECN7EU
+["Amazing Grace" Live]: https://www.youtube.com/watch?v=jVnzPeclilk
+["I Understand"]: https://www.youtube.com/watch?v=l0skD7d3usw
 ["Um Good"]: https://www.youtube.com/watch?v=1lsYUeihV8s
