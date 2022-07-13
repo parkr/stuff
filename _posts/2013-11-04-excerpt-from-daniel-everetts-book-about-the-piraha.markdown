@@ -2,7 +2,7 @@
 layout: post
 title: "Excerpt from Daniel Everett's Book about the Pirahã, \"Don't Sleep, There Are Snakes\""
 date: 2013-11-04 20:34:49 -0500
-external-url: http://www.youtube.com/watch?v=Zju5YwsP8GE
+external-url: https://www.youtube.com/watch?v=Zju5YwsP8GE
 ---
 
 Daniel Everett has been an inspiration to me for a couple years now. His

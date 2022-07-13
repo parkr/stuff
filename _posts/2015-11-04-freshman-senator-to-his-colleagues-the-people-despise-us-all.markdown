@@ -2,7 +2,7 @@
 layout: post
 title: "Freshman Senator To His Colleagues: 'The People Despise Us All'"
 date: 2015-11-04 18:56:05 +0700
-external-url: http://www.npr.org/2015/11/03/454368957/freshman-senator-to-his-colleagues-the-people-despise-us-all
+external-url: https://www.npr.org/2015/11/03/454368957/freshman-senator-to-his-colleagues-the-people-despise-us-all
 mirror:
 ---
 

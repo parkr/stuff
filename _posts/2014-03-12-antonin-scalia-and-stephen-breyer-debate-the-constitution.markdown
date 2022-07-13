@@ -2,7 +2,7 @@
 layout: post
 title: "Antonin Scalia and Stephen Breyer debate the Constitution"
 date: 2014-03-12 01:01:06 -0400
-external-url: http://www.youtube.com/watch?v=_4n8gOUzZ8I
+external-url: https://www.youtube.com/watch?v=_4n8gOUzZ8I
 ---
 
 [The Federalist Society][] and the [American Constitution Society][]

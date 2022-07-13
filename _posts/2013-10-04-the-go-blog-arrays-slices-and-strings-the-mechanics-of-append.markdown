@@ -2,7 +2,7 @@
 layout: post
 title: "The Go Blog: Arrays, slices (and strings): the mechanics of 'append'"
 date: 2013-10-04 14:06:27 -0400
-external-url: http://blog.golang.org/slices
+external-url: https://go.dev/blog/slices
 ---
 
 Go (#golang) is unique in that it offers both arrays and something quite

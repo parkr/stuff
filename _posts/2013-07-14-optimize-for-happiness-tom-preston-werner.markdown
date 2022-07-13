@@ -2,7 +2,7 @@
 layout: post
 title: "Optimize for Happiness - Tom Preston-Werner"
 date: 2013-07-14 01:19:54 +0200
-external-url: http://tom.preston-werner.com/2010/10/18/optimize-for-happiness.html
+external-url: https://tom.preston-werner.com/2010/10/18/optimize-for-happiness.html
 ---
 
 Tom Preston-Werner, presently the CEO of GitHub and one of its three

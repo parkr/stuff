@@ -2,7 +2,7 @@
 layout: post
 title: "Rotating Globe in JavaScript"
 date: 2013-09-21 00:13:05 -0400
-external-url: http://aem1k.com/world/
+external-url: https://aem1k.com/world/
 mirror: world.html
 ---
 

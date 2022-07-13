@@ -2,7 +2,7 @@
 layout: post
 title: "Alison Gopnik on Hume and Buddhism"
 date: 2013-09-29 13:26:55 -0400
-external-url: http://philosophybites.com/2013/09/alison-gopnik-on-hume-and-buddhism.html
+external-url: https://philosophybites.com/2013/09/alison-gopnik-on-hume-and-buddhism.html
 ---
 
 Alison Gopnik has found incredible evidence suggesting that Hume was heavily

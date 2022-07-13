@@ -2,7 +2,7 @@
 layout: post
 title: "Explained Visually"
 date: 2014-11-29 02:42:51 -0800
-external-url: http://setosa.io/ev/
+external-url: https://setosa.io/ev/
 ---
 
 Setosa has compiled visual explanations of several interesting topics,

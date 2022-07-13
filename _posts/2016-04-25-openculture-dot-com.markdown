@@ -2,7 +2,7 @@
 layout: post
 title: Open Culture
 date: 2016-04-25 17:13:08 -0700
-external-url: http://www.openculture.com/faq
+external-url: https://www.openculture.com/faq
 ---
 
 Open Culture is a place where the content of today's web &mdash; free, open

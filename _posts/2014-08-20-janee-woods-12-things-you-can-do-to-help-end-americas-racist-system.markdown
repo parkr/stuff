@@ -2,7 +2,7 @@
 layout: post
 title: "Janee Woods: 12 things you can do to help end America's racist system"
 date: 2014-08-20 18:20:59 -0400
-external-url: "http://qz.com/250701/12-things-white-people-can-do-now-because-ferguson/"
+external-url: "https://qz.com/250701/12-things-white-people-can-do-now-because-ferguson/"
 ---
 
 Janee Woods has an important message for people like me -- white people.

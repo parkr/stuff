@@ -2,7 +2,7 @@
 layout: post
 title: "Going the Distance: On and off the road with Barack Obama"
 date: 2016-08-30 21:42:56 -0700
-external-url: http://www.newyorker.com/magazine/2014/01/27/going-the-distance-david-remnick
+external-url: https://www.newyorker.com/magazine/2014/01/27/going-the-distance-david-remnick
 mirror: going-the-distance-david-remnick.txt
 ---
 

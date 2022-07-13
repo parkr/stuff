@@ -2,7 +2,7 @@
 layout: post
 title: "Russell Brand Understands the Problem With Government: A BBC Interview"
 date: 2013-10-27 13:33:25 -0400
-external-url: http://www.youtube.com/watch?v=3YR4CseY9pk
+external-url: https://www.youtube.com/watch?v=3YR4CseY9pk
 ---
 
 I admit, I clicked a link to [a Gawker article][] that a friend of mine had

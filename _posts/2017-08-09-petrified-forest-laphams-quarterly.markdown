@@ -2,7 +2,7 @@
 layout: post
 title: "Petrified Forest - Lapham's Quarterly"
 date: 2017-08-09 21:58:12 -0400
-external-url: http://laphamsquarterly.org/fear/petrified-forest
+external-url: https://www.laphamsquarterly.org/fear/petrified-forest
 ---
 
 Here, Lapham writes of American exceptionalism as a means to separate

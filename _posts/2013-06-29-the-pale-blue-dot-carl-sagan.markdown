@@ -2,7 +2,7 @@
 layout: post
 title: "'The Pale Blue Dot' - Carl Sagan"
 date: 2013-06-29 00:52:49 +0200
-external-url: http://www.youtube.com/watch?v=Pxb5onamIuo
+external-url: https://www.youtube.com/watch?v=Pxb5onamIuo
 mirror:
 tags:
 - video

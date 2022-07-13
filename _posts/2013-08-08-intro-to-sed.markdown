@@ -2,7 +2,7 @@
 layout: post
 title: "Intro to Sed"
 date: 2013-08-08 15:58:29 +0200
-external-url: http://www.grymoire.com/Unix/Sed.html
+external-url: https://www.grymoire.com/Unix/Sed.html
 ---
 
 Amazing post by [@grymoire][] which describes `sed` in very simple terms. Much

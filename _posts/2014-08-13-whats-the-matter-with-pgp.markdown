@@ -2,7 +2,7 @@
 layout: post
 title: "What's the matter with PGP?"
 date: 2014-08-13 18:02:38 -0400
-external-url: "http://blog.cryptographyengineering.com/2014/08/whats-matter-with-pgp.html"
+external-url: "https://blog.cryptographyengineering.com/2014/08/13/whats-matter-with-pgp/"
 ---
 
 Wherein [Matthew Green](https://www.blogger.com/profile/05041984203678598124)

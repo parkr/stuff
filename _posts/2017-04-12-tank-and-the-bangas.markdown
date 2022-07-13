@@ -2,7 +2,7 @@
 layout: post
 title: "Tank And The Bangas"
 date: 2017-04-12 12:38:56 -0400
-external-url: http://www.npr.org/event/music/519418207/tank-and-the-bangas-tiny-desk-concert
+external-url: https://www.npr.org/2017/03/10/519418207/tank-and-the-bangas-tiny-desk-concert
 ---
 
 Tank And The Bangas is a New Orleans based band and the winners of NPR's

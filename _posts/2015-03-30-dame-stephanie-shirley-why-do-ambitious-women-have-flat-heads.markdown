@@ -2,7 +2,7 @@
 layout: post
 title: "Dame Stephanie Shirley: Why do ambitious women have flat heads?"
 date: 2015-03-30 19:03:36 -0700
-external-url: http://www.ted.com/talks/dame_stephanie_shirley_why_do_ambitious_women_have_flat_heads
+external-url: https://www.ted.com/talks/dame_stephanie_shirley_why_do_ambitious_women_have_flat_heads
 tags:
 - TED_Talks
 ---

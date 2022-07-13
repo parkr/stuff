@@ -13,4 +13,4 @@ It looks like a nice text-based means of journaling. It has some restrictions
 and isn't as flexible as opening a new file in vim, but it looks pretty cool.
 
 [tweet from @aniket_pant]: https://twitter.com/aniket_pant/status/365465707951038465
-[Jekyll]: http://jekyllrb.com
+[Jekyll]: https://jekyllrb.com

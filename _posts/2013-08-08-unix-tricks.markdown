@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unix Tricks
-external-url: http://cfenollosa.com/misc/tricks.txt
+external-url: https://cfenollosa.com/misc/tricks.txt
 mirror: unix-tricks.txt
 redirect_from: "/2014/07/09/unix-tricks-by-carlos-fenollosa.html"
 ---

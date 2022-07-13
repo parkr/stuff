@@ -26,7 +26,7 @@ HTMLProofer.check_directory("./_site", {
   file_ignore: [%r{\./_site/mirrors/}],
   ignore_files: [%r{\./_site/mirrors/}],
   only_4xx: true,
-  enforce_https: false,
+  enforce_https: true,
   verbose: verbose,
   typhoeus: { timeout: 5, connecttimeout: 5, verbose: verbose },
   parallel: { in_processes: 10 }
