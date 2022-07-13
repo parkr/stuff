@@ -22,7 +22,9 @@ URL_IGNORE = [
 HTMLProofer.check_directory("./_site", {
   checks_to_ignore: ["ScriptCheck"],
   url_ignore: URL_IGNORE,
+  ignore_urls: URL_IGNORE,
   file_ignore: [%r{\./_site/mirrors/}],
+  ignore_files: [%r{\./_site/mirrors/}],
   only_4xx: true,
   verbose: verbose,
   typhoeus: { timeout: 5, connecttimeout: 5, verbose: verbose },
