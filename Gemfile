@@ -12,7 +12,7 @@ group :development do
 end
 
 group :test do
-  gem 'html-proofer', '~> 4.2'
+  gem 'html-proofer', '~> 4.3'
 end
 
 gem "webrick", "~> 1.7"
