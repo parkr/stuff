@@ -93,7 +93,7 @@ GEM
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html-proofer (5.0.0)
+    html-proofer (5.0.1)
       addressable (~> 2.3)
       async (~> 2.1)
       nokogiri (~> 1.13)
@@ -104,7 +104,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    io-event (1.1.1)
+    io-event (1.1.2)
     jekyll (3.9.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -275,7 +275,7 @@ GEM
     unicode-display_width (1.8.0)
     webrick (1.7.0)
     yell (2.2.2)
-    zeitwerk (2.6.1)
+    zeitwerk (2.6.4)
 
 PLATFORMS
   arm64-darwin-21
