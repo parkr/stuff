@@ -2,7 +2,7 @@
 layout: post
 title: Steve Jobs Unveils the First Macintosh
 date: "2014-03-05 13:24:45 -0500"
-"external-url": "http://techland.time.com/2014/01/25/steve-jobs-mac/"
+"external-url": "https://time.com/1847/steve-jobs-mac/"
 published: true
 ---
 

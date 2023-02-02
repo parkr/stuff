@@ -2,7 +2,7 @@
 layout: post
 title: "_why's (poignant) guide to Ruby"
 date: "2013-10-17 23:28:04 -0400"
-"external-url": "http://mislav.uniqpath.com/poignant-guide/"
+"external-url": "https://web.archive.org/web/20131015212027/http://mislav.uniqpath.com/poignant-guide/"
 published: true
 ---
 

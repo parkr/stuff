@@ -2,7 +2,7 @@
 layout: post
 title: "De Long Wine Tasting Notebooks"
 date: 2014-01-02 14:16:41 -0800
-external-url: "http://www.delongwine.com/products/softbound-wine-tasting-notebook"
+external-url: "https://www.delongwine.com/products/softbound-wine-tasting-notebook"
 ---
 
 I picked this up the other day at a grocery store in Pacifica, CA. I went to

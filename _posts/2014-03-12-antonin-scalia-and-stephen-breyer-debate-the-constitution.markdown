@@ -11,5 +11,5 @@ interpretation of the constitution and their general approach to deciding
 cases. It's a jovial and extraordinarily interesting conversation and well
 worth watching.
 
-[The Federalist Society]: http://www.fed-soc.org
-[American Constitution Society]: http://www.acslaw.org
+[The Federalist Society]: https://fedsoc.org/
+[American Constitution Society]: https://www.acslaw.org/

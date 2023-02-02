@@ -2,7 +2,7 @@
 layout: post
 title: "So Open It Hurts: What the Internet did to Aaron Swartz"
 date: 2014-08-08 15:50:12 -0400
-external-url: "http://www.newrepublic.com/article/112485/aaron-swartz-profile-internet-will-never-save-you"
+external-url: "https://newrepublic.com/article/112485/aaron-swartz-profile-internet-will-never-save-you"
 tags: [Aaron_Swartz]
 ---
 

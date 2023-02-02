@@ -2,7 +2,7 @@
 layout: post
 title: "Offices For All: Why and How the Open-Office Layout Kills Productivity"
 date: 2013-12-11 00:57:48 -0500
-external-url: http://www.fastcompany.com/3019758/dialed/offices-for-all-why-open-office-layouts-are-bad-for-employees-bosses-and-productivity
+external-url: https://www.fastcompany.com/3019758/offices-for-all-why-open-office-layouts-are-bad-for-employees-bosses-and-productivity
 mirror: fastcompany-com-3019758-offices-for-all-why-open-office-layouts-are-bad.txt
 ---
 

@@ -18,6 +18,11 @@ URL_IGNORE = [
   /staff\.washington\.edu/,
   /ping\.parkermoo\.re/,
   /vimeo\.com/,
+  /www\.realfredhammond\.com/,
+  /chadfowler\.com/,
+  /pfacka\.binaryparadise\.com/,
+  /genius\.cat-v\.org/,
+  /www\.aaronsw\.com/,
 ]
 
 HTMLProofer.check_directory("./_site", {

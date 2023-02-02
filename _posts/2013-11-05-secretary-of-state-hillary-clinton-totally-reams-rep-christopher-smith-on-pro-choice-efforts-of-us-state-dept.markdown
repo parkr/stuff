@@ -2,7 +2,7 @@
 layout: post
 title: "Secretary of State Hillary Clinton totally reams Rep. Christopher Smith on Pro-Choice Efforts of US State Dept"
 date: 2013-11-05 00:37:00 -0500
-external-url: http://www.upworthy.com/dont-ask-hillary-clinton-about-abortion-if-you-cant-handle-her-answer
+external-url: https://www.upworthy.com/dont-ask-hillary-clinton-about-abortion-if-you-cant-handle-her-answer
 ---
 
 Hillary is amazing.

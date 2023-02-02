@@ -2,7 +2,7 @@
 layout: post
 title: "This is why you shouldn't interrupt a programmer"
 date: 2013-10-30 23:10:26 -0400
-external-url: http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer
+external-url: https://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/
 mirror: ProgrammerInterrupted.png
 ---
 

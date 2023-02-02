@@ -2,7 +2,7 @@
 layout: post
 title: "Son, It's Time We Talk About Where Start-Ups Come From."
 date: 2014-02-05 00:33:43 -0500
-external-url: "http://www.mcsweeneys.net/articles/son-its-time-we-talk-about-where-start-ups-come-from"
+external-url: "https://www.mcsweeneys.net/articles/son-its-time-we-talk-about-where-start-ups-come-from"
 ---
 
 [Marco Kaye](https://www.mcsweeneys.net/authors/marco-kaye) writes what is on all

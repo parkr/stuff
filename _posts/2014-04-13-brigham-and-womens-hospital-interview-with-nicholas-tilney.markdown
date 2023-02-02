@@ -15,3 +15,5 @@ intelligence: a tiny snapshot of the terrific man he was.
 
 There's a [splendid obituary by *The Boston Globe*](https://www.bostonglobe.com/metro/2013/04/02/nicholas-tilney-surgeon-scientist-and-writer-directed-brigham-and-women-transplant-service/6H3ecaKLdLFUHhmhAp4qzH/story.html)
 if you're interested in reading more.
+
+A [transcript of the video](https://web.archive.org/web/20151004215540/http://videocenter.brighamandwomens.org/files/dmfile/Tilney_Nicholas.pdf) is available as well.

@@ -2,7 +2,7 @@
 layout: post
 title: "Smokie Norful"
 date: 2014-02-15 19:13:41 -0500
-external-url: "http://en.wikipedia.org/wiki/Smokie_Norful"
+external-url: "https://en.wikipedia.org/wiki/Smokie_Norful"
 ---
 
 A friend of mine posted [a video][dear god] on my Facebook wall this morning

@@ -2,7 +2,7 @@
 layout: post
 title: "Linux Commands in Structured Order with Detailed Reference"
 date: 2014-04-06 22:27:03 -0400
-external-url: http://linoxide.com/guide/linux-command-shelf.html
+external-url: https://linuxopsys.com/topics/linux-commands
 ---
 
 One of the things I learned from [Chad Fowler][] when I interned at
@@ -12,4 +12,4 @@ for example, repair a server outage. This guide will give you a
 helpfully-categorized list of commands for your next firefight.
 
 [Chad Fowler]: http://chadfowler.com
-[6Wunderkinder]: http://6wunderkinder.com
+[6Wunderkinder]: https://web.archive.org/web/20140621052331/http://www.6wunderkinder.com/en/#http://www.6wunderkinder.com/welcome
