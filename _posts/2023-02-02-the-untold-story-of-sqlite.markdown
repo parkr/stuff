@@ -16,4 +16,5 @@ enhancements for companies as they asked for them. In my experience many
 enhancements companies ask for are difficult to incorporate- they’re either
 too narrowly focused to be generally useful to the user base, or force the
 project to take on significant added complexity. It’s impressive how
-Richard has been able to intelligently.
+Richard has been able to intelligently incorporate enhancement requests
+from external stakeholders for so many years.
