@@ -22,11 +22,11 @@ layout: default
       {% endif %}
 
       {% if page.mirror %}
-      <a href="{{ site.baseurl }}/mirrors/{{ page.mirror }}">Mirror</a>
+      <a href="{{ absolute_url }}/mirrors/{{ page.mirror }}">Mirror</a>
       {% endif %}
     </p>
 
-    <p><a href="{{ site.baseurl }}/">Go back to list</a></p>
+    <p><a href="{{ "/" | relative_url }}">Go back to list</a></p>
 
     {% assign num_tags = page.tags | size %}
     {% if page.tags and num_tags > 0 %}
@@ -34,7 +34,7 @@ layout: default
     {% endif %}
 
     <p>Found a problem?
-       <a href="https://github.com/parkr/stuff/edit/master/{{ page.path }}">
+       <a href="https://github.com/parkr/stuff/edit/main/{{ page.path }}">
          Fix it. &rarr;
        </a>
     </p>

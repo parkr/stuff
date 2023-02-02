@@ -2,7 +2,7 @@
 layout: post
 title: "\"Modern Media Is a DoS Attack on Your Free Will\" - Nautilus"
 date: "2018-01-13 20:58:43 -0500"
-external-url: https://nautil.us/modern-media-is-a-dos-attack-on-your-free-will-6607/
+external-url: https://nautil.us/modern-media-is-a-dos-attack-on-your-free-will-236806/
 ---
 
 Describing the hijacking of attention:

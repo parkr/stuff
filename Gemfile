@@ -1,10 +1,6 @@
 source "https://rubygems.org"
 
-require "json"
-require "open-uri"
-versions = ::JSON.parse(::URI.open("https://pages.github.com/versions.json").read)
-
-gem "github-pages", versions["github-pages"]
+gem "github-pages", "228"
 
 group :development do
   gem 'rake'
@@ -12,7 +8,7 @@ group :development do
 end
 
 group :test do
-  gem 'html-proofer', '~> 4.0'
+  gem 'html-proofer', '~> 5.0'
 end
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"

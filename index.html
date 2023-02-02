@@ -6,7 +6,7 @@ layout: default
 
 {% endcapture %}
 {% capture compilations %}{% for compilation in site.compilations %}
-<a href="{{ compilation.url | prepend: site.baseurl }}">{{ compilation.title }}</a>{% endfor %}{% endcapture %}
+<a href="{{ compilation.url | relative_url }}">{{ compilation.title }}</a>{% endfor %}{% endcapture %}
 
 <div class="unit whole">
   I like to collect stuff that I want to remember. This site is a portable way of
@@ -19,7 +19,7 @@ layout: default
 
   <ul>
   {% for post in site.posts %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
 </div>

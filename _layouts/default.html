@@ -6,12 +6,12 @@
   <link rel="alternate" href="{{ "/atom.xml" | absolute_url }}"  title="{{ site.name }}" type="application/atom+xml">
   <title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.name }}</title>
   {% feed_meta %}
-  <link rel="stylesheet" href="{{ "/css/parkersstuff.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/css/parkersstuff.css" | relative_url }}">
   <script type="text/javascript" src="https://ping.parkermoo.re/ping.js" defer async></script>
 </head>
 <body class="grid">
   <div class="unit whole">
-    <a href="/">parker's stuff</a>
+    <a href="{{ "/" | relative_url }}">parker's stuff</a>
   </div>
   <div class="unit whole">
     {{ content }}

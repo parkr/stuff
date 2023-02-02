@@ -8,8 +8,8 @@ mirror: new-york-times-transcript-president-obama-on-what-books-mean-to-him.txt
 
 This transcript of an interview between Michiko Kakutani, the chief book
 critic for The New York Times, and President Barack Obama in January of
-2017 is a breath of fresh air from our current stifling state of affairs in
-2019. Here, President Obama describes some the way he leans on books as a
+2017 is a breath of fresh air from our current stifling state of affairs in 2019.
+Here, President Obama describes some the way he leans on books as a
 means of gaining perspective and centering himself under the bombardment of
 the work of being President.
 
