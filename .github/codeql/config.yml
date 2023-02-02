@@ -1,0 +1,4 @@
+name: Ignore mirrors subdir
+
+paths-ignore:
+  - mirrors
