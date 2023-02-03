@@ -2,7 +2,7 @@
 layout: post
 title: "Brigham and Women's Hospital Interview with Nicholas Tilney, MD"
 date: 2014-04-13 22:16:02 -0400
-external-url: "http://videocenter.brighamandwomens.org/videos/nicholas-tilney-md"
+external-url: "https://web.archive.org/web/20160814165404/http://videocenter.brighamandwomens.org/videos/nicholas-tilney-md"
 ---
 
 Nicholas Tilney was a pioneer in the field of transplantation
