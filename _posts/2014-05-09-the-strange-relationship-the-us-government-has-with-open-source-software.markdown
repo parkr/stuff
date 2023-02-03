@@ -2,7 +2,7 @@
 layout: post
 title: "The Strange Relationship the US Government has with Open-Source Software"
 date: 2014-05-09 03:41:35 -0400
-external-url: http://opensource.com/government/14/4/interview-david-wheeler
+external-url: https://opensource.com/government/14/4/interview-david-wheeler
 ---
 
 David Wheeler works for the Institute for Defense Analyses and has a few

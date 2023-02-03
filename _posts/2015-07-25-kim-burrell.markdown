@@ -2,7 +2,7 @@
 layout: post
 title: "Kim Burrell"
 date: 2015-07-25 17:50:23 -0700
-external-url: http://www.kimburrellministries.com
+external-url: https://www.kimburrellministries.com/
 ---
 
 Kim Burrell. I first heard Kim Burrell when I watched her lead a rendition

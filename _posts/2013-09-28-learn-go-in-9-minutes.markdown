@@ -2,7 +2,7 @@
 layout: post
 title: "Learn Go in 9 Minutes"
 date: 2013-09-28 14:00:28 -0400
-external-url: http://learnxinyminutes.com/docs/go/
+external-url: https://learnxinyminutes.com/docs/go/
 mirror: learngo.go
 ---
 

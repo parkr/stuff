@@ -6,7 +6,7 @@ name:       "parker's stuff"
 author:     "Parker Moore"
 email:      "parkrmoore@gmail.com"
 
-url:        "http://stuff.parkermoore.de"
+url:        "https://stuff.parkermoore.de"
 dotfiles:   "https://github.com/parkr/dotfiles"
 
 mind_blown: "![mind-blowing](/images/mind_blown.gif)"
@@ -46,7 +46,7 @@ prose:
           element: "text"
           label: "URL Reference"
           value: ""
-          placeholder: "http://"
+          placeholder: "https://"
       - name: "mirror"
         field:
           element: "text"

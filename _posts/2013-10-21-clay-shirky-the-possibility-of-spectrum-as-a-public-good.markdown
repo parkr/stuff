@@ -2,7 +2,7 @@
 layout: post
 title: "Clay Shirky: The Possibility of Spectrum as a Public Good"
 date: 2013-10-21 22:06:48 -0400
-external-url: http://www.shirky.com/writings/spectrum_public_good.html
+external-url: https://web.archive.org/web/20130607085948/http://www.shirky.com/writings/spectrum_public_good.html
 ---
 
 Clay Shirky discusses the implications of a possible shift in FCC policy toward

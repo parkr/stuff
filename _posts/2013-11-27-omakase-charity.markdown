@@ -2,7 +2,7 @@
 layout: post
 title: "Omakase Charity, the best new start-up in Silicon Valley"
 date: 2013-11-27 22:43:25 -0500
-external-url: http://techcrunch.com/2013/11/27/omakase-charity-tech-industry/
+external-url: https://techcrunch.com/2013/11/27/omakase-charity-tech-industry/
 ---
 
 **UPDATE: Omakase Charity is now [Codestarter](https://web.archive.org/web/20140607020654/https://codestarter.org/)**

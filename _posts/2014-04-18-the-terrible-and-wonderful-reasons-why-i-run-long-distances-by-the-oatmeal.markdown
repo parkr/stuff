@@ -2,7 +2,7 @@
 layout: post
 title: "'The Terrible &amp; Wonderful Reasons Why I Run Long Distances' by The Oatmeal"
 date: 2014-04-18 12:02:05 -0400
-external-url: http://theoatmeal.com/comics/running
+external-url: https://theoatmeal.com/comics/running
 ---
 
 I myself am a runner (mid-distance, working up to long-distance), and I

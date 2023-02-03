@@ -2,7 +2,7 @@
 layout: post
 title: "Getting Started with GNU Smalltalk"
 date: 2014-03-06 12:27:23 -0500
-external-url: "http://www.gnu.org/software/smalltalk/manual/gst.html#Using-GNU-Smalltalk"
+external-url: "https://www.gnu.org/software/smalltalk/manual/gst.html#Using-GNU-Smalltalk"
 ---
 
 Smalltalk is easily one of the most well-known fundamental object-oriented

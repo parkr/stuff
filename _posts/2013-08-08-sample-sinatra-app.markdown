@@ -2,7 +2,7 @@
 layout: post
 title: "Sample Sinatra App"
 date: 2013-08-08 12:43:23 +0200
-external-url: http://matt.weppler.me/2013/07/19/lets-build-a-sinatra-app.html
+external-url: https://matt.weppler.me/2013/07/19/lets-build-a-sinatra-app.html
 categories:
 - ruby
 - web

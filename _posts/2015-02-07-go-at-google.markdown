@@ -2,11 +2,11 @@
 layout: post
 title: "Go at Google"
 date: 2015-02-07 21:21:01 -0800
-external-url: http://www.infoq.com/presentations/Go-Google
+external-url: https://www.infoq.com/presentations/Go-Google
 ---
 
 Rob Pike breaks down the motivations for writing a new programming language
-for use at Google, namely [Go](http://golang.org). He walks through the
+for use at Google, namely [Go](https://golang.org). He walks through the
 difficulties Google was having with its go-to language, C++, and how a new
 language could tackle those problems. In 2007, Rob Pike, Ken Thompson, and
 Robert Griesemer began designing a new language to tackle the frustrations

@@ -2,7 +2,7 @@
 layout: post
 title: "What I learned from other shell scripts"
 date: 2013-09-28 13:49:22 -0400
-external-url: http://www.fizerkhan.com/blog/posts/What-I-learned-from-other-s-shell-scripts.html
+external-url: https://www.fizerkhan.com/blog/posts/what-i-learned-from-other-s-shell-scripts
 ---
 
 Really useful stuff in here for basic shell scripting:

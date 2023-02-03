@@ -3,7 +3,7 @@ layout: post
 title: "Your team should work like an open source project - Ryan Tomayko"
 date: 2013-10-23
 time: 23:16:16 -0400
-external-url: http://tomayko.com/writings/adopt-an-open-source-process-constraints
+external-url: https://tomayko.com/blog/2012/adopt-an-open-source-process-constraints
 ---
 
 Ryan Tomayko ([@rtomayko](https://github.com/rtomayko)) is a genius. He was

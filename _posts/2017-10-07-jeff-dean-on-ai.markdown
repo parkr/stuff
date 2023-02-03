@@ -2,7 +2,7 @@
 layout: post
 title: "Jeff Dean on AI"
 date: 2017-10-07 22:38:29 -0400
-external-url: http://blog.ycombinator.com/jeff-deans-lecture-for-yc-ai/
+external-url: https://www.ycombinator.com/blog/jeff-deans-lecture-for-yc-ai/
 ---
 
 I admit I have been abysmally behind learning about machine learning

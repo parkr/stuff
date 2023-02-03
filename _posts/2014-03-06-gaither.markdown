@@ -2,7 +2,7 @@
 layout: post
 title: "Gaither"
 date: "2014-03-06 12:23:33 -0500"
-external-url: "http://gaither.com"
+external-url: "https://gaither.com"
 ---
 
 The Gaither Vocal Band is a Christian White gospel group. It's not quite

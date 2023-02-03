@@ -18,6 +18,11 @@ URL_IGNORE = [
   /staff\.washington\.edu/,
   /ping\.parkermoo\.re/,
   /vimeo\.com/,
+  /www\.realfredhammond\.com/,
+  /chadfowler\.com/,
+  /pfacka\.binaryparadise\.com/,
+  /genius\.cat-v\.org/,
+  /www\.aaronsw\.com/,
 ]
 
 HTMLProofer.check_directory("./_site", {
@@ -28,7 +33,7 @@ HTMLProofer.check_directory("./_site", {
   ignore_files: [%r{\./_site/mirrors/}],
   ignore_status_codes: [403],
   only_4xx: true,
-  enforce_https: false,
+  enforce_https: true,
   verbose: verbose,
   typhoeus: { timeout: 5, connecttimeout: 5, verbose: verbose },
   parallel: { in_processes: 10 }

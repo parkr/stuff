@@ -2,7 +2,7 @@
 layout: post
 title: "No, You're Not Entitled to Your Opinion"
 date: 2014-08-10 00:44:56 -0400
-external-url: "http://theconversation.com/no-youre-not-entitled-to-your-opinion-9978"
+external-url: "https://theconversation.com/no-youre-not-entitled-to-your-opinion-9978"
 mirror: "no-youre-not-entitled-to-your-opinion-9978.html"
 ---
 

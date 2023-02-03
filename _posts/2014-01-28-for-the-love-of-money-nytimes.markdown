@@ -2,7 +2,7 @@
 layout: post
 title: "For the Love of Money - NYTimes"
 date: 2014-01-28 23:26:16 -0500
-external-url: "http://www.nytimes.com/2014/01/19/opinion/sunday/for-the-love-of-money.html"
+external-url: "https://www.nytimes.com/2014/01/19/opinion/sunday/for-the-love-of-money.html"
 ---
 
 I have never read a more interesting Opinion piece in the New York Times, than

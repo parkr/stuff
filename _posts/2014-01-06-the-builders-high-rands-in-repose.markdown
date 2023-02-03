@@ -2,7 +2,7 @@
 layout: post
 title: "The Builder's High - Rands in Repose"
 date: 2014-01-06 23:31:13 -0800
-external-url: http://randsinrepose.com/archives/the-builders-high/
+external-url: https://randsinrepose.com/archives/the-builders-high/
 ---
 
 A magnificent take on the detriments of too much consumption and not enough

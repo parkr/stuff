@@ -2,7 +2,7 @@
 layout: post
 title: "Logging v. Instrumentation"
 date: 2016-02-16 17:39:13 -0800
-external-url: http://peter.bourgon.org/blog/2016/02/07/logging-v-instrumentation.html
+external-url: https://peter.bourgon.org/blog/2016/02/07/logging-v-instrumentation.html
 ---
 
 Programs aren't particularly useful when they can't tell us things.

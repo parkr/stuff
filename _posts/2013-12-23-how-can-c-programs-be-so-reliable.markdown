@@ -2,7 +2,7 @@
 layout: post
 title: "How Can C Programs Be So Reliable?"
 date: 2013-12-23 00:07:24 -0500
-external-url: http://tratt.net/laurie/blog/entries/how_can_c_programs_be_so_reliable
+external-url: https://tratt.net/laurie/blog/2008/how_can_c_programs_be_so_reliable.html
 ---
 
 Laurence Tratt writes eloquently on the topic of software robustness and

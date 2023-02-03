@@ -9,4 +9,4 @@ Really interesting discussion with Linus Torvalds about [git][]. Provides some
 excellent history about version control systems and advice about repo setups
 amongst other things.
 
-[git]: http://git-scm.com/
+[git]: https://git-scm.com/

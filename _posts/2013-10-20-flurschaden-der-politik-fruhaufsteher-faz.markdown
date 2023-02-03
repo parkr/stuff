@@ -2,7 +2,7 @@
 layout: post
 title: "Flurschäden der Politik - Frühaufsteher - FAZ"
 date: 2013-10-20 19:01:25 -0400
-external-url: http://verlag2.faz.net/s/Rub/Tpl~Enewsletter~SshowNLcontent~ANL~Efruehaufsteher~Adatum~E2013-10-17~At~Enl.html
+external-url: https://fazarchiv.faz.net/faz-portal/document?uid=FAZN__20131017_2620368
 mirror: FAZ-Fruehaufsteher-Okt-17-2013.html
 ---
 

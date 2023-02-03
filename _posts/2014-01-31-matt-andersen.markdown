@@ -2,7 +2,7 @@
 layout: post
 title: "Matt Andersen"
 date: 2014-01-31 14:47:54 -0500
-external-url: "http://www.stubbyfingers.ca/"
+external-url: "https://www.stubbyfingers.ca/"
 ---
 
 Matt Andersen is an amazing singer-songwriter hailing from the vast land of

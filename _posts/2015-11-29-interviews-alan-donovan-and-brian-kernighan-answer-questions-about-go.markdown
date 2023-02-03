@@ -2,7 +2,7 @@
 layout: post
 title: "Interviews: Alan Donovan and Brian Kernighan Answer Questions about Go"
 date: 2015-11-29 14:20:25 -0800
-external-url: http://features.slashdot.org/story/15/11/18/1748247/interviews-alan-donovan-and-brian-kernighan-answer-your-questions
+external-url: https://features.slashdot.org/story/15/11/18/1748247/interviews-alan-donovan-and-brian-kernighan-answer-your-questions
 mirror:
 ---
 

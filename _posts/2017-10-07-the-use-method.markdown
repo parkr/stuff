@@ -2,7 +2,7 @@
 layout: post
 title: "The USE Method"
 date: 2017-10-07 23:16:07 -0400
-external-url: http://www.brendangregg.com/usemethod.html
+external-url: https://www.brendangregg.com/usemethod.html
 ---
 
 Enumerate the resources, measure errors, utilization, and saturation of

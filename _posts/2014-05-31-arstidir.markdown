@@ -2,7 +2,7 @@
 layout: post
 title: "Árstíðir"
 date: 2014-05-31 16:36:02 -0400
-external-url: http://www.arstidir.com
+external-url: https://arstidir.bandcamp.com/
 ---
 
 Árstíðir is a 4-man Icelandic choral group. They sing magnificent music and

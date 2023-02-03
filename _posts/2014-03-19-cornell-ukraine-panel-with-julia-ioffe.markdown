@@ -17,9 +17,9 @@ panelists:
 4. [Kateryna Pishchikova][], a visiting scholar at the Cornell Institute
    for European Studies and associate fellow at FRIDE
 
-[Julia Ioffe of The New Republic]: http://www.newrepublic.com/authors/julia-ioffe
-[Fredrik Logevall]: http://en.wikipedia.org/wiki/Fredrik_Logevall
-[Len Surzhko-Harned]: http://www.mercyhurst.edu/faculty/lena-surzhko-harned
+[Julia Ioffe of The New Republic]: https://www.newrepublic.com/authors/julia-ioffe
+[Fredrik Logevall]: https://en.wikipedia.org/wiki/Fredrik_Logevall
+[Len Surzhko-Harned]: https://www.mercyhurst.edu/faculty/lena-surzhko-harned
 [Kateryna Pishchikova]: https://cies.einaudi.cornell.edu/visiting-scholars
 
 The panel is about 2 hours long and in 2 parts on YouTube:

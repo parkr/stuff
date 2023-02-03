@@ -2,7 +2,7 @@
 layout: post
 title: "Don't let Trump fool you: rightwing populism is the new normal"
 date: 2016-01-18 10:24:46 -0800
-external-url: http://www.theguardian.com/commentisfree/video/2016/jan/06/dont-let-trump-fool-you-rightwing-populism-is-the-new-normal-video
+external-url: https://www.theguardian.com/commentisfree/video/2016/jan/06/dont-let-trump-fool-you-rightwing-populism-is-the-new-normal-video
 ---
 
 Xenophobic behaviour of rightwing populism is on display this year. History

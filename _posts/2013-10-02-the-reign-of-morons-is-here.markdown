@@ -2,7 +2,7 @@
 layout: post
 title: "The Reign of Morons is Here"
 date: 2013-10-02 20:02:42 +0000
-external-url: http://www.esquire.com/news-politics/politics/a23612/shutdown-blues/
+external-url: https://www.esquire.com/news-politics/politics/a23612/shutdown-blues/
 ---
 
 This article is absolutely magnificent. The first paragraph, perhaps, even

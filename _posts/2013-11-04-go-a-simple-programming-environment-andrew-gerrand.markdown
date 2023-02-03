@@ -11,6 +11,6 @@ concepts of the language as well as some key applications. Go has really taken
 off and is a joy to use. Check out this video ([slides][]) then take a crack at
 Go for your next project!
 
-[Andrew Gerrand]: http://nf.id.au
-[Go]: http://golang.org
+[Andrew Gerrand]: https://nf.wh3rd.net
+[Go]: https://golang.org
 [slides]: https://speakerdeck.com/railsberry/go-a-simple-programming-environment-by-andrew-gerrand
