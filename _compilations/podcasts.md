@@ -15,7 +15,7 @@ the most engaging & memorable:
 {% endfor %}
 </ul>
 
-I listen in Overcast and extracted my favorited episodes:
+I listen in Overcast and extracted my favorited episodes ({{ site.data.overcast_recommended_episodes | size }}!):
 
 <ul>
 {% for episode in site.data.overcast_recommended_episodes %}
