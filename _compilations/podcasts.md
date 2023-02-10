@@ -17,8 +17,15 @@ the most engaging & memorable:
 
 I listen in Overcast and extracted my favorited episodes ({{ site.data.overcast_recommended_episodes | size }}!):
 
+{% assign podcast_episodes_grouped_by_feed_id = site.data.overcast_recommended_episodes | group_by: "feedTitle" %}
+
+{%- for group in podcast_episodes_grouped_by_feed_id -%}
+<h4>{{ group.name }} ({{ group.items | size }})</h4>
+<p>
 <ul>
-{% for episode in site.data.overcast_recommended_episodes %}
-<li><a href="{{ episode.episodeURL }}">{{ episode.userRecommendedTimeHuman }} – {{ episode.title }} ({{ episode.feedTitle }})</a></li>
-{% endfor %}
+    {%- for episode in group.items -%}
+    <li>{{ episode.userRecommendedTimeHuman }} – <a href="{{ episode.episodeURL }}">{{ episode.title }}</a></li>
+    {%- endfor -%}
 </ul>
+</p>
+{%- endfor -%}
