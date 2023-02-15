@@ -24,7 +24,7 @@ I listen in Overcast and extracted my favorited episodes ({{ site.data.overcast_
 <p>
 <ul>
     {%- for episode in group.items -%}
-    <li>{{ episode.userRecommendedTimeHuman }} – <a href="{{ episode.episodeURL }}">{{ episode.title }}</a></li>
+        <li>{{ episode.userRecommendedTimeHuman }} – <a href="{{ episode.episodeURL }}" title="View this episode">{{ episode.title }}</a> (<a href="{{ episode.overcastFMPermalink }}" title="View this episode on Overcast.fm">permalink</a>)</li>
     {%- endfor -%}
 </ul>
 </p>

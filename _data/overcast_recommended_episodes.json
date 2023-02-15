@@ -9,7 +9,7 @@
     "feedLink": "http://corecursive.com/",
     "episodeURL": "https://chtbl.com/track/7D91G/traffic.libsyn.com/corecursive/066-sqlite.mp3",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/752979?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+LfVNRLj3Y"
+    "overcastFMPermalink": "https://overcast.fm/+LfVNRLj3Y"
   },
   {
     "episodeID": 3935202285712819,
@@ -21,7 +21,7 @@
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3664942?v4",
-    "overcast_fm_permalink": "https://overcast.fm/+37C65b9bM"
+    "overcastFMPermalink": "https://overcast.fm/+37C65b9bM"
   },
   {
     "episodeID": 529182228179996,
@@ -33,7 +33,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/tokyorose",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhSda7bBw"
+    "overcastFMPermalink": "https://overcast.fm/+HhSda7bBw"
   },
   {
     "episodeID": 2852396511506400,
@@ -45,7 +45,7 @@
     "feedLink": "https://www.nytimes.com/ezra-klein-podcast",
     "episodeURL": "https://www.nytimes.com/2023/01/24/ezra-klein-podcast-yuen-yuen-ang.html",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2656501?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+oiPVDTr-A"
+    "overcastFMPermalink": "https://overcast.fm/+oiPVDTr-A"
   },
   {
     "episodeID": 3935202337010429,
@@ -57,7 +57,7 @@
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3664942?v4",
-    "overcast_fm_permalink": "https://overcast.fm/+37C7Fqsv0"
+    "overcastFMPermalink": "https://overcast.fm/+37C7Fqsv0"
   },
   {
     "episodeID": 626774094111894,
@@ -69,7 +69,7 @@
     "feedLink": "http://www.mastersofscale.com/",
     "episodeURL": "http://www.mastersofscale.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/583728?v197",
-    "overcast_fm_permalink": "https://overcast.fm/+I6DDc75JY"
+    "overcastFMPermalink": "https://overcast.fm/+I6DDc75JY"
   },
   {
     "episodeID": 1576890124869506,
@@ -81,7 +81,7 @@
     "feedLink": "http://freakonomics.com/",
     "episodeURL": "http://freakonomics.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1468593?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+WaLFe-H4I"
+    "overcastFMPermalink": "https://overcast.fm/+WaLFe-H4I"
   },
   {
     "episodeID": 2139409269892676,
@@ -93,7 +93,7 @@
     "feedLink": "https://lexfridman.com/",
     "episodeURL": "https://lexfridman.com/guido-van-rossum-2/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1992480?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+eZyAmPpkQ"
+    "overcastFMPermalink": "https://overcast.fm/+eZyAmPpkQ"
   },
   {
     "episodeID": 530478424951671,
@@ -105,7 +105,7 @@
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/podcasts/baycurious",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/494046?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+Hid6IUi3c"
+    "overcastFMPermalink": "https://overcast.fm/+Hid6IUi3c"
   },
   {
     "episodeID": 737149039376215,
@@ -117,7 +117,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebuKjd1c"
+    "overcastFMPermalink": "https://overcast.fm/+KebuKjd1c"
   },
   {
     "episodeID": 2139409463092903,
@@ -129,7 +129,7 @@
     "feedLink": "https://lexfridman.com/",
     "episodeURL": "https://lexfridman.com/fiona-hill/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1992480?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+eZyBUTpqc"
+    "overcastFMPermalink": "https://overcast.fm/+eZyBUTpqc"
   },
   {
     "episodeID": 530478536692166,
@@ -141,7 +141,7 @@
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11742748/unwrapping-the-california-origins-of-the-fortune-cookie",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/494046?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+Hid6i9kcY"
+    "overcastFMPermalink": "https://overcast.fm/+Hid6i9kcY"
   },
   {
     "episodeID": 1040455134064065,
@@ -153,7 +153,7 @@
     "feedLink": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://audiocollective.ted.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968999?v196",
-    "overcast_fm_permalink": "https://overcast.fm/+OySdarrcE"
+    "overcastFMPermalink": "https://overcast.fm/+OySdarrcE"
   },
   {
     "episodeID": 4266073194682431,
@@ -165,7 +165,7 @@
     "feedLink": "https://rachel-maddow-presents-ultra.simplecast.com/",
     "episodeURL": "https://rachel-maddow-presents-ultra.simplecast.com/episodes/episode-4-a-bad-angle-ws5CAeSY",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3973090?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+8n-JFa2D8"
+    "overcastFMPermalink": "https://overcast.fm/+8n-JFa2D8"
   },
   {
     "episodeID": 1863162039744097,
@@ -177,7 +177,7 @@
     "feedLink": "https://www.headspace.com/",
     "episodeURL": "https://www.headspace.com/radioheadspace",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1735204?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+aeiTeJtmE"
+    "overcastFMPermalink": "https://overcast.fm/+aeiTeJtmE"
   },
   {
     "episodeID": 3344536576499461,
@@ -189,7 +189,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/presidential-transitions-with-david-marchick",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1pqUnwU"
+    "overcastFMPermalink": "https://overcast.fm/+vh1pqUnwU"
   },
   {
     "episodeID": 4266073512568358,
@@ -201,7 +201,7 @@
     "feedLink": "https://rachel-maddow-presents-ultra.simplecast.com/",
     "episodeURL": "https://rachel-maddow-presents-ultra.simplecast.com/episodes/episode-3-the-day-FUx_NYmX",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3973090?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+8n-KRNZiY"
+    "overcastFMPermalink": "https://overcast.fm/+8n-KRNZiY"
   },
   {
     "episodeID": 4266073493483171,
@@ -213,7 +213,7 @@
     "feedLink": "https://rachel-maddow-presents-ultra.simplecast.com/",
     "episodeURL": "https://rachel-maddow-presents-ultra.simplecast.com/episodes/episode-1-trip-19-qOT_ey6a",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3973090?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+8n-KMqLqM"
+    "overcastFMPermalink": "https://overcast.fm/+8n-KMqLqM"
   },
   {
     "episodeID": 530478411740950,
@@ -225,7 +225,7 @@
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11927144",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/494046?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+Hid6FK9xY"
+    "overcastFMPermalink": "https://overcast.fm/+Hid6FK9xY"
   },
   {
     "episodeID": 530478500097854,
@@ -237,7 +237,7 @@
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11927844",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/494046?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+Hid6aPLz4"
+    "overcastFMPermalink": "https://overcast.fm/+Hid6aPLz4"
   },
   {
     "episodeID": 737148832875622,
@@ -249,7 +249,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebtZUhGY"
+    "overcastFMPermalink": "https://overcast.fm/+KebtZUhGY"
   },
   {
     "episodeID": 737148963436135,
@@ -261,7 +261,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+Kebt4ctmc"
+    "overcastFMPermalink": "https://overcast.fm/+Kebt4ctmc"
   },
   {
     "episodeID": 4010778620355348,
@@ -273,7 +273,7 @@
     "feedLink": "https://www.bloomberg.com/audio/shows",
     "episodeURL": "https://omny.fm/shows/masters-in-business/bill-browder-on-high-finance-murder-and-justice-po",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3735328?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+4_yCrwYxQ"
+    "overcastFMPermalink": "https://overcast.fm/+4_yCrwYxQ"
   },
   {
     "episodeID": 529182751179094,
@@ -285,7 +285,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/tedlassosdarkforest",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhSfXnwVY"
+    "overcastFMPermalink": "https://overcast.fm/+HhSfXnwVY"
   },
   {
     "episodeID": 737149195360276,
@@ -297,7 +297,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebuvvmBQ"
+    "overcastFMPermalink": "https://overcast.fm/+KebuvvmBQ"
   },
   {
     "episodeID": 347403622786070,
@@ -309,7 +309,7 @@
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
     "episodeURL": "http://www.wnycstudios.org/story/humpback-and-killer/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/323544?v68",
-    "overcast_fm_permalink": "https://overcast.fm/+E79jWHpBY"
+    "overcastFMPermalink": "https://overcast.fm/+E79jWHpBY"
   },
   {
     "episodeID": 1194688923975331,
@@ -321,7 +321,7 @@
     "feedLink": "https://www.iheart.com/podcast/105-before-breakfast-30642889/",
     "episodeURL": "https://omny.fm/shows/before-breakfast/if-then",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1112640?v27",
-    "overcast_fm_permalink": "https://overcast.fm/+Q-kDDuPqM"
+    "overcastFMPermalink": "https://overcast.fm/+Q-kDDuPqM"
   },
   {
     "episodeID": 2139410120871373,
@@ -333,7 +333,7 @@
     "feedLink": "https://lexfridman.com/",
     "episodeURL": "https://lexfridman.com/jack-barsky/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1992480?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+eZyDxIjc0"
+    "overcastFMPermalink": "https://overcast.fm/+eZyDxIjc0"
   },
   {
     "episodeID": 3505180778316292,
@@ -345,7 +345,7 @@
     "feedLink": "https://securitycryptographywhatever.com/",
     "episodeURL": "https://securitycryptographywhatever.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3264453?v4",
-    "overcast_fm_permalink": "https://overcast.fm/+xz8X8qQgQ"
+    "overcastFMPermalink": "https://overcast.fm/+xz8X8qQgQ"
   },
   {
     "episodeID": 2852396883404748,
@@ -357,7 +357,7 @@
     "feedLink": "https://www.nytimes.com/ezra-klein-podcast",
     "episodeURL": "https://www.nytimes.com/2022/07/01/opinion/ezra-klein-podcast-kate-shaw.html",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2656501?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+oiPWb-Z8w"
+    "overcastFMPermalink": "https://overcast.fm/+oiPWb-Z8w"
   },
   {
     "episodeID": 1863161719169578,
@@ -369,7 +369,7 @@
     "feedLink": "https://www.headspace.com/",
     "episodeURL": "https://www.headspace.com/radioheadspace",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1735204?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+aeiSRuIio"
+    "overcastFMPermalink": "https://overcast.fm/+aeiSRuIio"
   },
   {
     "episodeID": 529182749240284,
@@ -381,7 +381,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/relearningbolero",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhSfXKK9w"
+    "overcastFMPermalink": "https://overcast.fm/+HhSfXKK9w"
   },
   {
     "episodeID": 2139409155787035,
@@ -393,7 +393,7 @@
     "feedLink": "https://lexfridman.com/",
     "episodeURL": "https://lexfridman.com/stephen-kotkin-2/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1992480?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+eZyALCiRs"
+    "overcastFMPermalink": "https://overcast.fm/+eZyALCiRs"
   },
   {
     "episodeID": 530478849850092,
@@ -405,7 +405,7 @@
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11915008",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/494046?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+Hid7tn-uw"
+    "overcastFMPermalink": "https://overcast.fm/+Hid7tn-uw"
   },
   {
     "episodeID": 1040454889501928,
@@ -417,7 +417,7 @@
     "feedLink": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://www.ted.com/read/ted-podcasts/ted-interview",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968999?v196",
-    "overcast_fm_permalink": "https://overcast.fm/+OyScgX9Og"
+    "overcastFMPermalink": "https://overcast.fm/+OyScgX9Og"
   },
   {
     "episodeID": 529182556720372,
@@ -429,7 +429,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/tadaitswindows",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhSepQjPQ"
+    "overcastFMPermalink": "https://overcast.fm/+HhSepQjPQ"
   },
   {
     "episodeID": 3344536506917064,
@@ -441,7 +441,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/data-federalism",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1pZu4Mg"
+    "overcastFMPermalink": "https://overcast.fm/+vh1pZu4Mg"
   },
   {
     "episodeID": 1863161928044790,
@@ -453,7 +453,7 @@
     "feedLink": "https://www.headspace.com/",
     "episodeURL": "https://www.headspace.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1735204?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+aeiTDhUPY"
+    "overcastFMPermalink": "https://overcast.fm/+aeiTDhUPY"
   },
   {
     "episodeID": 2198065703494017,
@@ -465,7 +465,7 @@
     "feedLink": "https://www.se-radio.net/",
     "episodeURL": "http://se-radio.net/episode-505-daniel-stenberg-on-25-years-with-curl-0",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2047108?v193",
-    "overcast_fm_permalink": "https://overcast.fm/+fPIQ1zIYE"
+    "overcastFMPermalink": "https://overcast.fm/+fPIQ1zIYE"
   },
   {
     "episodeID": 2139410155722983,
@@ -477,7 +477,7 @@
     "feedLink": "https://lexfridman.com/",
     "episodeURL": "https://lexfridman.com/david-wolpe/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1992480?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+eZyD5cWOc"
+    "overcastFMPermalink": "https://overcast.fm/+eZyD5cWOc"
   },
   {
     "episodeID": 737149210180237,
@@ -489,7 +489,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebuzRuo0"
+    "overcastFMPermalink": "https://overcast.fm/+KebuzRuo0"
   },
   {
     "episodeID": 737148613055812,
@@ -501,7 +501,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+Kebsk6VUQ"
+    "overcastFMPermalink": "https://overcast.fm/+Kebsk6VUQ"
   },
   {
     "episodeID": 1863162026522582,
@@ -513,7 +513,7 @@
     "feedLink": "https://www.headspace.com/",
     "episodeURL": "https://www.headspace.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1735204?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+aeiTa_99Y"
+    "overcastFMPermalink": "https://overcast.fm/+aeiTa_99Y"
   },
   {
     "episodeID": 3848733510852601,
@@ -525,7 +525,7 @@
     "feedLink": "https://www.civics101podcast.org/",
     "episodeURL": "https://www.civics101podcast.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3584412?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+2sZxm_3_k"
+    "overcastFMPermalink": "https://overcast.fm/+2sZxm_3_k"
   },
   {
     "episodeID": 529182811186020,
@@ -537,7 +537,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/happylittleepisode",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhSfl7Y2Q"
+    "overcastFMPermalink": "https://overcast.fm/+HhSfl7Y2Q"
   },
   {
     "episodeID": 2139409771312993,
@@ -549,7 +549,7 @@
     "feedLink": "https://lexfridman.com/",
     "episodeURL": "https://lexfridman.com/nicole-perlroth/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1992480?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+eZyCdyt2E"
+    "overcastFMPermalink": "https://overcast.fm/+eZyCdyt2E"
   },
   {
     "episodeID": 2852396326978097,
@@ -561,7 +561,7 @@
     "feedLink": "https://www.nytimes.com/ezra-klein-podcast",
     "episodeURL": "https://www.nytimes.com/2022/02/18/opinion/ezra-klein-podcast-alex-tabarrok.html",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2656501?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+oiPUXUAjE"
+    "overcastFMPermalink": "https://overcast.fm/+oiPUXUAjE"
   },
   {
     "episodeID": 1039561066736003,
@@ -573,7 +573,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/derek-sivers/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+Oxeawa6YM"
+    "overcastFMPermalink": "https://overcast.fm/+Oxeawa6YM"
   },
   {
     "episodeID": 737149282097254,
@@ -585,7 +585,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebvEbGGY"
+    "overcastFMPermalink": "https://overcast.fm/+KebvEbGGY"
   },
   {
     "episodeID": 530477873984782,
@@ -597,7 +597,7 @@
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11901099/remembering-the-rainbow-sign-the-short-but-powerful-reign-of-berkeleys-1970s-black-cultural-center",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/494046?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+Hid4E9dQ4"
+    "overcastFMPermalink": "https://overcast.fm/+Hid4E9dQ4"
   },
   {
     "episodeID": 737149124545232,
@@ -609,7 +609,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+Kebue3CtA"
+    "overcastFMPermalink": "https://overcast.fm/+Kebue3CtA"
   },
   {
     "episodeID": 2981640486192114,
@@ -621,7 +621,7 @@
     "feedLink": "https://www.vox.com/unexplainable",
     "episodeURL": "https://www.vox.com/unexplainable",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2776869?v46",
-    "overcast_fm_permalink": "https://overcast.fm/+qXyUYHA_I"
+    "overcastFMPermalink": "https://overcast.fm/+qXyUYHA_I"
   },
   {
     "episodeID": 2824077995296919,
@@ -633,7 +633,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe-W6SJc"
+    "overcastFMPermalink": "https://overcast.fm/+oIe-W6SJc"
   },
   {
     "episodeID": 737149196582006,
@@ -645,7 +645,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebuwCPHY"
+    "overcastFMPermalink": "https://overcast.fm/+KebuwCPHY"
   },
   {
     "episodeID": 347403778042236,
@@ -657,7 +657,7 @@
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
     "episodeURL": "http://www.wnycstudios.org/story/mixtape-help/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/323544?v68",
-    "overcast_fm_permalink": "https://overcast.fm/+E79j7IqXw"
+    "overcastFMPermalink": "https://overcast.fm/+E79j7IqXw"
   },
   {
     "episodeID": 1039561211480622,
@@ -669,7 +669,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-podcast/douglas-rushkoff/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxebS7ii4"
+    "overcastFMPermalink": "https://overcast.fm/+OxebS7ii4"
   },
   {
     "episodeID": 4017851225469355,
@@ -681,7 +681,7 @@
     "feedLink": "https://www.bloomberg.com/peer-to-peer",
     "episodeURL": "https://omny.fm/shows/the-david-rubenstein-show/senator-joe-manchin",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3741915?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+5GNuMN8as"
+    "overcastFMPermalink": "https://overcast.fm/+5GNuMN8as"
   },
   {
     "episodeID": 737149127184293,
@@ -693,7 +693,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebuffT6U"
+    "overcastFMPermalink": "https://overcast.fm/+KebuffT6U"
   },
   {
     "episodeID": 3527487120218409,
@@ -705,7 +705,7 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOxjAGSk"
+    "overcastFMPermalink": "https://overcast.fm/+yIOxjAGSk"
   },
   {
     "episodeID": 1039561069312559,
@@ -717,7 +717,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/kat-cole/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxeaxCOi8"
+    "overcastFMPermalink": "https://overcast.fm/+OxeaxCOi8"
   },
   {
     "episodeID": 529181876815502,
@@ -729,7 +729,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/letitbeep",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhScHKBo4"
+    "overcastFMPermalink": "https://overcast.fm/+HhScHKBo4"
   },
   {
     "episodeID": 530478343129982,
@@ -741,7 +741,7 @@
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11887053",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/494046?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+Hid500C34"
+    "overcastFMPermalink": "https://overcast.fm/+Hid500C34"
   },
   {
     "episodeID": 529182061494237,
@@ -753,7 +753,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/domesticsymphony",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhSczL_90"
+    "overcastFMPermalink": "https://overcast.fm/+HhSczL_90"
   },
   {
     "episodeID": 2981641261099006,
@@ -765,7 +765,7 @@
     "feedLink": "https://www.vox.com/unexplainable",
     "episodeURL": "https://vox.com/unexplainable",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2776869?v46",
-    "overcast_fm_permalink": "https://overcast.fm/+qXyXQ3J_4"
+    "overcastFMPermalink": "https://overcast.fm/+qXyXQ3J_4"
   },
   {
     "episodeID": 890872298084924,
@@ -777,7 +777,7 @@
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep155.mp3",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/829689?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+MqPl7eGjw"
+    "overcastFMPermalink": "https://overcast.fm/+MqPl7eGjw"
   },
   {
     "episodeID": 1552623850426100,
@@ -789,7 +789,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGmkTDvQ"
+    "overcastFMPermalink": "https://overcast.fm/+WEGmkTDvQ"
   },
   {
     "episodeID": 1552623585860921,
@@ -801,7 +801,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGllOHTk"
+    "overcastFMPermalink": "https://overcast.fm/+WEGllOHTk"
   },
   {
     "episodeID": 2139409478378732,
@@ -813,7 +813,7 @@
     "feedLink": "https://lexfridman.com/",
     "episodeURL": "https://lexfridman.com/roger-reaves/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1992480?v24",
-    "overcast_fm_permalink": "https://overcast.fm/+eZyBX85Ow"
+    "overcastFMPermalink": "https://overcast.fm/+eZyBX85Ow"
   },
   {
     "episodeID": 3243713841661913,
@@ -825,7 +825,7 @@
     "feedLink": "http://audiocollective.ted.com/",
     "episodeURL": "http://ted.com/podcasts",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3020943?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+uGI_tJB9k"
+    "overcastFMPermalink": "https://overcast.fm/+uGI_tJB9k"
   },
   {
     "episodeID": 3527486818923707,
@@ -837,7 +837,7 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOwbKtLs"
+    "overcastFMPermalink": "https://overcast.fm/+yIOwbKtLs"
   },
   {
     "episodeID": 2824077719128147,
@@ -849,7 +849,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9VESFM"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9VESFM"
   },
   {
     "episodeID": 1039560945500770,
@@ -861,7 +861,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/adam-grant2/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxeaThAmI"
+    "overcastFMPermalink": "https://overcast.fm/+OxeaThAmI"
   },
   {
     "episodeID": 1880166670342259,
@@ -873,7 +873,7 @@
     "feedLink": "https://acmbytecast.podbean.com/",
     "episodeURL": "https://acmbytecast.podbean.com/e/leslie-lamport-episode-16/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1751041?v167",
-    "overcast_fm_permalink": "https://overcast.fm/+auAGqBGHM"
+    "overcastFMPermalink": "https://overcast.fm/+auAGqBGHM"
   },
   {
     "episodeID": 2981640952991323,
@@ -885,7 +885,7 @@
     "feedLink": "https://www.vox.com/unexplainable",
     "episodeURL": "https://www.vox.com/unexplainable",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2776869?v46",
-    "overcast_fm_permalink": "https://overcast.fm/+qXyWHZzls"
+    "overcastFMPermalink": "https://overcast.fm/+qXyWHZzls"
   },
   {
     "episodeID": 1040454982790624,
@@ -897,7 +897,7 @@
     "feedLink": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://www.ted.com/podcasts",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968999?v196",
-    "overcast_fm_permalink": "https://overcast.fm/+OySc2nbeA"
+    "overcastFMPermalink": "https://overcast.fm/+OySc2nbeA"
   },
   {
     "episodeID": 347403146283723,
@@ -909,7 +909,7 @@
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
     "episodeURL": "http://www.wnycstudios.org/story/brown-box/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/323544?v68",
-    "overcast_fm_permalink": "https://overcast.fm/+E79hkgyss"
+    "overcastFMPermalink": "https://overcast.fm/+E79hkgyss"
   },
   {
     "episodeID": 3527486957039618,
@@ -921,7 +921,7 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOw8GMAI"
+    "overcastFMPermalink": "https://overcast.fm/+yIOw8GMAI"
   },
   {
     "episodeID": 1194688248557684,
@@ -933,7 +933,7 @@
     "feedLink": "https://www.iheart.com/podcast/105-before-breakfast-30642889/",
     "episodeURL": "https://omny.fm/shows/before-breakfast/whats-stopping-you",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1112640?v27",
-    "overcast_fm_permalink": "https://overcast.fm/+Q-kAisMHQ"
+    "overcastFMPermalink": "https://overcast.fm/+Q-kAisMHQ"
   },
   {
     "episodeID": 3344536517566694,
@@ -945,7 +945,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://www.lawfareblog.com/lawfare-podcast-jerusalem-brink",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1pcRYOY"
+    "overcastFMPermalink": "https://overcast.fm/+vh1pcRYOY"
   },
   {
     "episodeID": 2852397209806895,
@@ -957,7 +957,7 @@
     "feedLink": "https://www.nytimes.com/ezra-klein-podcast",
     "episodeURL": "https://www.nytimes.com/2021/05/04/opinion/ezra-klein-podcast-anna-sale.html",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2656501?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+oiPXpy6C8"
+    "overcastFMPermalink": "https://overcast.fm/+oiPXpy6C8"
   },
   {
     "episodeID": 1552623610846846,
@@ -969,7 +969,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGlrLXn4"
+    "overcastFMPermalink": "https://overcast.fm/+WEGlrLXn4"
   },
   {
     "episodeID": 529181936839225,
@@ -981,7 +981,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/muzak",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhScVd6jk"
+    "overcastFMPermalink": "https://overcast.fm/+HhScVd6jk"
   },
   {
     "episodeID": 2981640692491250,
@@ -993,7 +993,7 @@
     "feedLink": "https://www.vox.com/unexplainable",
     "episodeURL": "https://www.vox.com/unexplainable",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2776869?v46",
-    "overcast_fm_permalink": "https://overcast.fm/+qXyVJS4_I"
+    "overcastFMPermalink": "https://overcast.fm/+qXyVJS4_I"
   },
   {
     "episodeID": 2852396995918247,
@@ -1005,7 +1005,7 @@
     "feedLink": "https://www.nytimes.com/ezra-klein-podcast",
     "episodeURL": "https://www.nytimes.com/2021/04/09/opinion/ezra-klein-podcast-brian-deese.html",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2656501?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+oiPW2zOac"
+    "overcastFMPermalink": "https://overcast.fm/+oiPW2zOac"
   },
   {
     "episodeID": 780513683071497,
@@ -1017,7 +1017,7 @@
     "feedLink": "http://cddrl.fsi.stanford.edu/",
     "episodeURL": "https://soundcloud.com/stanfordcddrl/identity-and-the-end-of-history",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/726910?v67",
-    "overcast_fm_permalink": "https://overcast.fm/+LF34DSYgk"
+    "overcastFMPermalink": "https://overcast.fm/+LF34DSYgk"
   },
   {
     "episodeID": 2981641204709085,
@@ -1029,7 +1029,7 @@
     "feedLink": "https://www.vox.com/unexplainable",
     "episodeURL": "https://vox.com/unexplainable",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2776869?v46",
-    "overcast_fm_permalink": "https://overcast.fm/+qXyXDatt0"
+    "overcastFMPermalink": "https://overcast.fm/+qXyXDatt0"
   },
   {
     "episodeID": 1194688450343234,
@@ -1041,7 +1041,7 @@
     "feedLink": "https://www.iheart.com/podcast/105-before-breakfast-30642889/",
     "episodeURL": "https://omny.fm/shows/before-breakfast/how-to-stop-being-late",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1112640?v27",
-    "overcast_fm_permalink": "https://overcast.fm/+Q-kBSzMUI"
+    "overcastFMPermalink": "https://overcast.fm/+Q-kBSzMUI"
   },
   {
     "episodeID": 2824078012279461,
@@ -1053,7 +1053,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe-a9aqU"
+    "overcastFMPermalink": "https://overcast.fm/+oIe-a9aqU"
   },
   {
     "episodeID": 2646489978363781,
@@ -1065,7 +1065,7 @@
     "feedLink": "https://www.gatesnotes.com/podcast",
     "episodeURL": "https://www.gatesnotes.com/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2464735?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+lm9_cP34U"
+    "overcastFMPermalink": "https://overcast.fm/+lm9_cP34U"
   },
   {
     "episodeID": 737148902421080,
@@ -1077,7 +1077,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+Kebtp5slg"
+    "overcastFMPermalink": "https://overcast.fm/+Kebtp5slg"
   },
   {
     "episodeID": 737149042125154,
@@ -1089,7 +1089,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebuLNaWI"
+    "overcastFMPermalink": "https://overcast.fm/+KebuLNaWI"
   },
   {
     "episodeID": 2646490111724036,
@@ -1101,7 +1101,7 @@
     "feedLink": "https://www.gatesnotes.com/podcast",
     "episodeURL": "https://www.gatesnotes.com/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2464735?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+lm9_8CygQ"
+    "overcastFMPermalink": "https://overcast.fm/+lm9_8CygQ"
   },
   {
     "episodeID": 1576890273023212,
@@ -1113,7 +1113,7 @@
     "feedLink": "http://freakonomics.com/",
     "episodeURL": "http://freakonomics.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1468593?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+WaLGCSxOw"
+    "overcastFMPermalink": "https://overcast.fm/+WaLGCSxOw"
   },
   {
     "episodeID": 3513432868146637,
@@ -1125,7 +1125,7 @@
     "feedLink": "https://bloomberg.com/podcasts/benchmark",
     "episodeURL": "https://omny.fm/shows/stephanomics/how-to-build-back-greener-after-the-pandemic",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3272139?v5",
-    "overcast_fm_permalink": "https://overcast.fm/+x7ctYMTc0"
+    "overcastFMPermalink": "https://overcast.fm/+x7ctYMTc0"
   },
   {
     "episodeID": 529182830611373,
@@ -1137,7 +1137,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/diesirae",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhSfqjy60"
+    "overcastFMPermalink": "https://overcast.fm/+HhSfqjy60"
   },
   {
     "episodeID": 1348433397101525,
@@ -1149,7 +1149,7 @@
     "feedLink": "http://gimletmedia.com/shows/reply-all",
     "episodeURL": "http://gimletmedia.com/shows/reply-all",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1255826?v494",
-    "overcast_fm_permalink": "https://overcast.fm/+TKZJ2jM9U"
+    "overcastFMPermalink": "https://overcast.fm/+TKZJ2jM9U"
   },
   {
     "episodeID": 737148464996122,
@@ -1161,7 +1161,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebsBnHxo"
+    "overcastFMPermalink": "https://overcast.fm/+KebsBnHxo"
   },
   {
     "episodeID": 3344536814876930,
@@ -1173,7 +1173,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e55f2",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1qjJ-QI"
+    "overcastFMPermalink": "https://overcast.fm/+vh1qjJ-QI"
   },
   {
     "episodeID": 2824078273447075,
@@ -1185,7 +1185,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe_ZOhKM"
+    "overcastFMPermalink": "https://overcast.fm/+oIe_ZOhKM"
   },
   {
     "episodeID": 3786102049927898,
@@ -1197,7 +1197,7 @@
     "feedLink": "https://www.stitcher.com/podcast/stitcher/levar-burton-reads",
     "episodeURL": "https://www.stitcher.com/podcast/stitcher/levar-burton-reads",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3526082?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+1zcJPE8to"
+    "overcastFMPermalink": "https://overcast.fm/+1zcJPE8to"
   },
   {
     "episodeID": 3344536457662833,
@@ -1209,7 +1209,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5608",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1pN_UXE"
+    "overcastFMPermalink": "https://overcast.fm/+vh1pN_UXE"
   },
   {
     "episodeID": 758115173818136,
@@ -1221,7 +1221,7 @@
     "feedLink": "http://slate.com/",
     "episodeURL": "http://slate.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/706049?v20",
-    "overcast_fm_permalink": "https://overcast.fm/+KxgHGiXxg"
+    "overcastFMPermalink": "https://overcast.fm/+KxgHGiXxg"
   },
   {
     "episodeID": 1576889967536858,
@@ -1233,7 +1233,7 @@
     "feedLink": "http://freakonomics.com/",
     "episodeURL": "http://freakonomics.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1468593?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+WaLE5dato"
+    "overcastFMPermalink": "https://overcast.fm/+WaLE5dato"
   },
   {
     "episodeID": 2824077688566810,
@@ -1245,7 +1245,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9Nx9Bo"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9Nx9Bo"
   },
   {
     "episodeID": 347403497570014,
@@ -1257,7 +1257,7 @@
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
     "episodeURL": "http://www.wnycstudios.org/story/uncounted/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/323544?v68",
-    "overcast_fm_permalink": "https://overcast.fm/+E79i4Q_t4"
+    "overcastFMPermalink": "https://overcast.fm/+E79i4Q_t4"
   },
   {
     "episodeID": 890872838152974,
@@ -1269,7 +1269,7 @@
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep114.mp3",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/829689?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+MqPn8O4w4"
+    "overcastFMPermalink": "https://overcast.fm/+MqPn8O4w4"
   },
   {
     "episodeID": 1016317448395457,
@@ -1281,7 +1281,7 @@
     "feedLink": "https://lexfridman.com/",
     "episodeURL": "https://lexfridman.com/david-patterson/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/946519?v198",
-    "overcast_fm_permalink": "https://overcast.fm/+OcVdh9msE"
+    "overcastFMPermalink": "https://overcast.fm/+OcVdh9msE"
   },
   {
     "episodeID": 1016317563172544,
@@ -1293,7 +1293,7 @@
     "feedLink": "https://lexfridman.com/",
     "episodeURL": "https://lexfridman.com/brian-kernighan/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/946519?v198",
-    "overcast_fm_permalink": "https://overcast.fm/+OcVd9U9sA"
+    "overcastFMPermalink": "https://overcast.fm/+OcVd9U9sA"
   },
   {
     "episodeID": 1450498467921649,
@@ -1305,7 +1305,7 @@
     "feedLink": "https://twitter.com/refugepodcast",
     "episodeURL": "https://twitter.com/refugepodcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1350881?v7",
-    "overcast_fm_permalink": "https://overcast.fm/+UnOH3tfvE"
+    "overcastFMPermalink": "https://overcast.fm/+UnOH3tfvE"
   },
   {
     "episodeID": 890872842041043,
@@ -1317,7 +1317,7 @@
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep111.mp3",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/829689?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+MqPn9KNtM"
+    "overcastFMPermalink": "https://overcast.fm/+MqPn9KNtM"
   },
   {
     "episodeID": 1958605370653357,
@@ -1329,7 +1329,7 @@
     "feedLink": "https://www.buzzsprout.com/1121972",
     "episodeURL": "https://www.buzzsprout.com/1121972",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1824093?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+b1V1lfeq0"
+    "overcastFMPermalink": "https://overcast.fm/+b1V1lfeq0"
   },
   {
     "episodeID": 3344536743205296,
@@ -1341,7 +1341,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5624",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1qSEWbA"
+    "overcastFMPermalink": "https://overcast.fm/+vh1qSEWbA"
   },
   {
     "episodeID": 3848733515092572,
@@ -1353,7 +1353,7 @@
     "feedLink": "https://www.civics101podcast.org/",
     "episodeURL": "https://www.civics101podcast.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3584412?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+2sZxoAklw"
+    "overcastFMPermalink": "https://overcast.fm/+2sZxoAklw"
   },
   {
     "episodeID": 2824078064978677,
@@ -1365,7 +1365,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe-nhivU"
+    "overcastFMPermalink": "https://overcast.fm/+oIe-nhivU"
   },
   {
     "episodeID": 1958605148516222,
@@ -1377,7 +1377,7 @@
     "feedLink": "https://www.buzzsprout.com/1121972",
     "episodeURL": "https://www.buzzsprout.com/1121972",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1824093?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+b1V0wh734"
+    "overcastFMPermalink": "https://overcast.fm/+b1V0wh734"
   },
   {
     "episodeID": 1552624088087179,
@@ -1389,7 +1389,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGnc9eos"
+    "overcastFMPermalink": "https://overcast.fm/+WEGnc9eos"
   },
   {
     "episodeID": 890871791016818,
@@ -1401,7 +1401,7 @@
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep107.mp3",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/829689?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+MqPkCk23I"
+    "overcastFMPermalink": "https://overcast.fm/+MqPkCk23I"
   },
   {
     "episodeID": 1039560932951032,
@@ -1413,7 +1413,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/bethany-mclean/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxeaQhg_g"
+    "overcastFMPermalink": "https://overcast.fm/+OxeaQhg_g"
   },
   {
     "episodeID": 1552623561516321,
@@ -1425,7 +1425,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGlfapSE"
+    "overcastFMPermalink": "https://overcast.fm/+WEGlfapSE"
   },
   {
     "episodeID": 890872814228714,
@@ -1437,7 +1437,7 @@
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep106.mp3",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/829689?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+MqPn2h1Oo"
+    "overcastFMPermalink": "https://overcast.fm/+MqPn2h1Oo"
   },
   {
     "episodeID": 3344536767596825,
@@ -1449,7 +1449,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e563e",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1qX4iRk"
+    "overcastFMPermalink": "https://overcast.fm/+vh1qX4iRk"
   },
   {
     "episodeID": 1552623703707969,
@@ -1461,7 +1461,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGmBUUUE"
+    "overcastFMPermalink": "https://overcast.fm/+WEGmBUUUE"
   },
   {
     "episodeID": 1040454993504614,
@@ -1473,7 +1473,7 @@
     "feedLink": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "http://ted.com/podcasts/ted-interview",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968999?v196",
-    "overcast_fm_permalink": "https://overcast.fm/+OySc5K6WY"
+    "overcastFMPermalink": "https://overcast.fm/+OySc5K6WY"
   },
   {
     "episodeID": 3848733182392811,
@@ -1485,7 +1485,7 @@
     "feedLink": "https://www.civics101podcast.org/",
     "episodeURL": "https://www.civics101podcast.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3584412?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+2sZwYr-es"
+    "overcastFMPermalink": "https://overcast.fm/+2sZwYr-es"
   },
   {
     "episodeID": 737148985927015,
@@ -1497,7 +1497,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+Kebt9z5Wc"
+    "overcastFMPermalink": "https://overcast.fm/+Kebt9z5Wc"
   },
   {
     "episodeID": 3344536905003573,
@@ -1509,7 +1509,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5645",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1q4pMjU"
+    "overcastFMPermalink": "https://overcast.fm/+vh1q4pMjU"
   },
   {
     "episodeID": 2824077917239305,
@@ -1521,7 +1521,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe-ETOAk"
+    "overcastFMPermalink": "https://overcast.fm/+oIe-ETOAk"
   },
   {
     "episodeID": 3344536959185301,
@@ -1533,7 +1533,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e564b",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1rFj8ZU"
+    "overcastFMPermalink": "https://overcast.fm/+vh1rFj8ZU"
   },
   {
     "episodeID": 737149464741235,
@@ -1545,7 +1545,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+Kebvv-BXM"
+    "overcastFMPermalink": "https://overcast.fm/+Kebvv-BXM"
   },
   {
     "episodeID": 1039560436219134,
@@ -1557,7 +1557,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/brian-koppelman/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxeYaF_P4"
+    "overcastFMPermalink": "https://overcast.fm/+OxeYaF_P4"
   },
   {
     "episodeID": 3848733089889847,
@@ -1569,7 +1569,7 @@
     "feedLink": "https://www.civics101podcast.org/",
     "episodeURL": "https://www.civics101podcast.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3584412?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+2sZwCofjc"
+    "overcastFMPermalink": "https://overcast.fm/+2sZwCofjc"
   },
   {
     "episodeID": 3344536998853347,
@@ -1581,7 +1581,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5652",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1rPBOuM"
+    "overcastFMPermalink": "https://overcast.fm/+vh1rPBOuM"
   },
   {
     "episodeID": 1576889845570669,
@@ -1593,7 +1593,7 @@
     "feedLink": "http://freakonomics.com/",
     "episodeURL": "http://freakonomics.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1468593?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+WaLEcYXG0"
+    "overcastFMPermalink": "https://overcast.fm/+WaLEcYXG0"
   },
   {
     "episodeID": 347403416581933,
@@ -1605,7 +1605,7 @@
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
     "episodeURL": "http://www.wnycstudios.org/story/atomic-artifacts/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/323544?v68",
-    "overcast_fm_permalink": "https://overcast.fm/+E79ik9Ny0"
+    "overcastFMPermalink": "https://overcast.fm/+E79ik9Ny0"
   },
   {
     "episodeID": 626773504632585,
@@ -1617,7 +1617,7 @@
     "feedLink": "http://www.mastersofscale.com/",
     "episodeURL": "http://www.mastersofscale.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/583728?v197",
-    "overcast_fm_permalink": "https://overcast.fm/+I6DBQZJwk"
+    "overcastFMPermalink": "https://overcast.fm/+I6DBQZJwk"
   },
   {
     "episodeID": 737149161999009,
@@ -1629,7 +1629,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebunyiqE"
+    "overcastFMPermalink": "https://overcast.fm/+KebunyiqE"
   },
   {
     "episodeID": 3344536501249360,
@@ -1641,7 +1641,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5665",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1pYYZVA"
+    "overcastFMPermalink": "https://overcast.fm/+vh1pYYZVA"
   },
   {
     "episodeID": 2824078207375689,
@@ -1653,7 +1653,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe_JeWUk"
+    "overcastFMPermalink": "https://overcast.fm/+oIe_JeWUk"
   },
   {
     "episodeID": 1040455527530831,
@@ -1665,7 +1665,7 @@
     "feedLink": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://www.ted.com/podcasts/ted-interview?rss",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968999?v196",
-    "overcast_fm_permalink": "https://overcast.fm/+OySe4fgU8"
+    "overcastFMPermalink": "https://overcast.fm/+OySe4fgU8"
   },
   {
     "episodeID": 2824077476413000,
@@ -1677,7 +1677,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe8bMvkg"
+    "overcastFMPermalink": "https://overcast.fm/+oIe8bMvkg"
   },
   {
     "episodeID": 2824077830017751,
@@ -1689,7 +1689,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9vgUtc"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9vgUtc"
   },
   {
     "episodeID": 1039560559107509,
@@ -1701,7 +1701,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/esther-wojcicki/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxeY3ZHbU"
+    "overcastFMPermalink": "https://overcast.fm/+OxeY3ZHbU"
   },
   {
     "episodeID": 529182584655363,
@@ -1713,7 +1713,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/cremona",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhSev6zgM"
+    "overcastFMPermalink": "https://overcast.fm/+HhSev6zgM"
   },
   {
     "episodeID": 3848733286935417,
@@ -1725,7 +1725,7 @@
     "feedLink": "https://www.civics101podcast.org/",
     "episodeURL": "https://www.civics101podcast.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3584412?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+2sZwxnK3k"
+    "overcastFMPermalink": "https://overcast.fm/+2sZwxnK3k"
   },
   {
     "episodeID": 347403570402568,
@@ -1737,7 +1737,7 @@
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
     "episodeURL": "http://www.wnycstudios.org/story/other-latif-episode-5/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/323544?v68",
-    "overcast_fm_permalink": "https://overcast.fm/+E79jJoVQg"
+    "overcastFMPermalink": "https://overcast.fm/+E79jJoVQg"
   },
   {
     "episodeID": 593105527413135,
@@ -1749,7 +1749,7 @@
     "feedLink": "http://thesecuredeveloper.com/",
     "episodeURL": "https://www.devseccon.com/the-secure-developer-podcast/ep-48-sustainable-and-scalable-ways-to-buy-down-risk",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/552372?v195",
-    "overcast_fm_permalink": "https://overcast.fm/+IbbSRGmY8"
+    "overcastFMPermalink": "https://overcast.fm/+IbbSRGmY8"
   },
   {
     "episodeID": 593105482253128,
@@ -1761,7 +1761,7 @@
     "feedLink": "http://thesecuredeveloper.com/",
     "episodeURL": "https://www.devseccon.com/the-secure-developer-podcast/ep-49-five-ideals-for-better-devops-and-security",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/552372?v195",
-    "overcast_fm_permalink": "https://overcast.fm/+IbbSGVg0g"
+    "overcastFMPermalink": "https://overcast.fm/+IbbSGVg0g"
   },
   {
     "episodeID": 2824077771717796,
@@ -1773,7 +1773,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9hmvKQ"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9hmvKQ"
   },
   {
     "episodeID": 535827955797048,
@@ -1785,7 +1785,7 @@
     "feedLink": "http://fsi.stanford.edu/",
     "episodeURL": "http://fsi.stanford.edu/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/499028?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+HnVSr3TDg"
+    "overcastFMPermalink": "https://overcast.fm/+HnVSr3TDg"
   },
   {
     "episodeID": 3344536476852628,
@@ -1797,7 +1797,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5675",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1pSkIZQ"
+    "overcastFMPermalink": "https://overcast.fm/+vh1pSkIZQ"
   },
   {
     "episodeID": 737148847098225,
@@ -1809,7 +1809,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+KebtctiXE"
+    "overcastFMPermalink": "https://overcast.fm/+KebtctiXE"
   },
   {
     "episodeID": 2824077485743697,
@@ -1821,7 +1821,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe8dbHlE"
+    "overcastFMPermalink": "https://overcast.fm/+oIe8dbHlE"
   },
   {
     "episodeID": 758114648168779,
@@ -1833,7 +1833,7 @@
     "feedLink": "http://slate.com/",
     "episodeURL": "http://slate.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/706049?v20",
-    "overcast_fm_permalink": "https://overcast.fm/+KxgFJNmUs"
+    "overcastFMPermalink": "https://overcast.fm/+KxgFJNmUs"
   },
   {
     "episodeID": 2824077576272216,
@@ -1845,7 +1845,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe8zAeVg"
+    "overcastFMPermalink": "https://overcast.fm/+oIe8zAeVg"
   },
   {
     "episodeID": 3344536243489607,
@@ -1857,7 +1857,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5683",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1oa7S0c"
+    "overcastFMPermalink": "https://overcast.fm/+vh1oa7S0c"
   },
   {
     "episodeID": 890872847907700,
@@ -1869,7 +1869,7 @@
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep090.mp3",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/829689?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+MqPn-ju3Q"
+    "overcastFMPermalink": "https://overcast.fm/+MqPn-ju3Q"
   },
   {
     "episodeID": 3527487525371773,
@@ -1881,7 +1881,7 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOzDmP30"
+    "overcastFMPermalink": "https://overcast.fm/+yIOzDmP30"
   },
   {
     "episodeID": 3344537143005176,
@@ -1893,7 +1893,7 @@
     "feedLink": "http://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5688",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3114842?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+vh1rxYz_g"
+    "overcastFMPermalink": "https://overcast.fm/+vh1rxYz_g"
   },
   {
     "episodeID": 1138504865240221,
@@ -1905,7 +1905,7 @@
     "feedLink": "https://theverge.com/",
     "episodeURL": "https://theverge.com/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1060315?v136",
-    "overcast_fm_permalink": "https://overcast.fm/+QLdtIRVJ0"
+    "overcastFMPermalink": "https://overcast.fm/+QLdtIRVJ0"
   },
   {
     "episodeID": 4010778615706171,
@@ -1917,7 +1917,7 @@
     "feedLink": "https://www.bloomberg.com/audio/shows",
     "episodeURL": "https://omny.fm/shows/masters-in-business/the-points-guy-brian-kelly-on-maximizing-travel-re",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3735328?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+4_yCqpcjs"
+    "overcastFMPermalink": "https://overcast.fm/+4_yCqpcjs"
   },
   {
     "episodeID": 1552623831490491,
@@ -1929,7 +1929,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGmfyH7s"
+    "overcastFMPermalink": "https://overcast.fm/+WEGmfyH7s"
   },
   {
     "episodeID": 1039561011353539,
@@ -1941,7 +1941,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/steven-strogatz/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxeajN18M"
+    "overcastFMPermalink": "https://overcast.fm/+OxeajN18M"
   },
   {
     "episodeID": 1039560820879658,
@@ -1953,7 +1953,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/neil-pasricha/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxeZ1zcSo"
+    "overcastFMPermalink": "https://overcast.fm/+OxeZ1zcSo"
   },
   {
     "episodeID": 1039561132089490,
@@ -1965,7 +1965,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/sheila-heen/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxebAAIJI"
+    "overcastFMPermalink": "https://overcast.fm/+OxebAAIJI"
   },
   {
     "episodeID": 535827988485108,
@@ -1977,7 +1977,7 @@
     "feedLink": "http://fsi.stanford.edu/",
     "episodeURL": "http://fsi.stanford.edu/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/499028?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+HnVSzqE_Q"
+    "overcastFMPermalink": "https://overcast.fm/+HnVSzqE_Q"
   },
   {
     "episodeID": 1040455003591096,
@@ -1989,7 +1989,7 @@
     "feedLink": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://www.ted.com/podcasts/ted-interview",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968999?v196",
-    "overcast_fm_permalink": "https://overcast.fm/+OySc7k0bg"
+    "overcastFMPermalink": "https://overcast.fm/+OySc7k0bg"
   },
   {
     "episodeID": 1552623514865004,
@@ -2001,7 +2001,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/cdb4f892-5c9e-4046-a15f-d3464e76c0d2",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGlUSzWw"
+    "overcastFMPermalink": "https://overcast.fm/+WEGlUSzWw"
   },
   {
     "episodeID": 3513432946551208,
@@ -2013,7 +2013,7 @@
     "feedLink": "https://bloomberg.com/podcasts/benchmark",
     "episodeURL": "https://omny.fm/shows/stephanomics/what-the-sanders-or-warren-wealth-tax-means-for-in",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3272139?v5",
-    "overcast_fm_permalink": "https://overcast.fm/+x7ctq4qag"
+    "overcastFMPermalink": "https://overcast.fm/+x7ctq4qag"
   },
   {
     "episodeID": 2824077410725444,
@@ -2025,7 +2025,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe8LibkQ"
+    "overcastFMPermalink": "https://overcast.fm/+oIe8LibkQ"
   },
   {
     "episodeID": 2824077862388861,
@@ -2037,7 +2037,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe93ORH0"
+    "overcastFMPermalink": "https://overcast.fm/+oIe93ORH0"
   },
   {
     "episodeID": 1344159178803333,
@@ -2049,7 +2049,7 @@
     "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/the-report/episodes/part-vii-charging-decisions",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1251845?v4",
-    "overcast_fm_permalink": "https://overcast.fm/+TGgXJfyIU"
+    "overcastFMPermalink": "https://overcast.fm/+TGgXJfyIU"
   },
   {
     "episodeID": 2824077380030006,
@@ -2061,7 +2061,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe8EODjY"
+    "overcastFMPermalink": "https://overcast.fm/+oIe8EODjY"
   },
   {
     "episodeID": 3935201709660942,
@@ -2073,7 +2073,7 @@
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3664942?v4",
-    "overcast_fm_permalink": "https://overcast.fm/+37C4wGGw4"
+    "overcastFMPermalink": "https://overcast.fm/+37C4wGGw4"
   },
   {
     "episodeID": 1039561198083188,
@@ -2085,7 +2085,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/greg-walton/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxebPvHHQ"
+    "overcastFMPermalink": "https://overcast.fm/+OxebPvHHQ"
   },
   {
     "episodeID": 1039560427060158,
@@ -2097,7 +2097,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/emily-nagoski/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxeYX6O74"
+    "overcastFMPermalink": "https://overcast.fm/+OxeYX6O74"
   },
   {
     "episodeID": 2824077482604916,
@@ -2109,7 +2109,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe8crOXQ"
+    "overcastFMPermalink": "https://overcast.fm/+oIe8crOXQ"
   },
   {
     "episodeID": 4010778807231576,
@@ -2121,7 +2121,7 @@
     "feedLink": "https://www.bloomberg.com/audio/shows",
     "episodeURL": "https://omny.fm/shows/masters-in-business/sarah-ketterer-discusses-investment-management",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3735328?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+4_yDYT5Fg"
+    "overcastFMPermalink": "https://overcast.fm/+4_yDYT5Fg"
   },
   {
     "episodeID": 535828076997176,
@@ -2133,7 +2133,7 @@
     "feedLink": "http://fsi.stanford.edu/",
     "episodeURL": "http://fsi.stanford.edu/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/499028?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+HnVTIwqjg"
+    "overcastFMPermalink": "https://overcast.fm/+HnVTIwqjg"
   },
   {
     "episodeID": 4010778766807280,
@@ -2145,7 +2145,7 @@
     "feedLink": "https://www.bloomberg.com/audio/shows",
     "episodeURL": "https://omny.fm/shows/masters-in-business/kara-swisher-discusses-the-tech-industry",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3735328?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+4_yDOrEPA"
+    "overcastFMPermalink": "https://overcast.fm/+4_yDOrEPA"
   },
   {
     "episodeID": 383797606420,
@@ -2157,7 +2157,7 @@
     "feedLink": "https://www.penguin.co.uk/podcasts",
     "episodeURL": "https://shows.acast.com/thepenguinpodcast/episodes/untitledepisode-----------------------------------------------------------------------------------------------------",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/357?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+WVweuBQ"
+    "overcastFMPermalink": "https://overcast.fm/+WVweuBQ"
   },
   {
     "episodeID": 2824077790907972,
@@ -2169,7 +2169,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9mLjkQ"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9mLjkQ"
   },
   {
     "episodeID": 2824077713409192,
@@ -2181,7 +2181,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9TtBKg"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9TtBKg"
   },
   {
     "episodeID": 2824078088939228,
@@ -2193,7 +2193,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe-tPJtw"
+    "overcastFMPermalink": "https://overcast.fm/+oIe-tPJtw"
   },
   {
     "episodeID": 2824077672708146,
@@ -2205,7 +2205,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9J_-DI"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9J_-DI"
   },
   {
     "episodeID": 1344159062387353,
@@ -2217,7 +2217,7 @@
     "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/the-report/episodes/part-ii-hack-dump-divide",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1251845?v4",
-    "overcast_fm_permalink": "https://overcast.fm/+TGgWtvapk"
+    "overcastFMPermalink": "https://overcast.fm/+TGgWtvapk"
   },
   {
     "episodeID": 3935202508584829,
@@ -2229,7 +2229,7 @@
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3664942?v4",
-    "overcast_fm_permalink": "https://overcast.fm/+37C7ukt30"
+    "overcastFMPermalink": "https://overcast.fm/+37C7ukt30"
   },
   {
     "episodeID": 1039560774035114,
@@ -2241,7 +2241,7 @@
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/sue-johnson/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/968166?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+OxeZqopqo"
+    "overcastFMPermalink": "https://overcast.fm/+OxeZqopqo"
   },
   {
     "episodeID": 2198065863908421,
@@ -2253,7 +2253,7 @@
     "feedLink": "https://www.se-radio.net/",
     "episodeURL": "https://traffic.libsyn.com/secure/seradio/Episode-374-Marcus-Blankenship-on-Motivating-Programmers.mp3",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2047108?v193",
-    "overcast_fm_permalink": "https://overcast.fm/+fPIRcC3EU"
+    "overcastFMPermalink": "https://overcast.fm/+fPIRcC3EU"
   },
   {
     "episodeID": 2824077571066752,
@@ -2265,7 +2265,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe8xxC4A"
+    "overcastFMPermalink": "https://overcast.fm/+oIe8xxC4A"
   },
   {
     "episodeID": 1348432915155483,
@@ -2277,7 +2277,7 @@
     "feedLink": "http://gimletmedia.com/shows/reply-all",
     "episodeURL": "http://gimletmedia.com/shows/reply-all",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1255826?v494",
-    "overcast_fm_permalink": "https://overcast.fm/+TKZIDpShs"
+    "overcastFMPermalink": "https://overcast.fm/+TKZIDpShs"
   },
   {
     "episodeID": 4017851183325647,
@@ -2289,7 +2289,7 @@
     "feedLink": "https://www.bloomberg.com/peer-to-peer",
     "episodeURL": "https://omny.fm/shows/the-david-rubenstein-show/melinda-gates",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3741915?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+5GNuCK4c8"
+    "overcastFMPermalink": "https://overcast.fm/+5GNuCK4c8"
   },
   {
     "episodeID": 1552623671720079,
@@ -2301,7 +2301,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/a00dc2d3-fcb8-48bc-b420-07fcb3d24c3e",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGl5sOI8"
+    "overcastFMPermalink": "https://overcast.fm/+WEGl5sOI8"
   },
   {
     "episodeID": 4010778078752106,
@@ -2313,7 +2313,7 @@
     "feedLink": "https://www.bloomberg.com/audio/shows",
     "episodeURL": "https://omny.fm/shows/masters-in-business/jon-stein-discusses-fintech-and-robo-advisers",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3735328?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+4_yAqoLWo"
+    "overcastFMPermalink": "https://overcast.fm/+4_yAqoLWo"
   },
   {
     "episodeID": 1552623810758831,
@@ -2325,7 +2325,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/6622e6bd-f640-45f8-aaa8-2c82c345b5e3",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGma1yK8"
+    "overcastFMPermalink": "https://overcast.fm/+WEGma1yK8"
   },
   {
     "episodeID": 535827821219853,
@@ -2337,7 +2337,7 @@
     "feedLink": "http://fsi.stanford.edu/",
     "episodeURL": "http://fsi.stanford.edu/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/499028?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+HnVSLx0A0"
+    "overcastFMPermalink": "https://overcast.fm/+HnVSLx0A0"
   },
   {
     "episodeID": 2824077824264143,
@@ -2349,7 +2349,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9uIh88"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9uIh88"
   },
   {
     "episodeID": 3527487349925149,
@@ -2361,7 +2361,7 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOyZxJR0"
+    "overcastFMPermalink": "https://overcast.fm/+yIOyZxJR0"
   },
   {
     "episodeID": 2824077467977424,
@@ -2373,7 +2373,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe8ZMBtA"
+    "overcastFMPermalink": "https://overcast.fm/+oIe8ZMBtA"
   },
   {
     "episodeID": 3527486761770391,
@@ -2385,7 +2385,7 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOwNinZc"
+    "overcastFMPermalink": "https://overcast.fm/+yIOwNinZc"
   },
   {
     "episodeID": 535827496839949,
@@ -2397,7 +2397,7 @@
     "feedLink": "http://fsi.stanford.edu/",
     "episodeURL": "http://fsi.stanford.edu/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/499028?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+HnVQ-cKw0"
+    "overcastFMPermalink": "https://overcast.fm/+HnVQ-cKw0"
   },
   {
     "episodeID": 3527487089065315,
@@ -2409,7 +2409,7 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOxbkvWM"
+    "overcastFMPermalink": "https://overcast.fm/+yIOxbkvWM"
   },
   {
     "episodeID": 3527487123991723,
@@ -2421,7 +2421,7 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOxj5rKs"
+    "overcastFMPermalink": "https://overcast.fm/+yIOxj5rKs"
   },
   {
     "episodeID": 2824078284848869,
@@ -2433,7 +2433,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe_b8fuU"
+    "overcastFMPermalink": "https://overcast.fm/+oIe_b8fuU"
   },
   {
     "episodeID": 1348433658530763,
@@ -2445,7 +2445,7 @@
     "feedLink": "http://gimletmedia.com/shows/reply-all",
     "episodeURL": "http://gimletmedia.com/shows/reply-all",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1255826?v494",
-    "overcast_fm_permalink": "https://overcast.fm/+TKZK04S8s"
+    "overcastFMPermalink": "https://overcast.fm/+TKZK04S8s"
   },
   {
     "episodeID": 2664926738514715,
@@ -2457,7 +2457,7 @@
     "feedLink": "https://www.wnycstudios.org/podcasts/anthropocene-reviewed",
     "episodeURL": "https://www.wnycstudios.org/podcasts/anthropocene-reviewed",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2481906?v80",
-    "overcast_fm_permalink": "https://overcast.fm/+l3vJuaAxs"
+    "overcastFMPermalink": "https://overcast.fm/+l3vJuaAxs"
   },
   {
     "episodeID": 2824077895247541,
@@ -2469,7 +2469,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9_DprU"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9_DprU"
   },
   {
     "episodeID": 2824078340505067,
@@ -2481,7 +2481,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe_pNves"
+    "overcastFMPermalink": "https://overcast.fm/+oIe_pNves"
   },
   {
     "episodeID": 2824077363917407,
@@ -2493,7 +2493,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe8AYMl8"
+    "overcastFMPermalink": "https://overcast.fm/+oIe8AYMl8"
   },
   {
     "episodeID": 1552623861199250,
@@ -2505,7 +2505,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/f633cc14-1584-4e21-a5f0-a1d77c91d076",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGmm3cZI"
+    "overcastFMPermalink": "https://overcast.fm/+WEGmm3cZI"
   },
   {
     "episodeID": 502507923246335,
@@ -2517,7 +2517,7 @@
     "feedLink": "http://www.codenewbie.org/podcast",
     "episodeURL": "https://www.codenewbie.org/podcast/can-you-do-open-source-full-time",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/467996?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+HJBz5DDP8"
+    "overcastFMPermalink": "https://overcast.fm/+HJBz5DDP8"
   },
   {
     "episodeID": 502507917956753,
@@ -2529,7 +2529,7 @@
     "feedLink": "http://www.codenewbie.org/podcast",
     "episodeURL": "https://www.codenewbie.org/podcast/how-do-i-level-up",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/467996?v199",
-    "overcast_fm_permalink": "https://overcast.fm/+HJBz3yVpE"
+    "overcastFMPermalink": "https://overcast.fm/+HJBz3yVpE"
   },
   {
     "episodeID": 1552623989887158,
@@ -2541,7 +2541,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/218a4424-53c1-4653-adeb-fed028466ba4",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGnFjELY"
+    "overcastFMPermalink": "https://overcast.fm/+WEGnFjELY"
   },
   {
     "episodeID": 529182056915678,
@@ -2553,7 +2553,7 @@
     "feedLink": "http://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/silence",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/492839?v54",
-    "overcast_fm_permalink": "https://overcast.fm/+HhScyGIt4"
+    "overcastFMPermalink": "https://overcast.fm/+HhScyGIt4"
   },
   {
     "episodeID": 535828087841666,
@@ -2565,7 +2565,7 @@
     "feedLink": "http://fsi.stanford.edu/",
     "episodeURL": "http://fsi.stanford.edu/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/499028?v201",
-    "overcast_fm_permalink": "https://overcast.fm/+HnVTLWI4I"
+    "overcastFMPermalink": "https://overcast.fm/+HnVTLWI4I"
   },
   {
     "episodeID": 2824077676522118,
@@ -2577,7 +2577,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9K6KoY"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9K6KoY"
   },
   {
     "episodeID": 2824078185134742,
@@ -2589,7 +2589,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe_EK-pY"
+    "overcastFMPermalink": "https://overcast.fm/+oIe_EK-pY"
   },
   {
     "episodeID": 2824077587516894,
@@ -2601,7 +2601,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe81sDd4"
+    "overcastFMPermalink": "https://overcast.fm/+oIe81sDd4"
   },
   {
     "episodeID": 1552623434697882,
@@ -2613,7 +2613,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/2aba1de2-a240-4da8-b3bd-a35ea7e08097",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGlBLjJo"
+    "overcastFMPermalink": "https://overcast.fm/+WEGlBLjJo"
   },
   {
     "episodeID": 2824077717908978,
@@ -2625,7 +2625,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9UxrfI"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9UxrfI"
   },
   {
     "episodeID": 3848733872372962,
@@ -2637,7 +2637,7 @@
     "feedLink": "https://www.civics101podcast.org/",
     "episodeURL": "https://www.civics101podcast.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3584412?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+2sZy9MPOI"
+    "overcastFMPermalink": "https://overcast.fm/+2sZy9MPOI"
   },
   {
     "episodeID": 1552623176066835,
@@ -2649,7 +2649,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/c25239e6-42ce-4961-bc21-920f1c5381e0",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGkDhJxM"
+    "overcastFMPermalink": "https://overcast.fm/+WEGkDhJxM"
   },
   {
     "episodeID": 1348433154010645,
@@ -2661,7 +2661,7 @@
     "feedLink": "http://gimletmedia.com/shows/reply-all",
     "episodeURL": "http://gimletmedia.com/shows/reply-all",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1255826?v494",
-    "overcast_fm_permalink": "https://overcast.fm/+TKZI8l7hU"
+    "overcastFMPermalink": "https://overcast.fm/+TKZI8l7hU"
   },
   {
     "episodeID": 3527487158104282,
@@ -2673,7 +2673,7 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOxsCMNo"
+    "overcastFMPermalink": "https://overcast.fm/+yIOxsCMNo"
   },
   {
     "episodeID": 1552623412996505,
@@ -2685,7 +2685,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/5690fde2-118c-452c-918c-a9c30af5020f",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGk8AaZk"
+    "overcastFMPermalink": "https://overcast.fm/+WEGk8AaZk"
   },
   {
     "episodeID": 1552624039420213,
@@ -2697,7 +2697,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/ca4c7565-1b39-408a-bbe9-73c119448375",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGnRW4TU"
+    "overcastFMPermalink": "https://overcast.fm/+WEGnRW4TU"
   },
   {
     "episodeID": 2824077962835846,
@@ -2709,7 +2709,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe-PK94Y"
+    "overcastFMPermalink": "https://overcast.fm/+oIe-PK94Y"
   },
   {
     "episodeID": 1552623561957011,
@@ -2721,7 +2721,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/1bb8cb28-69b0-45e6-b838-6309664db892",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGlfhXpM"
+    "overcastFMPermalink": "https://overcast.fm/+WEGlfhXpM"
   },
   {
     "episodeID": 2824078076355554,
@@ -2733,7 +2733,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe-qPI-I"
+    "overcastFMPermalink": "https://overcast.fm/+oIe-qPI-I"
   },
   {
     "episodeID": 3848733908312898,
@@ -2745,7 +2745,7 @@
     "feedLink": "https://www.civics101podcast.org/",
     "episodeURL": "https://www.civics101podcast.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3584412?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+2sZzFwo0I"
+    "overcastFMPermalink": "https://overcast.fm/+2sZzFwo0I"
   },
   {
     "episodeID": 1552623402135576,
@@ -2757,7 +2757,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/57cb210d-a3bc-4b98-88bc-c7131632ae1b",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGk5asBg"
+    "overcastFMPermalink": "https://overcast.fm/+WEGk5asBg"
   },
   {
     "episodeID": 2824077733377904,
@@ -2769,7 +2769,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9Ydt3A"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9Ydt3A"
   },
   {
     "episodeID": 2824077701282574,
@@ -2781,7 +2781,7 @@
     "feedLink": "https://www.nytimes.com/the-daily",
     "episodeURL": "https://www.nytimes.com/the-daily",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/2630127?v30",
-    "overcast_fm_permalink": "https://overcast.fm/+oIe9Qz-w4"
+    "overcastFMPermalink": "https://overcast.fm/+oIe9Qz-w4"
   },
   {
     "episodeID": 1552623736407011,
@@ -2793,7 +2793,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/d21b7d92-4a41-4b02-8e71-78db43353500",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGmJHQ-M"
+    "overcastFMPermalink": "https://overcast.fm/+WEGmJHQ-M"
   },
   {
     "episodeID": 1552623294947052,
@@ -2805,7 +2805,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/d2c4b553-b2e5-4549-85e3-2de05a45064e",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGkf3Huw"
+    "overcastFMPermalink": "https://overcast.fm/+WEGkf3Huw"
   },
   {
     "episodeID": 1552623524291483,
@@ -2817,7 +2817,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/54e8a8ad-8d89-4ef6-a84a-fadc53035b49",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGlWio5s"
+    "overcastFMPermalink": "https://overcast.fm/+WEGlWio5s"
   },
   {
     "episodeID": 325869512489469,
@@ -2829,7 +2829,7 @@
     "feedLink": "https://www.intercom.com/blog/podcasts/",
     "episodeURL": "https://www.intercom.com/blog/podcasts/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/303489?v3",
-    "overcast_fm_permalink": "https://overcast.fm/+EoYGiI-f0"
+    "overcastFMPermalink": "https://overcast.fm/+EoYGiI-f0"
   },
   {
     "episodeID": 1552623509690437,
@@ -2841,7 +2841,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/b82f9e23-114b-4abd-9c86-2bfdd3169e65",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGlTD2EU"
+    "overcastFMPermalink": "https://overcast.fm/+WEGlTD2EU"
   },
   {
     "episodeID": 1552623401205002,
@@ -2853,7 +2853,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/04e10917-38e7-46d7-b1bc-9452ed787d32",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGk5MfQo"
+    "overcastFMPermalink": "https://overcast.fm/+WEGk5MfQo"
   },
   {
     "episodeID": 1552623703817076,
@@ -2865,7 +2865,7 @@
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/3135facd-4927-43b3-8bb5-9433ad1749ca",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/1445993?v200",
-    "overcast_fm_permalink": "https://overcast.fm/+WEGmBV-3Q"
+    "overcastFMPermalink": "https://overcast.fm/+WEGmBV-3Q"
   },
   {
     "episodeID": 626773463115961,
@@ -2877,7 +2877,7 @@
     "feedLink": "http://www.mastersofscale.com/",
     "episodeURL": "https://mastersofscale.com/sheryl-sandberg-lead-lead-again/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/583728?v197",
-    "overcast_fm_permalink": "https://overcast.fm/+I6DBGfqLk"
+    "overcastFMPermalink": "https://overcast.fm/+I6DBGfqLk"
   },
   {
     "episodeID": 737149490205210,
@@ -2889,7 +2889,7 @@
     "feedLink": "https://tim.blog/podcast",
     "episodeURL": "https://tim.blog/podcast",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/686523?v1",
-    "overcast_fm_permalink": "https://overcast.fm/+Kebv2Ckho"
+    "overcastFMPermalink": "https://overcast.fm/+Kebv2Ckho"
   },
   {
     "episodeID": 3527487628205761,
@@ -2901,6 +2901,6 @@
     "feedLink": "https://99percentinvisible.org/",
     "episodeURL": "https://99percentinvisible.org/",
     "feedArtworkURL": "https://public.overcast-cdn.com/art/3285228?v2",
-    "overcast_fm_permalink": "https://overcast.fm/+yIOzcHXsE"
+    "overcastFMPermalink": "https://overcast.fm/+yIOzcHXsE"
   }
 ]

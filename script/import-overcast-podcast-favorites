@@ -61,7 +61,7 @@ end
 
 episodes = JSON.parse(File.read(opts[:data_file_path]))
 episodes.each do |episode|
-  episode["overcast_fm_permalink"] = overcast_fm_permalink(episode.fetch("episodeID"))
+  episode["overcastFMPermalink"] = overcast_fm_permalink(episode.fetch("episodeID"))
 end
 
 File.write(opts[:data_file_path], JSON.pretty_generate(episodes))
