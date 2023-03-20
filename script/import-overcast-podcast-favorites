@@ -1,0 +1,67 @@
+#!/usr/bin/env ruby
+# frozen_string_literals: true
+#/ Usage: script/import-overcast-podcast-favorites
+#/ Imports favorited/recommended episodes to _data.
+
+require 'base64'
+require 'bundler/setup'
+require 'json'
+require 'tempfile'
+
+EXPORT_SQL_QUERY = <<~SQL.freeze
+SELECT
+    feed_item.id as episodeID,
+    feed_item.feedID,
+    feed.title as feedTitle,
+    feed_item.title,
+    feed_item.userRecommendedTime,
+    STRFTIME('%Y-%m-%d', CAST(feed_item.userRecommendedTime AS float),'unixepoch') AS userRecommendedTimeHuman,
+    feed.link as feedLink,
+    feed_item.url as episodeURL,
+    feed.artworkURL as feedArtworkURL
+FROM OCFeedItem AS feed_item
+INNER JOIN OCFeed AS feed ON (feed_item.feedID = feed.id)
+WHERE feed_item.userRecommendedTime IS NOT NULL
+AND feed_item.userRecommendedTime > 0
+AND feed.isPrivate = 0
+ORDER BY feed_item.userRecommendedTime DESC;
+SQL
+OVERCAST_FM_PERMALINK_BASE = "https://overcast.fm/+"
+
+opts = {
+  oc_db_path: ARGV.first,
+  data_file_path: File.expand_path("../_data/overcast_recommended_episodes.json", __dir__),
+}
+
+if opts[:oc_db_path].nil? || opts[:oc_db_path].empty?
+  abort "fatal: oc.db path argument required"
+end
+
+tmpfile = Tempfile.new('import_overcast_podcast_favorites.sql')
+tmpfile.puts(EXPORT_SQL_QUERY)
+tmpfile.close
+
+puts `sqlite-utils "#{opts[:oc_db_path]}" "$(<#{tmpfile.path})" > "#{opts[:data_file_path]}"`
+tmpfile.unlink
+unless $?.success?
+  abort "fatal: sqlite-utils failed"
+end
+
+def overcast_fm_permalink(episodeIDDecimal)
+  # Marco kindly shared the algorithm for generating the overcast.fm permalinks for episodes:
+  # https://mastodon.social/@overcastfm/109863328508642286
+  # Each episode ID is a 64-bit integer containing both the feed ID (upper 32 bits) and episode ID (lower 32 bits)
+  # It's then base64 encoded, removing leading A's and trailing ='s.
+  uri = Base64.urlsafe_encode64([episodeIDDecimal >> 32, episodeIDDecimal & 0xFFFFFFFF].pack('N2'))
+  uri.sub!(%r{\AA*}, '') # trim leading A's
+  uri.sub!(%r{=*\z}, '') # trim trailing ='s
+  uri.tr!('+/', '-_') # replace +'s and /'s with - and _
+  OVERCAST_FM_PERMALINK_BASE + uri
+end
+
+episodes = JSON.parse(File.read(opts[:data_file_path]))
+episodes.each do |episode|
+  episode["overcastFMPermalink"] = overcast_fm_permalink(episode.fetch("episodeID"))
+end
+
+File.write(opts[:data_file_path], JSON.pretty_generate(episodes))

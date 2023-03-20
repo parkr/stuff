@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "github-pages", "228"
 
 group :development do
+  gem 'pry'
   gem 'rake'
   gem 'stringex'
 end
