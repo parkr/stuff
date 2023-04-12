@@ -23,6 +23,7 @@ URL_IGNORE = [
   /pfacka\.binaryparadise\.com/,
   /genius\.cat-v\.org/,
   /www\.aaronsw\.com/,
+  /art19\.com/,
 ]
 
 HTMLProofer.check_directory("./_site", {
@@ -35,6 +36,11 @@ HTMLProofer.check_directory("./_site", {
   only_4xx: true,
   enforce_https: true,
   verbose: verbose,
-  typhoeus: { timeout: 5, connecttimeout: 5, verbose: verbose },
+  typhoeus: {
+    timeout: 5,
+    connecttimeout: 5,
+    verbose: verbose,
+    headers: { "User-Agent" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" },
+  },
   parallel: { in_processes: 10 }
 }).run
