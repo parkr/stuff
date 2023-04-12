@@ -22,8 +22,9 @@ URL_IGNORE = [
   /chadfowler\.com/,
   /pfacka\.binaryparadise\.com/,
   /genius\.cat-v\.org/,
-  /www\.aaronsw\.com/,
-  /art19\.com/,
+  /www\.aaronsw\.com/, # doesn't have https
+  /art19\.com/, # all the links are wrong
+  /tim\.blog/, # 429 errors
 ]
 
 HTMLProofer.check_directory("./_site", {
