@@ -7,7 +7,7 @@
     "userRecommendedTime": 1681187702,
     "userRecommendedTimeHuman": "2023-04-11",
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
-    "episodeURL": "http://www.wnycstudios.org/story/library-alexandra/",
+    "episodeURL": "https://www.wnycstudios.org/story/library-alexandra/",
     "feedArtworkURL": "https://media.wnyc.org/i/1400/1400/l/80/2022/05/Radiolab-branded-logo-1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+E79jWRrTw"
   },
@@ -66,7 +66,7 @@
     "title": "Talking IoT Security with Google",
     "userRecommendedTime": 1680150194,
     "userRecommendedTimeHuman": "2023-03-30",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/talking-iot-security-with-google",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1qM_y-Y"
@@ -90,8 +90,8 @@
     "title": "Finland’s Role in Global Security and Defense",
     "userRecommendedTime": 1679450727,
     "userRecommendedTimeHuman": "2023-03-22",
-    "feedLink": "http://fsi.stanford.edu/",
-    "episodeURL": "http://fsi.stanford.edu/",
+    "feedLink": "https://fsi.stanford.edu/",
+    "episodeURL": "https://fsi.stanford.edu/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/41a18a51-4277-48a6-8257-b1da85eb8ffc/d93c7458-9d17-4c42-808d-772b32a71db8/3000x3000/world-class-logo-fall-2021.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+HnVRl0pLk"
   },
@@ -114,7 +114,7 @@
     "title": "Story: The Untold Story of SQLite",
     "userRecommendedTime": 1675287922,
     "userRecommendedTimeHuman": "2023-02-01",
-    "feedLink": "http://corecursive.com/",
+    "feedLink": "https://corecursive.com/",
     "episodeURL": "https://chtbl.com/track/7D91G/traffic.libsyn.com/corecursive/066-sqlite.mp3",
     "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/d/7/a/5/d7a5a500931246e3/Coding_Stories.png",
     "overcastFMPermalink": "https://overcast.fm/+LfVNRLj3Y"
@@ -138,7 +138,7 @@
     "title": "Tokyo Rose",
     "userRecommendedTime": 1675193140,
     "userRecommendedTimeHuman": "2023-01-31",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/tokyorose",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhSda7bBw"
@@ -174,8 +174,8 @@
     "title": "49. Ray Dalio: How to embrace conflict",
     "userRecommendedTime": 1673054456,
     "userRecommendedTimeHuman": "2023-01-07",
-    "feedLink": "http://www.mastersofscale.com/",
-    "episodeURL": "http://www.mastersofscale.com/",
+    "feedLink": "https://www.mastersofscale.com/",
+    "episodeURL": "https://www.mastersofscale.com/",
     "feedArtworkURL": "https://content.production.cdn.art19.com/images/f0/dd/b7/02/f0ddb702-9415-4e4e-bde3-077f70375882/583a61ebfe82d70c0d1fd8df3de4d823080281d76b352d851b5bd9a6fa260112e13fa06216639941a13c0aad1d763d24b45966997036f89e8cc9ef54c77f2340.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+I6DDc75JY"
   },
@@ -186,8 +186,8 @@
     "title": "528. Yuval Noah Harari Thinks Life is Meaningless and Amazing",
     "userRecommendedTime": 1672322245,
     "userRecommendedTimeHuman": "2022-12-29",
-    "feedLink": "http://freakonomics.com/",
-    "episodeURL": "http://freakonomics.com/",
+    "feedLink": "https://freakonomics.com/",
+    "episodeURL": "https://freakonomics.com/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/2be48404-a43c-4fa8-a32c-760a3216272e/fab1584e-8ea9-4efa-9650-5e595861b2cd/3000x3000/image.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+WaLFe-H4I"
   },
@@ -294,7 +294,7 @@
     "title": "Presidential Transitions with David Marchick",
     "userRecommendedTime": 1666402849,
     "userRecommendedTimeHuman": "2022-10-22",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/presidential-transitions-with-david-marchick",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1pqUnwU"
@@ -390,7 +390,7 @@
     "title": "Ted Lasso’s Dark Forest",
     "userRecommendedTime": 1660442408,
     "userRecommendedTimeHuman": "2022-08-14",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/tedlassosdarkforest",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhSfXnwVY"
@@ -415,7 +415,7 @@
     "userRecommendedTime": 1659417733,
     "userRecommendedTimeHuman": "2022-08-02",
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
-    "episodeURL": "http://www.wnycstudios.org/story/humpback-and-killer/",
+    "episodeURL": "https://www.wnycstudios.org/story/humpback-and-killer/",
     "feedArtworkURL": "https://media.wnyc.org/i/1400/1400/l/80/2022/05/Radiolab-branded-logo-1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+E79jWHpBY"
   },
@@ -486,7 +486,7 @@
     "title": "Relearning Boléro",
     "userRecommendedTime": 1654740158,
     "userRecommendedTimeHuman": "2022-06-09",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/relearningbolero",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhSfXKK9w"
@@ -534,7 +534,7 @@
     "title": "Ta-da! It’s Windows",
     "userRecommendedTime": 1651158753,
     "userRecommendedTimeHuman": "2022-04-28",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/tadaitswindows",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhSepQjPQ"
@@ -546,7 +546,7 @@
     "title": "Data Federalism",
     "userRecommendedTime": 1648699406,
     "userRecommendedTimeHuman": "2022-03-31",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/data-federalism",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1pZu4Mg"
@@ -571,7 +571,7 @@
     "userRecommendedTime": 1648619028,
     "userRecommendedTimeHuman": "2022-03-30",
     "feedLink": "https://www.se-radio.net/",
-    "episodeURL": "http://se-radio.net/episode-505-daniel-stenberg-on-25-years-with-curl-0",
+    "episodeURL": "https://se-radio.net/episode-505-daniel-stenberg-on-25-years-with-curl-0",
     "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/c/5/5/7/c557e4cde3d766c6/se-radio-logo.jpg",
     "overcastFMPermalink": "https://overcast.fm/+fPIQ1zIYE"
   },
@@ -642,7 +642,7 @@
     "title": "Happy Little Episode",
     "userRecommendedTime": 1646281776,
     "userRecommendedTimeHuman": "2022-03-03",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/happylittleepisode",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhSfl7Y2Q"
@@ -763,7 +763,7 @@
     "userRecommendedTime": 1637551956,
     "userRecommendedTimeHuman": "2021-11-22",
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
-    "episodeURL": "http://www.wnycstudios.org/story/mixtape-help/",
+    "episodeURL": "https://www.wnycstudios.org/story/mixtape-help/",
     "feedArtworkURL": "https://media.wnyc.org/i/1400/1400/l/80/2022/05/Radiolab-branded-logo-1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+E79j7IqXw"
   },
@@ -834,7 +834,7 @@
     "title": "Let It Beep",
     "userRecommendedTime": 1631205561,
     "userRecommendedTimeHuman": "2021-09-09",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/letitbeep",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhScHKBo4"
@@ -858,7 +858,7 @@
     "title": "Domestic Symphony",
     "userRecommendedTime": 1629397198,
     "userRecommendedTimeHuman": "2021-08-19",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/domesticsymphony",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhSczL_90"
@@ -930,8 +930,8 @@
     "title": "Do you need to do a detox?",
     "userRecommendedTime": 1626019747,
     "userRecommendedTimeHuman": "2021-07-11",
-    "feedLink": "http://audiocollective.ted.com/",
-    "episodeURL": "http://ted.com/podcasts",
+    "feedLink": "https://audiocollective.ted.com/",
+    "episodeURL": "https://ted.com/podcasts",
     "feedArtworkURL": "https://f.prxu.org/384/images/b72fd554-f5ba-4e39-bd59-c7fcc82bcf84/TED_Body_Stuff_Avatar_3000x3000.jpg",
     "overcastFMPermalink": "https://overcast.fm/+uGI_tJB9k"
   },
@@ -1015,7 +1015,7 @@
     "userRecommendedTime": 1621457274,
     "userRecommendedTimeHuman": "2021-05-19",
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
-    "episodeURL": "http://www.wnycstudios.org/story/brown-box/",
+    "episodeURL": "https://www.wnycstudios.org/story/brown-box/",
     "feedArtworkURL": "https://media.wnyc.org/i/1400/1400/l/80/2022/05/Radiolab-branded-logo-1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+E79hkgyss"
   },
@@ -1050,7 +1050,7 @@
     "title": "Jerusalem on the Brink",
     "userRecommendedTime": 1620857875,
     "userRecommendedTimeHuman": "2021-05-12",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://www.lawfareblog.com/lawfare-podcast-jerusalem-brink",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1pcRYOY"
@@ -1086,7 +1086,7 @@
     "title": "Muzak",
     "userRecommendedTime": 1619653942,
     "userRecommendedTimeHuman": "2021-04-28",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/muzak",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhScVd6jk"
@@ -1122,7 +1122,7 @@
     "title": "Identity And The End Of History",
     "userRecommendedTime": 1617480205,
     "userRecommendedTimeHuman": "2021-04-03",
-    "feedLink": "http://cddrl.fsi.stanford.edu/",
+    "feedLink": "https://cddrl.fsi.stanford.edu/",
     "episodeURL": "https://soundcloud.com/stanfordcddrl/identity-and-the-end-of-history",
     "feedArtworkURL": "https://i1.sndcdn.com/avatars-whtK8bybTCqFCUqK-f8URwQ-original.jpg",
     "overcastFMPermalink": "https://overcast.fm/+LF34DSYgk"
@@ -1218,8 +1218,8 @@
     "title": "439. Please Get Your Noise Out of My Ears",
     "userRecommendedTime": 1605298513,
     "userRecommendedTimeHuman": "2020-11-13",
-    "feedLink": "http://freakonomics.com/",
-    "episodeURL": "http://freakonomics.com/",
+    "feedLink": "https://freakonomics.com/",
+    "episodeURL": "https://freakonomics.com/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/2be48404-a43c-4fa8-a32c-760a3216272e/fab1584e-8ea9-4efa-9650-5e595861b2cd/3000x3000/image.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+WaLGCSxOw"
   },
@@ -1242,7 +1242,7 @@
     "title": "Dies Irae",
     "userRecommendedTime": 1603308801,
     "userRecommendedTimeHuman": "2020-10-21",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/diesirae",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhSfqjy60"
@@ -1254,8 +1254,8 @@
     "title": "#167 America’s Hottest Talkline",
     "userRecommendedTime": 1601679753,
     "userRecommendedTimeHuman": "2020-10-02",
-    "feedLink": "http://gimletmedia.com/shows/reply-all",
-    "episodeURL": "http://gimletmedia.com/shows/reply-all",
+    "feedLink": "https://gimletmedia.com/shows/reply-all",
+    "episodeURL": "https://gimletmedia.com/shows/reply-all",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/05f71746-a825-11e5-aeb5-a7a572df575e/image/uploads_2F1610700524297-f3e2p6fbm79-8b4536488226b56e93a99ce9f7b555b5_2FReplyAll_ShowArt.png?ixlib=rails-4.2.0&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+TKZJ2jM9U"
   },
@@ -1278,7 +1278,7 @@
     "title": "The Spymasters with Chris Whipple",
     "userRecommendedTime": 1600296702,
     "userRecommendedTimeHuman": "2020-09-16",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e55f2",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1qjJ-QI"
@@ -1314,7 +1314,7 @@
     "title": "Adam Jentleson and Molly Reynolds on Getting Rid of the Senate Filibuster",
     "userRecommendedTime": 1597619407,
     "userRecommendedTimeHuman": "2020-08-16",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5608",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1pN_UXE"
@@ -1326,8 +1326,8 @@
     "title": "How Google Search Sold Out",
     "userRecommendedTime": 1597615928,
     "userRecommendedTimeHuman": "2020-08-16",
-    "feedLink": "http://slate.com/",
-    "episodeURL": "http://slate.com/",
+    "feedLink": "https://slate.com/",
+    "episodeURL": "https://slate.com/",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/6c9cc0a6-add5-11e7-948d-7f8436256e50/image/uploads_2F1571870921276-4cicm5oplpi-4445868b9099392767284bb3aab6a32b_2Fwhat-next-tbd-podcast-tile-slate-3000px.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+KxgHGiXxg"
   },
@@ -1338,8 +1338,8 @@
     "title": "429. Is Economic Growth the Wrong Goal?",
     "userRecommendedTime": 1597450627,
     "userRecommendedTimeHuman": "2020-08-15",
-    "feedLink": "http://freakonomics.com/",
-    "episodeURL": "http://freakonomics.com/",
+    "feedLink": "https://freakonomics.com/",
+    "episodeURL": "https://freakonomics.com/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/2be48404-a43c-4fa8-a32c-760a3216272e/fab1584e-8ea9-4efa-9650-5e595861b2cd/3000x3000/image.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+WaLE5dato"
   },
@@ -1363,7 +1363,7 @@
     "userRecommendedTime": 1596828452,
     "userRecommendedTimeHuman": "2020-08-07",
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
-    "episodeURL": "http://www.wnycstudios.org/story/uncounted/",
+    "episodeURL": "https://www.wnycstudios.org/story/uncounted/",
     "feedArtworkURL": "https://media.wnyc.org/i/1400/1400/l/80/2022/05/Radiolab-branded-logo-1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+E79i4Q_t4"
   },
@@ -1446,7 +1446,7 @@
     "title": "David Priess on the History of the President’s Daily Brief",
     "userRecommendedTime": 1594150069,
     "userRecommendedTimeHuman": "2020-07-07",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5624",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1qSEWbA"
@@ -1554,7 +1554,7 @@
     "title": "Bart Gellman on ‘Dark Mirror’",
     "userRecommendedTime": 1591063033,
     "userRecommendedTimeHuman": "2020-06-02",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e563e",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1qX4iRk"
@@ -1579,7 +1579,7 @@
     "userRecommendedTime": 1590725405,
     "userRecommendedTimeHuman": "2020-05-29",
     "feedLink": "https://www.ted.com/podcasts/ted-interview",
-    "episodeURL": "http://ted.com/podcasts/ted-interview",
+    "episodeURL": "https://ted.com/podcasts/ted-interview",
     "feedArtworkURL": "https://f.prxu.org/179/images/d05a3ea2-67fd-47ed-b253-2591a06c8d28/The_TED_Interview_iTunes_Avatar_3000x3000.png",
     "overcastFMPermalink": "https://overcast.fm/+OySc5K6WY"
   },
@@ -1614,7 +1614,7 @@
     "title": "Trump and his Predecessors with Kate Andersen Brower",
     "userRecommendedTime": 1590018776,
     "userRecommendedTimeHuman": "2020-05-20",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5645",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1q4pMjU"
@@ -1638,7 +1638,7 @@
     "title": "The President’s Tax Returns and the Supreme Court",
     "userRecommendedTime": 1589333628,
     "userRecommendedTimeHuman": "2020-05-13",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e564b",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1rFj8ZU"
@@ -1686,7 +1686,7 @@
     "title": "Law, Policy and Empire with Daniel Immerwahr",
     "userRecommendedTime": 1588543427,
     "userRecommendedTimeHuman": "2020-05-03",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5652",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1rPBOuM"
@@ -1698,8 +1698,8 @@
     "title": "416. How Do You Reopen a Country?",
     "userRecommendedTime": 1588370227,
     "userRecommendedTimeHuman": "2020-05-01",
-    "feedLink": "http://freakonomics.com/",
-    "episodeURL": "http://freakonomics.com/",
+    "feedLink": "https://freakonomics.com/",
+    "episodeURL": "https://freakonomics.com/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/2be48404-a43c-4fa8-a32c-760a3216272e/fab1584e-8ea9-4efa-9650-5e595861b2cd/3000x3000/image.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+WaLEcYXG0"
   },
@@ -1711,7 +1711,7 @@
     "userRecommendedTime": 1587759187,
     "userRecommendedTimeHuman": "2020-04-24",
     "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
-    "episodeURL": "http://www.wnycstudios.org/story/atomic-artifacts/",
+    "episodeURL": "https://www.wnycstudios.org/story/atomic-artifacts/",
     "feedArtworkURL": "https://media.wnyc.org/i/1400/1400/l/80/2022/05/Radiolab-branded-logo-1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+E79ik9Ny0"
   },
@@ -1722,8 +1722,8 @@
     "title": "Rapid Response: Build government back – better, w/Jen Pahlka (Code for America, USDR)",
     "userRecommendedTime": 1587691324,
     "userRecommendedTimeHuman": "2020-04-24",
-    "feedLink": "http://www.mastersofscale.com/",
-    "episodeURL": "http://www.mastersofscale.com/",
+    "feedLink": "https://www.mastersofscale.com/",
+    "episodeURL": "https://www.mastersofscale.com/",
     "feedArtworkURL": "https://content.production.cdn.art19.com/images/f0/dd/b7/02/f0ddb702-9415-4e4e-bde3-077f70375882/583a61ebfe82d70c0d1fd8df3de4d823080281d76b352d851b5bd9a6fa260112e13fa06216639941a13c0aad1d763d24b45966997036f89e8cc9ef54c77f2340.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+I6DBQZJwk"
   },
@@ -1746,7 +1746,7 @@
     "title": "Stephen Holmes on Liberalism in the 21st Century",
     "userRecommendedTime": 1586135897,
     "userRecommendedTimeHuman": "2020-04-06",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5665",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1pYYZVA"
@@ -1818,7 +1818,7 @@
     "title": "Cremona",
     "userRecommendedTime": 1584541779,
     "userRecommendedTimeHuman": "2020-03-18",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/cremona",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhSev6zgM"
@@ -1842,7 +1842,7 @@
     "title": "Ep. #48, Sustainable and Scalable Ways to Buy Down Risk with Clint Gibler from the NCC Group.",
     "userRecommendedTime": 1584213832,
     "userRecommendedTimeHuman": "2020-03-14",
-    "feedLink": "http://thesecuredeveloper.com/",
+    "feedLink": "https://thesecuredeveloper.com/",
     "episodeURL": "https://www.devseccon.com/the-secure-developer-podcast/ep-48-sustainable-and-scalable-ways-to-buy-down-risk",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/95a29d56-a88a-4f96-b531-297c0ae65024/3efbab34-829d-4ca3-81fe-3e8f4da9326d/3000x3000/tsd-square-thumbnail-2021-04.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+IbbSRGmY8"
@@ -1854,7 +1854,7 @@
     "title": "Ep. #49, Five Ideals for Better DevOps and Security with Gene Kim of the The Unicorn Project.",
     "userRecommendedTime": 1584212351,
     "userRecommendedTimeHuman": "2020-03-14",
-    "feedLink": "http://thesecuredeveloper.com/",
+    "feedLink": "https://thesecuredeveloper.com/",
     "episodeURL": "https://www.devseccon.com/the-secure-developer-podcast/ep-49-five-ideals-for-better-devops-and-security",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/95a29d56-a88a-4f96-b531-297c0ae65024/3efbab34-829d-4ca3-81fe-3e8f4da9326d/3000x3000/tsd-square-thumbnail-2021-04.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+IbbSGVg0g"
@@ -1878,8 +1878,8 @@
     "title": "Global Populisms and Their Threats to Democracy, with Anna Grzymala-Busse, Didi Kuo, and Frank Fukuyama",
     "userRecommendedTime": 1583790739,
     "userRecommendedTimeHuman": "2020-03-09",
-    "feedLink": "http://fsi.stanford.edu/",
-    "episodeURL": "http://fsi.stanford.edu/",
+    "feedLink": "https://fsi.stanford.edu/",
+    "episodeURL": "https://fsi.stanford.edu/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/41a18a51-4277-48a6-8257-b1da85eb8ffc/d93c7458-9d17-4c42-808d-772b32a71db8/3000x3000/world-class-logo-fall-2021.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+HnVSr3TDg"
   },
@@ -1890,7 +1890,7 @@
     "title": "Joseph Nye on “Do Morals Matter?: Presidents and Foreign Policy from FDR to Trump”",
     "userRecommendedTime": 1583606331,
     "userRecommendedTimeHuman": "2020-03-07",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5675",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1pSkIZQ"
@@ -1926,8 +1926,8 @@
     "title": "Inside Facebook’s Supreme Court",
     "userRecommendedTime": 1582494753,
     "userRecommendedTimeHuman": "2020-02-23",
-    "feedLink": "http://slate.com/",
-    "episodeURL": "http://slate.com/",
+    "feedLink": "https://slate.com/",
+    "episodeURL": "https://slate.com/",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/6c9cc0a6-add5-11e7-948d-7f8436256e50/image/uploads_2F1571870921276-4cicm5oplpi-4445868b9099392767284bb3aab6a32b_2Fwhat-next-tbd-podcast-tile-slate-3000px.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+KxgFJNmUs"
   },
@@ -1950,7 +1950,7 @@
     "title": "Alex Stamos on the Hard Tradeoffs of the Internet",
     "userRecommendedTime": 1581700921,
     "userRecommendedTimeHuman": "2020-02-14",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5683",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1oa7S0c"
@@ -1986,7 +1986,7 @@
     "title": "Leon Neyfakh on Iran–Contra and Other Scandals",
     "userRecommendedTime": 1580872724,
     "userRecommendedTimeHuman": "2020-02-05",
-    "feedLink": "http://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/lawfare/episodes/60518a63bd84d92f9a7e5688",
     "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
     "overcastFMPermalink": "https://overcast.fm/+vh1rxYz_g"
@@ -2070,8 +2070,8 @@
     "title": "Ukraine’s Fight for Democracy, with Francis Fukuyama",
     "userRecommendedTime": 1576273846,
     "userRecommendedTimeHuman": "2019-12-13",
-    "feedLink": "http://fsi.stanford.edu/",
-    "episodeURL": "http://fsi.stanford.edu/",
+    "feedLink": "https://fsi.stanford.edu/",
+    "episodeURL": "https://fsi.stanford.edu/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/41a18a51-4277-48a6-8257-b1da85eb8ffc/d93c7458-9d17-4c42-808d-772b32a71db8/3000x3000/world-class-logo-fall-2021.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+HnVSzqE_Q"
   },
@@ -2226,8 +2226,8 @@
     "title": "The Fight Against Disinformation, with Alex Stamos",
     "userRecommendedTime": 1568919156,
     "userRecommendedTimeHuman": "2019-09-19",
-    "feedLink": "http://fsi.stanford.edu/",
-    "episodeURL": "http://fsi.stanford.edu/",
+    "feedLink": "https://fsi.stanford.edu/",
+    "episodeURL": "https://fsi.stanford.edu/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/41a18a51-4277-48a6-8257-b1da85eb8ffc/d93c7458-9d17-4c42-808d-772b32a71db8/3000x3000/world-class-logo-fall-2021.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+HnVTIwqjg"
   },
@@ -2370,8 +2370,8 @@
     "title": "#144 Dark Pattern",
     "userRecommendedTime": 1561942425,
     "userRecommendedTimeHuman": "2019-07-01",
-    "feedLink": "http://gimletmedia.com/shows/reply-all",
-    "episodeURL": "http://gimletmedia.com/shows/reply-all",
+    "feedLink": "https://gimletmedia.com/shows/reply-all",
+    "episodeURL": "https://gimletmedia.com/shows/reply-all",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/05f71746-a825-11e5-aeb5-a7a572df575e/image/uploads_2F1610700524297-f3e2p6fbm79-8b4536488226b56e93a99ce9f7b555b5_2FReplyAll_ShowArt.png?ixlib=rails-4.2.0&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+TKZIDpShs"
   },
@@ -2430,8 +2430,8 @@
     "title": "The Presidential Standoff in Venezuela, with Harold Trinkunas",
     "userRecommendedTime": 1560194568,
     "userRecommendedTimeHuman": "2019-06-10",
-    "feedLink": "http://fsi.stanford.edu/",
-    "episodeURL": "http://fsi.stanford.edu/",
+    "feedLink": "https://fsi.stanford.edu/",
+    "episodeURL": "https://fsi.stanford.edu/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/41a18a51-4277-48a6-8257-b1da85eb8ffc/d93c7458-9d17-4c42-808d-772b32a71db8/3000x3000/world-class-logo-fall-2021.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+HnVSLx0A0"
   },
@@ -2490,8 +2490,8 @@
     "title": "Facebook’s Former Chief Security Officer Alex Stamos Weighs in On the Mueller Report",
     "userRecommendedTime": 1558403798,
     "userRecommendedTimeHuman": "2019-05-21",
-    "feedLink": "http://fsi.stanford.edu/",
-    "episodeURL": "http://fsi.stanford.edu/",
+    "feedLink": "https://fsi.stanford.edu/",
+    "episodeURL": "https://fsi.stanford.edu/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/41a18a51-4277-48a6-8257-b1da85eb8ffc/d93c7458-9d17-4c42-808d-772b32a71db8/3000x3000/world-class-logo-fall-2021.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+HnVQ-cKw0"
   },
@@ -2538,8 +2538,8 @@
     "title": "#140 The Roman Mars Mazda Virus",
     "userRecommendedTime": 1555010282,
     "userRecommendedTimeHuman": "2019-04-11",
-    "feedLink": "http://gimletmedia.com/shows/reply-all",
-    "episodeURL": "http://gimletmedia.com/shows/reply-all",
+    "feedLink": "https://gimletmedia.com/shows/reply-all",
+    "episodeURL": "https://gimletmedia.com/shows/reply-all",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/05f71746-a825-11e5-aeb5-a7a572df575e/image/uploads_2F1610700524297-f3e2p6fbm79-8b4536488226b56e93a99ce9f7b555b5_2FReplyAll_ShowArt.png?ixlib=rails-4.2.0&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+TKZK04S8s"
   },
@@ -2610,7 +2610,7 @@
     "title": "S7:E3 - Can you do open source full-time? (Jessie Frazelle, Bryan Liles)",
     "userRecommendedTime": 1549248094,
     "userRecommendedTimeHuman": "2019-02-04",
-    "feedLink": "http://www.codenewbie.org/podcast",
+    "feedLink": "https://www.codenewbie.org/podcast",
     "episodeURL": "https://www.codenewbie.org/podcast/can-you-do-open-source-full-time",
     "feedArtworkURL": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zs1r5a6oswxjg53nfmnb.png",
     "overcastFMPermalink": "https://overcast.fm/+HJBz5DDP8"
@@ -2622,7 +2622,7 @@
     "title": "S7:E2 - How do I level up? (Ben Orenstein)",
     "userRecommendedTime": 1548792337,
     "userRecommendedTimeHuman": "2019-01-29",
-    "feedLink": "http://www.codenewbie.org/podcast",
+    "feedLink": "https://www.codenewbie.org/podcast",
     "episodeURL": "https://www.codenewbie.org/podcast/how-do-i-level-up",
     "feedArtworkURL": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zs1r5a6oswxjg53nfmnb.png",
     "overcastFMPermalink": "https://overcast.fm/+HJBz3yVpE"
@@ -2646,7 +2646,7 @@
     "title": "Silence",
     "userRecommendedTime": 1547503528,
     "userRecommendedTimeHuman": "2019-01-14",
-    "feedLink": "http://www.20k.org/",
+    "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/silence",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+HhScyGIt4"
@@ -2658,8 +2658,8 @@
     "title": "Former Facebook Chief Security Officer Alex Stamos on Russian Election Interference",
     "userRecommendedTime": 1547239784,
     "userRecommendedTimeHuman": "2019-01-11",
-    "feedLink": "http://fsi.stanford.edu/",
-    "episodeURL": "http://fsi.stanford.edu/",
+    "feedLink": "https://fsi.stanford.edu/",
+    "episodeURL": "https://fsi.stanford.edu/",
     "feedArtworkURL": "https://image.simplecastcdn.com/images/41a18a51-4277-48a6-8257-b1da85eb8ffc/d93c7458-9d17-4c42-808d-772b32a71db8/3000x3000/world-class-logo-fall-2021.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+HnVTLWI4I"
   },
@@ -2754,8 +2754,8 @@
     "title": "#125 All My Pets",
     "userRecommendedTime": 1532767409,
     "userRecommendedTimeHuman": "2018-07-28",
-    "feedLink": "http://gimletmedia.com/shows/reply-all",
-    "episodeURL": "http://gimletmedia.com/shows/reply-all",
+    "feedLink": "https://gimletmedia.com/shows/reply-all",
+    "episodeURL": "https://gimletmedia.com/shows/reply-all",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/05f71746-a825-11e5-aeb5-a7a572df575e/image/uploads_2F1610700524297-f3e2p6fbm79-8b4536488226b56e93a99ce9f7b555b5_2FReplyAll_ShowArt.png?ixlib=rails-4.2.0&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+TKZI8l7hU"
   },
@@ -2970,7 +2970,7 @@
     "title": "5. Lead, lead again, w/Facebook’s Sheryl Sandberg",
     "userRecommendedTime": 1518478961,
     "userRecommendedTimeHuman": "2018-02-12",
-    "feedLink": "http://www.mastersofscale.com/",
+    "feedLink": "https://www.mastersofscale.com/",
     "episodeURL": "https://mastersofscale.com/sheryl-sandberg-lead-lead-again/",
     "feedArtworkURL": "https://content.production.cdn.art19.com/images/f0/dd/b7/02/f0ddb702-9415-4e4e-bde3-077f70375882/583a61ebfe82d70c0d1fd8df3de4d823080281d76b352d851b5bd9a6fa260112e13fa06216639941a13c0aad1d763d24b45966997036f89e8cc9ef54c77f2340.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+I6DBGfqLk"

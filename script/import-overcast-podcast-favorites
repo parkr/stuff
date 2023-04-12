@@ -59,9 +59,20 @@ def overcast_fm_permalink(episodeIDDecimal)
   OVERCAST_FM_PERMALINK_BASE + uri
 end
 
+def ensure_https(link)
+  if link.start_with?("https://")
+    link
+  else
+    link.sub("http://", "https://")
+  end
+end
+
 episodes = JSON.parse(File.read(opts[:data_file_path]))
 episodes.each do |episode|
   episode["overcastFMPermalink"] = overcast_fm_permalink(episode.fetch("episodeID"))
+  episode["feedLink"] = ensure_https(episode["feedLink"])
+  episode["episodeURL"] = ensure_https(episode["episodeURL"])
+  episode["feedArtworkURL"] = ensure_https(episode["feedArtworkURL"])
 end
 
 File.write(opts[:data_file_path], JSON.pretty_generate(episodes))
