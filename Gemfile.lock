@@ -275,7 +275,7 @@ GEM
       faraday (>= 0.17.3, < 3)
     simpleidn (0.2.1)
       unf (~> 0.1.4)
-    stringex (2.8.5)
+    stringex (2.8.6)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     timers (4.3.5)
