@@ -1,5 +1,125 @@
 [
   {
+    "episodeID": 2824077932269672,
+    "feedID": 2630127,
+    "feedTitle": "The Daily",
+    "title": "The Sunday Read: ‘The America That Americans Forget’",
+    "userRecommendedTime": 1690945153,
+    "userRecommendedTimeHuman": "2023-08-02",
+    "feedLink": "https://www.nytimes.com/the-daily",
+    "episodeURL": "https://www.nytimes.com/the-daily",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/2cce5659-f647-4366-b318-46e4b67afcfa/3000x3000/c81936f538106550b804e7e4fe2c236319bab7fba37941a6e8f7e5c3d3048b88fc5b2182fb790f7d446bdc820406456c94287f245db89d8656c105d5511ec3de.jpeg?aid=rss_feed",
+    "overcastFMPermalink": "https://overcast.fm/+oIe-H4kGg"
+  },
+  {
+    "episodeID": 2852396607079012,
+    "feedID": 2656501,
+    "feedTitle": "The Ezra Klein Show",
+    "title": "Biden, Psychedelics, Twitter, My New Book — and So Much More",
+    "userRecommendedTime": 1690304523,
+    "userRecommendedTimeHuman": "2023-07-25",
+    "feedLink": "https://www.nytimes.com/ezra-klein-podcast",
+    "episodeURL": "https://www.nytimes.com/2023/07/25/ezra-klein-podcast-ask-me-anything.html",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/20c893a5-2afa-416d-932c-267cdadbaeba/376e4ac0-35bb-41cb-98d3-ea33aa4fd92a/3000x3000/nyt-ezraklein-albumartwork-3000px.jpg?aid=rss_feed",
+    "overcastFMPermalink": "https://overcast.fm/+oiPVaGAmQ"
+  },
+  {
+    "episodeID": 2981641386492034,
+    "feedID": 2776869,
+    "feedTitle": "Unexplainable",
+    "title": "The Black Box: In AI we trust?",
+    "userRecommendedTime": 1689817546,
+    "userRecommendedTimeHuman": "2023-07-20",
+    "feedLink": "https://www.vox.com/unexplainable",
+    "episodeURL": "https://www.vox.com/unexplainable",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/bf04a680-6afe-11eb-a86a-3f07259749a3/image/uploads_2F1612893420722-zz4k8c4m7kp-6b9ff956d013a296cbd10bb83d784130_2FUnexplainable_3000x3000.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "overcastFMPermalink": "https://overcast.fm/+qXyXuwgII"
+  },
+  {
+    "episodeID": 347403102142372,
+    "feedID": 323544,
+    "feedTitle": "Radiolab",
+    "title": "The Fellowship of the Tree Rings",
+    "userRecommendedTime": 1689660036,
+    "userRecommendedTimeHuman": "2023-07-18",
+    "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
+    "episodeURL": "https://www.wnycstudios.org/story/fellowship-tree-rings/",
+    "feedArtworkURL": "https://media.wnyc.org/i/1400/1400/l/80/2022/05/Radiolab-branded-logo-1400x1400.png",
+    "overcastFMPermalink": "https://overcast.fm/+E79hZ_P6Q"
+  },
+  {
+    "episodeID": 1138504941556647,
+    "feedID": 1060315,
+    "feedTitle": "Decoder with Nilay Patel",
+    "title": "Exclusive: Google’s Sundar Pichai talks Search, AI, and dancing with Microsoft",
+    "userRecommendedTime": 1689464537,
+    "userRecommendedTimeHuman": "2023-07-15",
+    "feedLink": "https://theverge.com/",
+    "episodeURL": "https://theverge.com/",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/5c6a4f4a-e69c-11e8-8066-17a10182e4c8/image/The_Verge_Decoder_Tileart_3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "overcastFMPermalink": "https://overcast.fm/+QLdtad06c"
+  },
+  {
+    "episodeID": 3848733174590288,
+    "feedID": 3584412,
+    "feedTitle": "Civics 101",
+    "title": "The 14th Amendment",
+    "userRecommendedTime": 1687924839,
+    "userRecommendedTimeHuman": "2023-06-28",
+    "feedLink": "https://www.stitcher.com/",
+    "episodeURL": "https://www.stitcher.com/",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/00fe5eb2-fcc8-4fb7-a230-bc91bef82b31/3bf395fb-9cbf-48e4-82a6-060f581a354e/3000x3000/civics101logo-v3.jpg?aid=rss_feed",
+    "overcastFMPermalink": "https://overcast.fm/+2sZwW061A"
+  },
+  {
+    "episodeID": 3848733242793716,
+    "feedID": 3584412,
+    "feedTitle": "Civics 101",
+    "title": "Socialism, Communism, Fascism",
+    "userRecommendedTime": 1687920235,
+    "userRecommendedTimeHuman": "2023-06-28",
+    "feedLink": "https://www.stitcher.com/",
+    "episodeURL": "https://www.stitcher.com/",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/00fe5eb2-fcc8-4fb7-a230-bc91bef82b31/3bf395fb-9cbf-48e4-82a6-060f581a354e/3000x3000/civics101logo-v3.jpg?aid=rss_feed",
+    "overcastFMPermalink": "https://overcast.fm/+2sZwnFnvQ"
+  },
+  {
+    "episodeID": 529182816673246,
+    "feedID": 492839,
+    "feedTitle": "Twenty Thousand Hertz",
+    "title": "From Cylinders to Streaming",
+    "userRecommendedTime": 1687400050,
+    "userRecommendedTimeHuman": "2023-06-22",
+    "feedLink": "https://www.20k.org/",
+    "episodeURL": "https://www.20k.org/episodes/fromcylinderstostreaming",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "overcastFMPermalink": "https://overcast.fm/+HhSfnPHd4"
+  },
+  {
+    "episodeID": 2139409617404052,
+    "feedID": 1992480,
+    "feedTitle": "Lex Fridman Podcast",
+    "title": "#385 – Jimmy Wales: Wikipedia",
+    "userRecommendedTime": 1687216217,
+    "userRecommendedTimeHuman": "2023-06-19",
+    "feedLink": "https://lexfridman.com/",
+    "episodeURL": "https://lexfridman.com/jimmy-wales/?utm_source=rss&utm_medium=rss&utm_campaign=jimmy-wales",
+    "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
+    "overcastFMPermalink": "https://overcast.fm/+eZyB5GQJQ"
+  },
+  {
+    "episodeID": 135463854370213,
+    "feedID": 126160,
+    "feedTitle": "The Talk Show With John Gruber",
+    "title": "379: ‘An Extra Kick in the Nuts’, With Christian Selig",
+    "userRecommendedTime": 1687124153,
+    "userRecommendedTimeHuman": "2023-06-18",
+    "feedLink": "https://daringfireball.net/thetalkshow",
+    "episodeURL": "https://daringfireball.net/thetalkshow/2023/06/17/ep-379",
+    "feedArtworkURL": "https://daringfireball.net/thetalkshow/graphics/df-the-talk-show-album-art.png",
+    "overcastFMPermalink": "https://overcast.fm/+B7NCLrbaU"
+  },
+  {
     "episodeID": 758114660016395,
     "feedID": 706049,
     "feedTitle": "What Next: TBD | Tech, power, and the future",
@@ -200,7 +320,7 @@
     "userRecommendedTimeHuman": "2023-04-11",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/43/42/49/ec/434249ec-a29e-4cb7-a881-2ee2c919769a/3f919f16486fe8fe1a035a1ed9cbaf4c3f58d897fcd0f313bceb609efd33639f30172b69ee01f9cc653504af9a9e84d896ea24c55f65965124313c7365c6b17a.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C7BeoAQ"
   },
   {
@@ -308,7 +428,7 @@
     "userRecommendedTimeHuman": "2023-02-01",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/43/42/49/ec/434249ec-a29e-4cb7-a881-2ee2c919769a/3f919f16486fe8fe1a035a1ed9cbaf4c3f58d897fcd0f313bceb609efd33639f30172b69ee01f9cc653504af9a9e84d896ea24c55f65965124313c7365c6b17a.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C65b9bM"
   },
   {
@@ -344,7 +464,7 @@
     "userRecommendedTimeHuman": "2023-01-17",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/43/42/49/ec/434249ec-a29e-4cb7-a881-2ee2c919769a/3f919f16486fe8fe1a035a1ed9cbaf4c3f58d897fcd0f313bceb609efd33639f30172b69ee01f9cc653504af9a9e84d896ea24c55f65965124313c7365c6b17a.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C7Fqsv0"
   },
   {
@@ -379,7 +499,7 @@
     "userRecommendedTime": 1669864180,
     "userRecommendedTimeHuman": "2022-12-01",
     "feedLink": "https://lexfridman.com/",
-    "episodeURL": "https://lexfridman.com/guido-van-rossum-2/",
+    "episodeURL": "https://lexfridman.com/guido-van-rossum-2/?utm_source=rss&utm_medium=rss&utm_campaign=guido-van-rossum-2",
     "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
     "overcastFMPermalink": "https://overcast.fm/+eZyAmPpkQ"
   },
@@ -392,7 +512,7 @@
     "userRecommendedTimeHuman": "2022-11-20",
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/podcasts/baycurious",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/uploads_2F1574378004309-3mrtbevno17-c662a0bbcbd4cb003a14cc32a21a8ea0_2F1440_0017_BayCurious_iTunesTile_01.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/KQED_Podcast_tiles_-_NPR_network_Bay_Curious.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+Hid6IUi3c"
   },
   {
@@ -415,7 +535,7 @@
     "userRecommendedTime": 1667686253,
     "userRecommendedTimeHuman": "2022-11-05",
     "feedLink": "https://lexfridman.com/",
-    "episodeURL": "https://lexfridman.com/fiona-hill/",
+    "episodeURL": "https://lexfridman.com/fiona-hill/?utm_source=rss&utm_medium=rss&utm_campaign=fiona-hill",
     "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
     "overcastFMPermalink": "https://overcast.fm/+eZyBUTpqc"
   },
@@ -428,7 +548,7 @@
     "userRecommendedTimeHuman": "2022-10-30",
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11742748/unwrapping-the-california-origins-of-the-fortune-cookie",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/uploads_2F1574378004309-3mrtbevno17-c662a0bbcbd4cb003a14cc32a21a8ea0_2F1440_0017_BayCurious_iTunesTile_01.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/KQED_Podcast_tiles_-_NPR_network_Bay_Curious.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+Hid6i9kcY"
   },
   {
@@ -512,7 +632,7 @@
     "userRecommendedTimeHuman": "2022-10-09",
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11927144",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/uploads_2F1574378004309-3mrtbevno17-c662a0bbcbd4cb003a14cc32a21a8ea0_2F1440_0017_BayCurious_iTunesTile_01.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/KQED_Podcast_tiles_-_NPR_network_Bay_Curious.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+Hid6FK9xY"
   },
   {
@@ -524,7 +644,7 @@
     "userRecommendedTimeHuman": "2022-10-09",
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11927844",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/uploads_2F1574378004309-3mrtbevno17-c662a0bbcbd4cb003a14cc32a21a8ea0_2F1440_0017_BayCurious_iTunesTile_01.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/KQED_Podcast_tiles_-_NPR_network_Bay_Curious.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+Hid6aPLz4"
   },
   {
@@ -619,7 +739,7 @@
     "userRecommendedTime": 1658031831,
     "userRecommendedTimeHuman": "2022-07-17",
     "feedLink": "https://lexfridman.com/",
-    "episodeURL": "https://lexfridman.com/jack-barsky/",
+    "episodeURL": "https://lexfridman.com/jack-barsky/?utm_source=rss&utm_medium=rss&utm_campaign=jack-barsky",
     "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
     "overcastFMPermalink": "https://overcast.fm/+eZyDxIjc0"
   },
@@ -632,7 +752,7 @@
     "userRecommendedTimeHuman": "2022-07-13",
     "feedLink": "https://securitycryptographywhatever.com/",
     "episodeURL": "https://securitycryptographywhatever.com/2022/06/10/omb-zero-trust-memo-with-eric-mill/",
-    "feedArtworkURL": "https://storage.buzzsprout.com/variants/frpkkktyji9epsau1rvyvzig8e2s/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad.jpg",
+    "feedArtworkURL": "https://storage.buzzsprout.com/variants/frpkkktyji9epsau1rvyvzig8e2s/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg",
     "overcastFMPermalink": "https://overcast.fm/+xz8X8qQgQ"
   },
   {
@@ -679,7 +799,7 @@
     "userRecommendedTime": 1653882945,
     "userRecommendedTimeHuman": "2022-05-30",
     "feedLink": "https://lexfridman.com/",
-    "episodeURL": "https://lexfridman.com/stephen-kotkin-2/",
+    "episodeURL": "https://lexfridman.com/stephen-kotkin-2/?utm_source=rss&utm_medium=rss&utm_campaign=stephen-kotkin-2",
     "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
     "overcastFMPermalink": "https://overcast.fm/+eZyALCiRs"
   },
@@ -692,7 +812,7 @@
     "userRecommendedTimeHuman": "2022-05-28",
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11915008",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/uploads_2F1574378004309-3mrtbevno17-c662a0bbcbd4cb003a14cc32a21a8ea0_2F1440_0017_BayCurious_iTunesTile_01.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/KQED_Podcast_tiles_-_NPR_network_Bay_Curious.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+Hid7tn-uw"
   },
   {
@@ -763,7 +883,7 @@
     "userRecommendedTime": 1647828734,
     "userRecommendedTimeHuman": "2022-03-21",
     "feedLink": "https://lexfridman.com/",
-    "episodeURL": "https://lexfridman.com/david-wolpe/",
+    "episodeURL": "https://lexfridman.com/david-wolpe/?utm_source=rss&utm_medium=rss&utm_campaign=david-wolpe",
     "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
     "overcastFMPermalink": "https://overcast.fm/+eZyD5cWOc"
   },
@@ -835,7 +955,7 @@
     "userRecommendedTime": 1645673191,
     "userRecommendedTimeHuman": "2022-02-24",
     "feedLink": "https://lexfridman.com/",
-    "episodeURL": "https://lexfridman.com/nicole-perlroth/",
+    "episodeURL": "https://lexfridman.com/nicole-perlroth/?utm_source=rss&utm_medium=rss&utm_campaign=nicole-perlroth",
     "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
     "overcastFMPermalink": "https://overcast.fm/+eZyCdyt2E"
   },
@@ -884,7 +1004,7 @@
     "userRecommendedTimeHuman": "2022-02-04",
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11901099/remembering-the-rainbow-sign-the-short-but-powerful-reign-of-berkeleys-1970s-black-cultural-center",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/uploads_2F1574378004309-3mrtbevno17-c662a0bbcbd4cb003a14cc32a21a8ea0_2F1440_0017_BayCurious_iTunesTile_01.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/KQED_Podcast_tiles_-_NPR_network_Bay_Curious.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+Hid4E9dQ4"
   },
   {
@@ -1028,7 +1148,7 @@
     "userRecommendedTimeHuman": "2021-09-04",
     "feedLink": "https://www.kqed.org/podcasts/baycurious",
     "episodeURL": "https://www.kqed.org/news/11887053",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/uploads_2F1574378004309-3mrtbevno17-c662a0bbcbd4cb003a14cc32a21a8ea0_2F1440_0017_BayCurious_iTunesTile_01.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/405c75b6-01b3-11ea-b4dc-270e003b0694/image/KQED_Podcast_tiles_-_NPR_network_Bay_Curious.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+Hid500C34"
   },
   {
@@ -1076,7 +1196,7 @@
     "userRecommendedTimeHuman": "2021-07-30",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGmkTDvQ"
   },
   {
@@ -1088,7 +1208,7 @@
     "userRecommendedTimeHuman": "2021-07-30",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGllOHTk"
   },
   {
@@ -1099,7 +1219,7 @@
     "userRecommendedTime": 1626661303,
     "userRecommendedTimeHuman": "2021-07-19",
     "feedLink": "https://lexfridman.com/",
-    "episodeURL": "https://lexfridman.com/roger-reaves/",
+    "episodeURL": "https://lexfridman.com/roger-reaves/?utm_source=rss&utm_medium=rss&utm_campaign=roger-reaves",
     "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
     "overcastFMPermalink": "https://overcast.fm/+eZyBX85Ow"
   },
@@ -1256,7 +1376,7 @@
     "userRecommendedTimeHuman": "2021-05-02",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGlrLXn4"
   },
   {
@@ -1536,18 +1656,6 @@
     "overcastFMPermalink": "https://overcast.fm/+oIe9Nx9Bo"
   },
   {
-    "episodeID": 347403497570014,
-    "feedID": 323544,
-    "feedTitle": "Radiolab",
-    "title": "Uncounted",
-    "userRecommendedTime": 1596828452,
-    "userRecommendedTimeHuman": "2020-08-07",
-    "feedLink": "https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts",
-    "episodeURL": "https://www.wnycstudios.org/story/uncounted/",
-    "feedArtworkURL": "https://media.wnyc.org/i/1400/1400/l/80/2022/05/Radiolab-branded-logo-1400x1400.png",
-    "overcastFMPermalink": "https://overcast.fm/+E79i4Q_t4"
-  },
-  {
     "episodeID": 4366788515529415,
     "feedID": 4066888,
     "feedTitle": "Kubernetes Podcast from Google",
@@ -1616,7 +1724,7 @@
     "userRecommendedTimeHuman": "2020-07-09",
     "feedLink": "https://www.buzzsprout.com/1121972",
     "episodeURL": "https://www.buzzsprout.com/1121972",
-    "feedArtworkURL": "https://storage.buzzsprout.com/variants/8nfciwljt3xraj5ihjktub9d08eu/5cfec01b44f3e29fae1fb88ade93fc4aecd05b192fbfbc2c2f1daa412b7c1921.jpg",
+    "feedArtworkURL": "https://storage.buzzsprout.com/variants/8nfciwljt3xraj5ihjktub9d08eu/e70382d1824eed07bf51f8b9742413cd1ad490e9f893e8ff33e49d552d3c73ea.jpg",
     "overcastFMPermalink": "https://overcast.fm/+b1V1lfeq0"
   },
   {
@@ -1664,7 +1772,7 @@
     "userRecommendedTimeHuman": "2020-07-05",
     "feedLink": "https://www.buzzsprout.com/1121972",
     "episodeURL": "https://www.buzzsprout.com/1121972",
-    "feedArtworkURL": "https://storage.buzzsprout.com/variants/8nfciwljt3xraj5ihjktub9d08eu/5cfec01b44f3e29fae1fb88ade93fc4aecd05b192fbfbc2c2f1daa412b7c1921.jpg",
+    "feedArtworkURL": "https://storage.buzzsprout.com/variants/8nfciwljt3xraj5ihjktub9d08eu/e70382d1824eed07bf51f8b9742413cd1ad490e9f893e8ff33e49d552d3c73ea.jpg",
     "overcastFMPermalink": "https://overcast.fm/+b1V0wh734"
   },
   {
@@ -1676,7 +1784,7 @@
     "userRecommendedTimeHuman": "2020-06-14",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGnc9eos"
   },
   {
@@ -1712,7 +1820,7 @@
     "userRecommendedTimeHuman": "2020-06-08",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGlfapSE"
   },
   {
@@ -1748,7 +1856,7 @@
     "userRecommendedTimeHuman": "2020-06-01",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGmBUUUE"
   },
   {
@@ -2168,7 +2276,7 @@
     "userRecommendedTimeHuman": "2020-02-03",
     "feedLink": "https://theverge.com/",
     "episodeURL": "https://theverge.com/",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/5c6a4f4a-e69c-11e8-8066-17a10182e4c8/image/uploads_2F1603744706793-t0bv7cr1mjk-3bf6145e5104a8bb7e466f07c559b548_2FDecoder_TileArt.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/5c6a4f4a-e69c-11e8-8066-17a10182e4c8/image/The_Verge_Decoder_Tileart_3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+QLdtIRVJ0"
   },
   {
@@ -2192,7 +2300,7 @@
     "userRecommendedTimeHuman": "2020-01-31",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://www.vox.com/todayexplained",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGmfyH7s"
   },
   {
@@ -2264,7 +2372,7 @@
     "userRecommendedTimeHuman": "2019-11-18",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/cdb4f892-5c9e-4046-a15f-d3464e76c0d2",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGlUSzWw"
   },
   {
@@ -2304,8 +2412,8 @@
     "overcastFMPermalink": "https://overcast.fm/+oIe93ORH0"
   },
   {
-    "episodeID": 1344159178803333,
-    "feedID": 1251845,
+    "episodeID": 2904972240387033,
+    "feedID": 2705466,
     "feedTitle": "Lawfare Presents: The Aftermath",
     "title": "Part VII: Charging Decisions",
     "userRecommendedTime": 1570212817,
@@ -2313,7 +2421,7 @@
     "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/the-report/episodes/part-vii-charging-decisions",
     "feedArtworkURL": "https://assets.pippa.io/shows/5d28ef74d3cc3f013778b13b/1671124674152-5577872783ddd9acf0823854832f4990.jpeg",
-    "overcastFMPermalink": "https://overcast.fm/+TGgXJfyIU"
+    "overcastFMPermalink": "https://overcast.fm/+pSDo54e9k"
   },
   {
     "episodeID": 2824077380030006,
@@ -2336,7 +2444,7 @@
     "userRecommendedTimeHuman": "2019-09-23",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/43/42/49/ec/434249ec-a29e-4cb7-a881-2ee2c919769a/3f919f16486fe8fe1a035a1ed9cbaf4c3f58d897fcd0f313bceb609efd33639f30172b69ee01f9cc653504af9a9e84d896ea24c55f65965124313c7365c6b17a.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C4wGGw4"
   },
   {
@@ -2472,8 +2580,8 @@
     "overcastFMPermalink": "https://overcast.fm/+oIe9J_-DI"
   },
   {
-    "episodeID": 1344159062387353,
-    "feedID": 1251845,
+    "episodeID": 2904972361739770,
+    "feedID": 2705466,
     "feedTitle": "Lawfare Presents: The Aftermath",
     "title": "The Report Part II: Hack. Dump. Divide.",
     "userRecommendedTime": 1564176653,
@@ -2481,7 +2589,7 @@
     "feedLink": "https://www.lawfareblog.com/",
     "episodeURL": "https://shows.acast.com/the-report/episodes/part-ii-hack-dump-divide",
     "feedArtworkURL": "https://assets.pippa.io/shows/5d28ef74d3cc3f013778b13b/1671124674152-5577872783ddd9acf0823854832f4990.jpeg",
-    "overcastFMPermalink": "https://overcast.fm/+TGgWtvapk"
+    "overcastFMPermalink": "https://overcast.fm/+pSDpW0Lfo"
   },
   {
     "episodeID": 3935202508584829,
@@ -2492,7 +2600,7 @@
     "userRecommendedTimeHuman": "2019-07-26",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/43/42/49/ec/434249ec-a29e-4cb7-a881-2ee2c919769a/3f919f16486fe8fe1a035a1ed9cbaf4c3f58d897fcd0f313bceb609efd33639f30172b69ee01f9cc653504af9a9e84d896ea24c55f65965124313c7365c6b17a.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C7ukt30"
   },
   {
@@ -2564,7 +2672,7 @@
     "userRecommendedTimeHuman": "2019-06-26",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/a00dc2d3-fcb8-48bc-b420-07fcb3d24c3e",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGl5sOI8"
   },
   {
@@ -2588,7 +2696,7 @@
     "userRecommendedTimeHuman": "2019-06-12",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/6622e6bd-f640-45f8-aaa8-2c82c345b5e3",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGma1yK8"
   },
   {
@@ -2768,7 +2876,7 @@
     "userRecommendedTimeHuman": "2019-02-05",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/f633cc14-1584-4e21-a5f0-a1d77c91d076",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGmm3cZI"
   },
   {
@@ -2804,7 +2912,7 @@
     "userRecommendedTimeHuman": "2019-01-18",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/218a4424-53c1-4653-adeb-fed028466ba4",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGnFjELY"
   },
   {
@@ -2876,7 +2984,7 @@
     "userRecommendedTimeHuman": "2018-09-29",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/2aba1de2-a240-4da8-b3bd-a35ea7e08097",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGlBLjJo"
   },
   {
@@ -2912,7 +3020,7 @@
     "userRecommendedTimeHuman": "2018-07-31",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/c25239e6-42ce-4961-bc21-920f1c5381e0",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGkDhJxM"
   },
   {
@@ -2948,7 +3056,7 @@
     "userRecommendedTimeHuman": "2018-06-20",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/5690fde2-118c-452c-918c-a9c30af5020f",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGk8AaZk"
   },
   {
@@ -2960,7 +3068,7 @@
     "userRecommendedTimeHuman": "2018-06-04",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/ca4c7565-1b39-408a-bbe9-73c119448375",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGnRW4TU"
   },
   {
@@ -2984,7 +3092,7 @@
     "userRecommendedTimeHuman": "2018-06-03",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/1bb8cb28-69b0-45e6-b838-6309664db892",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGlfhXpM"
   },
   {
@@ -3020,7 +3128,7 @@
     "userRecommendedTimeHuman": "2018-05-23",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/57cb210d-a3bc-4b98-88bc-c7131632ae1b",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGk5asBg"
   },
   {
@@ -3056,7 +3164,7 @@
     "userRecommendedTimeHuman": "2018-04-08",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/d21b7d92-4a41-4b02-8e71-78db43353500",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGmJHQ-M"
   },
   {
@@ -3068,7 +3176,7 @@
     "userRecommendedTimeHuman": "2018-04-08",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/d2c4b553-b2e5-4549-85e3-2de05a45064e",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGkf3Huw"
   },
   {
@@ -3080,7 +3188,7 @@
     "userRecommendedTimeHuman": "2018-04-03",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/54e8a8ad-8d89-4ef6-a84a-fadc53035b49",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGlWio5s"
   },
   {
@@ -3104,7 +3212,7 @@
     "userRecommendedTimeHuman": "2018-03-05",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/b82f9e23-114b-4abd-9c86-2bfdd3169e65",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGlTD2EU"
   },
   {
@@ -3116,7 +3224,7 @@
     "userRecommendedTimeHuman": "2018-03-02",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/04e10917-38e7-46d7-b1bc-9452ed787d32",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGk5MfQo"
   },
   {
@@ -3128,7 +3236,7 @@
     "userRecommendedTimeHuman": "2018-03-02",
     "feedLink": "https://www.vox.com/todayexplained",
     "episodeURL": "https://art19.com/shows/today-explained/episodes/3135facd-4927-43b3-8bb5-9433ad1749ca",
-    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained%2BV2_Tile_3000x3000%2B_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/23d52a2a-1c5f-11ea-9a0e-b70170f2a827/image/uploads_2F1588357113366-jjsdfzx6x4m-c0339c10f9b113a5fcc93436e66e5ef4_2FTodayExplained+V2_Tile_3000x3000+_281_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+WEGmBV-3Q"
   },
   {
