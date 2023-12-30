@@ -1,5 +1,77 @@
 [
   {
+    "episodeID": 857007361208718,
+    "feedID": 798150,
+    "feedTitle": "Twenty Thousand Hertz",
+    "title": "Tournament of Champions",
+    "userRecommendedTime": 1703052929,
+    "userRecommendedTimeHuman": "2023-12-20",
+    "feedLink": "https://www.20k.org/",
+    "episodeURL": "https://www.20k.org/episodes/tournamentofchampions",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "overcastFMPermalink": "https://overcast.fm/+MLcZNVsY4"
+  },
+  {
+    "episodeID": 2852397258849057,
+    "feedID": 2656501,
+    "feedTitle": "The Ezra Klein Show",
+    "title": "India Is Transforming. But Into What?",
+    "userRecommendedTime": 1702519025,
+    "userRecommendedTimeHuman": "2023-12-14",
+    "feedLink": "https://www.nytimes.com/ezra-klein-podcast",
+    "episodeURL": "https://nytimes.com/2023/12/12/opinion/ezra-klein-podcast-pratap-bhanu-mehta.html",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/20c893a5-2afa-416d-932c-267cdadbaeba/376e4ac0-35bb-41cb-98d3-ea33aa4fd92a/3000x3000/nyt-ezraklein-albumartwork-3000px.jpg?aid=rss_feed",
+    "overcastFMPermalink": "https://overcast.fm/+oiPX1fOyE"
+  },
+  {
+    "episodeID": 857007089571976,
+    "feedID": 798150,
+    "feedTitle": "Twenty Thousand Hertz",
+    "title": "Headphone Handbook",
+    "userRecommendedTime": 1700593561,
+    "userRecommendedTimeHuman": "2023-11-21",
+    "feedLink": "https://www.20k.org/",
+    "episodeURL": "https://www.20k.org/episodes/headphonehandbook",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "overcastFMPermalink": "https://overcast.fm/+MLcYMk2Ig"
+  },
+  {
+    "episodeID": 2852396505862495,
+    "feedID": 2656501,
+    "feedTitle": "The Ezra Klein Show",
+    "title": "What Israelis Fear the World Does Not Understand",
+    "userRecommendedTime": 1699668784,
+    "userRecommendedTimeHuman": "2023-11-11",
+    "feedLink": "https://www.nytimes.com/ezra-klein-podcast",
+    "episodeURL": "https://nytimes.com/2023/11/10/opinion/ezra-klein-podcast-yossi-klein-halevi.html",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/20c893a5-2afa-416d-932c-267cdadbaeba/376e4ac0-35bb-41cb-98d3-ea33aa4fd92a/3000x3000/nyt-ezraklein-albumartwork-3000px.jpg?aid=rss_feed",
+    "overcastFMPermalink": "https://overcast.fm/+oiPVB9kV8"
+  },
+  {
+    "episodeID": 3344536529551868,
+    "feedID": 3114842,
+    "feedTitle": "The Lawfare Podcast",
+    "title": "Chatter: The British Empire’s Territorial Peak, 100 Years Later, with Matthew Parker",
+    "userRecommendedTime": 1698975665,
+    "userRecommendedTimeHuman": "2023-11-03",
+    "feedLink": "https://www.lawfareblog.com/",
+    "episodeURL": "https://shows.acast.com/lawfare/episodes/chatter-the-british-empires-territorial-peak-100-years-later",
+    "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
+    "overcastFMPermalink": "https://overcast.fm/+vh1pfIQfw"
+  },
+  {
+    "episodeID": 4597337823061699,
+    "feedID": 4281604,
+    "feedTitle": "Search Engine",
+    "title": "Is there a sane way to use the internet?",
+    "userRecommendedTime": 1697830335,
+    "userRecommendedTimeHuman": "2023-10-20",
+    "feedLink": "https://www.pjvogt.com/",
+    "episodeURL": "https://www.pjvogt.com/",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/18c2582e-e29f-11ed-aadd-5ff2cd0b184f/image/search_engine_final_2.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "overcastFMPermalink": "https://overcast.fm/+BBVQR_bJsM"
+  },
+  {
     "episodeID": 737148829484346,
     "feedID": 686523,
     "feedTitle": "The Tim Ferriss Show",
@@ -12,8 +84,8 @@
     "overcastFMPermalink": "https://overcast.fm/+KebtYgxTo"
   },
   {
-    "episodeID": 529182593619470,
-    "feedID": 492839,
+    "episodeID": 857007142428160,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Subtitles: On",
     "userRecommendedTime": 1695246857,
@@ -21,7 +93,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/subtitleson",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSeyDlg4"
+    "overcastFMPermalink": "https://overcast.fm/+MLcYZLXgA"
   },
   {
     "episodeID": 2824078096967860,
@@ -156,8 +228,8 @@
     "overcastFMPermalink": "https://overcast.fm/+2sZwnFnvQ"
   },
   {
-    "episodeID": 529182816673246,
-    "feedID": 492839,
+    "episodeID": 857008103494397,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "From Cylinders to Streaming",
     "userRecommendedTime": 1687400050,
@@ -165,7 +237,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/fromcylinderstostreaming",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSfnPHd4"
+    "overcastFMPermalink": "https://overcast.fm/+MLcb-UEv0"
   },
   {
     "episodeID": 2139409617404052,
@@ -243,7 +315,7 @@
     "episodeID": 593105502430023,
     "feedID": 552372,
     "feedTitle": "The Secure Developer",
-    "title": "Ep. 118 This is How they Tell Me the World Ends - A look at Supply Chain Security",
+    "title": "This Is How They Tell Me The World Ends - A Look At Supply Chain Security With Nicole Perlroth",
     "userRecommendedTime": 1686203293,
     "userRecommendedTimeHuman": "2023-06-08",
     "feedLink": "https://thesecuredeveloper.com/",
@@ -344,7 +416,7 @@
     "userRecommendedTimeHuman": "2023-04-26",
     "feedLink": "https://www.historydaily.com/",
     "episodeURL": "https://www.historydaily.com/",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/c3/8e/32/08/c38e3208-da26-4008-9afa-2f441c081c75/426a0802b360a9dda32a7b3dd85e611370ccafef1e5495943ee5074e8cda7a4a07a4a617f5aa95da9fafa13f5a4db818df1021f33de15796c6ed51db68eb21e7.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/46/ec/54/46/46ec5446-4e33-413e-b6e4-05317cbbacf7/95c68e1acbf90f87ef8334fddfb6cff726a6eec8c260a46fbb98bb7643f3c27ad227bffaf3afd6ef62ae46e8bcf10b566e64668749c8201a9048e3c497425ec0.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+0mxiuxsSo"
   },
   {
@@ -392,7 +464,7 @@
     "userRecommendedTimeHuman": "2023-04-11",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C7BeoAQ"
   },
   {
@@ -452,7 +524,7 @@
     "userRecommendedTimeHuman": "2023-03-29",
     "feedLink": "https://www.historydaily.com/",
     "episodeURL": "https://www.historydaily.com/",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/c3/8e/32/08/c38e3208-da26-4008-9afa-2f441c081c75/426a0802b360a9dda32a7b3dd85e611370ccafef1e5495943ee5074e8cda7a4a07a4a617f5aa95da9fafa13f5a4db818df1021f33de15796c6ed51db68eb21e7.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/46/ec/54/46/46ec5446-4e33-413e-b6e4-05317cbbacf7/95c68e1acbf90f87ef8334fddfb6cff726a6eec8c260a46fbb98bb7643f3c27ad227bffaf3afd6ef62ae46e8bcf10b566e64668749c8201a9048e3c497425ec0.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+0mxgSzKm8"
   },
   {
@@ -488,7 +560,7 @@
     "userRecommendedTimeHuman": "2023-02-01",
     "feedLink": "https://corecursive.com/",
     "episodeURL": "https://chtbl.com/track/7D91G/traffic.libsyn.com/corecursive/066-sqlite.mp3",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/d/7/a/5/d7a5a500931246e3/Coding_Stories.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/d/7/a/5/d7a5a500931246e3/Coding_Stories.png",
     "overcastFMPermalink": "https://overcast.fm/+LfVNRLj3Y"
   },
   {
@@ -500,12 +572,12 @@
     "userRecommendedTimeHuman": "2023-02-01",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C65b9bM"
   },
   {
-    "episodeID": 529182228179996,
-    "feedID": 492839,
+    "episodeID": 857007063770186,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Tokyo Rose",
     "userRecommendedTime": 1675193140,
@@ -513,7 +585,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/tokyorose",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSda7bBw"
+    "overcastFMPermalink": "https://overcast.fm/+MLcYGbJEo"
   },
   {
     "episodeID": 2852396511506400,
@@ -536,7 +608,7 @@
     "userRecommendedTimeHuman": "2023-01-17",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C7Fqsv0"
   },
   {
@@ -548,7 +620,7 @@
     "userRecommendedTimeHuman": "2023-01-07",
     "feedLink": "https://www.mastersofscale.com/",
     "episodeURL": "https://www.mastersofscale.com/",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/f0/dd/b7/02/f0ddb702-9415-4e4e-bde3-077f70375882/583a61ebfe82d70c0d1fd8df3de4d823080281d76b352d851b5bd9a6fa260112e13fa06216639941a13c0aad1d763d24b45966997036f89e8cc9ef54c77f2340.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/2a/8b/40/e5/2a8b40e5-d38e-42bd-bdfa-169516ffe654/e53c1f7e559167e7a0971f50457d8e23bf77ad954bd67144a555401fa06839a064a9f96626dbfaa8a68f23199dd8ee5a62434b37f689f5b555c31fd806eda617.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+I6DDc75JY"
   },
   {
@@ -644,7 +716,7 @@
     "userRecommendedTimeHuman": "2022-10-28",
     "feedLink": "https://www.nbcnews.com/",
     "episodeURL": "https://www.nbcnews.com/",
-    "feedArtworkURL": "https://image.simplecastcdn.com/images/8ba89b80-a681-4cd2-87bd-79a6315b0474/20157b68-241a-4cfc-929a-63e920d22156/3000x3000/ultrafin.jpg?aid=rss_feed",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/8ba89b80-a681-4cd2-87bd-79a6315b0474/9dae5b5b-75fb-4ef7-9ef9-3c31587d42df/3000x3000/ultra-1x1.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+8n-JFa2D8"
   },
   {
@@ -680,7 +752,7 @@
     "userRecommendedTimeHuman": "2022-10-19",
     "feedLink": "https://www.nbcnews.com/",
     "episodeURL": "https://www.nbcnews.com/",
-    "feedArtworkURL": "https://image.simplecastcdn.com/images/8ba89b80-a681-4cd2-87bd-79a6315b0474/20157b68-241a-4cfc-929a-63e920d22156/3000x3000/ultrafin.jpg?aid=rss_feed",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/8ba89b80-a681-4cd2-87bd-79a6315b0474/9dae5b5b-75fb-4ef7-9ef9-3c31587d42df/3000x3000/ultra-1x1.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+8n-KRNZiY"
   },
   {
@@ -692,7 +764,7 @@
     "userRecommendedTimeHuman": "2022-10-18",
     "feedLink": "https://www.nbcnews.com/",
     "episodeURL": "https://www.nbcnews.com/",
-    "feedArtworkURL": "https://image.simplecastcdn.com/images/8ba89b80-a681-4cd2-87bd-79a6315b0474/20157b68-241a-4cfc-929a-63e920d22156/3000x3000/ultrafin.jpg?aid=rss_feed",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/8ba89b80-a681-4cd2-87bd-79a6315b0474/9dae5b5b-75fb-4ef7-9ef9-3c31587d42df/3000x3000/ultra-1x1.jpg?aid=rss_feed",
     "overcastFMPermalink": "https://overcast.fm/+8n-KMqLqM"
   },
   {
@@ -756,8 +828,8 @@
     "overcastFMPermalink": "https://overcast.fm/+4_yCrwYxQ"
   },
   {
-    "episodeID": 529182751179094,
-    "feedID": 492839,
+    "episodeID": 857007984142272,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Ted Lasso’s Dark Forest",
     "userRecommendedTime": 1660442408,
@@ -765,7 +837,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/tedlassosdarkforest",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSfXnwVY"
+    "overcastFMPermalink": "https://overcast.fm/+MLcbh258A"
   },
   {
     "episodeID": 737149195360276,
@@ -824,7 +896,7 @@
     "userRecommendedTimeHuman": "2022-07-13",
     "feedLink": "https://securitycryptographywhatever.com/",
     "episodeURL": "https://securitycryptographywhatever.com/2022/06/10/omb-zero-trust-memo-with-eric-mill/",
-    "feedArtworkURL": "https://storage.buzzsprout.com/variants/frpkkktyji9epsau1rvyvzig8e2s/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg",
+    "feedArtworkURL": "https://storage.buzzsprout.com/variants/frpkkktyji9epsau1rvyvzig8e2s/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad.jpg",
     "overcastFMPermalink": "https://overcast.fm/+xz8X8qQgQ"
   },
   {
@@ -852,8 +924,8 @@
     "overcastFMPermalink": "https://overcast.fm/+BD1ZszmdYU"
   },
   {
-    "episodeID": 529182749240284,
-    "feedID": 492839,
+    "episodeID": 857007484314745,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Relearning Boléro",
     "userRecommendedTime": 1654740158,
@@ -861,7 +933,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/relearningbolero",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSfXKK9w"
+    "overcastFMPermalink": "https://overcast.fm/+MLcZqsJHk"
   },
   {
     "episodeID": 2139409155787035,
@@ -900,8 +972,8 @@
     "overcastFMPermalink": "https://overcast.fm/+OyScgX9Og"
   },
   {
-    "episodeID": 529182556720372,
-    "feedID": 492839,
+    "episodeID": 857008035531342,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Ta-da! It’s Windows",
     "userRecommendedTime": 1651158753,
@@ -909,7 +981,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/tadaitswindows",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSepQjPQ"
+    "overcastFMPermalink": "https://overcast.fm/+MLcbuHCk4"
   },
   {
     "episodeID": 3344536506917064,
@@ -944,7 +1016,7 @@
     "userRecommendedTimeHuman": "2022-03-30",
     "feedLink": "https://www.se-radio.net/",
     "episodeURL": "https://se-radio.net/episode-505-daniel-stenberg-on-25-years-with-curl-0",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/c/5/5/7/c557e4cde3d766c6/se-radio-logo.jpg",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/c/5/5/7/c557e4cde3d766c6/se-radio-logo.jpg",
     "overcastFMPermalink": "https://overcast.fm/+fPIQ1zIYE"
   },
   {
@@ -1008,8 +1080,8 @@
     "overcastFMPermalink": "https://overcast.fm/+2sZxm_3_k"
   },
   {
-    "episodeID": 529182811186020,
-    "feedID": 492839,
+    "episodeID": 857007223685043,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Happy Little Episode",
     "userRecommendedTime": 1646281776,
@@ -1017,7 +1089,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/happylittleepisode",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSfl7Y2Q"
+    "overcastFMPermalink": "https://overcast.fm/+MLcYsjP7M"
   },
   {
     "episodeID": 2139409771312993,
@@ -1052,7 +1124,7 @@
     "userRecommendedTimeHuman": "2022-02-12",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/derek-sivers/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+Oxeawa6YM"
   },
   {
@@ -1148,7 +1220,7 @@
     "userRecommendedTimeHuman": "2021-11-17",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-podcast/douglas-rushkoff/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxebS7ii4"
   },
   {
@@ -1196,12 +1268,12 @@
     "userRecommendedTimeHuman": "2021-09-11",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/kat-cole/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxeaxCOi8"
   },
   {
-    "episodeID": 529181876815502,
-    "feedID": 492839,
+    "episodeID": 857007177193382,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Let It Beep",
     "userRecommendedTime": 1631205561,
@@ -1209,7 +1281,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/letitbeep",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhScHKBo4"
+    "overcastFMPermalink": "https://overcast.fm/+MLcYhd16Y"
   },
   {
     "episodeID": 530478343129982,
@@ -1224,8 +1296,8 @@
     "overcastFMPermalink": "https://overcast.fm/+Hid500C34"
   },
   {
-    "episodeID": 529182061494237,
-    "feedID": 492839,
+    "episodeID": 857007118242461,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Domestic Symphony",
     "userRecommendedTime": 1629397198,
@@ -1233,7 +1305,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/domesticsymphony",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSczL_90"
+    "overcastFMPermalink": "https://overcast.fm/+MLcYTaUp0"
   },
   {
     "episodeID": 2981641261099006,
@@ -1256,7 +1328,7 @@
     "userRecommendedTimeHuman": "2021-07-31",
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep155.mp3",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+-DkhQ0BXs"
   },
   {
@@ -1340,7 +1412,7 @@
     "userRecommendedTimeHuman": "2021-06-01",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/adam-grant2/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxeaThAmI"
   },
   {
@@ -1452,8 +1524,8 @@
     "overcastFMPermalink": "https://overcast.fm/+WEGlrLXn4"
   },
   {
-    "episodeID": 529181936839225,
-    "feedID": 492839,
+    "episodeID": 857008015055823,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Muzak",
     "userRecommendedTime": 1619653942,
@@ -1461,7 +1533,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/muzak",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhScVd6jk"
+    "overcastFMPermalink": "https://overcast.fm/+MLcbpOm88"
   },
   {
     "episodeID": 2981640692491250,
@@ -1608,8 +1680,8 @@
     "overcastFMPermalink": "https://overcast.fm/+x7ctYMTc0"
   },
   {
-    "episodeID": 529182830611373,
-    "feedID": 492839,
+    "episodeID": 857008095072489,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Dies Irae",
     "userRecommendedTime": 1603308801,
@@ -1617,7 +1689,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/diesirae",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSfqjy60"
+    "overcastFMPermalink": "https://overcast.fm/+MLcb8TkOk"
   },
   {
     "episodeID": 1348433397101525,
@@ -1736,7 +1808,7 @@
     "userRecommendedTimeHuman": "2020-07-29",
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep114.mp3",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+-Dki5HAsc"
   },
   {
@@ -1784,7 +1856,7 @@
     "userRecommendedTimeHuman": "2020-07-11",
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep111.mp3",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+-Dkh_5zSo"
   },
   {
@@ -1796,7 +1868,7 @@
     "userRecommendedTimeHuman": "2020-07-09",
     "feedLink": "https://www.buzzsprout.com/1121972",
     "episodeURL": "https://www.buzzsprout.com/1121972",
-    "feedArtworkURL": "https://storage.buzzsprout.com/variants/8nfciwljt3xraj5ihjktub9d08eu/e70382d1824eed07bf51f8b9742413cd1ad490e9f893e8ff33e49d552d3c73ea.jpg",
+    "feedArtworkURL": "https://storage.buzzsprout.com/variants/8nfciwljt3xraj5ihjktub9d08eu/5cfec01b44f3e29fae1fb88ade93fc4aecd05b192fbfbc2c2f1daa412b7c1921.jpg",
     "overcastFMPermalink": "https://overcast.fm/+b1V1lfeq0"
   },
   {
@@ -1844,7 +1916,7 @@
     "userRecommendedTimeHuman": "2020-07-05",
     "feedLink": "https://www.buzzsprout.com/1121972",
     "episodeURL": "https://www.buzzsprout.com/1121972",
-    "feedArtworkURL": "https://storage.buzzsprout.com/variants/8nfciwljt3xraj5ihjktub9d08eu/e70382d1824eed07bf51f8b9742413cd1ad490e9f893e8ff33e49d552d3c73ea.jpg",
+    "feedArtworkURL": "https://storage.buzzsprout.com/variants/8nfciwljt3xraj5ihjktub9d08eu/5cfec01b44f3e29fae1fb88ade93fc4aecd05b192fbfbc2c2f1daa412b7c1921.jpg",
     "overcastFMPermalink": "https://overcast.fm/+b1V0wh734"
   },
   {
@@ -1868,7 +1940,7 @@
     "userRecommendedTimeHuman": "2020-06-10",
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep107.mp3",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+-Dkhf79No"
   },
   {
@@ -1880,7 +1952,7 @@
     "userRecommendedTimeHuman": "2020-06-09",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/bethany-mclean/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxeaQhg_g"
   },
   {
@@ -1904,7 +1976,7 @@
     "userRecommendedTimeHuman": "2020-06-02",
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep106.mp3",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+-DkhnV6k0"
   },
   {
@@ -2024,7 +2096,7 @@
     "userRecommendedTimeHuman": "2020-05-12",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/brian-koppelman/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxeYaF_P4"
   },
   {
@@ -2072,7 +2144,7 @@
     "userRecommendedTimeHuman": "2020-04-24",
     "feedLink": "https://www.mastersofscale.com/",
     "episodeURL": "https://www.mastersofscale.com/",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/f0/dd/b7/02/f0ddb702-9415-4e4e-bde3-077f70375882/583a61ebfe82d70c0d1fd8df3de4d823080281d76b352d851b5bd9a6fa260112e13fa06216639941a13c0aad1d763d24b45966997036f89e8cc9ef54c77f2340.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/2a/8b/40/e5/2a8b40e5-d38e-42bd-bdfa-169516ffe654/e53c1f7e559167e7a0971f50457d8e23bf77ad954bd67144a555401fa06839a064a9f96626dbfaa8a68f23199dd8ee5a62434b37f689f5b555c31fd806eda617.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+I6DBQZJwk"
   },
   {
@@ -2156,12 +2228,12 @@
     "userRecommendedTimeHuman": "2020-03-22",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/knowledge-project/esther-wojcicki/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxeY3ZHbU"
   },
   {
-    "episodeID": 529182584655363,
-    "feedID": 492839,
+    "episodeID": 857007342638959,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Cremona",
     "userRecommendedTime": 1584541779,
@@ -2169,7 +2241,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/cremona",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhSev6zgM"
+    "overcastFMPermalink": "https://overcast.fm/+MLcZI6V28"
   },
   {
     "episodeID": 3848733286935417,
@@ -2187,7 +2259,7 @@
     "episodeID": 593105527413135,
     "feedID": 552372,
     "feedTitle": "The Secure Developer",
-    "title": "Ep. #48, Sustainable and Scalable Ways to Buy Down Risk with Clint Gibler from the NCC Group.",
+    "title": "Sustainable And Scalable Ways To Buy Down Risk With Clint Gibler",
     "userRecommendedTime": 1584213832,
     "userRecommendedTimeHuman": "2020-03-14",
     "feedLink": "https://thesecuredeveloper.com/",
@@ -2199,7 +2271,7 @@
     "episodeID": 593105482253128,
     "feedID": 552372,
     "feedTitle": "The Secure Developer",
-    "title": "Ep. #49, Five Ideals for Better DevOps and Security with Gene Kim of the The Unicorn Project.",
+    "title": "Five Ideals For Better DevOps And Security With Gene Kim",
     "userRecommendedTime": 1584212351,
     "userRecommendedTimeHuman": "2020-03-14",
     "feedLink": "https://thesecuredeveloper.com/",
@@ -2312,7 +2384,7 @@
     "userRecommendedTimeHuman": "2020-02-12",
     "feedLink": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep090.mp3",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
     "overcastFMPermalink": "https://overcast.fm/+-Dki-73O8"
   },
   {
@@ -2384,7 +2456,7 @@
     "userRecommendedTimeHuman": "2020-01-12",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/steven-strogatz/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxeajN18M"
   },
   {
@@ -2396,7 +2468,7 @@
     "userRecommendedTimeHuman": "2020-01-12",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/neil-pasricha/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxeZ1zcSo"
   },
   {
@@ -2408,7 +2480,7 @@
     "userRecommendedTimeHuman": "2020-01-12",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/sheila-heen/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxebAAIJI"
   },
   {
@@ -2516,7 +2588,7 @@
     "userRecommendedTimeHuman": "2019-09-23",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C4wGGw4"
   },
   {
@@ -2528,7 +2600,7 @@
     "userRecommendedTimeHuman": "2019-09-23",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/greg-walton/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxebPvHHQ"
   },
   {
@@ -2540,7 +2612,7 @@
     "userRecommendedTimeHuman": "2019-09-22",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/emily-nagoski/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxeYX6O74"
   },
   {
@@ -2672,7 +2744,7 @@
     "userRecommendedTimeHuman": "2019-07-26",
     "feedLink": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
     "episodeURL": "https://wondery.com/shows/how-i-built-this/?utm_source=rss",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/6d/88/54/ab6d8854-5bc4-415d-b68e-b2ad9bbe1287/24f1e4351644c6dc6c5175fed3258c7a327ea93d79e59818a74439df34c1a8696dbddf67eda3c29412b05192112e2ad44da2976b8681d0c564d3ce56015853ed.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+37C7ukt30"
   },
   {
@@ -2684,7 +2756,7 @@
     "userRecommendedTimeHuman": "2019-07-26",
     "feedLink": "https://fs.blog/knowledge-project/",
     "episodeURL": "https://fs.blog/sue-johnson/",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/5/9/0/7/590730c5f73a2ccebafc7308ab683e82/knowledge-project-small.png",
     "overcastFMPermalink": "https://overcast.fm/+OxeZqopqo"
   },
   {
@@ -2696,7 +2768,7 @@
     "userRecommendedTimeHuman": "2019-07-26",
     "feedLink": "https://www.se-radio.net/",
     "episodeURL": "https://traffic.libsyn.com/secure/seradio/Episode-374-Marcus-Blankenship-on-Motivating-Programmers.mp3",
-    "feedArtworkURL": "https://ssl-static.libsyn.com/p/assets/c/5/5/7/c557e4cde3d766c6/se-radio-logo.jpg",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/c/5/5/7/c557e4cde3d766c6/se-radio-logo.jpg",
     "overcastFMPermalink": "https://overcast.fm/+fPIRcC3EU"
   },
   {
@@ -2988,8 +3060,8 @@
     "overcastFMPermalink": "https://overcast.fm/+WEGnFjELY"
   },
   {
-    "episodeID": 529182056915678,
-    "feedID": 492839,
+    "episodeID": 857007533380367,
+    "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
     "title": "Silence",
     "userRecommendedTime": 1547503528,
@@ -2997,7 +3069,7 @@
     "feedLink": "https://www.20k.org/",
     "episodeURL": "https://www.20k.org/episodes/silence",
     "feedArtworkURL": "https://megaphone.imgix.net/podcasts/055fe9c2-c3ce-11e7-a353-8f206a4d6ba7/image/Twenty_Thousand_Hertz_-_Key_Icon_-_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-    "overcastFMPermalink": "https://overcast.fm/+HhScyGIt4"
+    "overcastFMPermalink": "https://overcast.fm/+MLcZ2Y0w8"
   },
   {
     "episodeID": 535828087841666,
@@ -3320,7 +3392,7 @@
     "userRecommendedTimeHuman": "2018-02-12",
     "feedLink": "https://www.mastersofscale.com/",
     "episodeURL": "https://mastersofscale.com/sheryl-sandberg-lead-lead-again/",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/f0/dd/b7/02/f0ddb702-9415-4e4e-bde3-077f70375882/583a61ebfe82d70c0d1fd8df3de4d823080281d76b352d851b5bd9a6fa260112e13fa06216639941a13c0aad1d763d24b45966997036f89e8cc9ef54c77f2340.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/2a/8b/40/e5/2a8b40e5-d38e-42bd-bdfa-169516ffe654/e53c1f7e559167e7a0971f50457d8e23bf77ad954bd67144a555401fa06839a064a9f96626dbfaa8a68f23199dd8ee5a62434b37f689f5b555c31fd806eda617.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+I6DBGfqLk"
   },
   {
