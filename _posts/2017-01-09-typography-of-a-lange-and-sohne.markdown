@@ -2,7 +2,7 @@
 layout: post
 title: "Typography of A. Lange &amp; Söhne"
 date: 2017-01-09 01:17:50 -0500
-external-url: https://andlarry.com/journal/watch-the-type
+external-url: https://web.archive.org/web/20170102082630/https://andlarry.com/journal/watch-the-type
 tags:
 - watches
 - design

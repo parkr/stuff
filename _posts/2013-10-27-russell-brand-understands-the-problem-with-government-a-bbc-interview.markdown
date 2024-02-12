@@ -21,7 +21,7 @@ Brand's ideas are radical in a political sense, but I'd agree that they're
 necessary if we wish to see a world of happy, healthy human beings in the next
 century. I'll be keeping an eye on him and supporting him every step of the way.
 
-[a Gawker article]: https://www.gawker.com/russell-brand-may-have-started-a-revolution-last-night-1451318185
+[a Gawker article]: https://web.archive.org/web/20131025194544/http://gawker.com/russell-brand-may-have-started-a-revolution-last-night-1451318185
 [guest editor of the _New Statesman_]: https://www.newstatesman.com/long-reads/2013/10/russell-brand-on-revolution
 
 You really ought to watch the entire interview, but for the lazy, some notable
