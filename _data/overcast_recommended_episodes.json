@@ -1,5 +1,77 @@
 [
   {
+    "episodeID": 4010777913544922,
+    "feedID": 3735328,
+    "feedTitle": "Masters in Business",
+    "title": "Shomik Dutta on Climate Tech Investments",
+    "userRecommendedTime": 1705876962,
+    "userRecommendedTimeHuman": "2024-01-21",
+    "feedLink": "https://www.bloomberg.com/audio/shows",
+    "episodeURL": "https://omny.fm/shows/masters-in-business/shomik-dutta-on-climate-tech-investments",
+    "feedArtworkURL": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/5873a3cb-298f-40bc-b71f-ae2b0013000d/image.jpg?t=1677179752&size=Large",
+    "overcastFMPermalink": "https://overcast.fm/+4_yADPUNo"
+  },
+  {
+    "episodeID": 4670032670905173,
+    "feedID": 4349306,
+    "feedTitle": "Unconfuse Me with Bill Gates",
+    "title": "Episode 6: Sam Altman",
+    "userRecommendedTime": 1705449344,
+    "userRecommendedTimeHuman": "2024-01-16",
+    "feedLink": "https://www.gatesnotes.com/Podcast",
+    "episodeURL": "https://www.gatesnotes.com/Podcast",
+    "feedArtworkURL": "https://f.prxu.org/4383/images/a281b725-e64f-4bec-80f0-97e498f4f589/Cover_UnconfuseMe_3000x3000.jpg",
+    "overcastFMPermalink": "https://overcast.fm/+BCXXrZwU1U"
+  },
+  {
+    "episodeID": 3344536753995702,
+    "feedID": 3114842,
+    "feedTitle": "The Lawfare Podcast",
+    "title": "Chatter: Rachel Maddow on her book “Prequel: An American Fight Against Fascism”",
+    "userRecommendedTime": 1705424749,
+    "userRecommendedTimeHuman": "2024-01-16",
+    "feedLink": "https://www.lawfareblog.com/",
+    "episodeURL": "https://shows.acast.com/lawfare/episodes/chatter-rachel-maddow-on-her-book-prequel-an-american-fight-",
+    "feedArtworkURL": "https://assets.pippa.io/shows/60518a52f69aa815d2dba41c/show-cover.png",
+    "overcastFMPermalink": "https://overcast.fm/+vh1qUo_7Y"
+  },
+  {
+    "episodeID": 4875357935607401,
+    "feedID": 4540530,
+    "feedTitle": "DealBook Summit",
+    "title": "Jamie Dimon on Why He Thinks We Are Living in One of the Most Dangerous Times",
+    "userRecommendedTime": 1704424401,
+    "userRecommendedTimeHuman": "2024-01-05",
+    "feedLink": "https://dealbook-podcast.simplecast.com/",
+    "episodeURL": "https://dealbook-podcast.simplecast.com/episodes/jamie-dimon-C2Dsnosq",
+    "feedArtworkURL": "https://image.simplecastcdn.com/images/4105a47a-42e5-4ccc-887a-832af7989986/292a39a3-013c-49da-916d-e57a8c5a8b66/3000x3000/nyt-db-3000px.jpg?aid=rss_feed",
+    "overcastFMPermalink": "https://overcast.fm/+BFSHLnnnmk"
+  },
+  {
+    "episodeID": 713592314485379,
+    "feedID": 664584,
+    "feedTitle": "The Bodleian Libraries (BODcasts)",
+    "title": "Tolkien’s turning point: Tolkien and the history of tongues",
+    "userRecommendedTime": 1704162329,
+    "userRecommendedTimeHuman": "2024-01-02",
+    "feedLink": "https://www.bodleian.ox.ac.uk/",
+    "episodeURL": "https://media.podcasts.ox.ac.uk/bodlib/bodcast/2018-09-05-bodlib-tolkein-1.mp4",
+    "feedArtworkURL": "https://mediapub.it.ox.ac.uk/sites/fred/files/default_images/default-radcliffe.jpg",
+    "overcastFMPermalink": "https://overcast.fm/+KJAihrWoM"
+  },
+  {
+    "episodeID": 713592497214297,
+    "feedID": 664584,
+    "feedTitle": "The Bodleian Libraries (BODcasts)",
+    "title": "Medieval Welsh",
+    "userRecommendedTime": 1704137797,
+    "userRecommendedTimeHuman": "2024-01-01",
+    "feedLink": "https://www.bodleian.ox.ac.uk/",
+    "episodeURL": "https://media.podcasts.ox.ac.uk/bodlib/bodcast/2018-10-12-bodlib-tolkien-720p.mp4",
+    "feedArtworkURL": "https://mediapub.it.ox.ac.uk/sites/fred/files/default_images/default-radcliffe.jpg",
+    "overcastFMPermalink": "https://overcast.fm/+KJAjNPk1k"
+  },
+  {
     "episodeID": 857007361208718,
     "feedID": 798150,
     "feedTitle": "Twenty Thousand Hertz",
@@ -296,7 +368,7 @@
     "userRecommendedTimeHuman": "2023-06-12",
     "feedLink": "https://www.rickhanson.net/being-well-podcast/",
     "episodeURL": "https://www.rickhanson.net/being-well-podcast/",
-    "feedArtworkURL": "https://image.simplecastcdn.com/images/82c8ad31-db3c-4ae7-b1d6-e87702497ae7/fcdba9c0-38fd-4c76-9e21-00a677e79eed/3000x3000/beingwell-highres.jpg?aid=rss_feed",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/29c0137e-b6fb-11ee-8b98-972782997553/image/beingwell-highres.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+Gtyz_2flg"
   },
   {
@@ -368,7 +440,7 @@
     "userRecommendedTimeHuman": "2023-05-23",
     "feedLink": "https://www.rickhanson.net/being-well-podcast/",
     "episodeURL": "https://www.rickhanson.net/being-well-podcast/",
-    "feedArtworkURL": "https://image.simplecastcdn.com/images/82c8ad31-db3c-4ae7-b1d6-e87702497ae7/fcdba9c0-38fd-4c76-9e21-00a677e79eed/3000x3000/beingwell-highres.jpg?aid=rss_feed",
+    "feedArtworkURL": "https://megaphone.imgix.net/podcasts/29c0137e-b6fb-11ee-8b98-972782997553/image/beingwell-highres.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "overcastFMPermalink": "https://overcast.fm/+GtywK-Rao"
   },
   {
@@ -1016,7 +1088,7 @@
     "userRecommendedTimeHuman": "2022-03-30",
     "feedLink": "https://www.se-radio.net/",
     "episodeURL": "https://se-radio.net/episode-505-daniel-stenberg-on-25-years-with-curl-0",
-    "feedArtworkURL": "https://static.libsyn.com/p/assets/c/5/5/7/c557e4cde3d766c6/se-radio-logo.jpg",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/6/2/0/7/62079f6bc79bbf41e5bbc093207a2619/SE-radio-apple-show-cover-3000x3000.png",
     "overcastFMPermalink": "https://overcast.fm/+fPIQ1zIYE"
   },
   {
@@ -1819,7 +1891,7 @@
     "userRecommendedTime": 1595973475,
     "userRecommendedTimeHuman": "2020-07-28",
     "feedLink": "https://lexfridman.com/",
-    "episodeURL": "https://lexfridman.com/david-patterson/",
+    "episodeURL": "https://lexfridman.com/david-patterson/?utm_source=rss&utm_medium=rss&utm_campaign=david-patterson",
     "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
     "overcastFMPermalink": "https://overcast.fm/+OcVdh9msE"
   },
@@ -1831,7 +1903,7 @@
     "userRecommendedTime": 1595255145,
     "userRecommendedTimeHuman": "2020-07-20",
     "feedLink": "https://lexfridman.com/",
-    "episodeURL": "https://lexfridman.com/brian-kernighan/",
+    "episodeURL": "https://lexfridman.com/brian-kernighan/?utm_source=rss&utm_medium=rss&utm_campaign=brian-kernighan",
     "feedArtworkURL": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
     "overcastFMPermalink": "https://overcast.fm/+OcVd9U9sA"
   },
@@ -2562,7 +2634,7 @@
     "title": "Part VII: Charging Decisions",
     "userRecommendedTime": 1570212817,
     "userRecommendedTimeHuman": "2019-10-04",
-    "feedLink": "https://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfaremedia.org/",
     "episodeURL": "https://shows.acast.com/the-report/episodes/part-vii-charging-decisions",
     "feedArtworkURL": "https://assets.pippa.io/shows/5d28ef74d3cc3f013778b13b/1671124674152-5577872783ddd9acf0823854832f4990.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+pSDo54e9k"
@@ -2730,7 +2802,7 @@
     "title": "The Report Part II: Hack. Dump. Divide.",
     "userRecommendedTime": 1564176653,
     "userRecommendedTimeHuman": "2019-07-26",
-    "feedLink": "https://www.lawfareblog.com/",
+    "feedLink": "https://www.lawfaremedia.org/",
     "episodeURL": "https://shows.acast.com/the-report/episodes/part-ii-hack-dump-divide",
     "feedArtworkURL": "https://assets.pippa.io/shows/5d28ef74d3cc3f013778b13b/1671124674152-5577872783ddd9acf0823854832f4990.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+pSDpW0Lfo"
@@ -2768,7 +2840,7 @@
     "userRecommendedTimeHuman": "2019-07-26",
     "feedLink": "https://www.se-radio.net/",
     "episodeURL": "https://traffic.libsyn.com/secure/seradio/Episode-374-Marcus-Blankenship-on-Motivating-Programmers.mp3",
-    "feedArtworkURL": "https://static.libsyn.com/p/assets/c/5/5/7/c557e4cde3d766c6/se-radio-logo.jpg",
+    "feedArtworkURL": "https://static.libsyn.com/p/assets/6/2/0/7/62079f6bc79bbf41e5bbc093207a2619/SE-radio-apple-show-cover-3000x3000.png",
     "overcastFMPermalink": "https://overcast.fm/+fPIRcC3EU"
   },
   {
@@ -3338,13 +3410,13 @@
   {
     "episodeID": 325869512489469,
     "feedID": 303489,
-    "feedTitle": "Inside Intercom",
+    "feedTitle": "The Ticket: Discover the Future of Customer Service, with Intercom",
     "title": "Joel Califa, Senior Product Designer at GitHub",
     "userRecommendedTime": 1522294297,
     "userRecommendedTimeHuman": "2018-03-29",
     "feedLink": "https://www.intercom.com/blog/podcasts/",
     "episodeURL": "https://www.intercom.com/blog/podcasts/",
-    "feedArtworkURL": "https://content.production.cdn.art19.com/images/20/f7/10/3d/20f7103d-0569-4a12-8b99-97adfa839b21/a6ef51b2982256d97195284c99a012f6890a40d50d3075ce8342ddca6ba995834398497da60f127cdd0419f0c3c7683c2bdaf421f40f553e589e270018e64cbe.jpeg",
+    "feedArtworkURL": "https://content.production.cdn.art19.com/images/ab/2c/0a/cc/ab2c0acc-2d80-4028-a328-94d406d0e93a/ccbf6cabb93d00c97670812613a45a2f19337fbfe7dce3eb950cbfa49485e51e3ff0276ba9861b151dcae2607ff4cf007467a72dff91643031687fc1c6820da1.jpeg",
     "overcastFMPermalink": "https://overcast.fm/+EoYGiI-f0"
   },
   {
