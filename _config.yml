@@ -62,5 +62,6 @@ exclude:
 - README.md
 - vendor
 - script
+- .ruby-lsp
 
 timezone: America/Los_Angeles

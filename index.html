@@ -5,7 +5,8 @@ layout: default
 {% capture _LINE_FEED %}
 
 {% endcapture %}
-{% capture compilations %}{% for compilation in site.compilations %}
+{% assign compilation_html_pages = site.compilations | where_exp: "item", "item.url contains 'html'" %}
+{% capture compilations %}{% for compilation in compilation_html_pages %}
 <a href="{{ compilation.url | relative_url }}">{{ compilation.title }}</a>{% endfor %}{% endcapture %}
 
 <div class="unit whole">

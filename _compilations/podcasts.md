@@ -29,3 +29,5 @@ I listen in Overcast and extracted my favorited episodes ({{ site.data.overcast_
 </ul>
 </p>
 {%- endfor -%}
+
+This data is also accessible [as a JSON blob]({{ "/compilations/podcasts.json" | relative_url }}).
