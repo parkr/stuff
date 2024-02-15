@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "github-pages", "230"
+gem "github-pages", "231"
 
 group :development do
   gem 'pry'
