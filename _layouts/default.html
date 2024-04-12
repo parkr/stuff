@@ -7,7 +7,20 @@
   <title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.name }}</title>
   {% feed_meta %}
   <link rel="stylesheet" href="{{ "/css/parkersstuff.css" | relative_url }}">
-  <script type="text/javascript" src="https://ping.parkermoo.re/ping.js?v=2" defer async></script>
+  <script type="application/javascript">
+    /**
+     * Write visit and visitor counts to HTML
+     *
+     * @param document The current page's document
+     * @param data An object containing 'visits' and 'visitors' keys with values as integers
+     */
+    function writePingStatsToHTML(document, data) {
+      const text = `Views: ${data.views} | Visitors: ${data.visitors}`
+      document.getElementById("stats").innerText = text
+    }
+  </script>
+  <script src="https://ping.parkermoo.re/ping.js?v=2" type="application/javascript" defer async></script>
+  <script src="https://ping.parkermoo.re/stats.js" type="application/javascript" defer async></script>
 </head>
 <body class="grid">
   <div class="unit whole">
