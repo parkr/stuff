@@ -5,6 +5,8 @@ on:
   workflow_dispatch:
   push:
     branches: [linkrot.yml]
+    paths:
+    - .github/workflows/linkrot.yml
 
 jobs:
   check:
