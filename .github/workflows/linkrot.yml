@@ -4,7 +4,6 @@ on:
     - cron: "14 4 * * *"
   workflow_dispatch:
   push:
-    branches: [linkrot.yml]
     paths:
     - .github/workflows/linkrot.yml
 
