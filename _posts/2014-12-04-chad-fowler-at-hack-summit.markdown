@@ -5,7 +5,7 @@ date: 2014-12-04 19:55:30 -0800
 external-url: https://www.youtube.com/watch?v=DVSNsAei0VE
 ---
 
-[Chad Fowler](https://chadfowler.com/) is unassumingly brilliant. His
+[Chad Fowler](http://chadfowler.com/) is unassumingly brilliant. His
 expertise seems to come from a perfect mixture of experience and careful
 introspection and discussion of what has worked and what hasn't (and why).
 He join 6Wunderkinder three weeks after I started as an intern there, in
