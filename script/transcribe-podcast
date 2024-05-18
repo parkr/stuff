@@ -1,0 +1,35 @@
+#!/bin/bash
+
+episode_id="$1"
+if [ -z "$episode_id" ]; then
+    echo "Usage: $0 <podcast_episode_id>"
+    exit 1
+fi
+
+set -Eeuo pipefail
+
+# get script file location
+SCRIPT_PATH="$(realpath ${BASH_SOURCE[0]})";
+SCRIPT_DIR="${SCRIPT_PATH%/*}"
+
+podcast_mirror_dir=$(realpath "$SCRIPT_DIR/../mirrors/podcasts/")
+
+episode_data=$(ruby -ryaml -rjson -e "puts JSON.dump(YAML.load_file('${SCRIPT_DIR}/../_data/overcast_recommended_episodes.json').find { |episode| episode['episodeID'].to_s == '${episode_id}' })")
+echo $episode_data | jq .
+episode_url=$(echo $episode_data | jq -r .enclosureURL)
+episode_name=$(echo $episode_data | jq -r .title)
+episode_slug=$(echo $episode_name | bundle exec ruby -rstringex -e "puts STDIN.read.to_url")
+podcast_name=$(echo $episode_data | jq -r .feedTitle)
+markdown_file="${podcast_mirror_dir}/${episode_slug}.md"
+
+pushd $HOME/code/whisper.cpp
+    bash examples/mp3-transcript.sh "${episode_url}"
+    echo "---" > "${markdown_file}"
+    echo "layout: page" >> "${markdown_file}"
+    echo "title: '\"${episode_name}\" - ${podcast_name}'" >> "${markdown_file}"
+    echo "---" >> "${markdown_file}"
+    echo "" >> "${markdown_file}"
+    cat "episode.txt" >> "${markdown_file}"
+popd
+
+echo "Wrote to ${markdown_file}"
