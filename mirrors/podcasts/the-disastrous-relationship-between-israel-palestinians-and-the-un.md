@@ -3,9 +3,9 @@ layout: page
 title: '"The Disastrous Relationship Between Israel, Palestinians and the U.N." - The Ezra Klein Show'
 ---
 
-[MUSIC]
+[MUSIC]<br>
 From New York Times opinion, this is the Ezra Klein Show.
-[MUSIC]
+<br>[MUSIC]<br>
 On Friday May 10th, the UN General Assembly passed a
 resolution saying
 Palestinians qualify for full member status at the UN.
@@ -30,56 +30,61 @@ the UN, but America too.
 
 Israelis have long felt the UN is biased against them.
 In 1975, the UN voted to declare Zionism a form of racism.
- They were appealed that in 1991.
- From 2015 to 2022, the UN General Assembly adopted 140
- resolutions on Israel.
- Over that same period, it passed 68 resolutions on all
- other countries combined.
+They were appealed that in 1991.
+From 2015 to 2022, the UN General Assembly adopted 140
+resolutions on Israel.
+Over that same period, it passed 68 resolutions on all
+other countries combined.
 
 At the same time, the UN was instrumental in the creation
- of Israel,
+of Israel,
  voting to partition the land of historic Palestine between
  Jews and Palestinians.
  And giving a majority of it to Jews.
- Palestinians feel the UN, in particular, in international
+ Palestinians feel the UN, in particular, and international
  law in general,
  has been a procession of false promises.
  Where is their state, their self-determination?
  Where is the right of return for their displaced?
  What have all these resolutions and condemnations amounted
  to?
- Azabali is a professor at Yale Law School who specializes
+ 
+ Aslı Ü. Bâli is a professor at Yale Law School who specializes
  in international law.
- Now I want to have Iran to trace a deeper question here too.
+ Now I want to have her on to trace a deeper question here too.
  One that stretches beyond Israel and Gaza, to Russia,
  Ukraine, and really the whole world.
  What is international law actually for?
- As always, my email as we're client show at nytimes.com.
- Azabali, welcome to the show.
+ 
+ Aslı Bâli, welcome to the show.
+ 
  Thank you for having me.
- So I think the way we normally think about laws is that
+ 
+ EK: So I think the way we normally think about laws is that
  they are rules where,
- if you break them, some kind of external actor comes into
+ if you break them, some kind of external actor comes in to
  enforce a punishment, right?
  Maybe a sanction, maybe imprisonment.
  With that definition, is international law actually made up
  of laws?
- It is made up of laws, and it sort of depends on where you
+ 
+ AB: It is made up of laws, and it sort of depends on where you
  sit.
+ 
  So if we take an average-sized country with an average
  military capacity and an average economy,
  it might be very much deterred, just by the presence of the
  rules themselves,
  from doing things that it could reasonably anticipate would
  be subject to punishment under the rules,
- like sanctions, or punishment like international adjud
-ication,
+ like sanctions, or punishment like international adjudication,
  and it would depend a little bit what kind of violation it
  was and whose interests were at stake.
  But there are many, many contexts in international law
  where it operates just the same way
  that you expected to operate in a domestic legal system.
- We are thinking about international law from the
+ 
+ AB: We are thinking about international law from the
  perspective of sitting in the United States,
  a country that is the author of most of the rules, a rule
 maker, and not very often a rule taker,
@@ -90,7 +95,8 @@ maker, and not very often a rule taker,
  an a la carte manner, to how all states in the
  international system might regard international law.
  But that's wrong.
- I think that makes sense to me, but one of the things I was
+ 
+ EK: I think that makes sense to me, but one of the things I was
  looking at before we talked was
  what, since roughly 2000, have been the conflicts with the
  most terrible casualty accounts.
@@ -104,13 +110,16 @@ maker, and not very often a rule taker,
  perpetrators weren't particularly powerful
  did not seem to create some opening by which the
  international community could stop the bloodletting.
- Yeah. In the two specific examples you just gave that you
+ 
+ AB: Yeah. In the two specific examples you just gave that you
  began with in Syria and Yemen,
  the reason for this is because smaller or less powerful
  actors can seek great power patrons
  in the international system. And those very powerful states
  can disable mechanisms of enforcement
- and accountability. So in the case of Syria, it has
+ and accountability. 
+ 
+ AB: So in the case of Syria, it has
  cultivated a relationship with Russia,
  and Russia has effectively used its veto power at the
  Security Council to shield Syria from
@@ -124,7 +133,8 @@ maker, and not very often a rule taker,
  where great powers stopped accountability
  from occurring through their veto in the Security Council
  and other means.
- That still leaves the other example you gave, which is Erit
+ 
+ AB: That still leaves the other example you gave, which is Erit
 rea and Ethiopia. And I would add
  to that one more, which is the conflict that has consumed
  the Great Lakes region in Africa
@@ -132,7 +142,7 @@ rea and Ethiopia. And I would add
  displaced, millions of people killed and
  injured, and essentially very little by way of
  international intervention. These are cases where
- no great powers interested and is willing to generate the
+ no great power is interested and is willing to generate the
  political will to engage
  the institutional accountability mechanisms that exist,
  because there isn't, for example,
@@ -144,11 +154,14 @@ rea and Ethiopia. And I would add
  conflicts that are occurring in Europe
  or in the Middle East, and those that are occurring in
  parts of Africa, where the United States is not
- historically deeply implicated or engaged. So what I hear
+ historically deeply implicated or engaged. 
+ 
+ EK: So what I hear
  you saying here in different directions,
- is it for international law, like for other kinds of law,
- power really matters?
- Yeah, and if you would let me indulge in just one more
+ is that for international law, like for other kinds of law,
+ power really matters.
+ 
+ AB: Yeah, and if you would let me indulge in just one more
  example, in the context of the 1990s,
  when the United States was by far the most powerful state
  in the international
@@ -168,11 +181,13 @@ rea and Ethiopia. And I would add
  punishing experience in Somalia earlier in the
  1990s, had yielded the lesson that we will not be
  implicated in judgments by the Security Council
- suggesting that such an obligation might exist, for example
-, by characterizing the conflict in
+ suggesting that such an obligation might exist, for example, 
+ by characterizing the conflict in
  Rwanda as a genocide, we will not allow this because this
  will drag us into
- engagements that we do not wish to be part of. Eventually,
+ engagements that we do not wish to be part of. 
+ 
+ AB: Eventually,
  of course, because the Yugoslav
  conflict was unfolding on European soil, eventually you did
  have a direct intervention,
