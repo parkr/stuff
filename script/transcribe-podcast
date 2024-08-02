@@ -26,7 +26,7 @@ pushd $HOME/code/whisper.cpp
     bash examples/mp3-transcript.sh "${episode_url}"
     echo "---" > "${markdown_file}"
     echo "layout: page" >> "${markdown_file}"
-    echo "title: '\"${episode_name}\" - ${podcast_name}'" >> "${markdown_file}"
+    echo "title: '\"${episode_name}\" - ${podcast_name} / Transcriptions'" >> "${markdown_file}"
     echo "---" >> "${markdown_file}"
     echo "" >> "${markdown_file}"
     cat "episode.txt" >> "${markdown_file}"
