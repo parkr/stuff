@@ -12,15 +12,15 @@ OVERCAST_FM_PERMALINK_BASE = "https://overcast.fm/+"
 
 opts = {
   oc_db_path: ARGV.first,
-  data_file_path: File.expand_path("../_data/overcast_recommended_episodes.json", __dir__),
-  sql_query_file: File.expand_path("import_overcast_podcast_favorites.sql", __dir__),
+  data_file_path: File.expand_path("../_data/overcast_listened_episodes.json", __dir__),
+  sql_query_file: File.expand_path("import_overcast_podcast_listened.sql", __dir__),
 }
 
 if opts[:oc_db_path].nil? || opts[:oc_db_path].empty?
   abort "fatal: overcast container db.sqlite path argument required"
 end
 
-puts `sqlite-utils query "#{opts[:oc_db_path]}" "$(<#{opts[:sql_query_file]})" > "#{opts[:data_file_path]}"`
+puts `sqlite-utils "#{opts[:oc_db_path]}" "$(<#{opts[:sql_query_file]})" > "#{opts[:data_file_path]}"`
 unless $?.success?
   abort "fatal: sqlite-utils failed"
 end
@@ -37,20 +37,9 @@ def overcast_fm_permalink(episodeIDDecimal)
   OVERCAST_FM_PERMALINK_BASE + uri
 end
 
-def ensure_https(link)
-  if link.start_with?("https://")
-    link
-  else
-    link.sub("http://", "https://")
-  end
-end
-
 episodes = JSON.parse(File.read(opts[:data_file_path]))
 episodes.each do |episode|
   episode["overcastFMPermalink"] = overcast_fm_permalink(episode.fetch("episodeID"))
-  episode["podcastURL"] = ensure_https(episode["podcastURL"]) if episode["podcastURL"]
-  episode["episodeURL"] = ensure_https(episode["episodeURL"]) if episode["episodeURL"]
-  episode["podcastArtworkURL"] = ensure_https(episode["podcastArtworkURL"]) if episode["podcastArtworkURL"]
 end
 
 File.write(opts[:data_file_path], JSON.pretty_generate(episodes))

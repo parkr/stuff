@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# 1. Read all posts
+# 2. Read external_url YAML front matter field
+# 3. Check if HTTP links can be upgraded to HTTPS.
+# 4. Upgrade to HTTPS and rewrite YAML front matter if possible.
+raise "Unimplemented"
