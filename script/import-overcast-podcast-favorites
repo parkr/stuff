@@ -7,6 +7,9 @@ require 'base64'
 require 'bundler/setup'
 require 'json'
 require 'tempfile'
+require_relative 'lib/podcast_overrides'
+require_relative 'lib/podcast_episode_overrides'
+require_relative 'lib/podcast_episode_backfill'
 
 OVERCAST_FM_PERMALINK_BASE = "https://overcast.fm/+"
 
@@ -45,12 +48,25 @@ def ensure_https(link)
   end
 end
 
+def process_episode_for_overrides(episode)
+  if PODCAST_OVERRIDES.key?(episode["podcastID"])
+    episode.merge!(PODCAST_OVERRIDES[episode["podcastID"]])
+  end
+  if PODCAST_EPISODE_OVERRIDES.key?(episode["episodeID"])
+    episode.merge!(PODCAST_EPISODE_OVERRIDES[episode["episodeID"]])
+  end
+end
+
 episodes = JSON.parse(File.read(opts[:data_file_path]))
 episodes.each do |episode|
   episode["overcastFMPermalink"] = overcast_fm_permalink(episode.fetch("episodeID"))
   episode["podcastURL"] = ensure_https(episode["podcastURL"]) if episode["podcastURL"]
   episode["episodeURL"] = ensure_https(episode["episodeURL"]) if episode["episodeURL"]
   episode["podcastArtworkURL"] = ensure_https(episode["podcastArtworkURL"]) if episode["podcastArtworkURL"]
+  process_episode_for_overrides(episode)
 end
+
+episodes.concat(PODCAST_EPISODE_BACKFILL)
+episodes.sort_by! { |episode| episode["userRecommendedTime"] }.reverse!
 
 File.write(opts[:data_file_path], JSON.pretty_generate(episodes))
