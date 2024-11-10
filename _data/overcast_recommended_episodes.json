@@ -1,5 +1,47 @@
 [
   {
+    "episodeID": 4597337896156489,
+    "podcastID": 4281604,
+    "podcastTitle": "Search Engine",
+    "episodeTitle": "How do you sit quietly in the middle of a storm?",
+    "userRecommendedTime": 1730931713,
+    "userRecommendedTimeHuman": "2024-11-06",
+    "podcastURL": "https://www.searchengine.show/",
+    "episodeURL": "https://www.pjvogt.com/",
+    "enclosureURL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/42D75/traffic.megaphone.fm/CAD1459977769.mp3?updated=1730517831",
+    "podcastArtworkURL": "https://megaphone.imgix.net/podcasts/18c2582e-e29f-11ed-aadd-5ff2cd0b184f/image/search_engine_final_2.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "podcastiTunesID": 1614253637,
+    "overcastFMPermalink": "https://overcast.fm/+BBVQSQ2fUk"
+  },
+  {
+    "episodeID": 949034503172944,
+    "podcastID": 883857,
+    "podcastTitle": "Remote Ruby",
+    "episodeTitle": "How Derek Sivers Uses Ruby And His Programming Philosophy",
+    "userRecommendedTime": 1730079220,
+    "userRecommendedTimeHuman": "2024-10-28",
+    "podcastURL": "https://www.remoteruby.com/",
+    "episodeURL": "https://www.remoteruby.com/2260490/13760925",
+    "enclosureURL": "https://www.buzzsprout.com/2260490/episodes/13760925-how-derek-sivers-uses-ruby-and-his-programming-philosophy.mp3",
+    "podcastArtworkURL": "https://storage.buzzsprout.com/hden718y0ac2jxu3nz8mqgqhvk3w?.jpg",
+    "podcastiTunesID": 1397042613,
+    "overcastFMPermalink": "https://overcast.fm/+NfJFBw81A"
+  },
+  {
+    "episodeID": 737149184595665,
+    "podcastID": 686523,
+    "podcastTitle": "The Tim Ferriss Show",
+    "episodeTitle": "#767: Tim and Uncle Jerry Tackle Life, Big Questions, Business, Parenting, and Disco Duck",
+    "userRecommendedTime": 1728277303,
+    "userRecommendedTimeHuman": "2024-10-07",
+    "podcastURL": "https://tim.blog/podcast",
+    "episodeURL": "https://tim.blog/podcast",
+    "enclosureURL": "https://rss.art19.com/episodes/c14cff18-95dd-4e65-aa86-303d2d382b2f.mp3?rss_browser=BAhJIg1PdmVyY2FzdAY6BkVU--3fdaf693ac55dc369c0201a1ede82e0232030d6c",
+    "podcastArtworkURL": "https://content.production.cdn.art19.com/images/69/10/10/fb/691010fb-625e-4abe-993c-a57228b28dbe/91cb53ae0d5dbb379b9dffecf0a772593891d0d09bbe6d90ee746edbdb79e3ec75584f2ceb8260e9f675a90c05419b9b99842a76905b686f0f51c1a9d3e227ab.jpeg",
+    "podcastiTunesID": 863897795,
+    "overcastFMPermalink": "https://overcast.fm/+KebutLVtE"
+  },
+  {
     "episodeID": 857007069321921,
     "podcastID": 798150,
     "podcastTitle": "Twenty Thousand Hertz",
@@ -14,8 +56,8 @@
     "overcastFMPermalink": "https://overcast.fm/+MLcYHv2sE"
   },
   {
-    "episodeID": 2852396235973794,
-    "podcastID": 2656501,
+    "episodeID": 5298017633407243,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "The Disastrous Relationship Between Israel, Palestinians and the U.N.",
     "userRecommendedTime": 1716002831,
@@ -25,7 +67,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/f7b00668-1887-4e9f-96d1-79885cb20ad8/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=f7b00668-1887-4e9f-96d1-79885cb20ad8&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPUBnZKI"
+    "overcastFMPermalink": "https://overcast.fm/+BLShNsNkQs"
   },
   {
     "episodeID": 530477858218955,
@@ -42,8 +84,8 @@
     "overcastFMPermalink": "https://overcast.fm/+Hid4BM48s"
   },
   {
-    "episodeID": 2852396846893136,
-    "podcastID": 2656501,
+    "episodeID": 5298017219807245,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "Is Green Growth Possible?",
     "userRecommendedTime": 1714851038,
@@ -53,11 +95,11 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/9eb112da-e186-409f-a0c9-12ed881041d5/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=9eb112da-e186-409f-a0c9-12ed881041d5&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPWTRSFA"
+    "overcastFMPermalink": "https://overcast.fm/+BLShMJmiA0"
   },
   {
-    "episodeID": 2852396891551884,
-    "podcastID": 2656501,
+    "episodeID": 5298017769587690,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "A $1.7 Million Toilet and Liberalism’s Failure to Build",
     "userRecommendedTime": 1714847556,
@@ -67,7 +109,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/6ce7b8f0-d845-4c1a-a6b2-6d8797db882b/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=6ce7b8f0-d845-4c1a-a6b2-6d8797db882b&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPWd6uIw"
+    "overcastFMPermalink": "https://overcast.fm/+BLShOMrg-o"
   },
   {
     "episodeID": 3848733243628029,
@@ -154,8 +196,8 @@
     "overcastFMPermalink": "https://overcast.fm/+vh1qUo_7Y"
   },
   {
-    "episodeID": 4875357935607401,
-    "podcastID": 4540530,
+    "episodeID": 5303481547593181,
+    "podcastID": 4939252,
     "podcastTitle": "DealBook Summit",
     "episodeTitle": "Jamie Dimon on Why He Thinks We Are Living in One of the Most Dangerous Times",
     "userRecommendedTime": 1704424401,
@@ -165,7 +207,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/baf61bef-dd03-4be4-bca0-94e63489aabb/episodes/ae987fca-41fd-4ee9-9821-5035b2ec4568/audio/128/default.mp3?aid=rss_feed&awCollectionId=baf61bef-dd03-4be4-bca0-94e63489aabb&awEpisodeId=ae987fca-41fd-4ee9-9821-5035b2ec4568&feed=Earqz2An",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/4105a47a-42e5-4ccc-887a-832af7989986/292a39a3-013c-49da-916d-e57a8c5a8b66/3000x3000/nyt-db-3000px.jpg?aid=rss_feed",
     "podcastiTunesID": 1718472373,
-    "overcastFMPermalink": "https://overcast.fm/+BFSHLnnnmk"
+    "overcastFMPermalink": "https://overcast.fm/+BLXfQW3ld0"
   },
   {
     "episodeID": 713592314485379,
@@ -210,8 +252,8 @@
     "overcastFMPermalink": "https://overcast.fm/+MLcZNVsY4"
   },
   {
-    "episodeID": 2852397258849057,
-    "podcastID": 2656501,
+    "episodeID": 5298017867895826,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "India Is Transforming. But Into What?",
     "userRecommendedTime": 1702519025,
@@ -221,7 +263,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/24189e01-f2fd-4c4f-8b80-daa710ebfb0e/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=24189e01-f2fd-4c4f-8b80-daa710ebfb0e&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPX1fOyE"
+    "overcastFMPermalink": "https://overcast.fm/+BLShOkHlBI"
   },
   {
     "episodeID": 857007089571976,
@@ -238,8 +280,8 @@
     "overcastFMPermalink": "https://overcast.fm/+MLcYMk2Ig"
   },
   {
-    "episodeID": 2852396505862495,
-    "podcastID": 2656501,
+    "episodeID": 5298017257940039,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "What Israelis Fear the World Does Not Understand",
     "userRecommendedTime": 1699668784,
@@ -249,7 +291,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/7a2a7dda-8f6b-43a6-9e71-231be01d238d/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=7a2a7dda-8f6b-43a6-9e71-231be01d238d&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPVB9kV8"
+    "overcastFMPermalink": "https://overcast.fm/+BLShMSsZEc"
   },
   {
     "episodeID": 3344536529551868,
@@ -378,8 +420,8 @@
     "overcastFMPermalink": "https://overcast.fm/+oIe-H4kGg"
   },
   {
-    "episodeID": 2852396607079012,
-    "podcastID": 2656501,
+    "episodeID": 5298017199812840,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "Biden, Psychedelics, Twitter, My New Book — and So Much More",
     "userRecommendedTime": 1690304523,
@@ -389,7 +431,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/7ce876ba-039b-40bc-96b9-a5f4801ebbe2/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=7ce876ba-039b-40bc-96b9-a5f4801ebbe2&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPVaGAmQ"
+    "overcastFMPermalink": "https://overcast.fm/+BLShME1cOg"
   },
   {
     "episodeID": 2981641386492034,
@@ -538,7 +580,7 @@
     "episodeTitle": "How to Change Your Life: Self-Efficacy, Learned Helplessness, and Growth Mindset",
     "userRecommendedTime": 1686534148,
     "userRecommendedTimeHuman": "2023-06-12",
-    "podcastURL": "https://www.rickhanson.net/being-well-podcast/",
+    "podcastURL": "https://rickhanson.com/being-well-podcast/",
     "episodeURL": "https://rickhanson.com/being-well-podcast-how-to-change-your-life-self-efficacy-learned-helplessness-and-creating-a-growth-mindset/",
     "enclosureURL": "https://pdst.fm/e/pscrb.fm/rss/p/chrt.fm/track/17D52/traffic.megaphone.fm/BEING9982043186.mp3?updated=1707698638",
     "podcastArtworkURL": "https://megaphone.imgix.net/podcasts/29c0137e-b6fb-11ee-8b98-972782997553/image/beingwell-highres.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
@@ -546,8 +588,8 @@
     "overcastFMPermalink": "https://overcast.fm/+Gtyz_2flg"
   },
   {
-    "episodeID": 2852396637590126,
-    "podcastID": 2656501,
+    "episodeID": 5298018029726155,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "Three Sentences That Could Change the World — and Your Life",
     "userRecommendedTime": 1686203397,
@@ -557,7 +599,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/9a045038-7a1f-4f4a-9c73-2bfba9685080/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=9a045038-7a1f-4f4a-9c73-2bfba9685080&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPVhXkm4"
+    "overcastFMPermalink": "https://overcast.fm/+BLShPKs6cs"
   },
   {
     "episodeID": 593105502430023,
@@ -574,8 +616,8 @@
     "overcastFMPermalink": "https://overcast.fm/+IbbSLJY0c"
   },
   {
-    "episodeID": 2852396341931667,
-    "podcastID": 2656501,
+    "episodeID": 5298017316459607,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "Beyond the ‘Matrix’ Theory of the Mind",
     "userRecommendedTime": 1686077866,
@@ -585,7 +627,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/937870a8-76a5-41c0-a381-cc6cf28c98a3/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=937870a8-76a5-41c0-a381-cc6cf28c98a3&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPUa4LpM"
+    "overcastFMPermalink": "https://overcast.fm/+BLShMgpVFc"
   },
   {
     "episodeID": 2699599682567976,
@@ -597,7 +639,7 @@
     "podcastURL": "https://where-the-internet-lives.simplecast.com/",
     "episodeURL": "https://where-the-internet-lives.simplecast.com/episodes/a-creative-water-solution-for-a-dutch-data-center-eW1Refwv",
     "enclosureURL": "https://chrt.fm/track/G78F99/cdn.simplecast.com/audio/1fa9e054-c34b-489c-86b1-bd3464944c5c/episodes/04e1ebe8-d471-4b50-9d80-a2df9e56d2a9/audio/3b67ef9e-4d39-469b-9c60-33453653dcd9/default_tc.mp3?aid=rss_feed&feed=uq015LLC",
-    "podcastArtworkURL": "https://image.simplecastcdn.com/images/a0e326b4-ac45-4e8a-b939-ffccfcd9b4d1/d8b960f9-cae1-46c4-92c4-379b4960ed7c/3000x3000/wtil-finalat2x.jpg?aid=rss_feed",
+    "podcastArtworkURL": "https://image.simplecastcdn.com/images/f743f9e0-8ec4-43dc-8361-431829f4c096/f8689354-4fe4-4008-a39a-6a001e52af7e/3000x3000/white-wtil-cover-template.jpg?aid=rss_feed",
     "podcastiTunesID": 1541394865,
     "overcastFMPermalink": "https://overcast.fm/+mXRYgdfyg"
   },
@@ -622,7 +664,7 @@
     "episodeTitle": "Saying No to Your Past, Embracing Growth, and Becoming Lighter with Yung Pueblo",
     "userRecommendedTime": 1684861701,
     "userRecommendedTimeHuman": "2023-05-23",
-    "podcastURL": "https://www.rickhanson.net/being-well-podcast/",
+    "podcastURL": "https://rickhanson.com/being-well-podcast/",
     "episodeURL": "https://www.rickhanson.net/being-well-podcast/",
     "enclosureURL": "https://pdst.fm/e/pscrb.fm/rss/p/chrt.fm/track/17D52/traffic.megaphone.fm/BEING6967091513.mp3?updated=1705790568",
     "podcastArtworkURL": "https://megaphone.imgix.net/podcasts/29c0137e-b6fb-11ee-8b98-972782997553/image/beingwell-highres.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
@@ -695,7 +737,7 @@
     "podcastURL": "https://where-the-internet-lives.simplecast.com/",
     "episodeURL": "https://where-the-internet-lives.simplecast.com/episodes/data-centers-help-fuel-the-solar-energy-boom-v7War5Jx",
     "enclosureURL": "https://chrt.fm/track/G78F99/cdn.simplecast.com/audio/1fa9e054-c34b-489c-86b1-bd3464944c5c/episodes/067ccfff-51f8-4181-94ef-081fea159834/audio/60f64776-b10b-4e26-955e-974e6ddbac08/default_tc.mp3?aid=rss_feed&feed=uq015LLC",
-    "podcastArtworkURL": "https://image.simplecastcdn.com/images/a0e326b4-ac45-4e8a-b939-ffccfcd9b4d1/d8b960f9-cae1-46c4-92c4-379b4960ed7c/3000x3000/wtil-finalat2x.jpg?aid=rss_feed",
+    "podcastArtworkURL": "https://image.simplecastcdn.com/images/f743f9e0-8ec4-43dc-8361-431829f4c096/f8689354-4fe4-4008-a39a-6a001e52af7e/3000x3000/white-wtil-cover-template.jpg?aid=rss_feed",
     "podcastiTunesID": 1541394865,
     "overcastFMPermalink": "https://overcast.fm/+mXRbVm-Uo"
   },
@@ -742,8 +784,8 @@
     "overcastFMPermalink": "https://overcast.fm/+37C7BeoAQ"
   },
   {
-    "episodeID": 2744031529684979,
-    "podcastID": 2555578,
+    "episodeID": 5295957489695707,
+    "podcastID": 4932244,
     "podcastTitle": "Hard Fork",
     "episodeTitle": "Google C.E.O. Sundar Pichai on Bard, A.I. ‘Whiplash’ and Competing With ChatGPT",
     "userRecommendedTime": 1680461643,
@@ -753,11 +795,11 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/7159bb95-793b-415c-a520-ac0c5bd5c5fe/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=7159bb95-793b-415c-a520-ac0c5bd5c5fe&feed=l2i9YnTd",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/4105a47a-42e5-4ccc-887a-832af7989986/23965394-f5e4-4fdb-b150-639f4910353e/3000x3000/nyt-hf-album-art-3000-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1528594034,
-    "overcastFMPermalink": "https://overcast.fm/+m_rqCUT_M"
+    "overcastFMPermalink": "https://overcast.fm/+BLQpTDrO9s"
   },
   {
-    "episodeID": 2744031850180841,
-    "podcastID": 2555578,
+    "episodeID": 5295957580470303,
+    "podcastID": 4932244,
     "podcastTitle": "Hard Fork",
     "episodeTitle": "Bard Fork + How to Talk So Chatbots Will Listen",
     "userRecommendedTime": 1680448373,
@@ -767,7 +809,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/b79a31c9-8fca-4344-9c20-6ed0292e0049/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=b79a31c9-8fca-4344-9c20-6ed0292e0049&feed=l2i9YnTd",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/4105a47a-42e5-4ccc-887a-832af7989986/23965394-f5e4-4fdb-b150-639f4910353e/3000x3000/nyt-hf-album-art-3000-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1528594034,
-    "overcastFMPermalink": "https://overcast.fm/+m_rrOusOk"
+    "overcastFMPermalink": "https://overcast.fm/+BLQpTZUWB8"
   },
   {
     "episodeID": 1194688767655506,
@@ -832,7 +874,7 @@
     "userRecommendedTimeHuman": "2023-02-18",
     "podcastURL": "https://www.headspace.com/",
     "episodeURL": "https://www.headspace.com/radioheadspace",
-    "enclosureURL": "https://pdst.fm/e/chtbl.com/track/95538/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL8038177886.mp3?updated=1694440710",
+    "enclosureURL": "https://pdst.fm/e/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL8038177886.mp3?updated=1694440710",
     "podcastArtworkURL": "https://megaphone.imgix.net/podcasts/57dfcdb6-50a9-11ee-9054-833b5b28125e/image/uploads-2f1589306404979-ymer5fvw-5b7f13769450bb34dc72b072b5654c50-2fradioheadspace-051220-3.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "podcastiTunesID": 1510981488,
     "overcastFMPermalink": "https://overcast.fm/+BD1ZuIyS80"
@@ -880,8 +922,8 @@
     "overcastFMPermalink": "https://overcast.fm/+MLcYGbJEo"
   },
   {
-    "episodeID": 2852396511506400,
-    "podcastID": 2656501,
+    "episodeID": 5298017725978058,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "There’s Been a Revolution in How China Is Governed",
     "userRecommendedTime": 1674583211,
@@ -891,7 +933,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/f05f713a-2549-4915-95f3-ea53ce49590c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=f05f713a-2549-4915-95f3-ea53ce49590c&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPVDTr-A"
+    "overcastFMPermalink": "https://overcast.fm/+BLShOCSFco"
   },
   {
     "episodeID": 3935202337010429,
@@ -1014,8 +1056,8 @@
     "userRecommendedTimeHuman": "2022-10-29",
     "podcastURL": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://audiocollective.ted.com/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chtbl.com/track/48D18/pdrl.fm/9f1c42/dovetail.prxu.org/179/4f25453f-d63f-4247-ae8c-40dd8d63fe9c/TTI_S08_2022_RandallMunroe_SegA.mp3",
-    "podcastArtworkURL": "https://f.prxu.org/179/images/d05a3ea2-67fd-47ed-b253-2591a06c8d28/The_TED_Interview_iTunes_Avatar_3000x3000.png",
+    "enclosureURL": "https://sphinx.acast.com/p/open/s/67045b43aa9d704b1e952e88/e/1000583261230/media.mp3",
+    "podcastArtworkURL": "https://assets.pippa.io/shows/67045b43aa9d704b1e952e88/show-cover.png",
     "podcastiTunesID": 1437306870,
     "overcastFMPermalink": "https://overcast.fm/+OySdarrcE"
   },
@@ -1042,7 +1084,7 @@
     "userRecommendedTimeHuman": "2022-10-27",
     "podcastURL": "https://www.headspace.com/",
     "episodeURL": "https://www.headspace.com/radioheadspace",
-    "enclosureURL": "https://pdst.fm/e/chtbl.com/track/95538/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL4987212873.mp3?updated=1694440733",
+    "enclosureURL": "https://pdst.fm/e/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL4987212873.mp3?updated=1694440733",
     "podcastArtworkURL": "https://megaphone.imgix.net/podcasts/57dfcdb6-50a9-11ee-9054-833b5b28125e/image/uploads-2f1589306404979-ymer5fvw-5b7f13769450bb34dc72b072b5654c50-2fradioheadspace-051220-3.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "podcastiTunesID": 1510981488,
     "overcastFMPermalink": "https://overcast.fm/+BD1ZsRC5M0"
@@ -1236,14 +1278,14 @@
     "userRecommendedTimeHuman": "2022-07-13",
     "podcastURL": "https://securitycryptographywhatever.com/",
     "episodeURL": "https://securitycryptographywhatever.com/2022/06/10/omb-zero-trust-memo-with-eric-mill/",
-    "enclosureURL": "https://www.buzzsprout.com/1822302/10767220-omb-zero-trust-memo-with-eric-mill.mp3",
+    "enclosureURL": "https://www.buzzsprout.com/1822302/episodes/10767220-omb-zero-trust-memo-with-eric-mill.mp3",
     "podcastArtworkURL": "https://storage.buzzsprout.com/j0mg64drknc1b0xl8t4m5yn6umlo?.jpg",
     "podcastiTunesID": 1578405214,
     "overcastFMPermalink": "https://overcast.fm/+xz8X8qQgQ"
   },
   {
-    "episodeID": 2852396883404748,
-    "podcastID": 2656501,
+    "episodeID": 5298017453708657,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "A Guide to the Supreme Court’s Rightward Shift",
     "userRecommendedTime": 1656983390,
@@ -1253,7 +1295,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/11d0a77e-0b76-405a-aebf-d0724efc05bf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=11d0a77e-0b76-405a-aebf-d0724efc05bf&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPWb-Z8w"
+    "overcastFMPermalink": "https://overcast.fm/+BLShNBXlXE"
   },
   {
     "episodeID": 4773421500495237,
@@ -1264,7 +1306,7 @@
     "userRecommendedTimeHuman": "2022-07-05",
     "podcastURL": "https://www.headspace.com/",
     "episodeURL": "https://www.headspace.com/radioheadspace",
-    "enclosureURL": "https://pdst.fm/e/chtbl.com/track/95538/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL7898717818.mp3?updated=1694440754",
+    "enclosureURL": "https://pdst.fm/e/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL7898717818.mp3?updated=1694440754",
     "podcastArtworkURL": "https://megaphone.imgix.net/podcasts/57dfcdb6-50a9-11ee-9054-833b5b28125e/image/uploads-2f1589306404979-ymer5fvw-5b7f13769450bb34dc72b072b5654c50-2fradioheadspace-051220-3.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "podcastiTunesID": 1510981488,
     "overcastFMPermalink": "https://overcast.fm/+BD1ZszmdYU"
@@ -1320,8 +1362,8 @@
     "userRecommendedTimeHuman": "2022-05-09",
     "podcastURL": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://www.ted.com/read/ted-podcasts/ted-interview",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chtbl.com/track/48D18/pdrl.fm/9f1c42/dovetail.prxu.org/179/189fcd5a-60c8-419e-bbd4-56ce8fdceffc/TI_S01E10.mp3",
-    "podcastArtworkURL": "https://f.prxu.org/179/images/d05a3ea2-67fd-47ed-b253-2591a06c8d28/The_TED_Interview_iTunes_Avatar_3000x3000.png",
+    "enclosureURL": "https://sphinx.acast.com/p/open/s/67045b43aa9d704b1e952e88/e/prx_179_189fcd5a-60c8-419e-bbd4-56ce8fdceffc/media.mp3",
+    "podcastArtworkURL": "https://assets.pippa.io/shows/67045b43aa9d704b1e952e88/show-cover.png",
     "podcastiTunesID": 1437306870,
     "overcastFMPermalink": "https://overcast.fm/+OyScgX9Og"
   },
@@ -1362,7 +1404,7 @@
     "userRecommendedTimeHuman": "2022-03-31",
     "podcastURL": "https://www.headspace.com/",
     "episodeURL": "https://www.headspace.com/",
-    "enclosureURL": "https://pdst.fm/e/chtbl.com/track/95538/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL3102265559.mp3?updated=1694440772",
+    "enclosureURL": "https://pdst.fm/e/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL3102265559.mp3?updated=1694440772",
     "podcastArtworkURL": "https://megaphone.imgix.net/podcasts/57dfcdb6-50a9-11ee-9054-833b5b28125e/image/uploads-2f1589306404979-ymer5fvw-5b7f13769450bb34dc72b072b5654c50-2fradioheadspace-051220-3.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "podcastiTunesID": 1510981488,
     "overcastFMPermalink": "https://overcast.fm/+BD1ZuuZeNs"
@@ -1432,7 +1474,7 @@
     "userRecommendedTimeHuman": "2022-03-09",
     "podcastURL": "https://www.headspace.com/",
     "episodeURL": "https://www.headspace.com/",
-    "enclosureURL": "https://pdst.fm/e/chtbl.com/track/95538/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL3381234581.mp3?updated=1694440776",
+    "enclosureURL": "https://pdst.fm/e/swap.fm/track/JhoQDAATtO1l0y8tdKNa/traffic.megaphone.fm/ADL3381234581.mp3?updated=1694440776",
     "podcastArtworkURL": "https://megaphone.imgix.net/podcasts/57dfcdb6-50a9-11ee-9054-833b5b28125e/image/uploads-2f1589306404979-ymer5fvw-5b7f13769450bb34dc72b072b5654c50-2fradioheadspace-051220-3.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
     "podcastiTunesID": 1510981488,
     "overcastFMPermalink": "https://overcast.fm/+BD1ZvHDDL4"
@@ -1480,8 +1522,8 @@
     "overcastFMPermalink": "https://overcast.fm/+eZyCdyt2E"
   },
   {
-    "episodeID": 2852396326978097,
-    "podcastID": 2656501,
+    "episodeID": 5298017648653342,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "A Critique of Government That Liberals Need to Hear",
     "userRecommendedTime": 1645490420,
@@ -1491,7 +1533,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/c2c11a19-de1a-4a0b-b0c3-a3c295183885/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=c2c11a19-de1a-4a0b-b0c3-a3c295183885&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPUXUAjE"
+    "overcastFMPermalink": "https://overcast.fm/+BLShNv2NB4"
   },
   {
     "episodeID": 1039561066736003,
@@ -1684,7 +1726,7 @@
     "userRecommendedTimeHuman": "2021-09-29",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/1d7da8a9-f161-4a0e-9156-b7f36d168777/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=1d7da8a9-f161-4a0e-9156-b7f36d168777&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/1d7da8a9-f161-4a0e-9156-b7f36d168777/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=1d7da8a9-f161-4a0e-9156-b7f36d168777&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOxjAGSk"
@@ -1769,8 +1811,8 @@
     "podcastURL": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep155.mp3",
     "enclosureURL": "https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPfGep155.mp3?dest-id=3486674",
-    "podcastArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
-    "podcastiTunesID": 1370049232,
+    "podcastArtworkURL": "https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png",
+    "podcastiTunesID": 1660596546,
     "overcastFMPermalink": "https://overcast.fm/+-DkhQ0BXs"
   },
   {
@@ -1824,8 +1866,8 @@
     "userRecommendedTimeHuman": "2021-07-11",
     "podcastURL": "https://audiocollective.ted.com/",
     "episodeURL": "https://ted.com/podcasts",
-    "enclosureURL": "https://chtbl.com/track/48D18/dts.podtrac.com/redirect.mp3/pdrl.fm/659a6c/dovetail.prxu.org/384/e536cae1-06bb-4026-a19d-2c62a8250cbe/BodyStuff_EP08_CLEANSES_Seg_A.mp3",
-    "podcastArtworkURL": "https://f.prxu.org/384/images/b72fd554-f5ba-4e39-bd59-c7fcc82bcf84/TED_Body_Stuff_Avatar_3000x3000.jpg",
+    "enclosureURL": "https://sphinx.acast.com/p/open/s/67045002c88f09c3e013b3e9/e/prx_384_e536cae1-06bb-4026-a19d-2c62a8250cbe/media.mp3",
+    "podcastArtworkURL": "https://assets.pippa.io/shows/67045002c88f09c3e013b3e9/show-cover.jpg",
     "podcastiTunesID": 1566425638,
     "overcastFMPermalink": "https://overcast.fm/+uGI_tJB9k"
   },
@@ -1838,7 +1880,7 @@
     "userRecommendedTimeHuman": "2021-06-18",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/c016552f-20b6-43f9-8785-3631ab8906b0/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=c016552f-20b6-43f9-8785-3631ab8906b0&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/c016552f-20b6-43f9-8785-3631ab8906b0/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=c016552f-20b6-43f9-8785-3631ab8906b0&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOwbKtLs"
@@ -1908,8 +1950,8 @@
     "userRecommendedTimeHuman": "2021-05-20",
     "podcastURL": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://www.ted.com/podcasts",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chtbl.com/track/48D18/pdrl.fm/9f1c42/dovetail.prxu.org/179/01984a8e-08c5-4828-beee-b67703752378/TIS6_Jacqueline_Novogratz_MIX_v03_Seg_A.mp3",
-    "podcastArtworkURL": "https://f.prxu.org/179/images/d05a3ea2-67fd-47ed-b253-2591a06c8d28/The_TED_Interview_iTunes_Avatar_3000x3000.png",
+    "enclosureURL": "https://sphinx.acast.com/p/open/s/67045b43aa9d704b1e952e88/e/prx_179_01984a8e-08c5-4828-beee-b67703752378/media.mp3",
+    "podcastArtworkURL": "https://assets.pippa.io/shows/67045b43aa9d704b1e952e88/show-cover.png",
     "podcastiTunesID": 1437306870,
     "overcastFMPermalink": "https://overcast.fm/+OySc2nbeA"
   },
@@ -1936,7 +1978,7 @@
     "userRecommendedTimeHuman": "2021-05-19",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/09d0ffe7-d4ee-4bfa-851f-9f1a6974a2bf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=09d0ffe7-d4ee-4bfa-851f-9f1a6974a2bf&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/09d0ffe7-d4ee-4bfa-851f-9f1a6974a2bf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=09d0ffe7-d4ee-4bfa-851f-9f1a6974a2bf&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOw8GMAI"
@@ -2007,7 +2049,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/259c9199-299b-43aa-8976-ce31c96022c6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=259c9199-299b-43aa-8976-ce31c96022c6&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPXpy6C8"
+    "overcastFMPermalink": "https://overcast.fm/+BLShN_CYNM"
   },
   {
     "episodeID": 1552623610846846,
@@ -2052,8 +2094,8 @@
     "overcastFMPermalink": "https://overcast.fm/+qXyVJS4_I"
   },
   {
-    "episodeID": 2852396995918247,
-    "podcastID": 2656501,
+    "episodeID": 5298017280099605,
+    "podcastID": 4934163,
     "podcastTitle": "The Ezra Klein Show",
     "episodeTitle": "The Best Explanation of Biden’s Thinking I’ve Heard",
     "userRecommendedTime": 1617979888,
@@ -2063,7 +2105,7 @@
     "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/c4972b3f-f2a4-4f18-aed0-31edcb3e9e20/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=c4972b3f-f2a4-4f18-aed0-31edcb3e9e20&feed=82FI35Px",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/52528093-7778-44d3-b188-e2a3c58e2a2b/05b8e014-5152-4854-8fcb-c4a9d3da2114/3000x3000/nyt-ezraklein-albumartwork-3000px-2.jpg?aid=rss_feed",
     "podcastiTunesID": 1548604447,
-    "overcastFMPermalink": "https://overcast.fm/+oiPW2zOac"
+    "overcastFMPermalink": "https://overcast.fm/+BLShMX-hRU"
   },
   {
     "episodeID": 780513683071497,
@@ -2212,8 +2254,8 @@
     "userRecommendedTimeHuman": "2020-10-29",
     "podcastURL": "https://bloomberg.com/podcasts/benchmark",
     "episodeURL": "https://omny.fm/shows/stephanomics/how-to-build-back-greener-after-the-pandemic",
-    "enclosureURL": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/84f3c095-964f-4994-9d24-ae2b00130029/d50f3e6d-5d00-4bab-b3d2-ae2b00186bfe/audio.mp3?utm_source=Podcast&in_playlist=c9553948-bc39-4871-8989-ae2b00130032",
-    "podcastArtworkURL": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/84f3c095-964f-4994-9d24-ae2b00130029/c9553948-bc39-4871-8989-ae2b00130032/image.jpg?t=1716489587&size=Large",
+    "enclosureURL": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/84f3c095-964f-4994-9d24-ae2b00130029/d50f3e6d-5d00-4bab-b3d2-ae2b00186bfe/audio.mp3?utm_source=Podcast&in_playlist=c9553948-bc39-4871-8989-ae2b00130032",
+    "podcastArtworkURL": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/84f3c095-964f-4994-9d24-ae2b00130029/c9553948-bc39-4871-8989-ae2b00130032/image.jpg?t=1726083280&size=Large",
     "podcastiTunesID": 1038108799,
     "overcastFMPermalink": "https://overcast.fm/+x7ctYMTc0"
   },
@@ -2381,8 +2423,8 @@
     "podcastURL": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep114.mp3",
     "enclosureURL": "https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPfGep114.mp3?dest-id=3486674",
-    "podcastArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
-    "podcastiTunesID": 1370049232,
+    "podcastArtworkURL": "https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png",
+    "podcastiTunesID": 1660596546,
     "overcastFMPermalink": "https://overcast.fm/+-Dki5HAsc"
   },
   {
@@ -2437,8 +2479,8 @@
     "podcastURL": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep111.mp3",
     "enclosureURL": "https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPfGep111.mp3?dest-id=3486674",
-    "podcastArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
-    "podcastiTunesID": 1370049232,
+    "podcastArtworkURL": "https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png",
+    "podcastiTunesID": 1660596546,
     "overcastFMPermalink": "https://overcast.fm/+-Dkh_5zSo"
   },
   {
@@ -2450,7 +2492,7 @@
     "userRecommendedTimeHuman": "2020-07-09",
     "podcastURL": "https://www.buzzsprout.com/1121972",
     "episodeURL": "https://www.buzzsprout.com/1121972",
-    "enclosureURL": "https://prfx.byspotify.com/e/pscrb.fm/rss/p/claritaspod.com/measure/www.buzzsprout.com/1121972/4504625-ep-9-habit-tune-up-dumbing-down-smartphones-deep-habits-progress-on-non-urgent-projects-and-training-focus.mp3",
+    "enclosureURL": "https://prfx.byspotify.com/e/pscrb.fm/rss/p/claritaspod.com/measure/www.buzzsprout.com/1121972/episodes/4504625-ep-9-habit-tune-up-dumbing-down-smartphones-deep-habits-progress-on-non-urgent-projects-and-training-focus.mp3",
     "podcastArtworkURL": "https://storage.buzzsprout.com/af9039gg2y4rzjztic0w0bvjki35?.jpg",
     "podcastiTunesID": 1515786216,
     "overcastFMPermalink": "https://overcast.fm/+b1V1lfeq0"
@@ -2506,7 +2548,7 @@
     "userRecommendedTimeHuman": "2020-07-05",
     "podcastURL": "https://www.buzzsprout.com/1121972",
     "episodeURL": "https://www.buzzsprout.com/1121972",
-    "enclosureURL": "https://prfx.byspotify.com/e/pscrb.fm/rss/p/claritaspod.com/measure/www.buzzsprout.com/1121972/4430054-ep-7-habit-tune-up-time-blocking-document-collaboration-protecting-time-and-doing-too-much.mp3",
+    "enclosureURL": "https://prfx.byspotify.com/e/pscrb.fm/rss/p/claritaspod.com/measure/www.buzzsprout.com/1121972/episodes/4430054-ep-7-habit-tune-up-time-blocking-document-collaboration-protecting-time-and-doing-too-much.mp3",
     "podcastArtworkURL": "https://storage.buzzsprout.com/af9039gg2y4rzjztic0w0bvjki35?.jpg",
     "podcastiTunesID": 1515786216,
     "overcastFMPermalink": "https://overcast.fm/+b1V0wh734"
@@ -2535,8 +2577,8 @@
     "podcastURL": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep107.mp3",
     "enclosureURL": "https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPfGep107.mp3?dest-id=3486674",
-    "podcastArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
-    "podcastiTunesID": 1370049232,
+    "podcastArtworkURL": "https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png",
+    "podcastiTunesID": 1660596546,
     "overcastFMPermalink": "https://overcast.fm/+-Dkhf79No"
   },
   {
@@ -2577,8 +2619,8 @@
     "podcastURL": "https://kubernetespodcast.com/",
     "episodeURL": "https://kubernetespodcast.com/episodes/KPfGep106.mp3",
     "enclosureURL": "https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPfGep106.mp3?dest-id=3486674",
-    "podcastArtworkURL": "https://static.libsyn.com/p/assets/7/2/d/d/72ddd143dc0d42c316c3140a3186d450/Kubernetes-Podcast-Logo_1400x1400.png",
-    "podcastiTunesID": 1370049232,
+    "podcastArtworkURL": "https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png",
+    "podcastiTunesID": 1660596546,
     "overcastFMPermalink": "https://overcast.fm/+-DkhnV6k0"
   },
   {
@@ -2618,8 +2660,8 @@
     "userRecommendedTimeHuman": "2020-05-29",
     "podcastURL": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://ted.com/podcasts/ted-interview",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chtbl.com/track/48D18/pdrl.fm/9f1c42/dovetail.prxu.org/179/f98a98e1-d38c-4518-ab39-3f10f393b5ca/TTI_S5_KristalinaGeorgieva_MIX_v04_SegA.mp3",
-    "podcastArtworkURL": "https://f.prxu.org/179/images/d05a3ea2-67fd-47ed-b253-2591a06c8d28/The_TED_Interview_iTunes_Avatar_3000x3000.png",
+    "enclosureURL": "https://sphinx.acast.com/p/open/s/67045b43aa9d704b1e952e88/e/prx_179_f98a98e1-d38c-4518-ab39-3f10f393b5ca/media.mp3",
+    "podcastArtworkURL": "https://assets.pippa.io/shows/67045b43aa9d704b1e952e88/show-cover.png",
     "podcastiTunesID": 1437306870,
     "overcastFMPermalink": "https://overcast.fm/+OySc5K6WY"
   },
@@ -2842,8 +2884,8 @@
     "userRecommendedTimeHuman": "2020-03-31",
     "podcastURL": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://www.ted.com/podcasts/ted-interview?rss",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chtbl.com/track/48D18/pdrl.fm/9f1c42/dovetail.prxu.org/179/404e29fb-ad33-4805-b998-8e0e5df91abe/TIS4_SethBerkley_MIX_v02_segA.mp3",
-    "podcastArtworkURL": "https://f.prxu.org/179/images/d05a3ea2-67fd-47ed-b253-2591a06c8d28/The_TED_Interview_iTunes_Avatar_3000x3000.png",
+    "enclosureURL": "https://sphinx.acast.com/p/open/s/67045b43aa9d704b1e952e88/e/prx_179_404e29fb-ad33-4805-b998-8e0e5df91abe/media.mp3",
+    "podcastArtworkURL": "https://assets.pippa.io/shows/67045b43aa9d704b1e952e88/show-cover.png",
     "podcastiTunesID": 1437306870,
     "overcastFMPermalink": "https://overcast.fm/+OySe4fgU8"
   },
@@ -3108,7 +3150,7 @@
     "userRecommendedTimeHuman": "2020-02-05",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/1d889438-9be9-4be2-975a-d06cc5be6af9/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=1d889438-9be9-4be2-975a-d06cc5be6af9&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/1d889438-9be9-4be2-975a-d06cc5be6af9/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=1d889438-9be9-4be2-975a-d06cc5be6af9&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOzDmP30"
@@ -3234,8 +3276,8 @@
     "userRecommendedTimeHuman": "2019-11-21",
     "podcastURL": "https://www.ted.com/podcasts/ted-interview",
     "episodeURL": "https://www.ted.com/podcasts/ted-interview",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chtbl.com/track/48D18/pdrl.fm/9f1c42/dovetail.prxu.org/179/33f67984-2711-4c76-acc0-85b3eecc6f16/TI_S3_E07_Frei_seg1.mp3",
-    "podcastArtworkURL": "https://f.prxu.org/179/images/d05a3ea2-67fd-47ed-b253-2591a06c8d28/The_TED_Interview_iTunes_Avatar_3000x3000.png",
+    "enclosureURL": "https://sphinx.acast.com/p/open/s/67045b43aa9d704b1e952e88/e/prx_179_33f67984-2711-4c76-acc0-85b3eecc6f16/media.mp3",
+    "podcastArtworkURL": "https://assets.pippa.io/shows/67045b43aa9d704b1e952e88/show-cover.png",
     "podcastiTunesID": 1437306870,
     "overcastFMPermalink": "https://overcast.fm/+OySc7k0bg"
   },
@@ -3262,8 +3304,8 @@
     "userRecommendedTimeHuman": "2019-11-10",
     "podcastURL": "https://bloomberg.com/podcasts/benchmark",
     "episodeURL": "https://omny.fm/shows/stephanomics/what-the-sanders-or-warren-wealth-tax-means-for-in",
-    "enclosureURL": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/84f3c095-964f-4994-9d24-ae2b00130029/92bbce1d-7e9a-474c-abc7-ae2b001c4f65/audio.mp3?utm_source=Podcast&in_playlist=c9553948-bc39-4871-8989-ae2b00130032",
-    "podcastArtworkURL": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/84f3c095-964f-4994-9d24-ae2b00130029/c9553948-bc39-4871-8989-ae2b00130032/image.jpg?t=1716489587&size=Large",
+    "enclosureURL": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/84f3c095-964f-4994-9d24-ae2b00130029/92bbce1d-7e9a-474c-abc7-ae2b001c4f65/audio.mp3?utm_source=Podcast&in_playlist=c9553948-bc39-4871-8989-ae2b00130032",
+    "podcastArtworkURL": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/84f3c095-964f-4994-9d24-ae2b00130029/c9553948-bc39-4871-8989-ae2b00130032/image.jpg?t=1726083280&size=Large",
     "podcastiTunesID": 1038108799,
     "overcastFMPermalink": "https://overcast.fm/+x7ctq4qag"
   },
@@ -3431,7 +3473,7 @@
     "podcastURL": "https://www.penguin.co.uk/podcasts",
     "episodeURL": "https://shows.acast.com/thepenguinpodcast/episodes/untitledepisode-----------------------------------------------------------------------------------------------------",
     "enclosureURL": "https://sphinx.acast.com/thepenguinpodcast/untitledepisode-----------------------------------------------------------------------------------------------------/media.mp3",
-    "podcastArtworkURL": "https://assets.pippa.io/shows/60eecae845fc69e6c03398b2/1644408483253-1957c694b8b5a7a185da29a0ebefbe66.jpeg",
+    "podcastArtworkURL": "https://assets.pippa.io/shows/60eecae845fc69e6c03398b2/1727355978535-105c7188-b4b5-48c8-ab1e-cb872b03b2d5.jpeg",
     "podcastiTunesID": 89411073,
     "overcastFMPermalink": "https://overcast.fm/+WVweuBQ"
   },
@@ -3668,7 +3710,7 @@
     "userRecommendedTimeHuman": "2019-05-29",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/bfc09c4d-699b-460f-8620-afb7bf60be34/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=bfc09c4d-699b-460f-8620-afb7bf60be34&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/bfc09c4d-699b-460f-8620-afb7bf60be34/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=bfc09c4d-699b-460f-8620-afb7bf60be34&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOyZxJR0"
@@ -3696,7 +3738,7 @@
     "userRecommendedTimeHuman": "2019-05-23",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/09a18a6c-2756-4526-aca9-04bd9761dd66/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=09a18a6c-2756-4526-aca9-04bd9761dd66&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/09a18a6c-2756-4526-aca9-04bd9761dd66/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=09a18a6c-2756-4526-aca9-04bd9761dd66&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOwNinZc"
@@ -3724,7 +3766,7 @@
     "userRecommendedTimeHuman": "2019-05-19",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/f5bfa2e1-bbe5-4ccd-b93a-3c6107bb5892/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=f5bfa2e1-bbe5-4ccd-b93a-3c6107bb5892&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/f5bfa2e1-bbe5-4ccd-b93a-3c6107bb5892/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=f5bfa2e1-bbe5-4ccd-b93a-3c6107bb5892&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOxbkvWM"
@@ -3738,7 +3780,7 @@
     "userRecommendedTimeHuman": "2019-05-16",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/c5c7e259-ae36-4e03-becb-0c25e68854c7/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=c5c7e259-ae36-4e03-becb-0c25e68854c7&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/c5c7e259-ae36-4e03-becb-0c25e68854c7/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=c5c7e259-ae36-4e03-becb-0c25e68854c7&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOxj5rKs"
@@ -4046,7 +4088,7 @@
     "userRecommendedTimeHuman": "2018-06-27",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/02cddc57-fc75-47a3-a98c-a77f51061109/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=02cddc57-fc75-47a3-a98c-a77f51061109&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/02cddc57-fc75-47a3-a98c-a77f51061109/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=02cddc57-fc75-47a3-a98c-a77f51061109&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOxsCMNo"
@@ -4340,7 +4382,7 @@
     "userRecommendedTimeHuman": "2017-10-05",
     "podcastURL": "https://www.99pi.org/",
     "episodeURL": "https://www.99pi.org/",
-    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/a5069dd3-40b0-4c92-9af6-149d763ba50d/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=a5069dd3-40b0-4c92-9af6-149d763ba50d&feed=BqbsxVfO",
+    "enclosureURL": "https://dts.podtrac.com/redirect.mp3/chrt.fm/track/288D49/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/3bb687b0-04af-4257-90f1-39eef4e631b6/episodes/a5069dd3-40b0-4c92-9af6-149d763ba50d/audio/128/default.mp3?aid=rss_feed&awCollectionId=3bb687b0-04af-4257-90f1-39eef4e631b6&awEpisodeId=a5069dd3-40b0-4c92-9af6-149d763ba50d&feed=BqbsxVfO",
     "podcastArtworkURL": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/54c9f8d8-80d8-425d-a3f3-751478db2e52/3000x3000/cover-99percentinvisible-3000x3000-r2021-final.jpg?aid=rss_feed",
     "podcastiTunesID": 394775318,
     "overcastFMPermalink": "https://overcast.fm/+yIOzcHXsE"
