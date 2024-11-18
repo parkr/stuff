@@ -6,6 +6,7 @@ external-url: https://tim.blog/2024/11/14/derek-sivers-2/
 tags:
 - podcast
 - tim-ferriss
+- derek-sivers
 ---
 
 [Derek Sivers](https://sive.rs) has been a favorite thinker of mine for

@@ -6,6 +6,7 @@ external-url: https://tim.blog/podcast/
 category: best-of
 tags:
 - podcast
+- derek-sivers
 ---
 
 I can't quite remember the first time I listened to The Tim Ferriss Show or
