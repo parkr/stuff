@@ -279,7 +279,7 @@ GEM
       hashery (~> 2.0)
       ruby-rc4
       ttfunk
-    pry (0.15.0)
+    pry (0.15.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (5.1.1)
