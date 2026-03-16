@@ -9,7 +9,7 @@ Marc Broussard is a musical, lyrical, and human genius. His voice is
 incredible and this latest song has backup singers. BACKUP SINGERS.
 Soulful in every magical sense of the word.
 
-According to [americansongwriter.com](https://americansongwriter.com/video-premiere-marc-broussard-weight-world-acoustic/),
+According to [americansongwriter.com](https://web.archive.org/web/20210618092231/https://americansongwriter.com/video-premiere-marc-broussard-weight-world-acoustic/),
 Marc said:
 
 > “This song is all about keeping love simple. Keeping it all between two
