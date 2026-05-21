@@ -19,8 +19,8 @@ What a thrilling story... from 1940. In the podcast description:
 
 Each episode tells a different piece of the story:
 
-1. [Episode 1: Trip 19](https://overcast.fm/+8n-KMqLqM)
-2. [Episode 2: The Brooklyn Boys](https://overcast.fm/+8n-I9FV1M)
+1. [Episode 1: Trip 19](https://web.archive.org/web/20221010153640/https://overcast.fm/+8n-KMqLqM)
+2. [Episode 2: The Brooklyn Boys](https://web.archive.org/web/20221010180829/https://overcast.fm/+8n-I9FV1M)
 3. [Episode 3: The Day](https://overcast.fm/+8n-KRNZiY)
 4. TBA
 5. TBA
