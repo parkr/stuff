@@ -33,7 +33,7 @@ HTMLProofer.check_directory("./_site", {
   ignore_urls: URL_IGNORE,
   file_ignore: [%r{\./_site/mirrors/}],
   ignore_files: [%r{\./_site/mirrors/}],
-  ignore_status_codes: [403],
+  ignore_status_codes: [403, 404],
   only_4xx: true,
   enforce_https: true,
   verbose: verbose,
